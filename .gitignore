@@ -7,7 +7,7 @@
 # Ignore bundler config
 /.bundle
 node_modules
-.idea
+.idea/
 front-training.iml
 build
 package-lock.json
