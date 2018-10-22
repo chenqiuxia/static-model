@@ -1,0 +1,24 @@
+footer {
+  background-color: #343434;
+  .footer {
+    position: relative;
+    padding-top: .50666rem;
+    padding-bottom: .50666rem;
+    color: #fff;
+  }
+  .copyright-wrap {
+    position: absolute;
+    bottom: .50666rem;
+    color: #666;
+    right: map_get($global-padding, container);
+  }
+}
+@media screen and (max-width: map_get($global-width, pad)) {
+  footer {
+    .copyright-wrap {
+      position: relative;
+      bottom: auto;
+      right: auto;
+    }
+  }
+}
