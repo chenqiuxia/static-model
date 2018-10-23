@@ -1,4 +1,9 @@
 .page-product1 {
+
+    .clear {
+        clear: both;
+    }
+
     .banner-wrap {
         height: 300px;
         width: 100%;
@@ -127,5 +132,182 @@
 
     .func-desc >img{
         width: 9rem;
+    }
+
+    .func-desc-line {
+        height: .29rem;
+        width: 100%;
+        background-color: #ea001e;
+        margin-top: 2.4rem;
+    }
+
+    .func-desc-title {
+
+        font-size: 1.0666rem;
+        font-weight: 600;
+        line-height: 1.2rem;
+    }
+
+    .func-title-all{
+        margin-top: .34rem;
+    }
+
+    .func-desc-content {
+        font-size: .53333rem;
+        line-height: .66666rem;
+        color: rgba(17,17,17,1);
+        font-weight:bold;
+        margin-top: .3333rem;
+    }
+
+    .func-desc-detial {
+        font-size: .22666rem;
+        margin-top: .37333rem;
+        font-weight:400;
+        line-height:.34666rem;
+    }
+
+    .battery-main {
+        margin-top: 1.8rem;
+        background-color: #f0f2f5;
+        padding-top: .97333rem;
+
+    }
+
+    .battery-banner {
+        background-image: url('../../image/product1/battery.jpg');
+        background-repeat:  no-repeat;
+        background-size: 100% 100%;
+        height: 8.10666rem;
+    }
+
+    .battery-content {
+        padding-top: 2.84rem;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    .battery-list {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .battery-list li{
+        width: 6.5333rem;
+        height: 1.90666rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid #fff;
+        color: #fff;
+        padding: .32rem;
+        font-size: .22666rem;
+        line-height: .34666rem;
+        font-weight: normal;
+    }
+
+    .battery-list :nth-child(2){
+        display: flex;
+        justify-content: flex-end;
+        
+    }
+
+    .battery-sum  {
+        margin-top: 1.41333rem;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: .64rem;
+        line-height: .74666rem;
+        letter-spacing: 8px;
+        font-weight: 500;
+    }
+
+    .fun-list-all {
+        margin-top: 2.58666rem;
+    }
+
+    .fun-list-all li{
+        width: 50%;
+        float: left;
+        display: flex;
+        align-items: center;
+    }
+
+    .fun-list-all >:nth-child(3){
+        margin-top: 1.3466rem;
+    }
+
+    .fun-list-all >:nth-child(4){
+        margin-top: 1.3466rem;
+    }
+
+    .func-item-desc {
+        flex: 1;
+        
+    }
+
+    .func-item-desc :nth-child(1) {
+        font-size: .32rem;
+        
+    }
+
+    .func-item-desc :nth-child(2) {
+        margin-top: .22666rem;
+        font-size: .22666rem;
+        line-height: .34666rem;
+    }
+
+    .func-item-img {
+        height: 100%;
+    }
+
+    .func-item-img img{
+        height: 100%;
+    }
+
+    .heatset-banner {
+        background:url('../../image/product1/box.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 5.88rem;
+        margin-top: 2.4666rem;
+    }
+
+    .heatset-color {
+        height: 13.33333rem;
+        width: 100%;
+        background-color: #fff;
+    }
+
+    .heatset-color-main {
+        height: 100%;
+
+    }
+
+    .color-li {
+        float: left;
+        width: 50%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .color-prod {
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-color: forestgreen;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .color-prod li{
+        display: inline-block;
     }
 }
