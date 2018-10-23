@@ -1,54 +1,37 @@
 header {
-  // background-color: #f7f7f7;
-  position: relative;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-top: .26666rem solid map_get($global-color, b);
+  padding: .74666rem 0 .2rem 0;
+  z-index: map_get($global-zIndex, b);
 
   .header-wrap {
     display: flex;
     align-items: center;
     justify-content: space-between;
- 
     height: .6666rem;
     line-height: .6666rem;
-    // background-color: darkgoldenrod;
     background: transparent;
-  
-  }
-
-  .header-position {
-    position: absolute;
-    top: 1rem;
-    width: 100%;
-
   }
 
   .logo {
     width: 3.3333rem;
     height: 100%;
-    background-image: url('../../image/Logo-fanohm-white.svg');
+    background: url('../../image/Logo-fanohm-white.svg') no-repeat;
     background-size: 100%;
-    background-repeat: no-repeat;
-  }
-
-  .line-wraper {
-    position: absolute;
-    top: 0;
-    left: 0;
-  
-    height: 20px;
-    width: 100%;
-    background-color: aqua;
   }
 
   .nav> ul li{
     display: inline-block;
-    margin-right: 1.24rem;
     font-size: .21333rem;
-    color:rgba(0,0,0,1);
-  }
+    color: #000;
 
-  .nav> ul li:nth-child(4){
-    display: inline-block;
-    margin-right: 0;
+    &+li {
+      margin-left: 1.24rem;
+    }
   }
 
   h1 {
@@ -58,47 +41,5 @@ header {
     font-size: .18666rem;
     border-radius: 5px;
     color: #fff;
-  }
-  .menu-wrap {
-    display: flex;
-    align-items: center;
-    font-size: .18666rem;
-    cursor: pointer;
-  }
-  .menu-icon-wrap {
-    position: relative;
-    width: 16px;
-    height: 14px;
-    margin-left: 12px;
-    transition: all map_get($global-time, transition) ease-in-out;
-    span {
-      position: absolute;
-      width: 100%;
-      height: 1px;
-      background-color: #1a1a1a;
-      &:nth-child(1) {
-        top: 0;
-      }
-      &:nth-child(2) {
-        top: 6px;
-      }
-      &:nth-child(3) {
-        bottom: 0;
-      }
-    }
-    &.menu-icon-close {
-      transform: rotate(360deg);
-      span {
-        &:nth-child(1) {
-          transform: translateY(6px) rotate(-45deg);
-        }
-        &:nth-child(2) {
-          transform: translateY(0) rotate(45deg);
-        }
-        &:nth-child(3) {
-          opacity: 0;
-        }
-      }
-    }
   }
 }

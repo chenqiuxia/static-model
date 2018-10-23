@@ -1,19 +1,29 @@
 $global-color: (
-        a:#111,
+        a: #111,
+        b: #E50113,
 );
+
+$global-zIndex: (
+        a: 999,
+        b: 90
+);
+
 $global-font-size: (
         a: .37333rem,
 );
+
 $global-spacing: (
         container:15px,
         a: .93333rem,
         b: .56rem,
 );
+
 $global-width: (
-        pc:1396px,
-        pad:768px,
-        phone:320px,
+        pc: 1396px,
+        pad: 768px,
+        phone: 320px,
 );
+
 $global-time: (
         transition: .3s,
         scroll: .5s
