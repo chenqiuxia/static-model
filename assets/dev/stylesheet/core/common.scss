@@ -1,22 +1,26 @@
 .hide {
   display: none;
 }
-.container {
+
+.main-wrap {
   max-width: map_get($global-width, pc);
   height: 100%;
   margin: 0 auto;
-  padding: 0 map_get($global-spacing, container);
+  padding: 0 map_get($global-padding, container);
 }
+
 .scroll {
   transition: all ease-in-out map_get($global-time, scroll);
   transform: translate(0,20px);
   opacity: 0;
 }
+
 .is_scoped {
   transform: translate(0,0);
   opacity: 1;
 }
-/* media start */
+
+/* media start*/
 @media screen and (min-width: map_get($global-width, pad)) {
 
 }
