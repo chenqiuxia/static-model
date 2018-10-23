@@ -5,7 +5,7 @@
 ### css coding format
 
 1. 所有命名小写字母、数字，并用中划线组成
-2. element 属性值用("")
+2. 标签属性值用("")
 3. img 标签必须要有alt属性
 4. 标签中最好不要用style
 5. 遵循语义化标签使用规则，有利于SEO
@@ -17,11 +17,12 @@
 11. 规则与规则之间不留空格
 12. 链接的样式请严格按照如下顺序添加： a:link -> a:visited -> a:hover -> a:active
 13. 每个声明结束都应该带一个分号，不管是不是最后一个声明
-14. 合并margin、padding、border的-left/-top/-right/-bottom的设置，尽量使用短名称
+14. 合并margin、padding、border的-left/-top/-right/-bottom的设置
 15. 如果可以，颜色尽量用三位字符表示，例如#AABBCC写成#ABC
 16. 字体最好用偶数大小
 17. 在保持代码解耦的前提下，尽量合并重复的样式
 18. 选择器应该在满足功能的基础上尽量简短，减少选择器嵌套，查询消耗。但是一定要避免覆盖全局样式设置
+19. 字体值大小小于1时省略小数点前面的0，如：bad->font-size: 0.8rem, good->font-size: .8rem
 
 
 ** css 布局命名统一 **
@@ -38,7 +39,7 @@
 10. *-submenu 子菜单
 11. *-sidebar 侧边栏
 12. *-title 标题
-13. 以下可选常用命名： page、wrap、layout、header(head)、footer(foot、ft)、
+13. 以下可选常用命名： page、wrap、layout、header(head)、footer、
 	content(cont)、menu、nav、main、submain、sidebar(side)、logo、banner、
 	title(tit)、popo(pop)、icon、note、btn、txt、iblock、window(win)、tips等
 
