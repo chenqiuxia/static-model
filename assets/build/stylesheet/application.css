@@ -152,6 +152,10 @@ video {
   opacity: 1;
 }
 
+.page-padding-top {
+  padding-top: 1.87998rem;
+}
+
 /* media start*/
 header {
   position: fixed;
@@ -160,7 +164,7 @@ header {
   right: 0;
   background-color: #fff;
   border-top: 0.26666rem solid #E50113;
-  padding: .74666rem 0 .2rem 0;
+  padding: .74666rem 0 .2rem;
   z-index: 90;
 }
 
@@ -238,6 +242,7 @@ footer .copyright-wrap {
 .shop-title-wrap {
   position: relative;
   text-align: center;
+  margin-top: 0.8rem;
   border-top: .13333rem solid #1a1a1a;
   border-bottom: .13333rem solid #1a1a1a;
   padding: 0.93333rem 0;
