@@ -202,7 +202,11 @@ header .logo {
 }
 
 header .line-wraper {
+  position: absolute;
+  top: 0;
+  left: 0;
   height: 20px;
+  width: 100%;
   background-color: aqua;
 }
 
@@ -317,7 +321,7 @@ footer .copyright-wrap {
   }
 }
 
-.product1 .banner-wrap {
+.page-product1 .banner-wrap {
   height: 300px;
   width: 100%;
   background-color: darkgoldenrod;
