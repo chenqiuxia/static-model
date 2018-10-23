@@ -1,0 +1,25 @@
+mixin shopRegion(obj)
+  -for(var j=0; j<3; j++){
+  .shop-region-top.main-wrap
+    .empty-place
+    ul.top-content
+      li
+        p= obj[j].regionName.jp
+        p= obj[j].regionName.en
+      -for(var i=0; i<2; i++){
+      li
+        p= obj[j].toplist[i].row1
+        p= obj[j].toplist[i].row2
+        p= obj[j].toplist[i].row3
+      -}
+  .shop-region-content
+    ul.main-wrap.shop-region-ul
+      - for(var i=0; i<5; i++){
+      li
+        h3= obj[j].contList[i].title
+        p= obj[j].contList[i].txt1
+        p= obj[j].contList[i].txt2
+        p= obj[j].contList[i].txt3
+        p= obj[j].contList[i].txt4
+      -}
+  -}

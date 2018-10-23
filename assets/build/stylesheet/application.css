@@ -80,9 +80,9 @@ a, a:hover, del, ins, s, u {
 body, button, input, keygen, legend, select, textarea {
   font-size: .75rem;
   line-height: 1.5;
-  color: #333;
+  color: #111;
   outline: 0;
-  font-family: Axis, KozGoPr6N, 'Heiti SC';
+  font-family: 'Heiti SC', 'Microsoft YaHei';
 }
 
 input::-ms-clear, input::-ms-reveal {
@@ -321,6 +321,95 @@ footer .copyright-wrap {
   color: #111;
   line-height: 25px;
   margin-top: 0.2rem;
+}
+
+.page-shop .shop-region-top {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 1.26666rem auto 1.04rem;
+}
+
+.page-shop .shop-region-top .empty-place {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.page-shop .shop-region-top .top-content {
+  -webkit-box-flex: 4;
+  -webkit-flex-grow: 4;
+  -ms-flex-positive: 4;
+  flex-grow: 4;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.page-shop .shop-region-top .top-content li:first-child {
+  font-size: 0.48rem;
+  color: #111;
+}
+
+.page-shop .shop-region-top .top-content li:first-child:after {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #111;
+  margin-top: 0.4rem;
+}
+
+.page-shop .shop-region-top .top-content li:first-child p {
+  line-height: 1;
+}
+
+.page-shop .shop-region-top .top-content li:nth-child(2) {
+  margin-left: .54666rem;
+}
+
+.page-shop .shop-region-top .top-content li:nth-child(3) {
+  margin-left: 1.33333rem;
+}
+
+.page-shop .shop-region-top .top-content li + li {
+  font-size: 0.16rem;
+}
+
+.page-shop .shop-region-top .top-content li + li p {
+  line-height: 1.5;
+}
+
+.page-shop .shop-region-content {
+  border: 1px dashed #D8D8D8;
+  padding: .506666rem 0 .84rem;
+}
+
+.page-shop .shop-region-ul {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-shop .shop-region-ul li {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+}
+
+.page-shop .shop-region-ul li h3 {
+  font-size: 0.26666rem;
+  font-weight: 600;
+  margin-bottom: 0.8rem;
 }
 
 /*# sourceMappingURL=application.css.map */

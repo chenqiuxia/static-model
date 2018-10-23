@@ -80,9 +80,9 @@ a,a:hover,del,ins,s,u {
 body,button,input,keygen,legend,select,textarea {
   font-size: .75rem;
   line-height: 1.5;
-  color: #333;
+  color: map_get($global-color, a);
   outline: 0;
-  font-family: Axis, KozGoPr6N, 'Heiti SC'
+  font-family: 'Heiti SC', 'Microsoft YaHei'
 }
 
 input::-ms-clear,input::-ms-reveal {
