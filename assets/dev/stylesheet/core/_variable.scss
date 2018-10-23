@@ -1,10 +1,13 @@
 $global-color: (
-        a:#f7f7f7,
-        b:#1a1a1a,
+        a:#111,
 );
-$global-padding: (
+$global-font-size: (
+        a: .37333rem,
+);
+$global-spacing: (
         container:15px,
-        b:#1a1a1a,
+        a: .93333rem,
+        b: .56rem,
 );
 $global-width: (
         pc:1396px,
