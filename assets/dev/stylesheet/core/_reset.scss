@@ -21,6 +21,10 @@ abbr,body,fieldset,html,iframe,img {
   border: 0;
 }
 
+img {
+  display: block;
+}
+
 address,cite,dfn,em,i,var {
   font-style: normal;
 }
@@ -60,6 +64,7 @@ label,summary {
 
 a,button {
   cursor: pointer;
+  color: #111;
 }
 
 a,a:hover,del,ins,s,u {
