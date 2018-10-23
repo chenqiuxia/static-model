@@ -167,7 +167,6 @@ video {
 /*common media end*/
 header {
   position: relative;
-  min-height: 200px;
 }
 
 header .header-wrap {
@@ -316,6 +315,12 @@ footer .copyright-wrap {
     bottom: auto;
     right: auto;
   }
+}
+
+.product1 .banner-wrap {
+  height: 300px;
+  width: 100%;
+  background-color: darkgoldenrod;
 }
 
 /*# sourceMappingURL=application.css.map */
