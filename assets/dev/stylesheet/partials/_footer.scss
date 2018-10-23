@@ -10,7 +10,7 @@ footer {
     position: absolute;
     bottom: .50666rem;
     color: #666;
-    right: map_get($global-padding, container);
+    right: map_get($global-spacing, container);
   }
 }
 @media screen and (max-width: map_get($global-width, pad)) {
