@@ -324,25 +324,11 @@ footer .copyright-wrap {
 }
 
 .page-shop .shop-region-top {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
   margin: 1.26666rem auto 1.04rem;
 }
 
-.page-shop .shop-region-top .empty-place {
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-  -ms-flex-positive: 1;
-  flex-grow: 1;
-}
-
 .page-shop .shop-region-top .top-content {
-  -webkit-box-flex: 4;
-  -webkit-flex-grow: 4;
-  -ms-flex-positive: 4;
-  flex-grow: 4;
+  margin-left: 20%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -410,6 +396,18 @@ footer .copyright-wrap {
   font-size: 0.26666rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
+}
+
+.page-policy .policy-content {
+  font-size: 0.21333rem;
+  line-height: 2.5;
+}
+
+.page-policy .policy-content h2 {
+  font-size: 0.37333rem;
+  line-height: 1;
+  padding: 0.86666rem 0 0.58666rem;
+  text-align: center;
 }
 
 /*# sourceMappingURL=application.css.map */

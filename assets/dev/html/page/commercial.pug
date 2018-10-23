@@ -1,0 +1,14 @@
+extends ../layouts/_default.pug
+block page_option
+  - page_class.push('page-policy')
+block content
+  -
+    var titleObj = {
+    'title1': 'COMMERCIAL',
+    'title2': 'CODE',
+    'titleDesc': '特定商取引法'
+    }
+  -
+  +shopTitle(titleObj)
+  .commercial-content.main-wrap
+    h3 特定商取引法に基づく表記

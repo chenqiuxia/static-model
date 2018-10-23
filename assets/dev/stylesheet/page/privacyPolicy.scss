@@ -1,0 +1,13 @@
+.page-policy {
+  .policy-content {
+    font-size: map_get($global-font-size, c);
+    line-height: 2.5;
+
+    h2 {
+      font-size: map_get($global-font-size, a);
+      line-height: 1;
+      padding: map_get($global-spacing, f) 0 .58666rem;
+      text-align: center;
+    }
+  }
+}

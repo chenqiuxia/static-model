@@ -34,16 +34,10 @@
 
   //mixin shopRegin start
   .shop-region-top {
-    display: flex;
     margin: 1.26666rem auto 1.04rem;
 
-
-    .empty-place {
-      flex-grow: 1;
-    }
-
     .top-content {
-      flex-grow: 4;
+      margin-left: 20%;
       display: flex;
       align-items: flex-end;
 
