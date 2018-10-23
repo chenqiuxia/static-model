@@ -133,7 +133,7 @@ video {
 }
 
 .container {
-  max-width: 1030px;
+  max-width: 1396px;
   height: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -155,14 +155,22 @@ video {
   opacity: 1;
 }
 
+.main-wrap {
+  max-width: 1396px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
 /*common css end*/
 /*common media start*/
 /*common media end*/
 header {
-  background-color: #f7f7f7;
+  position: relative;
+  min-height: 200px;
 }
 
-header .header {
+header .header-wrap {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -175,8 +183,40 @@ header .header {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 60px;
-  line-height: 60px;
+  height: .6666rem;
+  line-height: .6666rem;
+  background: transparent;
+}
+
+header .header-position {
+  position: absolute;
+  top: 1rem;
+  width: 100%;
+}
+
+header .logo {
+  width: 3.3333rem;
+  height: 100%;
+  background-image: url("../../image/Logo-fanohm-white.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+header .line-wraper {
+  height: 20px;
+  background-color: aqua;
+}
+
+header .nav > ul li {
+  display: inline-block;
+  margin-right: 1.24rem;
+  font-size: .21333rem;
+  color: black;
+}
+
+header .nav > ul li:nth-child(4) {
+  display: inline-block;
+  margin-right: 0;
 }
 
 header h1 {
@@ -185,7 +225,6 @@ header h1 {
   padding: 0 .22666rem;
   font-size: .18666rem;
   border-radius: 5px;
-  background-color: #333;
   color: #fff;
 }
 
@@ -253,7 +292,7 @@ header .menu-icon-wrap.menu-icon-close span:nth-child(3) {
 }
 
 footer {
-  background-color: #343434;
+  background-color: #111111;
 }
 
 footer .footer {
@@ -261,6 +300,7 @@ footer .footer {
   padding-top: .50666rem;
   padding-bottom: .50666rem;
   color: #fff;
+  height: 5.454rem;
 }
 
 footer .copyright-wrap {

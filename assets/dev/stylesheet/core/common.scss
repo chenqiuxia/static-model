@@ -155,6 +155,12 @@ video {
   transform: translate(0,0);
   opacity: 1;
 }
+.main-wrap {
+  max-width: map_get($global-width, pc);
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 map_get($global-padding, container);
+}
 /*common css end*/
 /*common media start*/
 @media screen and (min-width: map_get($global-width, pad)) {

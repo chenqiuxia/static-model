@@ -11,7 +11,7 @@ node_modules
 front-training.iml
 build
 package-lock.json
-
+yarn.lock
 
 # Ignore cache
 .sass-cache
