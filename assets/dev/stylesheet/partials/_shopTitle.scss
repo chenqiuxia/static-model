@@ -1,6 +1,7 @@
 .shop-title-wrap {
   position: relative;
   text-align: center;
+  margin-top: map_get($global-spacing, c);
   border-top: .13333rem solid #1a1a1a;
   border-bottom: .13333rem solid #1a1a1a;
   padding: map_get($global-spacing, a) 0;

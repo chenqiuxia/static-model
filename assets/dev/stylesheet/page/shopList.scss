@@ -1,0 +1,29 @@
+.page-shop {
+  .shop-img-row {
+    display: flex;
+  }
+  .shop-img-col {
+    width: 50%;
+    img {
+      width: 100%;
+    }
+  }
+  .shop-img-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .shop-img-dl {
+    dt {
+      font-size: map_get($global-font-size, b);
+      color: map_get($global-color, a);
+      line-height: 33px;
+    }
+    dd {
+      font-size: map_get($global-font-size, c);
+      color: map_get($global-color, a);
+      line-height: 25px;
+      margin-top: map_get($global-spacing, d);
+    }
+  }
+}
