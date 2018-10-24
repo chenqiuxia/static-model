@@ -1,7 +1,10 @@
 $global-color: (
         a: #111,
         b: #E50113,
-        c: #D8D8D8
+        c: #D8D8D8,
+        d: #979797,
+        e: #4183C4,
+        f: #555,
 );
 
 $global-zIndex: (
@@ -16,6 +19,7 @@ $global-font-size: (
         d: .48rem, //36px
         e: .16rem, //12px
         f: .26666rem, //20px
+        g: .53333rem, //40px
 );
 
 $global-spacing: (
@@ -28,6 +32,7 @@ $global-spacing: (
         f: .86666rem, //65px
         g: 1.33333rem, //100px
         h: .466666rem, //35px
+        i: .266666rem, //20px
         j: 1.6rem, //120x
 );
 
