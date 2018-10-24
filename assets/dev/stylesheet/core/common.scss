@@ -15,6 +15,18 @@
   opacity: 0;
 }
 
+.scroll-left {
+  transition: all ease-in-out map_get($global-time, scroll);
+  transform: translate(-200px,0);
+  opacity: 0;
+}
+
+.scroll-right {
+  transition: all ease-in-out map_get($global-time, scroll);
+  transform: translate(200px,0);
+  opacity: 0;
+}
+
 .is_scoped {
   transform: translate(0,0);
   opacity: 1;
