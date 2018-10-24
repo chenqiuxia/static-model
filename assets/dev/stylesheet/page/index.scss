@@ -31,7 +31,7 @@
     a {
       display: inline-block;
       background-color: map_get($global-color, a);
-      padding: map_get($global-spacing, e) map_get($global-spacing, k);
+      padding: map_get($global-spacing, e) map_get($global-spacing, m);
       color: #fff;
       font-size: map_get($global-font-size, b);
       margin-top: map_get($global-spacing, c);
@@ -83,7 +83,7 @@
       border: 3px solid #fff;
 
       h2 {
-        font-size: map_get($global-font-size, j);
+        font-size: map_get($global-font-size, l);
         color: #fff;
         letter-spacing: 10px;
         margin-left: 30%;
@@ -103,7 +103,7 @@
 
     h4 {
       text-align: center;
-      font-size: map_get($global-font-size, k);
+      font-size: map_get($global-font-size, m);
       color: #fff;
       letter-spacing:8px;
     }

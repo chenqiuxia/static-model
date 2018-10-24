@@ -451,7 +451,7 @@ footer a {
 .page-index .home-content-wrap a {
   display: inline-block;
   background-color: #111;
-  padding: 0.4rem 0.66667rem;
+  padding: 0.4rem 0.33333rem;
   color: #fff;
   font-size: 0.29333rem;
   margin-top: 0.8rem;
@@ -1362,7 +1362,7 @@ footer a {
 }
 
 .page-company .company-info-wrap {
-  padding: 0.93333rem 0 1.6rem;
+  padding: 0.93333rem 0 1.06667rem;
 }
 
 .page-company .company-info-wrap dl {
