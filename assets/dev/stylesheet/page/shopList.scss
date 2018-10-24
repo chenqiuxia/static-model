@@ -1,4 +1,9 @@
 .page-shop {
+
+  header {
+    border-top-color: map_get($global-color, b);
+  }
+
   .shop-img-row {
     display: flex;
   }

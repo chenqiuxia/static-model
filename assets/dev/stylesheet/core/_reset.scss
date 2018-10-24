@@ -72,17 +72,12 @@ a,a:hover,del,ins,s,u {
   outline: 0;
 }
 
-@font-face {
-  font-family: "Axis";
-  src: url("../font/Axis/ultralight.woff") format('woff');
-}
-
 body,button,input,keygen,legend,select,textarea {
   font-size: .75rem;
   line-height: 1.5;
   color: map_get($global-color, a);
   outline: 0;
-  font-family: 'Heiti SC', 'Microsoft YaHei'
+  font-family: 'NotoSansCJKjp-Black', 'Heiti SC', 'Microsoft YaHei'
 }
 
 input::-ms-clear,input::-ms-reveal {

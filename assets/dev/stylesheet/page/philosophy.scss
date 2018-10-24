@@ -1,0 +1,88 @@
+.page-philosophy {
+  .philosophy-home-wrap {
+    display: flex;
+  }
+
+  .home-content-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+
+    h2 {
+      font-size: map_get($global-font-size, m);
+      font-weight: bold;
+      line-height: 1.48;
+    }
+  }
+
+  .home-cont-img {
+    position: relative;
+    flex-grow: 1;
+    background: url("../image/philosophy/philosophy-hero.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .side-icon-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: map_get($global-spacing, i);
+    background: map_get($global-color, b);
+    background-size: contain;
+    height: 65%;
+
+    &:after {
+      position: absolute;
+      bottom: map_get($global-spacing, c)*-1;
+      left: 0;
+      content: '';
+      display: inline-block;
+      width: 100%;
+      height: map_get($global-spacing, c);
+      background: url("../image/philosophy/phy-icon.png") no-repeat;
+      background-size: contain;
+    }
+  }
+
+  .philosophy-hear-wrap {
+    display: flex;
+
+    .cont-img-wrap {
+      position: relative;
+      width: 40%;
+      background: url("../image/philosophy/philosophy-word.jpg") no-repeat;
+      background-size: cover;
+      height: 700px;
+
+      .side-icon-img {
+        left: auto;
+        top: auto;
+        right: 0;
+        bottom: 0;
+        transform: rotate(180deg);
+      }
+    }
+
+    .heart-content-wrap {
+      display: flex;
+      flex: 1;
+      justify-content: center;
+      align-items: center;
+
+      .heart-content {
+        width: 70%;
+
+        h2 {
+          font-size: map_get($global-font-size, h);
+          line-height: 1.15;
+        }
+
+        p {
+          font-size: map_get($global-font-size, i);
+          line-height: 1.6;
+        }
+      }
+    }
+  }
+}
