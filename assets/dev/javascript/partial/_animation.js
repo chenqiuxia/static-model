@@ -1,5 +1,5 @@
 const scroll = () => {
-    var $scroll = $('.scroll'),
+    var $scroll = $('.scroll'),$scrollLeft = $('.scroll-left'),$scrollRight = $('.scroll-right'),
           window_scroll_top;
     var bind = function () {
         $(window).scroll(function () {
@@ -8,6 +8,16 @@ const scroll = () => {
     };
     var animation = function () {
         window_scroll_top = $(window).scrollTop();
+        $scrollLeft.each(function () {
+            if (window_scroll_top + window.innerHeight >= $(this).offset().top) {
+                $(this).addClass('is_scoped');
+            }
+        });
+        $scrollRight.each(function () {
+            if (window_scroll_top + window.innerHeight >= $(this).offset().top) {
+                $(this).addClass('is_scoped');
+            }
+        });
         $scroll.each(function () {
             if (window_scroll_top + window.innerHeight >= $(this).offset().top) {
                 $(this).addClass('is_scoped');

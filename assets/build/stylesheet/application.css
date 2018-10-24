@@ -150,6 +150,24 @@ video {
   opacity: 0;
 }
 
+.scroll-left {
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  -webkit-transform: translate(-200px, 0);
+  -ms-transform: translate(-200px, 0);
+  transform: translate(-200px, 0);
+  opacity: 0;
+}
+
+.scroll-right {
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  -webkit-transform: translate(200px, 0);
+  -ms-transform: translate(200px, 0);
+  transform: translate(200px, 0);
+  opacity: 0;
+}
+
 .is_scoped {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
