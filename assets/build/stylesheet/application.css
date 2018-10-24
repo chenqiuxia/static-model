@@ -131,6 +131,7 @@ input::-ms-clear, input::-ms-reveal {
 }
 
 html {
+  font-size: 75px;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
 }
@@ -165,8 +166,8 @@ video {
 }
 
 a {
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .main-wrap {
@@ -174,6 +175,10 @@ a {
   height: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+
+.x-home-height {
+  height: 100vh;
 }
 
 .scroll {
@@ -258,6 +263,8 @@ header .nav > ul > li {
   color: #000;
   padding: 0 0.26667rem;
   cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 header .nav > ul > li + li {
@@ -267,8 +274,6 @@ header .nav > ul > li + li {
 header .nav > ul > li:hover {
   background-color: #fff;
   color: #111;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
 }
 
 header .nav > ul > li.product-link:hover .nav-submenu-wrap {
@@ -276,6 +281,10 @@ header .nav > ul > li.product-link:hover .nav-submenu-wrap {
   top: .66666rem;
   z-index: 1;
   opacity: 1;
+}
+
+header .nav > ul > li a {
+  display: block;
 }
 
 header h1 {
@@ -303,7 +312,7 @@ header .nav-submenu-wrap {
 }
 
 header .nav-submenu-wrap li:hover {
-  background-color: 1px solid #D8D8D8;
+  background-color: #EFE9DD;
 }
 
 footer {
@@ -314,6 +323,10 @@ footer {
 
 footer a {
   color: #fff;
+}
+
+footer a:hover {
+  text-decoration: underline;
 }
 
 .footer-main .contact-wrap {
@@ -345,7 +358,6 @@ footer a {
 
 .footer-main .contact-wrap .media-link .f-icon {
   background-image: url("../image/SNS-icons-02.svg");
-  background-size: auto 100%;
 }
 
 .footer-main .contact-wrap .media-link .b-icon {
@@ -436,6 +448,7 @@ footer a {
 .shop-title-wrap h2 {
   position: relative;
   line-height: 1.178;
+  font-family: 'Rubik300';
 }
 
 .shop-title-wrap h2:first-child:after {
@@ -465,21 +478,27 @@ footer a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
-.contact-us-wrap .contact-cont a, .contact-us-wrap .contact-cont span {
+.contact-us-wrap .contact-cont:hover {
+  opacity: .7;
+}
+
+.contact-us-wrap .contact-cont span {
   display: inline-block;
   font-size: 0.53333rem;
   line-height: 1;
   padding: 0.26667rem 0.8rem;
 }
 
-.contact-us-wrap .contact-cont span {
+.contact-us-wrap .contact-cont .text-row {
   border: 1px solid #979797;
   color: #4183C4;
 }
 
-.contact-us-wrap .contact-cont a {
+.contact-us-wrap .contact-cont .email-address {
   background-color: #111;
   color: #fff;
 }
@@ -514,20 +533,20 @@ footer a {
 .page-index .home-content-wrap p {
   font-size: 0.4rem;
   line-height: 1.6;
-  margin-top: 0.8rem;
+  margin-top: 1.33333rem;
   font-family: 'Rubik300';
 }
 
 .page-index .home-content-wrap a {
   display: inline-block;
   background-color: #111;
-  padding: 0.4rem 0.33333rem;
+  padding: 0.4rem 1.33333rem;
   color: #fff;
   font-size: 0.29333rem;
   margin-top: 0.8rem;
   letter-spacing: 3px;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .page-index .home-content-wrap a:hover {
@@ -591,8 +610,8 @@ footer a {
   height: 100%;
   background-color: #000;
   opacity: 0;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
   z-index: 1;
 }
 
@@ -639,8 +658,8 @@ footer a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 0.3s;
-  transition: all 0.3s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 .page-index .index-other-item:hover {
@@ -1423,6 +1442,7 @@ footer a {
   font-size: 0.29333rem;
   color: #111;
   line-height: 33px;
+  font-family: 'NotoSansCJKjp-Bold';
 }
 
 .page-shop .shop-img-dl dd {
@@ -1451,6 +1471,7 @@ footer a {
 .page-shop .shop-region-top .top-content li:first-child {
   font-size: 0.48rem;
   color: #111;
+  font-family: 'NotoSansCJKjp-Bold';
 }
 
 .page-shop .shop-region-top .top-content li:first-child:before {
@@ -1505,6 +1526,11 @@ footer a {
   font-size: 0.26667rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
+  font-family: 'NotoSansCJKjp-Bold';
+}
+
+.page-shop .shop-region-ul li p {
+  font-size: 0.16rem;
 }
 
 .page-policy .policy-content {
@@ -1590,7 +1616,7 @@ footer a {
 }
 
 .page-company .company-map-wrap {
-  height: 310px;
+  height: 500px;
 }
 
 .page-product2 header {
@@ -2515,7 +2541,7 @@ footer a {
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  background: url("../image/philosophy/philosophy-hero.png") center no-repeat;
+  background: url("../image/philosophy/philosophy-hero.png") bottom no-repeat;
   background-size: cover;
 }
 
@@ -2551,7 +2577,7 @@ footer a {
 .page-philosophy .philosophy-hear-wrap .cont-img-wrap {
   position: relative;
   width: 40%;
-  background: url("../image/philosophy/philosophy-word.jpg") no-repeat;
+  background: url("../image/philosophy/philosophy-word.jpg") bottom no-repeat;
   background-size: cover;
   height: 700px;
 }

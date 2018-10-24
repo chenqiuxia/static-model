@@ -19,7 +19,7 @@
   .home-cont-img {
     position: relative;
     flex-grow: 1;
-    background: url("../image/philosophy/philosophy-hero.png") center no-repeat;
+    background: url("../image/philosophy/philosophy-hero.png") bottom no-repeat;
     background-size: cover;
   }
 
@@ -51,7 +51,7 @@
     .cont-img-wrap {
       position: relative;
       width: 40%;
-      background: url("../image/philosophy/philosophy-word.jpg") no-repeat;
+      background: url("../image/philosophy/philosophy-word.jpg") bottom no-repeat;
       background-size: cover;
       height: 700px;
 
