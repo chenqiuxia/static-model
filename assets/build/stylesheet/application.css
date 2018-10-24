@@ -796,6 +796,14 @@ footer a {
   position: absolute;
 }
 
+.page-product1 .battery-list :nth-child(1) {
+  font-size: .5333rem;
+  font-weight: bold;
+  color: white;
+  line-height: .8rem;
+  letter-spacing: 6px;
+}
+
 .page-product1 .battery-list :nth-child(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1758,6 +1766,14 @@ footer a {
   width: .2666rem;
   background-color: #fff;
   position: absolute;
+}
+
+.page-product2 .battery-list :nth-child(1) {
+  font-size: .5333rem;
+  font-weight: bold;
+  color: white;
+  line-height: .8rem;
+  letter-spacing: 6px;
 }
 
 .page-product2 .battery-list :nth-child(2) {
