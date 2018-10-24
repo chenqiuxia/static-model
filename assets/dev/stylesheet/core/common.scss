@@ -41,7 +41,7 @@ a {
 }
 
 .page-padding-top {
-  padding-top: 1.87998rem;
+  padding-top: calc(1.87998rem - .18rem); //减小header的padding
 }
 
 /* media start*/

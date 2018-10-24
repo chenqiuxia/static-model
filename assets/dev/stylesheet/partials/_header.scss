@@ -4,9 +4,12 @@ header {
   left: 0;
   right: 0;
   border-top: .26666rem solid map_get($global-color, g);
-  padding: .74666rem 0 .2rem;
+  padding: .74666rem 0 .74666rem;
   z-index: map_get($global-zIndex, b);
-
+  transition: background-color map_get($global-time, transition);
+  &.is-scrolled {
+    background-color:rgba(51,51,51,0.15);
+  }
   .header-wrap {
     display: flex;
     align-items: center;
@@ -23,8 +26,10 @@ header {
     background: url('../image/Logo-fanohm-white.svg') no-repeat;
     background-size: 100%;
   }
-
-  .nav> ul >li{
+  .nav {
+    margin-top: (10/$calc-base-num)*1rem;
+  }
+  .nav > ul > li{
     position: relative;
     display: inline-block;
     font-size: .21333rem;
@@ -33,7 +38,7 @@ header {
     cursor: pointer;
     transition: all map_get($global-time, transition);
 
-    &+li {
+    & + li {
       margin-left: .8rem;
     }
 

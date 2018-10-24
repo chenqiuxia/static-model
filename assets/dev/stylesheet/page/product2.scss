@@ -12,7 +12,7 @@
         }
     }
 
-  
+
 
     .clear {
         clear: both;
@@ -60,14 +60,14 @@
         align-items: center;
         padding-bottom: 2rem;
         color: #fff;
-        
+
         font-family: Rubik300;
     }
 
     .banner-desc :nth-child(1){
         font-size: 2.94666rem;
         line-height: 2.94666rem;
-        
+
     }
 
     .banner-desc :nth-child(2){
@@ -95,7 +95,7 @@
         font-weight: 1000;
     }
 
-    
+
 
     .product1-name {
         width: 3.02666rem;
@@ -103,7 +103,7 @@
         font-size: 2.94666rem;
         line-height: 2.94666rem;
         display:  inline-block;
-       
+
         vertical-align: bottom;
         position: absolute;
         bottom: .5rem;
@@ -118,7 +118,7 @@
         overflow: hidden;
         margin-left: .573333rem;
         display:  inline-block;
-    
+
         vertical-align: bottom;
         position: absolute;
         left: 3rem;
@@ -134,14 +134,14 @@
 
     .product-desc :nth-child(1) {
         font-size: .22666rem;
-      
+
         letter-spacing:3px;
-     
+
      //   height: 2.85333rem;
     }
 
 
-   
+
 
     .func-wrap {
         overflow: hidden;
@@ -151,7 +151,7 @@
 
     .run-img {
         width: 100%;
-      
+
         height: 8rem;
     }
 
@@ -226,7 +226,7 @@
     .battery-main {
         margin-top: 1.8rem;
         background-color: #fff;
-       
+
 
     }
 
@@ -286,7 +286,7 @@
     .battery-list :nth-child(2) {
         display: flex;
         justify-content: flex-end;
-        
+
     }
 
     .battery-sum  {
@@ -330,20 +330,20 @@
     .func-kinds {
         width: 100%;
         height: 6.65333rem;
-       
+
         margin-top: 3.5333rem;
         display: flex;
     }
 
-    
-   
+
+
     .func-kinds-img {
         flex: 1;
         position: relative;
     }
 
     .animation-show {
-        animation: myshow 5s infinite;
+        animation: myshow 2s infinite;
     }
 
     @keyframes myshow
@@ -374,7 +374,7 @@
 
     .func-kinds-desc {
         width: 6.666rem;
-        
+
     }
 
     .func-kinds-desc >:nth-child(1){
@@ -390,9 +390,9 @@
         margin-top: .33333rem;
         font-size:   map_get($global-font-size, k);
     }
-  
 
-    .kinds-icon { 
+
+    .kinds-icon {
         display: flex;
         justify-content: space-between;
         margin-top: 1.22666rem;
@@ -400,12 +400,12 @@
 
     .func-item-desc {
         flex: 1;
-        
+
     }
 
     .func-item-desc :nth-child(1) {
         font-size: .32rem;
-        
+
     }
 
     .func-item-desc :nth-child(2) {
@@ -435,6 +435,7 @@
         height: 13.33333rem;
         width: 100%;
         background-color: #fff;
+        border-bottom: 1px solid #b2b3b4;
     }
 
     .heatset-color-main {
@@ -506,7 +507,7 @@
         float: left;
         width: 50%;
         height: 100%;
-    
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -516,7 +517,7 @@
     .color-prod li{
         display: inline-block;
     }
-    
+
     .top :nth-child(2) {
         margin-left: 1.0666rem;
     }
@@ -551,13 +552,12 @@
         text-align: right;
         float: left;
 
-     
+
     }
 
     .use-manual-desc {
         padding-left: .56rem;
         width: 50%;
-        float: left;
         display: flex;
         height: 100%;
         flex-direction: column;
@@ -569,12 +569,8 @@
         display: inline-block;
     }
 
-    .manual-title div {
-        display: inline-block;
-        
-    }
-
     .manual-title {
+        line-height: 1;
         white-space: nowrap;
         font-size:.64rem;
         font-weight:bold;
@@ -583,6 +579,9 @@
         letter-spacing:5px;
         display: flex;
         justify-content: space-between;
+    }
+    .manual-title div {
+        display: inline-block;
     }
 
     .white-title {
@@ -604,18 +603,18 @@
 
     .left-desc {
         font-size:.26666rem;
-      
+
         font-weight:bold;
         color:rgba(0,0,0,1);
         line-height:.38666rem;
-       
+
     }
 
     .right-desc {
         padding: .226666rem;
         border: 3px solid #0698ec;
         font-size:.2rem;
-      
+        border-radius: 3px;
         font-weight:bold;
         color:rgba(33,150,243,1);
         line-height:.22666rem;
@@ -669,7 +668,7 @@
         font-size:.21333rem;
         font-weight:bold;
         color:rgba(17,17,17,1);
-     
+
     }
 
     .include-img img {
@@ -744,20 +743,26 @@
 
     .product-info >:nth-child(2) {
         font-size: .26666rem;
-       
         color: #fff;
-       
+    }
+    .product-imglist-img {
+        &:hover {
+            .product-hover {
+                opacity: 1;
+            }
+        }
     }
 
     .product-hover {
+        transition: all map_get($global-time, transition);
         position: absolute;
         width: 100%;
         height: 100%;
         background: rgba(0,0,0,.3);
         z-index: 20;
-        display: none;
+        opacity: 0;
     }
-   
+
     .product-show1 {
         position: absolute;
         width: 100%;

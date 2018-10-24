@@ -216,7 +216,8 @@ a {
 }
 
 .page-padding-top {
-  padding-top: 1.87998rem;
+  padding-top: -webkit-calc(1.87998rem - .18rem);
+  padding-top: calc(1.87998rem - .18rem);
 }
 
 /* media start*/
@@ -226,8 +227,14 @@ header {
   left: 0;
   right: 0;
   border-top: 0.26666rem solid #EFE9DD;
-  padding: .74666rem 0 .2rem;
+  padding: .74666rem 0 .74666rem;
   z-index: 90;
+  -webkit-transition: background-color 0.4s;
+  transition: background-color 0.4s;
+}
+
+header.is-scrolled {
+  background-color: rgba(51, 51, 51, 0.15);
 }
 
 header .header-wrap {
@@ -254,6 +261,10 @@ header .logo {
   height: 100%;
   background: url("../image/Logo-fanohm-white.svg") no-repeat;
   background-size: 100%;
+}
+
+header .nav {
+  margin-top: 0.13333rem;
 }
 
 header .nav > ul > li {
@@ -318,7 +329,7 @@ header .nav-submenu-wrap li:hover {
 footer {
   background-color: #000;
   color: #fff;
-  padding: 0.93333rem 0 0.8rem;
+  padding: 0.8rem 0 0.8rem;
 }
 
 footer a {
@@ -440,7 +451,7 @@ footer a:hover {
   margin-top: 0.8rem;
   border-top: .13333rem solid #1a1a1a;
   border-bottom: .13333rem solid #1a1a1a;
-  padding: 0.93333rem 0;
+  padding: 0.8rem 0;
   font-size: 0.37333rem;
   color: #111;
 }
@@ -658,12 +669,30 @@ footer a:hover {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-transition: all 0.4s;
-  transition: all 0.4s;
+  position: relative;
+  overflow: hidden;
 }
 
-.page-index .index-other-item:hover {
-  background-size: 120% auto;
+.page-index .index-other-item:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  background-image: url("");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-index .index-other-item:hover:after {
+  -webkit-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .page-index .index-other-item h4 {
@@ -675,8 +704,10 @@ footer a:hover {
 
 .page-index .index-other-shop {
   width: 62.5%;
-  background: url("../image/shopList/shop-six.png") center no-repeat;
-  background-size: cover;
+}
+
+.page-index .index-other-shop:after {
+  background-image: url("../image/index/home-shop-list.jpg");
 }
 
 .page-index .index-other-company {
@@ -684,8 +715,10 @@ footer a:hover {
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  background: url("../image/index/home-company.jpg") center no-repeat;
-  background-size: cover;
+}
+
+.page-index .index-other-company:after {
+  background-image: url("../image/index/home-company.jpg");
 }
 
 .page-product1 header {
@@ -1148,7 +1181,6 @@ footer a:hover {
 .page-product1 .use-manual-desc {
   padding-left: .56rem;
   width: 50%;
-  float: left;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1170,11 +1202,8 @@ footer a:hover {
   display: inline-block;
 }
 
-.page-product1 .manual-title div {
-  display: inline-block;
-}
-
 .page-product1 .manual-title {
+  line-height: 1;
   white-space: nowrap;
   font-size: .64rem;
   font-weight: bold;
@@ -1189,6 +1218,10 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.page-product1 .manual-title div {
+  display: inline-block;
 }
 
 .page-product1 .white-title {
@@ -1228,6 +1261,7 @@ footer a:hover {
   padding: .226666rem;
   border: 3px solid #0698ec;
   font-size: .2rem;
+  border-radius: 3px;
   font-weight: bold;
   color: #2196f3;
   line-height: .22666rem;
@@ -1394,13 +1428,19 @@ footer a:hover {
   color: #fff;
 }
 
+.page-product1 .product-imglist-img:hover .product-hover {
+  opacity: 1;
+}
+
 .page-product1 .product-hover {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
   position: absolute;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   z-index: 20;
-  display: none;
+  opacity: 0;
 }
 
 .page-product1 .product-show1 {
@@ -2021,8 +2061,8 @@ footer a:hover {
 }
 
 .page-product2 .animation-show {
-  -webkit-animation: myshow 5s infinite;
-  animation: myshow 5s infinite;
+  -webkit-animation: myshow 2s infinite;
+  animation: myshow 2s infinite;
 }
 
 @-webkit-keyframes myshow {
@@ -2130,6 +2170,7 @@ footer a:hover {
   height: 13.33333rem;
   width: 100%;
   background-color: #fff;
+  border-bottom: 1px solid #b2b3b4;
 }
 
 .page-product2 .heatset-color-main {
@@ -2269,7 +2310,6 @@ footer a:hover {
 .page-product2 .use-manual-desc {
   padding-left: .56rem;
   width: 50%;
-  float: left;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2291,11 +2331,8 @@ footer a:hover {
   display: inline-block;
 }
 
-.page-product2 .manual-title div {
-  display: inline-block;
-}
-
 .page-product2 .manual-title {
+  line-height: 1;
   white-space: nowrap;
   font-size: .64rem;
   font-weight: bold;
@@ -2310,6 +2347,10 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+.page-product2 .manual-title div {
+  display: inline-block;
 }
 
 .page-product2 .white-title {
@@ -2349,6 +2390,7 @@ footer a:hover {
   padding: .226666rem;
   border: 3px solid #0698ec;
   font-size: .2rem;
+  border-radius: 3px;
   font-weight: bold;
   color: #2196f3;
   line-height: .22666rem;
@@ -2515,13 +2557,19 @@ footer a:hover {
   color: #fff;
 }
 
+.page-product2 .product-imglist-img:hover .product-hover {
+  opacity: 1;
+}
+
 .page-product2 .product-hover {
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
   position: absolute;
   width: 100%;
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   z-index: 20;
-  display: none;
+  opacity: 0;
 }
 
 .page-product2 .product-show1 {
