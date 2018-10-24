@@ -1,6 +1,6 @@
 
 const bottomHover = ()=>{
-   
+   console.log(2)
 }
   
   const init = () => {

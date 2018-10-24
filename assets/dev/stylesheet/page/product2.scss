@@ -317,10 +317,17 @@
         position: relative;
     }
 
-    .func-kinds-img img{
+    .func-kinds-img :nth-child(1) {
         height: 6.65333rem;
         position: absolute;
         left: -2.14666rem;
+    }
+
+    .func-kinds-img :nth-child(2) {
+        height: 2.4rem;
+        position: absolute;
+        right: 1.4666rem;
+        top:-1.2rem;
     }
 
     .func-kinds-desc {
@@ -697,6 +704,20 @@
         height: 100%;
         background: rgba(0,0,0,.3);
         z-index: 20;
+        display: none;
     }
    
+    .product-show1 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 50;
+    }
+
+    .product-show2 {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        z-index: 50;
+    }
 }
