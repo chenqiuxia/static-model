@@ -1,5 +1,9 @@
 .page-product2 {
 
+    header {
+        border-top-color: map_get($global-color, h);
+    }
+
     .clear {
         clear: both;
     }

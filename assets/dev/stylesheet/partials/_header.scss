@@ -3,7 +3,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  border-top: .26666rem solid map_get($global-color, b);
+  border-top: .26666rem solid map_get($global-color, g);
   padding: .74666rem 0 .2rem;
   z-index: map_get($global-zIndex, b);
 
@@ -17,6 +17,7 @@ header {
   }
 
   .logo {
+    display: block;
     width: 3.3333rem;
     height: 100%;
     background: url('../../image/Logo-fanohm-white.svg') no-repeat;
@@ -27,9 +28,17 @@ header {
     display: inline-block;
     font-size: .21333rem;
     color: #000;
+    padding: 0 map_get($global-spacing, i);
+    cursor: pointer;
 
     &+li {
-      margin-left: 1.24rem;
+      margin-left: .8rem;
+    }
+
+    &:hover {
+      background-color: #fff;
+      color: map_get($global-color, a);
+      transition: all .3s;
     }
   }
 
