@@ -1,3 +1,5 @@
+$calc-base-num: 75;
+
 $global-color: (
         a: #111,
         b: #E50113,
@@ -5,6 +7,7 @@ $global-color: (
         d: #979797,
         e: #4183C4,
         f: #555,
+        g: #EFE9DD,
 );
 
 $global-zIndex: (
@@ -13,27 +16,30 @@ $global-zIndex: (
 );
 
 $global-font-size: (
-        a: .37333rem, //28px
-        b: .29333rem, //22px
-        c: .21333rem, //16px
-        d: .48rem, //36px
-        e: .16rem, //12px
-        f: .26666rem, //20px
-        g: .53333rem, //40px
+        a: (28/$calc-base-num)*1rem, //28px
+        b: (22/$calc-base-num)*1rem, //22px
+        c: (16/$calc-base-num)*1rem, //16px
+        d: (36/$calc-base-num)*1rem, //36px
+        e: (12/$calc-base-num)*1rem, //12px
+        f: (20/$calc-base-num)*1rem, //20px
+        g: (40/$calc-base-num)*1rem, //40px
+        h: (64/$calc-base-num)*1rem, //64px
+        i: (30/$calc-base-num)*1rem, //30px
 );
 
 $global-spacing: (
         container:15px,
-        a: .93333rem, // 70px
-        b: .56rem,  //42px
-        c: .8rem, // 60px
-        d: .2rem, // 15px
-        e: .4rem, //30px
-        f: .86666rem, //65px
-        g: 1.33333rem, //100px
-        h: .466666rem, //35px
-        i: .266666rem, //20px
-        j: 1.6rem, //120x
+        a: (70/$calc-base-num)*1rem, // 70px
+        b: (42/$calc-base-num)*1rem,  //42px
+        c: (60/$calc-base-num)*1rem, // 60px
+        d: (15/$calc-base-num)*1rem, // 15px
+        e: (30/$calc-base-num)*1rem, //30px
+        f: (65/$calc-base-num)*1rem, //65px
+        g: 100/$calc-base-num *1rem, //100px
+        h: (35/$calc-base-num)*1rem, //35px
+        i: (20/$calc-base-num)*1rem, //20px
+        j: (120/$calc-base-num)*1rem, //120x
+        k: (50/$calc-base-num)*1rem, //50x
 );
 
 $global-width: (

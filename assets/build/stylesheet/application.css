@@ -394,6 +394,51 @@ footer a {
   color: #fff;
 }
 
+.page-index header {
+  border-top-color: #EFE9DD;
+}
+
+.page-index .index-home-wrap {
+  background: url("../image/index/home-bg.jpg") center no-repeat;
+  background-size: cover;
+  padding-bottom: 2.4rem;
+}
+
+.page-index .index-home-wrap .main-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.page-index .home-content-wrap {
+  color: #fff;
+}
+
+.page-index .home-content-wrap h2 {
+  font-size: 0.85333rem;
+  line-height: 1.1;
+}
+
+.page-index .home-content-wrap p {
+  font-size: 0.4rem;
+  line-height: 1.6;
+  margin-top: 0.8rem;
+}
+
+.page-index .home-content-wrap a {
+  display: inline-block;
+  background-color: #111;
+  padding: 0.4rem 0.66667rem;
+  color: #fff;
+  font-size: 0.29333rem;
+  margin-top: 0.8rem;
+}
+
 .page-product1 .clear {
   clear: both;
 }
@@ -873,7 +918,7 @@ footer a {
 }
 
 .page-shop .shop-region-ul li h3 {
-  font-size: 0.26666rem;
+  font-size: 0.26667rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
 }
@@ -887,7 +932,7 @@ footer a {
 .page-policy .policy-content h2 {
   font-size: 0.37333rem;
   line-height: 1;
-  padding: 0.86666rem 0 0.58666rem;
+  padding: 0.86667rem 0 0.58666rem;
   text-align: center;
 }
 
@@ -904,7 +949,7 @@ footer a {
 .page-commercial .commercial-content h2 {
   font-size: 0.37333rem;
   line-height: 1;
-  padding: 0.86666rem 0 0.58666rem;
+  padding: 0.86667rem 0 0.58666rem;
   text-align: center;
 }
 

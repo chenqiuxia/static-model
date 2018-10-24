@@ -1,0 +1,40 @@
+.page-index {
+  header {
+    border-top-color: map_get($global-color, g);
+  }
+
+  .index-home-wrap {
+    background: url("../image/index/home-bg.jpg") center no-repeat;
+    background-size: cover;
+    padding-bottom: 2.4rem;
+
+    .main-wrap {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+
+  .home-content-wrap {
+    color: #fff;
+
+    h2 {
+      font-size: map_get($global-font-size, h);
+      line-height: 1.1;
+    }
+
+    p {
+      font-size: map_get($global-font-size, i);
+      line-height: 1.6;
+      margin-top: map_get($global-spacing, c);
+    }
+
+    a {
+      display: inline-block;
+      background-color: map_get($global-color, a);
+      padding: map_get($global-spacing, e) map_get($global-spacing, k);
+      color: #fff;
+      font-size: map_get($global-font-size, b);
+      margin-top: map_get($global-spacing, c);
+    }
+  }
+}
