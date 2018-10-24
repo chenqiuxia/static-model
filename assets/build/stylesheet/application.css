@@ -1908,6 +1908,35 @@ footer a {
   position: relative;
 }
 
+.page-product2 .animation-show {
+  -webkit-animation: myshow 5s infinite;
+  animation: myshow 5s infinite;
+}
+
+@-webkit-keyframes myshow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes myshow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .page-product2 .func-kinds-img :nth-child(1) {
   height: 6.65333rem;
   position: absolute;

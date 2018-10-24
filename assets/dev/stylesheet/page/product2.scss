@@ -331,6 +331,23 @@
         position: relative;
     }
 
+    .animation-show {
+        animation: myshow 5s infinite;
+    }
+
+    @keyframes myshow
+    {
+        0% {
+            opacity: 0;
+        }
+        50% {
+            opacity: 1;
+        }
+        100% {
+            opacity: 0;
+        }
+    }
+
     .func-kinds-img :nth-child(1) {
         height: 6.65333rem;
         position: absolute;
