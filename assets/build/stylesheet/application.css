@@ -719,6 +719,8 @@ footer a {
   overflow: hidden;
   margin-left: .573333rem;
   display: inline-block;
+  font-size: .22666rem;
+  line-height: .34rem;
   vertical-align: bottom;
   position: absolute;
   left: 3rem;
@@ -734,6 +736,7 @@ footer a {
 .page-product1 .product-desc :nth-child(1) {
   font-size: .22666rem;
   letter-spacing: 3px;
+  line-height: .5rem;
 }
 
 .page-product1 .banner-desc > :nth-child(2) {
@@ -839,14 +842,14 @@ footer a {
 
 .page-product1 .battery-main {
   margin-top: 1.8rem;
-  background-color: #f0f2f5;
+  background-color: #fff;
   padding-top: .97333rem;
 }
 
 .page-product1 .battery-banner {
-  background-image: url("../image/product1/battery.jpg");
+  background-image: url("../../image/product1/battery.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 8.10666rem;
 }
 
@@ -995,7 +998,7 @@ footer a {
 }
 
 .page-product1 .heatset-banner {
-  background: url("../image/product1/box.png");
+  background: url("../../image/product1/box.png");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 5.88rem;
@@ -1006,6 +1009,7 @@ footer a {
   height: 13.33333rem;
   width: 100%;
   background-color: #fff;
+  border-bottom: 1px solid #b2b3b4;
 }
 
 .page-product1 .heatset-color-main {
@@ -1103,7 +1107,7 @@ footer a {
 }
 
 .page-product1 .use-manual {
-  background-color: #f0f2f5;
+  background-color: #fff;
   height: 13.56rem;
   border-bottom: 1px solid #b2b3b4;
 }
@@ -1166,9 +1170,13 @@ footer a {
 }
 
 .page-product1 .white-title {
-  padding: 5px 12px;
+  padding: 12px 12px;
   background-color: #0698ec;
   color: #fff;
+}
+
+.page-product1 .black-title {
+  padding: 12px 12px;
 }
 
 .page-product1 .manual-desc {
@@ -1176,10 +1184,10 @@ footer a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -1196,12 +1204,17 @@ footer a {
 
 .page-product1 .right-desc {
   padding: .226666rem;
-  border: 5px solid #0698ec;
+  border: 3px solid #0698ec;
   font-size: .2rem;
   font-weight: bold;
   color: #2196f3;
   line-height: .22666rem;
   letter-spacing: 2px;
+}
+
+.page-product1 .right-desc:hover {
+  background-color: #2196f3;
+  color: #fff;
 }
 
 .page-product1 .use-manual-desc :nth-child(3) {
@@ -1211,7 +1224,7 @@ footer a {
 .page-product1 .include-wrap {
   width: 100%;
   height: 4.69333rem;
-  background-color: #f0f2f5;
+  background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
 }
 
@@ -1270,7 +1283,7 @@ footer a {
 .page-product1 .product-imglist {
   width: 100%;
   height: 4.24rem;
-  background-color: #f0f2f5;
+  background-color: #fff;
 }
 
 .page-product1 .product-imglist-main {
@@ -1291,7 +1304,7 @@ footer a {
 }
 
 .page-product1 .product-imglist-main > :nth-child(1) {
-  background: url("../image/product/product1.png") no-repeat;
+  background: url("../../image/product/product1.png") no-repeat;
   background-size: 100%;
   width: 8.66666rem;
   height: 3.06666rem;
@@ -1299,7 +1312,7 @@ footer a {
 }
 
 .page-product1 .product-imglist-main > :nth-child(2) {
-  background: url("../image/product/product2.png") no-repeat;
+  background: url("../../image/product/product2.png") no-repeat;
   background-size: 100%;
   width: 8.66666rem;
   height: 3.06666rem;
@@ -1592,6 +1605,15 @@ footer a {
 
 .page-product2 header {
   border-top-color: #006965;
+  color: #fff;
+}
+
+.page-product2 header .nav > ul > li {
+  color: #fff;
+}
+
+.page-product2 header a {
+  color: #fff;
 }
 
 .page-product2 .clear {
@@ -1602,7 +1624,7 @@ footer a {
   height: 300px;
   width: 100%;
   background: url("../image/product2/BG.png") no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 16rem;
 }
 
@@ -1670,6 +1692,7 @@ footer a {
 .page-product2 .banner-desc :nth-child(2) {
   margin-top: .34666rem;
   font-size: .26666rem;
+  width: 4.6rem;
 }
 
 .page-product2 .banner-desc :nth-child(3) {
@@ -1821,13 +1844,13 @@ footer a {
 
 .page-product2 .battery-main {
   margin-top: 1.8rem;
-  background-color: #f0f2f5;
+  background-color: #fff;
 }
 
 .page-product2 .battery-banner {
   background-image: url("../image/product2/battery_BG.png");
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 8.10666rem;
 }
 
@@ -2198,7 +2221,7 @@ footer a {
 }
 
 .page-product2 .use-manual {
-  background-color: #f0f2f5;
+  background-color: #fff;
   height: 13.56rem;
   border-bottom: 1px solid #b2b3b4;
 }
@@ -2261,9 +2284,13 @@ footer a {
 }
 
 .page-product2 .white-title {
-  padding: 5px 12px;
+  padding: 12px 12px;
   background-color: #0698ec;
   color: #fff;
+}
+
+.page-product2 .black-title {
+  padding: 12px 12px;
 }
 
 .page-product2 .manual-desc {
@@ -2271,10 +2298,10 @@ footer a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: end;
-  -webkit-align-items: flex-end;
-  -ms-flex-align: end;
-  align-items: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
@@ -2291,12 +2318,17 @@ footer a {
 
 .page-product2 .right-desc {
   padding: .226666rem;
-  border: 5px solid #0698ec;
+  border: 3px solid #0698ec;
   font-size: .2rem;
   font-weight: bold;
   color: #2196f3;
   line-height: .22666rem;
   letter-spacing: 2px;
+}
+
+.page-product2 .right-desc:hover {
+  background-color: #2196f3;
+  color: #fff;
 }
 
 .page-product2 .use-manual-desc :nth-child(3) {
@@ -2306,7 +2338,7 @@ footer a {
 .page-product2 .include-wrap {
   width: 100%;
   height: 4.69333rem;
-  background-color: #f0f2f5;
+  background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
 }
 
@@ -2365,7 +2397,7 @@ footer a {
 .page-product2 .product-imglist {
   width: 100%;
   height: 4.24rem;
-  background-color: #f0f2f5;
+  background-color: #fff;
 }
 
 .page-product2 .product-imglist-main {

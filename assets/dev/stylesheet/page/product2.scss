@@ -2,7 +2,17 @@
 
     header {
         border-top-color: map_get($global-color, h);
+        color: #fff;
+        .nav>ul>li {
+            color: #fff;
+        }
+
+        a {
+            color: #fff;
+        }
     }
+
+  
 
     .clear {
         clear: both;
@@ -12,7 +22,7 @@
         height: 300px;
         width: 100%;
         background: url('../image/product2/BG.png') no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
         height: 16rem;
     }
 
@@ -63,6 +73,7 @@
     .banner-desc :nth-child(2){
        margin-top: .34666rem;
        font-size: .26666rem;
+       width: 4.6rem;
     }
 
     .banner-desc :nth-child(3) {
@@ -214,7 +225,7 @@
 
     .battery-main {
         margin-top: 1.8rem;
-        background-color: #f0f2f5;
+        background-color: #fff;
        
 
     }
@@ -222,7 +233,7 @@
     .battery-banner {
         background-image: url('../image/product2/battery_BG.png');
         background-repeat:  no-repeat;
-        background-size: 100% 100%;
+        background-size: cover;
         height: 8.10666rem;
     }
 
@@ -524,7 +535,7 @@
     }
 
     .use-manual {
-        background-color: #f0f2f5;
+        background-color: #fff;
         height: 13.56rem;;
         border-bottom: 1px solid #b2b3b4;
     }
@@ -575,14 +586,18 @@
     }
 
     .white-title {
-        padding: 5px 12px;
+        padding: 12px 12px;
         background-color: #0698ec;
         color: #fff;
     }
 
+    .black-title {
+        padding: 12px 12px;
+    }
+
     .manual-desc {
         display: flex;
-        align-items: flex-end;
+        align-items: center;
         justify-content: space-between;
         margin-top: .8rem;
     }
@@ -598,13 +613,18 @@
 
     .right-desc {
         padding: .226666rem;
-        border: 5px solid #0698ec;
+        border: 3px solid #0698ec;
         font-size:.2rem;
       
         font-weight:bold;
         color:rgba(33,150,243,1);
         line-height:.22666rem;
         letter-spacing:2px;
+    }
+
+    .right-desc:hover {
+        background-color: rgba(33,150,243,1);
+        color: #fff;
     }
 
     .use-manual-desc :nth-child(3) {
@@ -614,7 +634,7 @@
     .include-wrap {
         width: 100%;
         height: 4.69333rem;
-        background-color: #f0f2f5;
+        background-color: #fff;
         border-bottom: 1px solid #b2b3b4;
     }
 
@@ -659,7 +679,7 @@
     .product-imglist {
         width: 100%;
         height: 4.24rem;
-        background-color: #f0f2f5;
+        background-color: #fff;
     }
 
     .product-imglist-main {
