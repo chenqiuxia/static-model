@@ -8,7 +8,7 @@ header {
   z-index: map_get($global-zIndex, b);
   transition: background-color map_get($global-time, transition);
   &.is-scrolled {
-    background-color:rgba(51,51,51,0.15);
+    background-color:rgba(51,51,51,0.2);
   }
   .header-wrap {
     display: flex;
@@ -23,7 +23,8 @@ header {
     display: block;
     width: 3.3333rem;
     height: 100%;
-    background: url('../image/Logo-fanohm-white.svg') no-repeat;
+    background-image: url('../image/Logo-product-black.svg');
+    background-repeat: no-repeat;
     background-size: 100%;
   }
   .nav {
@@ -70,7 +71,7 @@ header {
 
   .nav-submenu-wrap {
     position: absolute;
-    top: -1.3rem;
+    top: 0rem;
     left: 0;
     right: 0;
     text-align: center;
@@ -79,10 +80,11 @@ header {
     opacity: 0;
     height: 0;
     z-index: -1;
-    transition: all map_get($global-time, a);
+    transition: all map_get($global-time, transition);
 
     li:hover {
-      background-color: map_get($global-color, g);
+      background-color: darken(#fff, 5%);
+      // background-color: map_get($global-color, g);
     }
   }
 }

@@ -234,7 +234,7 @@ header {
 }
 
 header.is-scrolled {
-  background-color: rgba(51, 51, 51, 0.15);
+  background-color: rgba(51, 51, 51, 0.2);
 }
 
 header .header-wrap {
@@ -259,7 +259,8 @@ header .logo {
   display: block;
   width: 3.3333rem;
   height: 100%;
-  background: url("../image/Logo-fanohm-white.svg") no-repeat;
+  background-image: url("../image/Logo-product-black.svg");
+  background-repeat: no-repeat;
   background-size: 100%;
 }
 
@@ -309,7 +310,7 @@ header h1 {
 
 header .nav-submenu-wrap {
   position: absolute;
-  top: -1.3rem;
+  top: 0rem;
   left: 0;
   right: 0;
   text-align: center;
@@ -318,12 +319,12 @@ header .nav-submenu-wrap {
   opacity: 0;
   height: 0;
   z-index: -1;
-  -webkit-transition: all 0.1s;
-  transition: all 0.1s;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
 }
 
 header .nav-submenu-wrap li:hover {
-  background-color: #EFE9DD;
+  background-color: #f2f2f2;
 }
 
 footer {
@@ -477,7 +478,7 @@ footer a:hover {
 }
 
 .contact-us-wrap {
-  padding: 4.13333rem 0 3.13333rem;
+  padding: 4.13333rem 0 4.13333rem;
 }
 
 .contact-us-wrap .contact-cont {
@@ -722,7 +723,7 @@ footer a:hover {
 }
 
 .page-product1 header {
-  border-top-color: #E50113;
+  border-top-color: #006965;
 }
 
 .page-product1 .clear {
@@ -1259,7 +1260,7 @@ footer a:hover {
 
 .page-product1 .right-desc {
   padding: .226666rem;
-  border: 3px solid #0698ec;
+  border: 2px solid #0698ec;
   font-size: .2rem;
   border-radius: 3px;
   font-weight: bold;
@@ -1359,20 +1360,23 @@ footer a:hover {
   align-items: center;
 }
 
-.page-product1 .product-imglist-main > :nth-child(1) {
-  background: url("../../image/product/product1.png") no-repeat;
+.page-product1 .product-imglist-main > :nth-child(1),
+.page-product1 .product-imglist-main > :nth-child(2) {
   background-size: 100%;
   width: 8.66666rem;
   height: 3.06666rem;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-product1 .product-imglist-main > :nth-child(1) {
+  background-image: url("../../image/product/product1.png");
 }
 
 .page-product1 .product-imglist-main > :nth-child(2) {
-  background: url("../../image/product/product2.png") no-repeat;
-  background-size: 100%;
-  width: 8.66666rem;
-  height: 3.06666rem;
-  position: relative;
+  background-image: url("../../image/product/product2.png");
 }
 
 .page-product1 .product1-img {
@@ -1677,12 +1681,28 @@ footer a:hover {
   color: #fff;
 }
 
+.page-product2 header .logo {
+  background-image: url("../image/Logo-product-white.svg");
+}
+
 .page-product2 header .nav > ul > li {
   color: #fff;
 }
 
+.page-product2 header .nav > ul > li:hover {
+  background-color: #000;
+}
+
 .page-product2 header a {
   color: #fff;
+}
+
+.page-product2 header .nav-submenu-wrap {
+  background-color: #000;
+}
+
+.page-product2 header .nav-submenu-wrap li:hover {
+  background-color: #0d0d0d;
 }
 
 .page-product2 .clear {
@@ -2388,7 +2408,7 @@ footer a:hover {
 
 .page-product2 .right-desc {
   padding: .226666rem;
-  border: 3px solid #0698ec;
+  border: 2px solid #0698ec;
   font-size: .2rem;
   border-radius: 3px;
   font-weight: bold;
@@ -2488,20 +2508,23 @@ footer a:hover {
   align-items: center;
 }
 
-.page-product2 .product-imglist-main > :nth-child(1) {
-  background: url("../image/product/product1.png") no-repeat;
+.page-product2 .product-imglist-main > :nth-child(1),
+.page-product2 .product-imglist-main > :nth-child(2) {
   background-size: 100%;
   width: 8.66666rem;
   height: 3.06666rem;
   position: relative;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-product2 .product-imglist-main > :nth-child(1) {
+  background-image: url("../../image/product/product1.png");
 }
 
 .page-product2 .product-imglist-main > :nth-child(2) {
-  background: url("../image/product/product2.png") no-repeat;
-  background-size: 100%;
-  width: 8.66666rem;
-  height: 3.06666rem;
-  position: relative;
+  background-image: url("../../image/product/product2.png");
 }
 
 .page-product2 .product1-img {
