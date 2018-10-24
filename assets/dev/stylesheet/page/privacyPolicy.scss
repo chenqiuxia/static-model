@@ -2,6 +2,7 @@
   .policy-content {
     font-size: map_get($global-font-size, c);
     line-height: 2.5;
+    padding-bottom: map_get($global-spacing, g);
 
     h2 {
       font-size: map_get($global-font-size, a);
