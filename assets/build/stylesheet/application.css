@@ -901,6 +901,14 @@ footer a {
   position: absolute;
 }
 
+.page-product1 .battery-list :nth-child(1) {
+  font-size: .5333rem;
+  font-weight: bold;
+  color: white;
+  line-height: .8rem;
+  letter-spacing: 6px;
+}
+
 .page-product1 .battery-list :nth-child(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -939,7 +947,7 @@ footer a {
 
 .page-product1 .fun-list-all li {
   height: 2.30666rem;
-  width: 46%;
+  width: 48%;
   float: left;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1651,6 +1659,7 @@ footer a {
   align-items: center;
   padding-bottom: 2rem;
   color: #fff;
+  font-family: Rubik300;
 }
 
 .page-product2 .banner-desc :nth-child(1) {
@@ -1873,6 +1882,14 @@ footer a {
   position: absolute;
 }
 
+.page-product2 .battery-list :nth-child(1) {
+  font-size: .5333rem;
+  font-weight: bold;
+  color: white;
+  line-height: .8rem;
+  letter-spacing: 6px;
+}
+
 .page-product2 .battery-list :nth-child(2) {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1912,7 +1929,7 @@ footer a {
 
 .page-product2 .fun-list-all li {
   height: 2.30666rem;
-  width: 46%;
+  width: 48%;
   float: left;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1949,6 +1966,35 @@ footer a {
   -ms-flex: 1;
   flex: 1;
   position: relative;
+}
+
+.page-product2 .animation-show {
+  -webkit-animation: myshow 5s infinite;
+  animation: myshow 5s infinite;
+}
+
+@-webkit-keyframes myshow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes myshow {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
 
 .page-product2 .func-kinds-img :nth-child(1) {

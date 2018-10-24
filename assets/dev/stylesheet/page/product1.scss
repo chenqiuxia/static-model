@@ -224,6 +224,14 @@
 
     }
 
+    .battery-list :nth-child(1) {
+        font-size:.5333rem;
+        font-weight:bold;
+        color:rgba(255,255,255,1);
+        line-height:.8rem;
+        letter-spacing:6px;
+    }
+
     .battery-list :nth-child(2){
         display: flex;
         justify-content: flex-end;
@@ -248,7 +256,7 @@
 
     .fun-list-all li{
         height: 2.30666rem;
-        width: 46%;
+        width: 48%;
         float: left;
         display: flex;
         // align-items: center;
