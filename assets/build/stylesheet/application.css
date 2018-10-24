@@ -534,6 +534,7 @@ footer a {
 }
 
 .page-product1 .func-wrap {
+  overflow: hidden;
   position: relative;
   height: 19.27999rem;
 }
@@ -1419,6 +1420,7 @@ footer a {
 }
 
 .page-product2 .func-wrap {
+  overflow: hidden;
   position: relative;
   height: 19.27999rem;
 }
