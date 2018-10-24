@@ -46,13 +46,13 @@
           font-size: map_get($global-font-size, d);
           color: map_get($global-color, a);
 
-          &:after {
+          &:before {
             content: '';
             display: block;
             width: 50px;
             height: 3px;
             background-color: map_get($global-color, a);
-            margin-top: map_get($global-spacing, e);
+            margin-bottom: map_get($global-spacing, e);
           }
 
           p {

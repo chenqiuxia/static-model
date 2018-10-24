@@ -27,6 +27,8 @@ $global-font-size: (
         i: (30/$calc-base-num)*1rem, //30px
         j: (35/$calc-base-num)*1rem, //35px
         k: (17/$calc-base-num)*1rem, //17px
+        l: (72/$calc-base-num)*1rem, //72px
+        m: (48/$calc-base-num)*1rem, //48px
 );
 
 $global-spacing: (
@@ -41,7 +43,9 @@ $global-spacing: (
         h: (35/$calc-base-num)*1rem, //35px
         i: (20/$calc-base-num)*1rem, //20px
         j: (120/$calc-base-num)*1rem, //120x
-        k: (50/$calc-base-num)*1rem, //50x
+        k: (50/$calc-base-num)*1rem, //50px
+        l: (80/$calc-base-num)*1rem, //80px
+        m: (25/$calc-base-num)*1rem, //25px
 );
 
 $global-width: (

@@ -451,10 +451,118 @@ footer a {
 .page-index .home-content-wrap a {
   display: inline-block;
   background-color: #111;
-  padding: 0.4rem 0.66667rem;
+  padding: 0.4rem 0.33333rem;
   color: #fff;
   font-size: 0.29333rem;
   margin-top: 0.8rem;
+  letter-spacing: 3px;
+}
+
+.page-index .index-title-wrap {
+  color: #000;
+  border: 1px dashed #979797;
+  padding: 1.06667rem 0;
+}
+
+.page-index .index-title-wrap .index-title-cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30%;
+}
+
+.page-index .index-title-wrap .index-title-cont h3 {
+  font-size: 0.48rem;
+  line-height: 1.19;
+  width: 440px;
+}
+
+.page-index .index-title-wrap .index-title-cont h3:before {
+  content: '';
+  display: block;
+  width: 50px;
+  height: 3px;
+  background-color: #111;
+  margin-bottom: 0.4rem;
+}
+
+.page-index .index-title-wrap .index-title-cont li + li {
+  font-size: 0.16rem;
+  margin-left: 0.33333rem;
+  width: 220px;
+}
+
+.page-index .index-earphone-wrap {
+  padding: 10px;
+  background: url("../image/index/home-pro-f2.jpg") center no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+.page-index .index-earphone-wrap .earphone-cont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  height: 100%;
+  border: 3px solid #fff;
+}
+
+.page-index .index-earphone-wrap .earphone-cont h2 {
+  font-size: 0.96rem;
+  color: #fff;
+  letter-spacing: 10px;
+  margin-left: 30%;
+}
+
+.page-index .index-other-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 400px;
+}
+
+.page-index .index-other-item {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.page-index .index-other-item h4 {
+  text-align: center;
+  font-size: 0.64rem;
+  color: #fff;
+  letter-spacing: 8px;
+}
+
+.page-index .index-other-shop {
+  width: 62.5%;
+  background: url("../image/index/home-shopList.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.page-index .index-other-company {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background: url("../image/index/home-company.jpg") center no-repeat;
+  background-size: cover;
 }
 
 .page-product1 .clear {
@@ -1146,13 +1254,13 @@ footer a {
   color: #111;
 }
 
-.page-shop .shop-region-top .top-content li:first-child:after {
+.page-shop .shop-region-top .top-content li:first-child:before {
   content: '';
   display: block;
   width: 50px;
   height: 3px;
   background-color: #111;
-  margin-top: 0.4rem;
+  margin-bottom: 0.4rem;
 }
 
 .page-shop .shop-region-top .top-content li:first-child p {
@@ -1254,7 +1362,7 @@ footer a {
 }
 
 .page-company .company-info-wrap {
-  padding: 0.93333rem 0 1.6rem;
+  padding: 0.93333rem 0 1.06667rem;
 }
 
 .page-company .company-info-wrap dl {
