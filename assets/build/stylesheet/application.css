@@ -1,3 +1,38 @@
+@font-face {
+  font-family: "DIN-Bold";
+  src: url("../font/Din/DIN-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "DIN-BoldAlternate";
+  src: url("../font/Din/DIN-BoldAlternate.otf") format("otf");
+}
+
+@font-face {
+  font-family: "DIN-Medium";
+  src: url("../font/Din/DIN-Medium.otf") format("otf");
+}
+
+@font-face {
+  font-family: "NotoSansCJKjp-Black";
+  src: url("../font/Noto/NotoSansCJKjp-Black.otf") format("otf");
+}
+
+@font-face {
+  font-family: "NotoSansCJKjp-Bold";
+  src: url("../font/Noto/NotoSansCJKjp-Bold.otf") format("otf");
+}
+
+@font-face {
+  font-family: "Rubik300";
+  src: url("../font/Rubik/Rubik300.ttf") format("ttf");
+}
+
+@font-face {
+  font-family: "Rubik300italic";
+  src: url("../font/Rubik/Rubik300italic.ttf") format("ttf");
+}
+
 blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
   margin: 0;
   padding: 0;
@@ -72,17 +107,12 @@ a, a:hover, del, ins, s, u {
   outline: 0;
 }
 
-@font-face {
-  font-family: "Axis";
-  src: url("../font/Axis/ultralight.woff") format("woff");
-}
-
 body, button, input, keygen, legend, select, textarea {
   font-size: .75rem;
   line-height: 1.5;
   color: #111;
   outline: 0;
-  font-family: 'Heiti SC', 'Microsoft YaHei';
+  font-family: 'NotoSansCJKjp-Black', 'Heiti SC', 'Microsoft YaHei';
 }
 
 input::-ms-clear, input::-ms-reveal {
@@ -132,6 +162,11 @@ video {
 
 .hide {
   display: none;
+}
+
+a {
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .main-wrap {
@@ -185,7 +220,7 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  border-top: 0.26666rem solid #E50113;
+  border-top: 0.26666rem solid #EFE9DD;
   padding: .74666rem 0 .2rem;
   z-index: 90;
 }
@@ -209,6 +244,7 @@ header .header-wrap {
 }
 
 header .logo {
+  display: block;
   width: 3.3333rem;
   height: 100%;
   background: url("../../image/Logo-fanohm-white.svg") no-repeat;
@@ -219,10 +255,19 @@ header .nav > ul li {
   display: inline-block;
   font-size: .21333rem;
   color: #000;
+  padding: 0 0.26667rem;
+  cursor: pointer;
 }
 
 header .nav > ul li + li {
-  margin-left: 1.24rem;
+  margin-left: .8rem;
+}
+
+header .nav > ul li:hover {
+  background-color: #fff;
+  color: #111;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 header h1 {
@@ -412,10 +457,6 @@ footer a {
   color: #fff;
 }
 
-.page-index header {
-  border-top-color: #EFE9DD;
-}
-
 .page-index .index-home-wrap {
   background: url("../image/index/home-bg.jpg") center no-repeat;
   background-size: cover;
@@ -563,6 +604,10 @@ footer a {
   flex-grow: 1;
   background: url("../image/index/home-company.jpg") center no-repeat;
   background-size: cover;
+}
+
+.page-product1 header {
+  border-top-color: #E50113;
 }
 
 .page-product1 .clear {
@@ -1277,6 +1322,10 @@ footer a {
   z-index: 50;
 }
 
+.page-shop header {
+  border-top-color: #E50113;
+}
+
 .page-shop .shop-img-row {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1479,6 +1528,10 @@ footer a {
 
 .page-company .company-map-wrap {
   height: 310px;
+}
+
+.page-product2 header {
+  border-top-color: #006965;
 }
 
 .page-product2 .clear {
@@ -2332,6 +2385,125 @@ footer a {
   width: 100%;
   height: 100%;
   z-index: 50;
+}
+
+.page-philosophy .philosophy-home-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-philosophy .home-content-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  width: 40%;
+}
+
+.page-philosophy .home-content-wrap h2 {
+  font-size: 0.64rem;
+  font-weight: bold;
+  line-height: 1.48;
+}
+
+.page-philosophy .home-cont-img {
+  position: relative;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  background: url("../image/philosophy/philosophy-hero.png") center no-repeat;
+  background-size: cover;
+}
+
+.page-philosophy .side-icon-img {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 0.26667rem;
+  background: #E50113;
+  background-size: contain;
+  height: 65%;
+}
+
+.page-philosophy .side-icon-img:after {
+  position: absolute;
+  bottom: -0.8rem;
+  left: 0;
+  content: '';
+  display: inline-block;
+  width: 100%;
+  height: 0.8rem;
+  background: url("../image/philosophy/phy-icon.png") no-repeat;
+  background-size: contain;
+}
+
+.page-philosophy .philosophy-hear-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-philosophy .philosophy-hear-wrap .cont-img-wrap {
+  position: relative;
+  width: 40%;
+  background: url("../image/philosophy/philosophy-word.jpg") no-repeat;
+  background-size: cover;
+  height: 700px;
+}
+
+.page-philosophy .philosophy-hear-wrap .cont-img-wrap .side-icon-img {
+  left: auto;
+  top: auto;
+  right: 0;
+  bottom: 0;
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.page-philosophy .philosophy-hear-wrap .heart-content-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content {
+  width: 70%;
+}
+
+.page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content h2 {
+  font-size: 0.85333rem;
+  line-height: 1.15;
+}
+
+.page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content p {
+  font-size: 0.4rem;
+  line-height: 1.6;
 }
 
 /*# sourceMappingURL=application.css.map */

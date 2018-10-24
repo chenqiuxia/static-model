@@ -2,6 +2,10 @@
   display: none;
 }
 
+a {
+  transition: all .3s;
+}
+
 .main-wrap {
   max-width: map_get($global-width, pc);
   height: 100%;
