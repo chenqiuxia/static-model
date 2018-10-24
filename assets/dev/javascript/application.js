@@ -11,9 +11,9 @@ import product1 from './page/product1';
 import product2 from './page/product2';
 let Route = {
     "all": '.',
-    "index":'index/index.html',
-    "product1":'product1/product1.html',
-    "product2":'product2/product2.html',
+    "index":'^index/index.html$',
+    "product1":'^/product1.html$',
+    "product2":'^/product2.html$',
 }
 $(function () {
   dispatcher(Route.all, () => {

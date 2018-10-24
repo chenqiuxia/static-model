@@ -3,7 +3,7 @@
 }
 
 a {
-  transition: all .3s;
+  transition: all map_get($global-time, transition);
 }
 
 .main-wrap {

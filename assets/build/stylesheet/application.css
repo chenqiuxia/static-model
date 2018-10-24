@@ -112,7 +112,7 @@ body, button, input, keygen, legend, select, textarea {
   line-height: 1.5;
   color: #111;
   outline: 0;
-  font-family: 'NotoSansCJKjp-Black', 'Heiti SC', 'Microsoft YaHei';
+  font-family: 'Rubik300', 'Heiti SC', 'Microsoft YaHei';
 }
 
 input::-ms-clear, input::-ms-reveal {
@@ -165,8 +165,8 @@ video {
 }
 
 a {
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
 }
 
 .main-wrap {
@@ -251,7 +251,8 @@ header .logo {
   background-size: 100%;
 }
 
-header .nav > ul li {
+header .nav > ul > li {
+  position: relative;
   display: inline-block;
   font-size: .21333rem;
   color: #000;
@@ -259,15 +260,21 @@ header .nav > ul li {
   cursor: pointer;
 }
 
-header .nav > ul li + li {
+header .nav > ul > li + li {
   margin-left: .8rem;
 }
 
-header .nav > ul li:hover {
+header .nav > ul > li:hover {
   background-color: #fff;
   color: #111;
-  -webkit-transition: all .3s;
-  transition: all .3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+header .nav > ul > li.product-link:hover .nav-submenu-wrap {
+  height: 1.3rem;
+  top: .66666rem;
+  opacity: 1;
 }
 
 header h1 {
@@ -277,6 +284,23 @@ header h1 {
   font-size: .18666rem;
   border-radius: 5px;
   color: #fff;
+}
+
+header .nav-submenu-wrap {
+  position: absolute;
+  top: -1.3rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+  overflow: hidden;
+  background-color: #fff;
+  opacity: 0;
+  -webkit-transition: all 0.1s;
+  transition: all 0.1s;
+}
+
+header .nav-submenu-wrap li:hover {
+  background-color: 1px solid #D8D8D8;
 }
 
 footer {
@@ -481,12 +505,14 @@ footer a {
 .page-index .home-content-wrap h2 {
   font-size: 0.85333rem;
   line-height: 1.1;
+  font-family: 'NotoSansCJKjp-Bold';
 }
 
 .page-index .home-content-wrap p {
   font-size: 0.4rem;
   line-height: 1.6;
   margin-top: 0.8rem;
+  font-family: 'Rubik300';
 }
 
 .page-index .home-content-wrap a {
@@ -497,6 +523,13 @@ footer a {
   font-size: 0.29333rem;
   margin-top: 0.8rem;
   letter-spacing: 3px;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.page-index .home-content-wrap a:hover {
+  background-color: #fff;
+  color: #111;
 }
 
 .page-index .index-title-wrap {
@@ -535,13 +568,33 @@ footer a {
 }
 
 .page-index .index-earphone-wrap {
+  position: relative;
+  display: block;
   padding: 10px;
   background: url("../image/index/home-pro-f2.jpg") center no-repeat;
   background-size: cover;
   height: 600px;
 }
 
+.page-index .index-earphone-wrap:hover .mask-wrap {
+  opacity: .6;
+}
+
+.page-index .index-earphone-wrap .mask-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-color: #000;
+  opacity: 0;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  z-index: 1;
+}
+
 .page-index .index-earphone-wrap .earphone-cont {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -552,6 +605,7 @@ footer a {
   align-items: center;
   height: 100%;
   border: 3px solid #fff;
+  z-index: 1;
 }
 
 .page-index .index-earphone-wrap .earphone-cont h2 {
@@ -582,6 +636,12 @@ footer a {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.page-index .index-other-item:hover {
+  background-size: 120% auto;
 }
 
 .page-index .index-other-item h4 {
@@ -593,7 +653,7 @@ footer a {
 
 .page-index .index-other-shop {
   width: 62.5%;
-  background: url("../image/index/home-shopList.jpg") center no-repeat;
+  background: url("../image/shopList/shop-six.png") center no-repeat;
   background-size: cover;
 }
 
