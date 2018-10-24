@@ -1,0 +1,153 @@
+.page-index {
+  .index-home-wrap {
+    background: url("../image/index/home-bg.jpg") center no-repeat;
+    background-size: cover;
+    padding-bottom: 2.4rem;
+
+    .main-wrap {
+      display: flex;
+      align-items: flex-end;
+    }
+  }
+
+  .home-content-wrap {
+    color: #fff;
+
+    h2 {
+      font-size: map_get($global-font-size, h);
+      line-height: 1.1;
+      font-family: 'NotoSansCJKjp-Bold';
+    }
+
+    p {
+      font-size: map_get($global-font-size, i);
+      line-height: 1.6;
+      margin-top: map_get($global-spacing, c);
+      font-family: 'Rubik300';
+    }
+
+    a {
+      display: inline-block;
+      background-color: map_get($global-color, a);
+      padding: map_get($global-spacing, e) map_get($global-spacing, m);
+      color: #fff;
+      font-size: map_get($global-font-size, b);
+      margin-top: map_get($global-spacing, c);
+      letter-spacing:3px;
+      transition: all map_get($global-time, transition);
+
+      &:hover {
+        background-color: #fff;
+        color: map_get($global-color, a);
+      }
+    }
+  }
+
+  .index-title-wrap {
+    color: #000;
+    border: 1px dashed map_get($global-color, d);
+    padding: map_get($global-spacing, l) 0;
+
+    .index-title-cont {
+      display: flex;
+      margin-left: 30%;
+
+      h3 {
+        font-size: map_get($global-font-size, d);
+        line-height: 1.19;
+        width: 440px;
+
+        &:before {
+          content: '';
+          display: block;
+          width: 50px;
+          height: 3px;
+          background-color: map_get($global-color, a);
+          margin-bottom: map_get($global-spacing, e);
+        }
+      }
+
+      li + li {
+        font-size: map_get($global-font-size, e);
+        margin-left: map_get($global-spacing, m);
+        width: 220px;
+      }
+    }
+  }
+  .index-earphone-wrap {
+    position: relative;
+    display: block;
+    padding: 10px;
+    background: url("../image/index/home-pro-f2.jpg") center no-repeat;
+    background-size: cover;
+    height: 600px;
+
+    &:hover .mask-wrap {
+      opacity: .6;
+    }
+
+    .mask-wrap {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 100%;
+      background-color: #000;
+      opacity: 0;
+      transition: all map_get($global-time, transition);
+      z-index: 1;
+    }
+
+    .earphone-cont {
+      position: relative;
+      display: flex;
+      align-items: center;
+      height: 100%;
+      border: 3px solid #fff;
+      z-index: 1;
+
+      h2 {
+        font-size: map_get($global-font-size, l);
+        color: #fff;
+        letter-spacing: 10px;
+        margin-left: 30%;
+      }
+    }
+  }
+
+  .index-other-wrap {
+    display: flex;
+    height: 400px;
+  }
+
+  .index-other-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all map_get($global-time, transition);
+
+
+    &:hover {
+      background-size: 120% auto;
+    }
+
+    h4 {
+      text-align: center;
+      font-size: map_get($global-font-size, m);
+      color: #fff;
+      letter-spacing:8px;
+    }
+  }
+
+  .index-other-shop {
+    width: 62.5%;
+    background: url("../image/shopList/shop-six.png") center no-repeat;
+    background-size: cover;
+  }
+
+  .index-other-company {
+    flex-grow: 1;
+    background: url("../image/index/home-company.jpg") center no-repeat;
+    background-size: cover;
+  }
+}

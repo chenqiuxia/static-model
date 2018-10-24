@@ -1,0 +1,176 @@
+extends ../layouts/_default.pug
+block meta
+  title 取扱店舗一覧-完全ワイヤレスイヤホン「ファノーム」公式サイト
+block page_option
+  - page_class.push('page-padding-top page-shop')
+block content
+  include /mixin/shopRegion.pug
+  -
+    var titleObj = {
+      'title1': 'FUNOHM',
+      'title2': 'SHOP LIST',
+      'titleDesc': 'FUNOHM 取り扱い店舗一覧'
+    }
+    var shopRegionObj = [{
+      regionName: {
+        jp: '東京',
+        en: 'TOKYO'
+      },
+      toplist: [{
+        row1: '',
+        row2: '',
+        row3: ''
+      }, {
+        row1: '',
+        row2: '',
+        row3: ''
+      }],
+      contList: [{
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }]
+    }, {
+      regionName: {
+        jp: '東京',
+        en: 'TOKYO'
+      },
+      toplist: [{
+        row1: '',
+        row2: '',
+        row3: ''
+      }, {
+        row1: '',
+        row2: '',
+        row3: ''
+      }],
+      contList: [{
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }]
+    }, {
+      regionName: {
+        jp: '東京',
+        en: 'TOKYO'
+      },
+      toplist: [{
+        row1: '',
+        row2: '',
+        row3: ''
+      }, {
+        row1: '',
+        row2: '',
+        row3: ''
+      }],
+      contList: [{
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }]
+    }]
+  -
+  +shopTitle(titleObj)
+  .shop-img-row
+    .shop-img-col
+      img(src="image/shopList/shop-kitte.png" alt="アンジェ・ビュロー KITTE丸の内店")
+    .shop-img-col.shop-img-txt
+      dl.shop-img-dl
+        dt アンジェ・ビュロー KITTE丸の内店
+        dd 〒100-0005 東京都千代田区丸の内2-7-2 KITTE4F
+        dd
+          a(href="tel:03-3217-2006") TEL：03-3217-2006
+        dd 営業時間：11:00-21:00（日祝 11:00-20:00、祝前日 11:00-21:00）
+        dd
+          a(href="https://www.angers.jp/shoplist/angers-marunouchi/") https://www.angers.jp/shoplist/angers-marunouchi/
+  .shop-img-row
+    .shop-img-col.shop-img-txt
+      dl.shop-img-dl
+        dt マークスタイルトーキョー GINZA SIX店
+        dd 〒 104-0061東京都中央区銀座6-10-1 GINZA SIX 5F
+        dd
+          a(href="tel:03-6280-6776") TEL：03-6280-6776
+        dd 営業時間：10:30 ～ 20:30
+        dd
+          a(href="https://marks.jp/shop/markstyle-tokyo/") https://marks.jp/shop/markstyle-tokyo/
+    .shop-img-col
+      img(src="image/shopList/shop-six.png" alt="マークスタイルトーキョー GINZA SIX店")
+  +shopRegion(shopRegionObj)

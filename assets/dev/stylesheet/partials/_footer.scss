@@ -1,0 +1,94 @@
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: map_get($global-spacing, a) 0 map_get($global-spacing, c);
+
+  a {
+    color: #fff;
+  }
+}
+.footer-main {
+  .contact-wrap {
+    display: flex;
+
+    .media-link {
+      margin-top: map_get($global-spacing, j);
+
+      a {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-repeat: no-repeat;
+        background-position: center;
+        &+a {
+          margin-left: map_get($global-spacing, i);
+        }
+      }
+
+      .t-icon {
+        background-image: url("../image/SNS-icons-01.svg");
+      }
+
+      .f-icon {
+        background-image: url("../image/SNS-icons-02.svg");
+        background-size: auto 100%;
+      }
+
+      .b-icon {
+        background-image: url("../image/SNS-icons-03.svg");
+      }
+    }
+  }
+
+  .footer-link-wrap {
+    font-size: map_get($global-font-size, c);
+    line-height: 1.5;
+
+    dt {
+      color: map_get($global-color, f);
+    }
+
+    dd {
+      margin-top: map_get($global-spacing, i);
+    }
+  }
+
+  .footer-product-col {
+    margin-left: 2.66666rem;
+  }
+
+  .footer-company-col {
+    margin-left: .88rem;
+  }
+
+  .footer-tel-location {
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-bottom: map_get($global-spacing, i);
+    font-size: map_get($global-font-size, c);
+    line-height: 1.5;
+  }
+
+  .bottom-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: map_get($global-spacing, a);
+
+    .http-wrap {
+      font-size: map_get($global-font-size, e);
+      line-height: 1.5;
+
+      a + a {
+        margin-left: map_get($global-spacing, h);
+      }
+    }
+
+    .company-tag {
+      font-size: map_get($global-font-size, c);
+      line-height: 1.2;
+      letter-spacing: 5px;
+    }
+  }
+}

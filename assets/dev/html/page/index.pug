@@ -1,0 +1,48 @@
+extends ../layouts/_default.pug
+block meta
+  title FUNOHM-完全ワイヤレスイヤホン「ファノーム」公式サイト
+block page_option
+  - page_class.push('page-index')
+block content
+  include ../mixin/indexTitle.pug
+  -
+    var indexTitleObj = [{
+      title: 'PRODUCT',
+      liList: [{
+        contList: ['製品一覧']
+      }]
+    }, {
+      title: 'SHOPLIST&COMPANY',
+      liList: [{
+        contList: ['店舗一覧', 'お買い求めできる店舗一覧です。']
+      }, {
+        contList: ['会社概要']
+      }]
+    }]
+  -
+  .index-home-wrap.x-home-height
+    .main-wrap
+      .home-content-wrap
+        h2
+          | 耳に 心に 届ける
+          br
+          | FLY on your HEARt
+        p
+          | 完全ワイヤレスイヤホン：ファノーム
+          br
+          | F2 2018 10.30 DEBUT!
+        a.home-more-btn(href="philosophy.html") READ MORE
+  +indexTitle(indexTitleObj[0])
+  a.index-earphone-wrap(href="/product2.html")
+    .mask-wrap
+    .earphone-cont
+      h2
+        | WIRELESS
+        br
+        | EARPHONE F2
+  +indexTitle(indexTitleObj[1])
+  .index-other-wrap
+    .index-other-shop.index-other-item
+      h4 SHOP LIST
+    .index-other-company.index-other-item
+      h4 COMPANY

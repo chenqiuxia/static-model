@@ -1,0 +1,101 @@
+.page-shop {
+
+  header {
+    border-top-color: map_get($global-color, b);
+  }
+
+  .shop-img-row {
+    display: flex;
+  }
+
+  .shop-img-col {
+    width: 50%;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .shop-img-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .shop-img-dl {
+    dt {
+      font-size: map_get($global-font-size, b);
+      color: map_get($global-color, a);
+      line-height: 33px;
+    }
+
+    dd {
+      font-size: map_get($global-font-size, c);
+      color: map_get($global-color, a);
+      line-height: 25px;
+      margin-top: map_get($global-spacing, d);
+    }
+  }
+
+  //mixin shopRegin start
+  .shop-region-top {
+    margin: 1.26666rem auto 1.04rem;
+
+    .top-content {
+      margin-left: 20%;
+      display: flex;
+      align-items: flex-end;
+
+      li {
+        &:first-child {
+          font-size: map_get($global-font-size, d);
+          color: map_get($global-color, a);
+
+          &:before {
+            content: '';
+            display: block;
+            width: 50px;
+            height: 3px;
+            background-color: map_get($global-color, a);
+            margin-bottom: map_get($global-spacing, e);
+          }
+
+          p {
+            line-height: 1;
+          }
+        }
+
+        &:nth-child(2) {
+          margin-left: .54666rem;
+        }
+
+        &:nth-child(3) {
+          margin-left: 1.33333rem;
+        }
+
+        &+li {
+          font-size: map_get($global-font-size, e);
+          p {
+            line-height: 1.5;
+          }
+        }
+      }
+    }
+  }
+
+  .shop-region-content {
+    border: 1px dashed map_get($global-color, c);
+    padding: .506666rem 0 .84rem;
+  }
+  .shop-region-ul {
+    display: flex;
+    li {
+      flex-grow: 1;
+      h3 {
+        font-size: map_get($global-font-size, f);
+        font-weight: 600;
+        margin-bottom: map_get($global-spacing, c);
+      }
+    }
+  }
+}

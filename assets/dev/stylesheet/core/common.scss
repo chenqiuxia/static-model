@@ -1,0 +1,46 @@
+.hide {
+  display: none;
+}
+
+a {
+  transition: all map_get($global-time, transition);
+}
+
+.main-wrap {
+  max-width: map_get($global-width, pc);
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 map_get($global-spacing, container);
+}
+
+.scroll {
+  transition: all ease-in-out map_get($global-time, scroll);
+  transform: translate(0,20px);
+  opacity: 0;
+}
+
+.scroll-left {
+  transition: all ease-in-out map_get($global-time, scroll);
+  transform: translate(-200px,0);
+  opacity: 0;
+}
+
+.scroll-right {
+  transition: all ease-in-out map_get($global-time, scroll);
+  transform: translate(200px,0);
+  opacity: 0;
+}
+
+.is_scoped {
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.page-padding-top {
+  padding-top: 1.87998rem;
+}
+
+/* media start*/
+@media screen and (min-width: map_get($global-width, pad)) {
+
+}
