@@ -2,12 +2,149 @@ extends ../layouts/_default.pug
 block page_option
   - page_class.push('page-shop')
 block content
+  include /mixin/shopRegion.pug
   -
     var titleObj = {
       'title1': 'FUNOHM',
       'title2': 'SHOP LIST',
       'titleDesc': 'FUNOHM 取り扱い店舗一覧'
     }
+    var shopRegionObj = [{
+      regionName: {
+        jp: '東京',
+        en: 'TOKYO'
+      },
+      toplist: [{
+        row1: 'FUNOHM',
+        row2: 'SHOP-LIST',
+        row3: 'TOKYO'
+      }, {
+        row1: 'TOKYO',
+        row2: '取り扱い店舗一覧',
+        row3: '東京'
+      }],
+      contList: [{
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }]
+    }, {
+      regionName: {
+        jp: '東京',
+        en: 'TOKYO'
+      },
+      toplist: [{
+        row1: 'FUNOHM',
+        row2: 'SHOP-LIST',
+        row3: 'TOKYO'
+      }, {
+        row1: 'TOKYO',
+        row2: '取り扱い店舗一覧',
+        row3: '東京'
+      }],
+      contList: [{
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }]
+    }, {
+      regionName: {
+        jp: '東京',
+        en: 'TOKYO'
+      },
+      toplist: [{
+        row1: 'FUNOHM',
+        row2: 'SHOP-LIST',
+        row3: 'TOKYO'
+      }, {
+        row1: 'TOKYO',
+        row2: '取り扱い店舗一覧',
+        row3: '東京'
+      }],
+      contList: [{
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }, {
+        title: 'STORE-01',
+        txt1: 'Maybellshire',
+        txt2: '810 Alexandro Port Suite 731',
+        txt3: '10448-7568',
+        txt4: 'kris.jones@winifred.us'
+      }]
+    }]
   -
   +shopTitle(titleObj)
   .shop-img-row
@@ -34,3 +171,4 @@ block content
           a(href="https://marks.jp/shop/markstyle-tokyo/") https://marks.jp/shop/markstyle-tokyo/
     .shop-img-col
       img(src="image/shopList/shop-six.png" alt="マークスタイルトーキョー GINZA SIX店")
+  +shopRegion(shopRegionObj)
