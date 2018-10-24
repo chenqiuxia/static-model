@@ -247,7 +247,7 @@ header .logo {
   display: block;
   width: 3.3333rem;
   height: 100%;
-  background: url("../../image/Logo-fanohm-white.svg") no-repeat;
+  background: url("../image/Logo-fanohm-white.svg") no-repeat;
   background-size: 100%;
 }
 
@@ -274,6 +274,7 @@ header .nav > ul > li:hover {
 header .nav > ul > li.product-link:hover .nav-submenu-wrap {
   height: 1.3rem;
   top: .66666rem;
+  z-index: 1;
   opacity: 1;
 }
 
@@ -295,6 +296,8 @@ header .nav-submenu-wrap {
   overflow: hidden;
   background-color: #fff;
   opacity: 0;
+  height: 0;
+  z-index: -1;
   -webkit-transition: all 0.1s;
   transition: all 0.1s;
 }
@@ -844,7 +847,7 @@ footer a {
 }
 
 .page-product1 .battery-banner {
-  background-image: url("../../image/product1/battery.jpg");
+  background-image: url("../image/product1/battery.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 8.10666rem;
@@ -995,7 +998,7 @@ footer a {
 }
 
 .page-product1 .heatset-banner {
-  background: url("../../image/product1/box.png");
+  background: url("../image/product1/box.png");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 5.88rem;
@@ -1291,7 +1294,7 @@ footer a {
 }
 
 .page-product1 .product-imglist-main > :nth-child(1) {
-  background: url("../../image/product/product1.png") no-repeat;
+  background: url("../image/product/product1.png") no-repeat;
   background-size: 100%;
   width: 8.66666rem;
   height: 3.06666rem;
@@ -1299,7 +1302,7 @@ footer a {
 }
 
 .page-product1 .product-imglist-main > :nth-child(2) {
-  background: url("../../image/product/product2.png") no-repeat;
+  background: url("../image/product/product2.png") no-repeat;
   background-size: 100%;
   width: 8.66666rem;
   height: 3.06666rem;
@@ -1601,7 +1604,7 @@ footer a {
 .page-product2 .banner-wrap {
   height: 300px;
   width: 100%;
-  background: url("../../image/product2/BG.png") no-repeat;
+  background: url("../image/product2/BG.png") no-repeat;
   background-size: 100% 100%;
   height: 16rem;
 }
@@ -1825,7 +1828,7 @@ footer a {
 }
 
 .page-product2 .battery-banner {
-  background-image: url("../../image/product2/battery_BG.png");
+  background-image: url("../image/product2/battery_BG.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   height: 8.10666rem;
@@ -2067,7 +2070,7 @@ footer a {
 }
 
 .page-product2 .heatset-banner {
-  background: url("../../image/product1/box.png");
+  background: url("../image/product1/box.png");
   background-repeat: no-repeat;
   background-size: 100%;
   height: 5.88rem;
@@ -2386,7 +2389,7 @@ footer a {
 }
 
 .page-product2 .product-imglist-main > :nth-child(1) {
-  background: url("../../image/product/product1.png") no-repeat;
+  background: url("../image/product/product1.png") no-repeat;
   background-size: 100%;
   width: 8.66666rem;
   height: 3.06666rem;
@@ -2394,7 +2397,7 @@ footer a {
 }
 
 .page-product2 .product-imglist-main > :nth-child(2) {
-  background: url("../../image/product/product2.png") no-repeat;
+  background: url("../image/product/product2.png") no-repeat;
   background-size: 100%;
   width: 8.66666rem;
   height: 3.06666rem;

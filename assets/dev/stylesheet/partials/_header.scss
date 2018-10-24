@@ -20,7 +20,7 @@ header {
     display: block;
     width: 3.3333rem;
     height: 100%;
-    background: url('../../image/Logo-fanohm-white.svg') no-repeat;
+    background: url('../image/Logo-fanohm-white.svg') no-repeat;
     background-size: 100%;
   }
 
@@ -45,6 +45,7 @@ header {
     &.product-link:hover .nav-submenu-wrap {
       height: 1.3rem;
       top: .66666rem;
+      z-index: 1;
       opacity: 1;
     }
   }
@@ -67,6 +68,8 @@ header {
     overflow: hidden;
     background-color: #fff;
     opacity: 0;
+    height: 0;
+    z-index: -1;
     transition: all map_get($global-time, a);
 
     li:hover {
