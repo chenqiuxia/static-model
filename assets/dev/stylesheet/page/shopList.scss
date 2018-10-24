@@ -27,6 +27,7 @@
       font-size: map_get($global-font-size, b);
       color: map_get($global-color, a);
       line-height: 33px;
+      font-family: 'NotoSansCJKjp-Bold';
     }
 
     dd {
@@ -50,6 +51,7 @@
         &:first-child {
           font-size: map_get($global-font-size, d);
           color: map_get($global-color, a);
+          font-family: 'NotoSansCJKjp-Bold';
 
           &:before {
             content: '';
@@ -89,12 +91,19 @@
   }
   .shop-region-ul {
     display: flex;
+
     li {
       flex-grow: 1;
+
       h3 {
         font-size: map_get($global-font-size, f);
         font-weight: 600;
         margin-bottom: map_get($global-spacing, c);
+        font-family: 'NotoSansCJKjp-Bold';
+      }
+
+      p {
+        font-size: map_get($global-font-size, e);
       }
     }
   }
