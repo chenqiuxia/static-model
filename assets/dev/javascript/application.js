@@ -1,7 +1,10 @@
 import {isDev, baseUrl} from './consist/GLOBAL_CONFIG'
 import dispatcher from './util/dispatcher'
+import url from './util/url'
 //partial
 import header from './partial/_header'
+import inithead from './partial/_inithead'
+import animation from './partial/_animation'
 // page
 import index from './page/index';
 let Route = {
@@ -11,26 +14,9 @@ let Route = {
 $(function () {
   dispatcher(Route.all, () => {
     //loading common js
-    (function () {
-      var $scroll = $('.scroll'),
-          window_scroll_top;
-      var bind = function () {
-          $(window).scroll(function () {
-              animation();
-          });
-      };
-      var animation = function () {
-          window_scroll_top = $(window).scrollTop();
-          $scroll.each(function () {
-              if (window_scroll_top + window.innerHeight >= $(this).offset().top) {
-                  $(this).addClass('is_scoped');
-              }
-          });
-      };
-      bind();
-      animation();
-    })();
-    header.bind()
+    animation.init();
+    header.bind();
+    inithead.init();
   })
   dispatcher(Route.index, () => {
     index.init()

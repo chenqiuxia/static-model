@@ -448,7 +448,7 @@ footer a {
   width: 100%;
   background-color: #f5f5f5;
   height: 16rem;
-  padding-top: 1.933333rem;
+  padding-top: 3.6rem;
   padding-bottom: 1.34rem;
   overflow: hidden;
 }
@@ -713,10 +713,6 @@ footer a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .page-product1 .fun-list-all > :nth-child(2) {
@@ -919,10 +915,18 @@ footer a {
   color: black;
   line-height: .74666rem;
   letter-spacing: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .page-product1 .white-title {
-  padding: 5px;
+  padding: 5px 12px;
   background-color: #0698ec;
   color: #fff;
 }
@@ -1272,7 +1276,7 @@ footer a {
   height: 300px;
   width: 100%;
   background: url("../../image/product2/BG.png") no-repeat;
-  background-size: 100%;
+  background-size: 100% 100%;
   height: 16rem;
 }
 
@@ -1343,6 +1347,11 @@ footer a {
 
 .page-product2 .banner-desc :nth-child(3) {
   margin-top: .133333rem;
+  width: 4.6rem;
+  font-size: .21333rem;
+}
+
+.page-product2 .banner-desc :nth-child(4) {
   width: 4.6rem;
   font-size: .21333rem;
 }
@@ -1590,10 +1599,6 @@ footer a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
 }
 
 .page-product2 .fun-list-all > :nth-child(2) {
@@ -1607,6 +1612,60 @@ footer a {
 .page-product2 .fun-list-all > :nth-child(4) {
   margin-left: 4%;
   margin-top: 1.3466rem;
+}
+
+.page-product2 .func-kinds {
+  width: 100%;
+  height: 6.65333rem;
+  margin-top: 3.5333rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-product2 .func-kinds-img {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  position: relative;
+}
+
+.page-product2 .func-kinds-img img {
+  height: 6.65333rem;
+  position: absolute;
+  left: -2.14666rem;
+}
+
+.page-product2 .func-kinds-desc {
+  width: 6.666rem;
+}
+
+.page-product2 .func-kinds-desc > :nth-child(1) {
+  font-size: 0.21333rem;
+}
+
+.page-product2 .func-kinds-desc > :nth-child(2) {
+  margin-top: .24rem;
+  font-size: 0.46667rem;
+}
+
+.page-product2 .func-kinds-desc > :nth-child(3) {
+  margin-top: .33333rem;
+  font-size: 0.22667rem;
+}
+
+.page-product2 .kinds-icon {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin-top: 1.22666rem;
 }
 
 .page-product2 .func-item-desc {
@@ -1640,7 +1699,7 @@ footer a {
   background-repeat: no-repeat;
   background-size: 100%;
   height: 5.88rem;
-  margin-top: 2.4666rem;
+  margin-top: 1.61333rem;
 }
 
 .page-product2 .heatset-color {
@@ -1705,6 +1764,20 @@ footer a {
   width: .25rem;
   height: .25rem;
   border-radius: 100px;
+  background-color: #ff0021;
+}
+
+.page-product2 .color-list :nth-child(4) {
+  width: .25rem;
+  height: .25rem;
+  border-radius: 100px;
+  background-color: #a0b779;
+}
+
+.page-product2 .color-list :nth-child(5) {
+  width: .25rem;
+  height: .25rem;
+  border-radius: 100px;
   background-color: #939392;
 }
 
@@ -1741,6 +1814,15 @@ footer a {
 
 .page-product2 .bottom {
   margin-top: 0.66666rem;
+  white-space: nowrap;
+}
+
+.page-product2 .bottom :nth-child(2) {
+  margin-left: 1.0666rem;
+}
+
+.page-product2 .bottom :nth-child(3) {
+  margin-left: 1.0666rem;
 }
 
 .page-product2 .use-manual {
@@ -1796,10 +1878,18 @@ footer a {
   color: black;
   line-height: .74666rem;
   letter-spacing: 5px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .page-product2 .white-title {
-  padding: 5px;
+  padding: 5px 12px;
   background-color: #0698ec;
   color: #fff;
 }
