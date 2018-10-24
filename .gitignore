@@ -9,7 +9,6 @@
 node_modules/
 .idea/
 front-training.iml
-build/
 package-lock.json
 yarn.lock
 
