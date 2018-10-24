@@ -31,10 +31,93 @@
     a {
       display: inline-block;
       background-color: map_get($global-color, a);
-      padding: map_get($global-spacing, e) map_get($global-spacing, k);
+      padding: map_get($global-spacing, e) map_get($global-spacing, m);
       color: #fff;
       font-size: map_get($global-font-size, b);
       margin-top: map_get($global-spacing, c);
+      letter-spacing:3px;
     }
+  }
+
+  .index-title-wrap {
+    color: #000;
+    border: 1px dashed map_get($global-color, d);
+    padding: map_get($global-spacing, l) 0;
+
+    .index-title-cont {
+      display: flex;
+      margin-left: 30%;
+
+      h3 {
+        font-size: map_get($global-font-size, d);
+        line-height: 1.19;
+        width: 440px;
+
+        &:before {
+          content: '';
+          display: block;
+          width: 50px;
+          height: 3px;
+          background-color: map_get($global-color, a);
+          margin-bottom: map_get($global-spacing, e);
+        }
+      }
+
+      li + li {
+        font-size: map_get($global-font-size, e);
+        margin-left: map_get($global-spacing, m);
+        width: 220px;
+      }
+    }
+  }
+  .index-earphone-wrap {
+    padding: 10px;
+    background: url("../image/index/home-pro-f2.jpg") center no-repeat;
+    background-size: cover;
+    height: 600px;
+
+    .earphone-cont {
+      display: flex;
+      align-items: center;
+      height: 100%;
+      border: 3px solid #fff;
+
+      h2 {
+        font-size: map_get($global-font-size, l);
+        color: #fff;
+        letter-spacing: 10px;
+        margin-left: 30%;
+      }
+    }
+  }
+
+  .index-other-wrap {
+    display: flex;
+    height: 400px;
+  }
+
+  .index-other-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    h4 {
+      text-align: center;
+      font-size: map_get($global-font-size, m);
+      color: #fff;
+      letter-spacing:8px;
+    }
+  }
+
+  .index-other-shop {
+    width: 62.5%;
+    background: url("../image/index/home-shopList.jpg") center no-repeat;
+    background-size: cover;
+  }
+
+  .index-other-company {
+    flex-grow: 1;
+    background: url("../image/index/home-company.jpg") center no-repeat;
+    background-size: cover;
   }
 }
