@@ -35,7 +35,7 @@ block content
       dt= comInfoObj[i].title
       dd= comInfoObj[i].cont
     -}
-  .company-map-wrap
+  .company-map-wrap(id="googleMap")
     p google map
-  .company-contact-us
-    p contact us
+  include ../includes/_contactUs.pug
+  script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJW4jsPlNKgv6jFm3B5Edp5ywgdqLWdmc&callback=initMap" async defer)
