@@ -31,6 +31,7 @@ header {
     color: #000;
     padding: 0 map_get($global-spacing, i);
     cursor: pointer;
+    transition: all map_get($global-time, transition);
 
     &+li {
       margin-left: .8rem;
@@ -39,7 +40,6 @@ header {
     &:hover {
       background-color: #fff;
       color: map_get($global-color, a);
-      transition: all map_get($global-time, transition);
     }
 
     &.product-link:hover .nav-submenu-wrap {
@@ -47,6 +47,10 @@ header {
       top: .66666rem;
       z-index: 1;
       opacity: 1;
+    }
+
+    a {
+      display: block;
     }
   }
 
@@ -73,7 +77,7 @@ header {
     transition: all map_get($global-time, a);
 
     li:hover {
-      background-color: 1px solid map_get($global-color, c);
+      background-color: map_get($global-color, g);
     }
   }
 }

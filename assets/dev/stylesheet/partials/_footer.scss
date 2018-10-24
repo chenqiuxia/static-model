@@ -6,6 +6,11 @@ footer {
   a {
     color: #fff;
   }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
 }
 .footer-main {
   .contact-wrap {
@@ -31,7 +36,6 @@ footer {
 
       .f-icon {
         background-image: url("../image/SNS-icons-02.svg");
-        background-size: auto 100%;
       }
 
       .b-icon {
