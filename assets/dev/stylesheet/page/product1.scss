@@ -178,7 +178,7 @@
         font-size: 1.0666rem;
         font-weight: 600;
         line-height: 1.2rem;
-        font-family: DIN-Medium;
+        font-family: DIN-Medium ,$global-default-family;
     }
 
     .func-title-all{
@@ -191,7 +191,7 @@
         color: rgba(17,17,17,1);
         font-weight:bold;
         margin-top: .3333rem;
-        font-family: NotoSansCJKjp-Bold;
+        font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
     .func-desc-detial {
@@ -365,7 +365,7 @@
         font-size: .64rem;
         line-height: .74666rem;
         font-weight: bold;
-        font-family: DIN-Medium;
+        font-family: DIN-Medium ,$global-default-family;
     }
 
     .color-list {
@@ -466,7 +466,7 @@
         letter-spacing:5px;
         display: flex;
         justify-content: space-between;
-        font-family: DIN-Medium;;
+        font-family: DIN-Medium ,$global-default-family;
     }
     .manual-title div {
         display: inline-block;
@@ -495,7 +495,7 @@
         font-weight:bold;
         color:rgba(0,0,0,1);
         line-height:.38666rem;
-        font-family: NotoSansCJKjp-Bold;
+        font-family: NotoSansCJKjp-Bold ,$global-default-family;
 
     }
 
@@ -508,7 +508,7 @@
         color:rgba(33,150,243,1);
         line-height:.22666rem;
         letter-spacing:2px;
-        font-family: DIN-Medium;
+        font-family: DIN-Medium ,$global-default-family;
     }
 
     .right-desc:hover {
@@ -558,7 +558,7 @@
         font-size:.21333rem;
         font-weight:bold;
         color:rgba(17,17,17,1);
-        font-family: NotoSansCJKjp-Bold;
+        font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
     .include-img img {

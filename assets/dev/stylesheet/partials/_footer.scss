@@ -86,7 +86,7 @@ footer {
     padding-bottom: map_get($global-spacing, i);
     font-size: map_get($global-font-size, c);
     line-height: 1.5;
-    font-family: NotoSansCJKjp-Regular;
+    font-family: NotoSansCJKjp-Regular ,$global-default-family;
   }
 
   .bottom-wrap {
@@ -97,7 +97,7 @@ footer {
     .http-wrap {
       font-size: map_get($global-font-size, e);
       line-height: 1.5;
-      font-family: NotoSansCJKjp-Light;
+      font-family: NotoSansCJKjp-Light ,$global-default-family;
 
       a + a {
         margin-left: map_get($global-spacing, h);

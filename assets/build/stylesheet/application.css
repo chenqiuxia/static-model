@@ -112,7 +112,7 @@ body, button, input, keygen, legend, select, textarea {
   line-height: 1.5;
   color: #111;
   outline: 0;
-  font-family: 'Rubik300', 'Heiti SC', 'Microsoft YaHei';
+  font-family: "Rubik300", Heiti SC, Microsoft YaHei;
 }
 
 input::-ms-clear, input::-ms-reveal {
@@ -267,8 +267,8 @@ header .header-wrap {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: .6666rem;
-  line-height: .6666rem;
+  height: .66666rem;
+  line-height: .66666rem;
   background: transparent;
 }
 
@@ -298,7 +298,7 @@ header .nav > ul > li {
   cursor: pointer;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  font-family: AppleSystemUIFont;
+  font-family: AppleSystemUIFont, "Rubik300";
 }
 
 header .nav > ul > li + li {
@@ -311,8 +311,8 @@ header .nav > ul > li:hover {
 }
 
 header .nav > ul > li.product-link:hover .nav-submenu-wrap {
-  height: 1.3rem;
-  top: .66666rem;
+  height: auto;
+  top: .66rem;
   z-index: 1;
   opacity: 1;
 }
@@ -342,6 +342,7 @@ header .nav-submenu-wrap {
   opacity: 0;
   height: 0;
   z-index: -1;
+  cursor: pointer;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
 }
@@ -452,7 +453,7 @@ footer a:hover {
   padding-bottom: 0.26667rem;
   font-size: 0.21333rem;
   line-height: 1.5;
-  font-family: NotoSansCJKjp-Regular;
+  font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .footer-main .bottom-wrap {
@@ -470,7 +471,7 @@ footer a:hover {
 .footer-main .bottom-wrap .http-wrap {
   font-size: 0.16rem;
   line-height: 1.5;
-  font-family: NotoSansCJKjp-Light;
+  font-family: NotoSansCJKjp-Light, "Rubik300";
 }
 
 .footer-main .bottom-wrap .http-wrap a + a {
@@ -497,7 +498,7 @@ footer a:hover {
 .shop-title-wrap h2 {
   position: relative;
   line-height: 1.178;
-  font-family: 'SFNSDisplay';
+  font-family: SFNSDisplay, "Rubik300";
   letter-spacing: 4px;
 }
 
@@ -513,7 +514,7 @@ footer a:hover {
 .shop-title-wrap p {
   line-height: 1;
   margin-top: 0.56rem;
-  font-family: NotoSansCJKjp-Thin;
+  font-family: NotoSansCJKjp-Thin, "Rubik300";
   font-weight: 100;
   letter-spacing: 2px;
 }
@@ -546,7 +547,7 @@ footer a:hover {
   font-size: 0.53333rem;
   line-height: 1;
   padding: 0.26667rem 0.8rem;
-  font-family: DINAlternate-Bold;
+  font-family: DINAlternate-Bold, "Rubik300";
 }
 
 .contact-us-wrap .contact-cont .text-row {
@@ -719,13 +720,13 @@ footer a:hover {
 .page-index .home-content-wrap h2 {
   font-size: 0.85333rem;
   line-height: 1.1;
-  font-family: 'NotoSansCJKjp-Bold';
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-index .home-content-wrap h3 {
   font-size: 0.85333rem;
   line-height: 1.1;
-  font-family: SFNSDisplay;
+  font-family: SFNSDisplay, "Rubik300";
   font-weight: 400;
 }
 
@@ -733,7 +734,7 @@ footer a:hover {
   font-size: 0.4rem;
   line-height: 1.6;
   margin-top: 1.33333rem;
-  font-family: 'NotoSansCJKjp-Medium';
+  font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
 
 .page-index .home-content-wrap a {
@@ -771,7 +772,7 @@ footer a:hover {
   font-size: 0.48rem;
   line-height: 1.19;
   width: 440px;
-  font-family: SFNSDisplay;
+  font-family: SFNSDisplay, "Rubik300";
 }
 
 .page-index .index-title-wrap .index-title-cont h3:before {
@@ -787,7 +788,7 @@ footer a:hover {
   font-size: 0.16rem;
   margin-left: 0.33333rem;
   width: 220px;
-  font-family: NotoSansCJKjp-Regular;
+  font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-index .index-earphone-wrap {
@@ -836,7 +837,7 @@ footer a:hover {
   color: #fff;
   letter-spacing: 10px;
   margin-left: 30%;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-index .index-other-wrap {
@@ -891,7 +892,7 @@ footer a:hover {
   font-size: 0.64rem;
   color: #fff;
   letter-spacing: 8px;
-  font-family: DIN-BoldAlternate;
+  font-family: DIN-BoldAlternate, "Rubik300";
 }
 
 .page-index .index-other-shop {
@@ -1079,7 +1080,7 @@ footer a:hover {
   font-size: 1.0666rem;
   font-weight: 600;
   line-height: 1.2rem;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product1 .func-title-all {
@@ -1092,7 +1093,7 @@ footer a:hover {
   color: #111111;
   font-weight: bold;
   margin-top: .3333rem;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product1 .func-desc-detial {
@@ -1302,7 +1303,7 @@ footer a:hover {
   font-size: .64rem;
   line-height: .74666rem;
   font-weight: bold;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product1 .color-list {
@@ -1427,7 +1428,7 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product1 .manual-title div {
@@ -1465,7 +1466,7 @@ footer a:hover {
   font-weight: bold;
   color: black;
   line-height: .38666rem;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product1 .right-desc {
@@ -1477,7 +1478,7 @@ footer a:hover {
   color: #2196f3;
   line-height: .22666rem;
   letter-spacing: 2px;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product1 .right-desc:hover {
@@ -1542,7 +1543,7 @@ footer a:hover {
   font-size: .21333rem;
   font-weight: bold;
   color: #111111;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product1 .include-img img {
@@ -1716,7 +1717,7 @@ footer a:hover {
   font-size: 0.29333rem;
   color: #111;
   line-height: 33px;
-  font-family: 'NotoSansCJKjp-Bold';
+  font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
 .page-shop .shop-img-dl dd {
@@ -1724,7 +1725,7 @@ footer a:hover {
   color: #111;
   line-height: 25px;
   margin-top: 0.2rem;
-  font-family: NotoSansCJKjp-Regular;
+  font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-shop .shop-img-dl dd a:hover {
@@ -1750,7 +1751,7 @@ footer a:hover {
 .page-shop .shop-region-top .top-content li:first-child {
   font-size: 0.48rem;
   color: #111;
-  font-family: 'NotoSansCJKjp-Bold';
+  font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
 .page-shop .shop-region-top .top-content li:first-child:before {
@@ -1805,7 +1806,7 @@ footer a:hover {
   font-size: 0.26667rem;
   font-weight: 600;
   margin-bottom: 0.8rem;
-  font-family: 'NotoSansCJKjp-Bold';
+  font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
 .page-shop .shop-region-ul li p {
@@ -1816,7 +1817,7 @@ footer a:hover {
   font-size: 0.21333rem;
   line-height: 2.5;
   padding-bottom: 1.33333rem;
-  font-family: NotoSansCJKjp-Regular;
+  font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-policy .policy-content h2 {
@@ -1824,7 +1825,7 @@ footer a:hover {
   line-height: 1;
   padding: 0.86667rem 0 0.58666rem;
   text-align: center;
-  font-family: NotoSansCJKjp-Medium;
+  font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
 
 .page-commercial .commercial-content {
@@ -1879,7 +1880,7 @@ footer a:hover {
   display: flex;
   font-size: 0.21333rem;
   line-height: 1.56;
-  font-family: NotoSansCJKjp-Regular;
+  font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-company .company-info-wrap dl dt {
@@ -1995,13 +1996,13 @@ footer a:hover {
   align-items: center;
   padding-bottom: 2rem;
   color: #fff;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .banner-desc :nth-child(1) {
   font-size: 3.94666rem;
   line-height: 2.94666rem;
-  font-family: DIN-BoldAlternate;
+  font-family: DIN-BoldAlternate, "Rubik300";
 }
 
 .page-product2 .banner-desc :nth-child(2) {
@@ -2136,7 +2137,7 @@ footer a:hover {
   font-size: 1.0666rem;
   font-weight: 600;
   line-height: 1.2rem;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .func-title-all {
@@ -2149,7 +2150,7 @@ footer a:hover {
   color: #111111;
   font-weight: bold;
   margin-top: .3333rem;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .func-desc-detial {
@@ -2356,20 +2357,20 @@ footer a:hover {
 
 .page-product2 .func-kinds-desc > :nth-child(1) {
   font-size: 0.21333rem;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
   letter-spacing: 6px;
 }
 
 .page-product2 .func-kinds-desc > :nth-child(2) {
   margin-top: .24rem;
   font-size: 0.46667rem;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .func-kinds-desc > :nth-child(3) {
   margin-top: .33333rem;
   font-size: 0.22667rem;
-  font-family: NotoSansCJKjp-Regular;
+  font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-product2 .kinds-icon {
@@ -2484,7 +2485,7 @@ footer a:hover {
   font-size: .64rem;
   line-height: .74666rem;
   font-weight: bold;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .color-list {
@@ -2631,7 +2632,7 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .manual-title div {
@@ -2669,7 +2670,7 @@ footer a:hover {
   font-weight: bold;
   color: black;
   line-height: .38666rem;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .right-desc {
@@ -2681,7 +2682,7 @@ footer a:hover {
   color: #2196f3;
   line-height: .22666rem;
   letter-spacing: 2px;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .right-desc:hover {
@@ -2739,7 +2740,7 @@ footer a:hover {
   color: #111111;
   line-height: .74666rem;
   letter-spacing: 8px;
-  font-family: DIN-Medium;
+  font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .include-wrap-desc :nth-child(2) {
@@ -2747,7 +2748,7 @@ footer a:hover {
   font-size: .21333rem;
   font-weight: bold;
   color: #111111;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .include-img img {
@@ -2910,7 +2911,7 @@ footer a:hover {
   font-size: 0.64rem;
   font-weight: bold;
   line-height: 1.48;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-philosophy .home-cont-img {
@@ -2996,7 +2997,7 @@ footer a:hover {
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content h2 {
   font-size: 0.85333rem;
   line-height: 1.15;
-  font-family: DIN-BoldAlternate;
+  font-family: DIN-BoldAlternate, "Rubik300";
   letter-spacing: 6px;
 }
 
