@@ -13,6 +13,7 @@
 
     .run-img img {
         width: 64%;
+        height: 100%;
         position: absolute;
     }
 
@@ -24,6 +25,7 @@
 
     .rock-img img {
         width: 36%;
+        height: 100%;
         right: 0;
         position: absolute;
     }
@@ -104,7 +106,7 @@
 
     .battery-list {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     .battery-list li {
@@ -139,7 +141,7 @@
         font-weight: bold;
         color: rgba(255,255,255,1);
         line-height: (53/$calc-base-num)*$global-font-unit;
-        letter-spacing: 6px;
+        letter-spacing: 5px;
     }
 
     .battery-list :nth-child(2) {
@@ -159,10 +161,15 @@
         color: #fff;
     }
 
-    .fun-list-all {
+    .fun-list {
         margin-top: (194/$calc-base-num)*$global-font-unit;
-        width: 110%;
+    }
+
+    .fun-list-all {
+        padding-top: (194/$calc-base-num)*$global-font-unit;
+        width: 100%;
         line-height: 1.4;
+        margin: 0 auto;
     }
 
     .fun-list-all li{
@@ -186,73 +193,74 @@
         margin-top: (101/$calc-base-num)*$global-font-unit;
     }
 
-    .func-kinds {
-        width: 100%;
-        height: (500/$calc-base-num)*$global-font-unit;
+    // .func-kinds {
+    //     width: 100%;
+    //     height: (500/$calc-base-num)*$global-font-unit;
 
-        margin-top: (265/$calc-base-num)*$global-font-unit;
-        display: flex;
-    }
+    //     margin-top: (265/$calc-base-num)*$global-font-unit;
+    //     display: flex;
+    // }
 
 
 
-    .func-kinds-img {
-        flex: 1;
-        position: relative;
-    }
+    // .func-kinds-img {
+    //     //flex: 1;
+    //     width: (450/$calc-base-num)*$global-font-unit;
+    //     position: relative;
+    // }
 
-    .animation-show {
-        animation: myshow 2s infinite;
-    }
+    // .animation-show {
+    //     animation: myshow 2s infinite;
+    // }
 
-    @keyframes myshow
-    {
-        0% {
-            opacity: 0;
-        }
-        50% {
-            opacity: 1;
-        }
-        100% {
-            opacity: 0;
-        }
-    }
+    // @keyframes myshow
+    // {
+    //     0% {
+    //         opacity: 0;
+    //     }
+    //     50% {
+    //         opacity: 1;
+    //     }
+    //     100% {
+    //         opacity: 0;
+    //     }
+    // }
 
-    .func-kinds-img :nth-child(1) {
-        height: (500/$calc-base-num)*$global-font-unit;
-        position: absolute;
-        left: -(162/$calc-base-num)*$global-font-unit;
-    }
+    // .func-kinds-img :nth-child(1) {
+    //     height: (500/$calc-base-num)*$global-font-unit;
+    //     // position: absolute;
+    //     // left: -(162/$calc-base-num)*$global-font-unit;
+    // }
 
-    .func-kinds-img :nth-child(2) {
-        height: (180/$calc-base-num)*$global-font-unit;
-        position: absolute;
-        right: (110/$calc-base-num)*$global-font-unit;
-        top:-(90/$calc-base-num)*$global-font-unit;
-    }
+    // .func-kinds-img :nth-child(2) {
+    //     height: (180/$calc-base-num)*$global-font-unit;
+    //     position: absolute;
+    //     right: (110/$calc-base-num)*$global-font-unit;
+    //     top:-(90/$calc-base-num)*$global-font-unit;
+    // }
 
-    .func-kinds-desc {
-        width: (500/$calc-base-num)*$global-font-unit;
+    // .func-kinds-desc {
+    //     width: (500/$calc-base-num)*$global-font-unit;
 
-    }
+    // }
 
-    .func-kinds-desc >:nth-child(1){
-        font-size:   map_get($global-font-size, c);
-        font-family: DIN-Medium ,$global-default-family;
-        letter-spacing:6px;
-    }
+    // .func-kinds-desc >:nth-child(1){
+    //     font-size:   map_get($global-font-size, c);
+    //     font-family: DIN-Medium ,$global-default-family;
+    //     letter-spacing:6px;
+    // }
 
-    .func-kinds-desc >:nth-child(2){
-        margin-top: (18/$calc-base-num)*$global-font-unit;
-        font-size:   map_get($global-font-size, j);
-        font-family: NotoSansCJKjp-Bold ,$global-default-family;
-    }
+    // .func-kinds-desc >:nth-child(2){
+    //     margin-top: (18/$calc-base-num)*$global-font-unit;
+    //     font-size:   map_get($global-font-size, j);
+    //     font-family: NotoSansCJKjp-Bold ,$global-default-family;
+    // }
 
-    .func-kinds-desc >:nth-child(3){
-        margin-top: (25/$calc-base-num)*$global-font-unit;
-        font-size:   map_get($global-font-size, k);
-        font-family: NotoSansCJKjp-Regular ,$global-default-family;
-    }
+    // .func-kinds-desc >:nth-child(3){
+    //     margin-top: (25/$calc-base-num)*$global-font-unit;
+    //     font-size:   map_get($global-font-size, k);
+    //     font-family: NotoSansCJKjp-Regular ,$global-default-family;
+    // }
 
 
     .kinds-icon {
@@ -284,54 +292,54 @@
     }
 
     .func-item-img img{
-        height: (123/$calc-base-num)*$global-font-unit;
+        height: (300/$calc-base-num)*$global-font-unit;
     }
 
-    .heatset-banner {
-     //   background:url('../image/product1/box.png');
-        // background-repeat: no-repeat;
-        // background-size: 100%;
-      height: (441/$calc-base-num)*$global-font-unit;
-      margin-top: (124/$calc-base-num)*$global-font-unit;
-      overflow: hidden;
-    }
+    // .heatset-banner {
+    //  //   background:url('../image/product1/box.png');
+    //     // background-repeat: no-repeat;
+    //     // background-size: 100%;
+    //   height: (441/$calc-base-num)*$global-font-unit;
+    //   margin-top: (124/$calc-base-num)*$global-font-unit;
+    //   overflow: hidden;
+    // }
 
-    .heatset-banner-list >li {
-        transition: all map_get($global-time, scroll);
-        opacity: 0;
-        transform: translate(0,200px);
-    }
+    // .heatset-banner-list >li {
+    //     transition: all map_get($global-time, scroll);
+    //     opacity: 0;
+    //     transform: translate(0,200px);
+    // }
 
-    .heatset-banner-list {
-        position: relative;
-    }
+    // .heatset-banner-list {
+    //     position: relative;
+    // }
 
-    .heatset-banner-list :nth-child(1){
-        position: absolute;
-        transition-delay: .4s;
-    }
+    // .heatset-banner-list :nth-child(1){
+    //     position: absolute;
+    //     transition-delay: .4s;
+    // }
 
-    .heatset-banner-list :nth-child(2){
-        position: absolute;
-        left: (323/$calc-base-num)*$global-font-unit;
-        transition-delay: .2s;
-    }
+    // .heatset-banner-list :nth-child(2){
+    //     position: absolute;
+    //     left: (323/$calc-base-num)*$global-font-unit;
+    //     transition-delay: .2s;
+    // }
 
-    .heatset-banner-list :nth-child(3){
-        position: absolute;
-        left: (668/$calc-base-num)*$global-font-unit;
+    // .heatset-banner-list :nth-child(3){
+    //     position: absolute;
+    //     left: (668/$calc-base-num)*$global-font-unit;
         
-    }
+    // }
 
-    .heatset-banner-list li img{
-        height: (441/$calc-base-num)*$global-font-unit;
-    }
+    // .heatset-banner-list li img{
+    //     height: (441/$calc-base-num)*$global-font-unit;
+    // }
 
 
 
 
     .heatset-color {
-        height: (1000/$calc-base-num)*$global-font-unit;
+        height: (2000/$calc-base-num)*$global-font-unit;
         width: 100%;
         background-color: #fff;
         border-bottom: 1px solid #b2b3b4;
@@ -344,7 +352,7 @@
 
     .color-li {
         float: left;
-        width: 50%;
+        width: 40%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -457,11 +465,12 @@
 
     .use-manual-desc {
         padding-left: (42/$calc-base-num)*$global-font-unit;
-        width: 50%;
+        width: 45%;
         display: flex;
         height: 100%;
         flex-direction: column;
         justify-content: center;
+       // padding-right: (100/$calc-base-num)*$global-font-unit;
     }
 
     .use-manual-img img {
@@ -593,8 +602,8 @@
     .product-imglist-main >:nth-child(1),
     .product-imglist-main >:nth-child(2) {
         background-size: 100%;
-        width: (650/$calc-base-num)*$global-font-unit;
-        height: (230/$calc-base-num)*$global-font-unit;
+        width: 48%;
+        height: 80%;
         position: relative;
         background-repeat: no-repeat;
         background-size: cover;
@@ -612,6 +621,7 @@
         right: (60/$calc-base-num)*$global-font-unit;
         bottom: 0;
         z-index: 30;
+        height: 70%;
     }
 
     .product2-img {
@@ -619,6 +629,7 @@
         left: (95/$calc-base-num)*$global-font-unit;
         bottom: 0;
         z-index: 30;
+        height: 70%;
     }
 
     .product-info {

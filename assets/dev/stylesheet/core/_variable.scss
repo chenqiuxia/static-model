@@ -1,4 +1,4 @@
-$calc-base-num: 75;
+$calc-base-num: 640;
 $global-font-unit: 1rem;
 
 $global-color: (
@@ -37,7 +37,7 @@ $global-font-size: (
 );
 
 $global-spacing: (
-        container:15px,
+        container:20px,
         a: (70/$calc-base-num)*$global-font-unit,  // 70px
         b: (42/$calc-base-num)*$global-font-unit,  // 42px
         c: (60/$calc-base-num)*$global-font-unit,  // 60px
@@ -54,7 +54,8 @@ $global-spacing: (
 );
 
 $global-width: (
-        pc: 1396px,
+        max-width: 1020px,
+        pc: 1200px,
         pad: 768px,
         phone: 320px,
         content: 843px,

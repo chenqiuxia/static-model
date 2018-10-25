@@ -124,7 +124,7 @@
     padding: 10px;
     background: url("../image/index/home-pro-f2.jpg") center no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 50vh;
 
     &:hover .mask-wrap {
       opacity: .6;
@@ -162,7 +162,7 @@
 
   .index-other-wrap {
     display: flex;
-    height: 400px;
+    height: 33vh;
   }
 
   .index-other-item {

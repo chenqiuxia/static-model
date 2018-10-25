@@ -171,10 +171,10 @@ a {
 }
 
 .main-wrap {
-  max-width: 1396px;
+  max-width: 1020px;
   height: 100%;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .x-home-height {
@@ -216,8 +216,7 @@ a {
 }
 
 .page-padding-top {
-  padding-top: -webkit-calc((141/$calc-base-num)*$global-font-unit - (14/$calc-base-num)*$global-font-unit);
-  padding-top: calc((141/$calc-base-num)*$global-font-unit - (14/$calc-base-num)*$global-font-unit);
+  padding-top: 0.22187rem;
 }
 
 .page-company .nav > ul > li:hover, .page-shop .nav > ul > li:hover, .page-policy .nav > ul > li:hover, .page-commercial .nav > ul > li:hover {
@@ -243,8 +242,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  border-top: 0.26667rem solid #EFE9DD;
-  padding: 0.74667rem 0;
+  border-top: 0.03125rem solid #EFE9DD;
+  padding: 0.0875rem 0;
   z-index: 9999;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
@@ -267,14 +266,14 @@ header .header-wrap {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 0.66667rem;
-  line-height: 0.66667rem;
+  height: 0.07812rem;
+  line-height: 0.07812rem;
   background: transparent;
 }
 
 header .logo {
   display: block;
-  width: 3.33333rem;
+  width: 0.39062rem;
   height: 100%;
   background-image: url("../image/Logo-product-black.svg");
   background-repeat: no-repeat;
@@ -286,15 +285,15 @@ header .logo:hover {
 }
 
 header .nav {
-  margin-top: 0.2rem;
+  margin-top: 0.02344rem;
 }
 
 header .nav > ul > li {
   position: relative;
   display: inline-block;
-  font-size: 0.21333rem;
+  font-size: 0.025rem;
   color: #000;
-  padding: 0 0.26667rem;
+  padding: 0 0.03125rem;
   cursor: pointer;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -302,7 +301,7 @@ header .nav > ul > li {
 }
 
 header .nav > ul > li + li {
-  margin-left: 0.8rem;
+  margin-left: 0.09375rem;
 }
 
 header .nav > ul > li:hover {
@@ -312,21 +311,21 @@ header .nav > ul > li:hover {
 
 header .nav > ul > li.product-link:hover .nav-submenu-wrap {
   height: auto;
-  top: 0.64rem;
+  top: 0.075rem;
   z-index: 1;
   opacity: 1;
 }
 
 header .nav > ul > li a {
   display: block;
-  font-size: 0.21333rem;
+  font-size: 0.025rem;
 }
 
 header h1 {
   height: 34px;
   line-height: 34px;
-  padding: 0 0.22667rem;
-  font-size: 0.2rem;
+  padding: 0 0.02656rem;
+  font-size: 0.02344rem;
   border-radius: 5px;
   color: #fff;
 }
@@ -354,7 +353,7 @@ header .nav-submenu-wrap li:hover {
 footer {
   background-color: #000;
   color: #fff;
-  padding: 0.8rem 0 0.8rem;
+  padding: 0.09375rem 0 0.09375rem;
 }
 
 footer a {
@@ -381,7 +380,7 @@ footer a:hover {
 }
 
 .footer-main .contact-wrap .media-link {
-  margin-top: 1.6rem;
+  margin-top: 0.1875rem;
 }
 
 .footer-main .contact-wrap .media-link a {
@@ -393,7 +392,7 @@ footer a:hover {
 }
 
 .footer-main .contact-wrap .media-link a + a {
-  margin-left: 0.26667rem;
+  margin-left: 0.03125rem;
 }
 
 .footer-main .contact-wrap .media-link a:hover {
@@ -413,7 +412,7 @@ footer a:hover {
 }
 
 .footer-main .footer-link-wrap {
-  font-size: 0.21333rem;
+  font-size: 0.025rem;
   line-height: 1.5;
 }
 
@@ -422,15 +421,15 @@ footer a:hover {
 }
 
 .footer-main .footer-link-wrap dd {
-  margin-top: 0.26667rem;
+  margin-top: 0.03125rem;
 }
 
 .footer-main .footer-product-col {
-  margin-left: 2.66667rem;
+  margin-left: 0.3125rem;
 }
 
 .footer-main .footer-company-col {
-  margin-left: 0.88rem;
+  margin-left: 0.10312rem;
 }
 
 .footer-main .footer-tel-location {
@@ -450,8 +449,8 @@ footer a:hover {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  padding-bottom: 0.26667rem;
-  font-size: 0.21333rem;
+  padding-bottom: 0.03125rem;
+  font-size: 0.025rem;
   line-height: 1.5;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -465,21 +464,21 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 0.93333rem;
+  margin-top: 0.10938rem;
 }
 
 .footer-main .bottom-wrap .http-wrap {
-  font-size: 0.16rem;
+  font-size: 0.01875rem;
   line-height: 1.5;
   font-family: NotoSansCJKjp-Light, "Rubik300";
 }
 
 .footer-main .bottom-wrap .http-wrap a + a {
-  margin-left: 0.46667rem;
+  margin-left: 0.05469rem;
 }
 
 .footer-main .bottom-wrap .company-tag {
-  font-size: 0.21333rem;
+  font-size: 0.025rem;
   line-height: 1.2;
   letter-spacing: 5px;
 }
@@ -487,11 +486,11 @@ footer a:hover {
 .shop-title-wrap {
   position: relative;
   text-align: center;
-  margin-top: 0.8rem;
-  border-top: .13333rem solid #1a1a1a;
-  border-bottom: .13333rem solid #1a1a1a;
-  padding: 0.8rem 0;
-  font-size: 0.37333rem;
+  margin-top: 0.09375rem;
+  border-top: 0.01562rem solid #1a1a1a;
+  border-bottom: 0.01562rem solid #1a1a1a;
+  padding: 0.09375rem 0;
+  font-size: 0.04375rem;
   color: #111;
 }
 
@@ -513,14 +512,14 @@ footer a:hover {
 
 .shop-title-wrap p {
   line-height: 1;
-  margin-top: 0.56rem;
+  margin-top: 0.06563rem;
   font-family: NotoSansCJKjp-Thin, "Rubik300";
   font-weight: 100;
   letter-spacing: 2px;
 }
 
 .contact-us-wrap {
-  padding: 4.13333rem 0 4.13333rem;
+  padding: 0.48438rem 0;
 }
 
 .contact-us-wrap .contact-cont {
@@ -544,9 +543,9 @@ footer a:hover {
 
 .contact-us-wrap .contact-cont span {
   display: inline-block;
-  font-size: 0.53333rem;
+  font-size: 0.0625rem;
   line-height: 1;
-  padding: 0.26667rem 0.8rem;
+  padding: 0.03125rem 0.09375rem;
   font-family: DINAlternate-Bold, "Rubik300";
 }
 
@@ -666,7 +665,7 @@ footer a:hover {
 
 .page-index .index-home-wrap {
   position: relative;
-  padding-bottom: 2.4rem;
+  padding-bottom: 0.28125rem;
 }
 
 .page-index .index-home-wrap .main-wrap {
@@ -718,32 +717,32 @@ footer a:hover {
 }
 
 .page-index .home-content-wrap h2 {
-  font-size: 0.85333rem;
+  font-size: 0.1rem;
   line-height: 1.1;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-index .home-content-wrap h3 {
-  font-size: 0.85333rem;
+  font-size: 0.1rem;
   line-height: 1.5;
   font-family: SFNSDisplay, "Rubik300";
   font-weight: 500;
 }
 
 .page-index .home-content-wrap p {
-  font-size: 0.4rem;
+  font-size: 0.04688rem;
   line-height: 1.6;
-  margin-top: 1.33333rem;
+  margin-top: 0.15625rem;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
 
 .page-index .home-content-wrap a {
   display: inline-block;
   background-color: #111;
-  padding: 0.4rem 1.33333rem;
+  padding: 0.04688rem 0.15625rem;
   color: #fff;
-  font-size: 0.29333rem;
-  margin-top: 0.8rem;
+  font-size: 0.03438rem;
+  margin-top: 0.09375rem;
   letter-spacing: 3px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -757,7 +756,7 @@ footer a:hover {
 .page-index .index-title-wrap {
   color: #000;
   border: 1px dashed #979797;
-  padding: 1.06667rem 0;
+  padding: 0.125rem 0;
 }
 
 .page-index .index-title-wrap .index-title-cont {
@@ -769,7 +768,7 @@ footer a:hover {
 }
 
 .page-index .index-title-wrap .index-title-cont h3 {
-  font-size: 0.48rem;
+  font-size: 0.05625rem;
   line-height: 1.19;
   width: 440px;
   font-family: SFNSDisplay, "Rubik300";
@@ -781,12 +780,12 @@ footer a:hover {
   width: 50px;
   height: 3px;
   background-color: #111;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.04688rem;
 }
 
 .page-index .index-title-wrap .index-title-cont li + li {
-  font-size: 0.16rem;
-  margin-left: 0.33333rem;
+  font-size: 0.01875rem;
+  margin-left: 0.03906rem;
   width: 220px;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -797,7 +796,7 @@ footer a:hover {
   padding: 10px;
   background: url("../image/index/home-pro-f2.jpg") center no-repeat;
   background-size: cover;
-  height: 600px;
+  height: 50vh;
 }
 
 .page-index .index-earphone-wrap:hover .mask-wrap {
@@ -833,7 +832,7 @@ footer a:hover {
 }
 
 .page-index .index-earphone-wrap .earphone-cont h2 {
-  font-size: 0.96rem;
+  font-size: 0.1125rem;
   color: #fff;
   letter-spacing: 10px;
   margin-left: 30%;
@@ -845,7 +844,7 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
+  height: 33vh;
 }
 
 .page-index .index-other-item {
@@ -889,7 +888,7 @@ footer a:hover {
 
 .page-index .index-other-item h4 {
   text-align: center;
-  font-size: 0.64rem;
+  font-size: 0.075rem;
   color: #fff;
   letter-spacing: 8px;
   font-family: DIN-BoldAlternate, "Rubik300";
@@ -932,14 +931,14 @@ footer a:hover {
 .page-product1 .banner-desc {
   white-space: nowrap;
   position: absolute;
-  bottom: 1.37333rem;
+  bottom: 0.16094rem;
   height: 100%;
 }
 
 .page-product1 .banner-desc .imgs {
-  left: 10rem;
+  left: 1.17188rem;
   position: absolute;
-  bottom: 0.4rem;
+  bottom: 0.04688rem;
   width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -957,30 +956,30 @@ footer a:hover {
 }
 
 .page-product1 .banner-desc .imgs :nth-child(2) {
-  margin-left: 0.66667rem;
+  margin-left: 0.07812rem;
 }
 
 .page-product1 .product-intro {
   display: inline-block;
-  width: 8.2rem;
-  height: 2.85333rem;
+  width: 0.96094rem;
+  height: 0.33437rem;
 }
 
 .page-product1 .banner-desc > img {
   display: inline-block;
-  height: 11.05333rem;
+  height: 1.29531rem;
 }
 
 .page-product1 .product1-name {
-  width: 4.02667rem;
-  height: 3.85333rem;
-  font-size: 2.94667rem;
-  line-height: 2.94667rem;
+  width: 0.47187rem;
+  height: 0.45156rem;
+  font-size: 0.34531rem;
+  line-height: 0.34531rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  bottom: 1.4rem;
-  left: -1rem;
+  bottom: 0.16406rem;
+  left: -0.11719rem;
   font-weight: 1000;
 }
 
@@ -990,26 +989,26 @@ footer a:hover {
 
 .page-product1 .product-desc {
   white-space: normal;
-  width: 6rem;
-  height: 2.85333rem;
-  margin-left: 0.57333rem;
+  width: 0.70312rem;
+  height: 0.33437rem;
+  margin-left: 0.06719rem;
   display: inline-block;
-  font-size: 0.22667rem;
-  line-height: 0.34rem;
+  font-size: 0.02656rem;
+  line-height: 0.03984rem;
   vertical-align: bottom;
   position: absolute;
-  left: 3rem;
-  bottom: 2.5rem;
+  left: 0.35156rem;
+  bottom: 0.29297rem;
 }
 
 .page-product1 .product-left :nth-child(0) {
-  font-size: 0.26667rem;
-  line-height: 0.84667rem;
+  font-size: 0.03125rem;
+  line-height: 0.09922rem;
   letter-spacing: 3px;
 }
 
 .page-product1 .product-desc :nth-child(1) {
-  font-size: 0.32667rem;
+  font-size: 0.03828rem;
   font-family: NotoSansCJKjp-Bold;
   letter-spacing: 3px;
   line-height: 1rem;
@@ -1060,17 +1059,17 @@ footer a:hover {
 }
 
 .page-shop .shop-img-dl dt {
-  font-size: 0.29333rem;
+  font-size: 0.03438rem;
   color: #111;
   line-height: 33px;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
 .page-shop .shop-img-dl dd {
-  font-size: 0.21333rem;
+  font-size: 0.025rem;
   color: #111;
   line-height: 25px;
-  margin-top: 0.2rem;
+  margin-top: 0.02344rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
@@ -1079,7 +1078,7 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top {
-  margin: 1.26667rem auto 1.04rem;
+  margin: 0.14844rem auto 0.12187rem;
 }
 
 .page-shop .shop-region-top .top-content {
@@ -1095,7 +1094,7 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top .top-content li:first-child {
-  font-size: 0.48rem;
+  font-size: 0.05625rem;
   color: #111;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
@@ -1106,7 +1105,7 @@ footer a:hover {
   width: 50px;
   height: 3px;
   background-color: #111;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.04688rem;
 }
 
 .page-shop .shop-region-top .top-content li:first-child p {
@@ -1114,15 +1113,15 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top .top-content li:nth-child(2) {
-  margin-left: 0.56rem;
+  margin-left: 0.06563rem;
 }
 
 .page-shop .shop-region-top .top-content li:nth-child(3) {
-  margin-left: 1.33333rem;
+  margin-left: 0.15625rem;
 }
 
 .page-shop .shop-region-top .top-content li + li {
-  font-size: 0.16rem;
+  font-size: 0.01875rem;
 }
 
 .page-shop .shop-region-top .top-content li + li p {
@@ -1131,7 +1130,7 @@ footer a:hover {
 
 .page-shop .shop-region-content {
   border: 1px dashed #D8D8D8;
-  padding: 0.53333rem 0 0.84rem;
+  padding: 0.0625rem 0 0.09844rem;
 }
 
 .page-shop .shop-region-ul {
@@ -1149,27 +1148,27 @@ footer a:hover {
 }
 
 .page-shop .shop-region-ul li h3 {
-  font-size: 0.26667rem;
+  font-size: 0.03125rem;
   font-weight: 600;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.09375rem;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
 .page-shop .shop-region-ul li p {
-  font-size: 0.16rem;
+  font-size: 0.01875rem;
 }
 
 .page-policy .policy-content {
-  font-size: 0.21333rem;
+  font-size: 0.025rem;
   line-height: 2.5;
-  padding-bottom: 1.33333rem;
+  padding-bottom: 0.15625rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-policy .policy-content h2 {
-  font-size: 0.37333rem;
+  font-size: 0.04375rem;
   line-height: 1;
-  padding: 0.86667rem 0 0.58667rem;
+  padding: 0.10156rem 0 0.06875rem;
   text-align: center;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
@@ -1179,15 +1178,15 @@ footer a:hover {
 }
 
 .page-commercial .commercial-content {
-  font-size: 0.21333rem;
+  font-size: 0.025rem;
   line-height: 1.5;
-  padding-bottom: 1.33333rem;
+  padding-bottom: 0.15625rem;
 }
 
 .page-commercial .commercial-content h2 {
-  font-size: 0.37333rem;
+  font-size: 0.04375rem;
   line-height: 1;
-  padding: 0.86667rem 0 0.6rem;
+  padding: 0.10156rem 0 0.07031rem;
   text-align: center;
 }
 
@@ -1199,7 +1198,7 @@ footer a:hover {
 }
 
 .page-commercial .commercial-content .cont-row + .cont-row {
-  margin-top: 0.46667rem;
+  margin-top: 0.05469rem;
 }
 
 .page-commercial .commercial-content .cont-row span {
@@ -1215,7 +1214,7 @@ footer a:hover {
 }
 
 .page-company .company-info-wrap {
-  padding: 0.93333rem 0 1.06667rem;
+  padding: 0.10938rem 0 0.125rem;
 }
 
 .page-company .company-info-wrap dl {
@@ -1224,7 +1223,7 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0.21333rem;
+  font-size: 0.025rem;
   line-height: 1.56;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -1241,11 +1240,11 @@ footer a:hover {
 }
 
 .page-company .company-info-wrap dl + dl {
-  margin-top: 0.46667rem;
+  margin-top: 0.05469rem;
 }
 
 .page-company .company-map-wrap {
-  height: 500px;
+  height: 52vh;
 }
 
 .page-product2 header {
@@ -1343,80 +1342,80 @@ footer a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 2rem;
+  padding-bottom: 0.23438rem;
   color: #fff;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .banner-desc :nth-child(1) {
-  font-size: 3.94667rem;
-  line-height: 3.94667rem;
+  font-size: 0.4625rem;
+  line-height: 0.4625rem;
   font-family: DIN-BoldAlternate, "Rubik300";
 }
 
 .page-product2 .banner-desc :nth-child(2) {
-  margin-top: 0.34667rem;
-  font-size: 0.26667rem;
-  width: 4.6rem;
+  margin-top: 0.04063rem;
+  font-size: 0.03125rem;
+  width: 0.53906rem;
 }
 
 .page-product2 .banner-desc :nth-child(3) {
-  margin-top: 0.13333rem;
-  width: 4.6rem;
-  font-size: 0.21333rem;
+  margin-top: 0.01562rem;
+  width: 0.53906rem;
+  font-size: 0.025rem;
 }
 
 .page-product2 .banner-desc :nth-child(4) {
-  width: 4.6rem;
-  font-size: 0.21333rem;
+  width: 0.53906rem;
+  font-size: 0.025rem;
 }
 
 .page-product2 .product-intro {
   display: inline-block;
   position: relative;
-  width: 8.2rem;
-  height: 2.85333rem;
+  width: 0.96094rem;
+  height: 0.33437rem;
 }
 
 .page-product2 .product1-name {
-  width: 3.02667rem;
-  height: 2.84rem;
-  font-size: 2.94667rem;
-  line-height: 2.94667rem;
+  width: 0.35469rem;
+  height: 0.33281rem;
+  font-size: 0.34531rem;
+  line-height: 0.34531rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  bottom: 0.50667rem;
+  bottom: 0.05937rem;
 }
 
 .page-product2 .product-desc {
   white-space: normal;
-  width: 4.6rem;
-  height: 2.85333rem;
+  width: 0.53906rem;
+  height: 0.33437rem;
   overflow: hidden;
-  margin-left: 0.57333rem;
+  margin-left: 0.06719rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  left: 3rem;
-  bottom: 0.50667rem;
+  left: 0.35156rem;
+  bottom: 0.05937rem;
 }
 
 .page-product2 .product-left :nth-child(0) {
-  font-size: 0.26667rem;
-  line-height: 0.85333rem;
+  font-size: 0.03125rem;
+  line-height: 0.1rem;
   letter-spacing: 3px;
 }
 
 .page-product2 .product-desc :nth-child(1) {
-  font-size: 0.22667rem;
+  font-size: 0.02656rem;
   letter-spacing: 3px;
 }
 
 .page-product2 .func-kinds {
   width: 100%;
-  height: 6.66667rem;
-  margin-top: 3.53333rem;
+  height: 0.78125rem;
+  margin-top: 0.41406rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1424,11 +1423,9 @@ footer a:hover {
 }
 
 .page-product2 .func-kinds-img {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
+  width: 50%;
   position: relative;
+  text-align: right;
 }
 
 .page-product2 .animation-show {
@@ -1461,47 +1458,66 @@ footer a:hover {
 }
 
 .page-product2 .func-kinds-img :nth-child(1) {
-  height: 6.66667rem;
+  width: 100%;
   position: absolute;
-  left: -2.16rem;
+  right: 0;
 }
 
 .page-product2 .func-kinds-img :nth-child(2) {
-  height: 2.4rem;
+  height: 0.28125rem;
   position: absolute;
-  right: 1.46667rem;
-  top: -1.2rem;
+  right: 0.17188rem;
+  top: -0.14062rem;
 }
 
 .page-product2 .func-kinds-desc {
-  width: 6.66667rem;
+  width: 50%;
+  margin-left: 0.14062rem;
 }
 
 .page-product2 .func-kinds-desc > :nth-child(1) {
-  font-size: 0.21333rem;
+  font-size: 0.025rem;
   font-family: DIN-Medium, "Rubik300";
   letter-spacing: 6px;
 }
 
 .page-product2 .func-kinds-desc > :nth-child(2) {
-  margin-top: 0.24rem;
-  font-size: 0.46667rem;
+  margin-top: 0.02813rem;
+  font-size: 0.05469rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .func-kinds-desc > :nth-child(3) {
-  margin-top: 0.33333rem;
-  font-size: 0.22667rem;
+  margin-top: 0.03906rem;
+  font-size: 0.02656rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-product2 .heatset-banner {
-  height: 5.88rem;
-  margin-top: 1.65333rem;
+  height: 0.68906rem;
+  margin-top: 0.50625rem;
   overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.page-product2 .heatset-banner-list {
+  width: 2.1875rem;
 }
 
 .page-product2 .heatset-banner-list > li {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  width: 33%;
+  height: 100%;
   -webkit-transition: all 0.5s;
   transition: all 0.5s;
   opacity: 0;
@@ -1518,22 +1534,26 @@ footer a:hover {
   position: absolute;
   -webkit-transition-delay: .4s;
   transition-delay: .4s;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
 }
 
 .page-product2 .heatset-banner-list :nth-child(2) {
   position: absolute;
-  left: 4.30667rem;
+  left: 0.50469rem;
   -webkit-transition-delay: .2s;
   transition-delay: .2s;
 }
 
 .page-product2 .heatset-banner-list :nth-child(3) {
   position: absolute;
-  left: 8.90667rem;
+  left: 1.04375rem;
 }
 
 .page-product2 .heatset-banner-list li img {
-  height: 5.88rem;
+  height: 0.68906rem;
 }
 
 .page-philosophy .philosophy-home-wrap {
@@ -1560,7 +1580,7 @@ footer a:hover {
 }
 
 .page-philosophy .home-content-wrap h2 {
-  font-size: 0.64rem;
+  font-size: 0.075rem;
   font-weight: bold;
   line-height: 1.48;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
@@ -1580,7 +1600,7 @@ footer a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  width: 0.26667rem;
+  width: 0.03125rem;
   background: #E50113;
   background-size: contain;
   height: 65%;
@@ -1588,12 +1608,12 @@ footer a:hover {
 
 .page-philosophy .side-icon-img:after {
   position: absolute;
-  bottom: -0.8rem;
+  bottom: -0.09375rem;
   left: 0;
   content: '';
   display: inline-block;
   width: 100%;
-  height: 0.8rem;
+  height: 0.09375rem;
   background: url("../image/philosophy/phy-icon.png") no-repeat;
   background-size: contain;
 }
@@ -1647,51 +1667,53 @@ footer a:hover {
 }
 
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content h2 {
-  font-size: 0.85333rem;
+  font-size: 0.1rem;
   line-height: 1.15;
   font-family: DIN-BoldAlternate, "Rubik300";
   letter-spacing: 6px;
 }
 
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content p {
-  font-size: 0.4rem;
+  font-size: 0.04688rem;
   line-height: 1.6;
   letter-spacing: 5px;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
-  margin-top: 0.16rem;
+  margin-top: 0.01875rem;
 }
 
 .page-product .func-wrap {
   overflow: hidden;
   position: relative;
-  height: 20.29333rem;
+  height: 2.37812rem;
 }
 
 .page-product .run-img {
   width: 100%;
-  height: 8rem;
+  height: 0.9375rem;
 }
 
 .page-product .run-img img {
   width: 64%;
+  height: 100%;
   position: absolute;
 }
 
 .page-product .rock-img {
   width: 100%;
   position: relative;
-  height: 8rem;
+  height: 0.9375rem;
 }
 
 .page-product .rock-img img {
   width: 36%;
+  height: 100%;
   right: 0;
   position: absolute;
 }
 
 .page-product .func-desc {
   position: absolute;
-  top: 4.36rem;
+  top: 0.51094rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1713,50 +1735,50 @@ footer a:hover {
 }
 
 .page-product .func-desc > div {
-  width: 9rem;
+  width: 1.05469rem;
 }
 
 .page-product .func-desc > img {
-  width: 9rem;
+  width: 1.05469rem;
 }
 
 .page-product .func-desc-line {
-  height: 0.29333rem;
+  height: 0.03438rem;
   width: 100%;
   background-color: #006965;
-  margin-top: 2.4rem;
+  margin-top: 0.28125rem;
 }
 
 .page-product .func-desc-title {
   white-space: nowrap;
-  font-size: 1.06667rem;
+  font-size: 0.125rem;
   font-weight: 600;
-  line-height: 1.2rem;
+  line-height: 0.14062rem;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product .func-title-all {
-  margin-top: 0.34667rem;
+  margin-top: 0.04063rem;
 }
 
 .page-product .func-desc-content {
-  font-size: 0.53333rem;
-  line-height: 0.66667rem;
+  font-size: 0.0625rem;
+  line-height: 0.07812rem;
   color: #111111;
   font-weight: bold;
-  margin-top: 0.33333rem;
+  margin-top: 0.03906rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product .func-desc-detial {
-  font-size: 0.22667rem;
-  margin-top: 0.37333rem;
+  font-size: 0.02656rem;
+  margin-top: 0.04375rem;
   font-weight: 400;
   line-height: 1.4;
 }
 
 .page-product .battery-main {
-  margin-top: 0.8rem;
+  margin-top: 0.09375rem;
   background-color: #fff;
 }
 
@@ -1764,11 +1786,11 @@ footer a:hover {
   background-image: url("../image/product2/battery_BG.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 10rem;
+  height: 1.17188rem;
 }
 
 .page-product .battery-content {
-  padding-top: 3.81333rem;
+  padding-top: 0.44688rem;
   width: 100%;
   height: 100%;
 }
@@ -1778,15 +1800,14 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
 .page-product .battery-list li {
-  width: 6.53333rem;
-  height: 1.90667rem;
+  width: 0.76562rem;
+  height: 0.22344rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1802,29 +1823,29 @@ footer a:hover {
   flex-direction: column;
   border: 5px solid #fff;
   color: #fff;
-  padding: 0.32rem;
-  font-size: 0.22667rem;
-  line-height: 0.34667rem;
+  padding: 0.0375rem;
+  font-size: 0.02656rem;
+  line-height: 0.04063rem;
   font-weight: normal;
   position: relative;
 }
 
 .page-product .battery-list li::before {
   content: '';
-  top: 0.6rem;
-  left: -0.4rem;
-  height: 0.69333rem;
-  width: 0.26667rem;
+  top: 0.07031rem;
+  left: -0.04688rem;
+  height: 0.08125rem;
+  width: 0.03125rem;
   background-color: #fff;
   position: absolute;
 }
 
 .page-product .battery-list :nth-child(1) {
-  font-size: 0.53333rem;
+  font-size: 0.0625rem;
   font-weight: bold;
   color: white;
-  line-height: 0.70667rem;
-  letter-spacing: 6px;
+  line-height: 0.08281rem;
+  letter-spacing: 5px;
 }
 
 .page-product .battery-list :nth-child(2) {
@@ -1832,7 +1853,7 @@ footer a:hover {
 }
 
 .page-product .battery-sum {
-  margin-top: 1.41333rem;
+  margin-top: 0.16562rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1846,21 +1867,26 @@ footer a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 0.64rem;
-  line-height: 0.74667rem;
+  font-size: 0.075rem;
+  line-height: 0.0875rem;
   letter-spacing: 8px;
   font-weight: 500;
   color: #fff;
 }
 
+.page-product .fun-list {
+  margin-top: 0.30312rem;
+}
+
 .page-product .fun-list-all {
-  margin-top: 2.58667rem;
-  width: 110%;
+  padding-top: 0.30312rem;
+  width: 100%;
   line-height: 1.4;
+  margin: 0 auto;
 }
 
 .page-product .fun-list-all li {
-  height: 2.30667rem;
+  height: 0.27031rem;
   width: 48%;
   float: left;
   display: -webkit-box;
@@ -1874,82 +1900,12 @@ footer a:hover {
 }
 
 .page-product .fun-list-all > :nth-child(3) {
-  margin-top: 1.34667rem;
+  margin-top: 0.15781rem;
 }
 
 .page-product .fun-list-all > :nth-child(4) {
   margin-left: 4%;
-  margin-top: 1.34667rem;
-}
-
-.page-product .func-kinds {
-  width: 100%;
-  height: 6.66667rem;
-  margin-top: 3.53333rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.page-product .func-kinds-img {
-  -webkit-box-flex: 1;
-  -webkit-flex: 1;
-  -ms-flex: 1;
-  flex: 1;
-  position: relative;
-}
-
-.page-product .animation-show {
-  -webkit-animation: myshow 2s infinite;
-  animation: myshow 2s infinite;
-}
-
-@keyframes myshow {
-  0% {
-    opacity: 0;
-  }
-  50% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-.page-product .func-kinds-img :nth-child(1) {
-  height: 6.66667rem;
-  position: absolute;
-  left: -2.16rem;
-}
-
-.page-product .func-kinds-img :nth-child(2) {
-  height: 2.4rem;
-  position: absolute;
-  right: 1.46667rem;
-  top: -1.2rem;
-}
-
-.page-product .func-kinds-desc {
-  width: 6.66667rem;
-}
-
-.page-product .func-kinds-desc > :nth-child(1) {
-  font-size: 0.21333rem;
-  font-family: DIN-Medium, "Rubik300";
-  letter-spacing: 6px;
-}
-
-.page-product .func-kinds-desc > :nth-child(2) {
-  margin-top: 0.24rem;
-  font-size: 0.46667rem;
-  font-family: NotoSansCJKjp-Bold, "Rubik300";
-}
-
-.page-product .func-kinds-desc > :nth-child(3) {
-  margin-top: 0.33333rem;
-  font-size: 0.22667rem;
-  font-family: NotoSansCJKjp-Regular, "Rubik300";
+  margin-top: 0.15781rem;
 }
 
 .page-product .kinds-icon {
@@ -1961,7 +1917,7 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 1.22667rem;
+  margin-top: 0.14375rem;
 }
 
 .page-product .func-item-desc {
@@ -1972,67 +1928,26 @@ footer a:hover {
 }
 
 .page-product .func-item-desc :nth-child(1) {
-  font-size: 0.32rem;
+  font-size: 0.0375rem;
   font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product .func-item-desc :nth-child(2) {
-  margin-top: 0.22667rem;
-  font-size: 0.22667rem;
+  margin-top: 0.02656rem;
+  font-size: 0.02656rem;
 }
 
 .page-product .func-item-img {
   height: 100%;
-  margin-left: 0.2rem;
+  margin-left: 0.02344rem;
 }
 
 .page-product .func-item-img img {
-  height: 1.64rem;
-}
-
-.page-product .heatset-banner {
-  height: 5.88rem;
-  margin-top: 1.65333rem;
-  overflow: hidden;
-}
-
-.page-product .heatset-banner-list > li {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
-  opacity: 0;
-  -webkit-transform: translate(0, 200px);
-  -ms-transform: translate(0, 200px);
-  transform: translate(0, 200px);
-}
-
-.page-product .heatset-banner-list {
-  position: relative;
-}
-
-.page-product .heatset-banner-list :nth-child(1) {
-  position: absolute;
-  -webkit-transition-delay: .4s;
-  transition-delay: .4s;
-}
-
-.page-product .heatset-banner-list :nth-child(2) {
-  position: absolute;
-  left: 4.30667rem;
-  -webkit-transition-delay: .2s;
-  transition-delay: .2s;
-}
-
-.page-product .heatset-banner-list :nth-child(3) {
-  position: absolute;
-  left: 8.90667rem;
-}
-
-.page-product .heatset-banner-list li img {
-  height: 5.88rem;
+  height: 0.46875rem;
 }
 
 .page-product .heatset-color {
-  height: 13.33333rem;
+  height: 3.125rem;
   width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
@@ -2044,7 +1959,7 @@ footer a:hover {
 
 .page-product .color-li {
   float: left;
-  width: 50%;
+  width: 40%;
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2062,52 +1977,52 @@ footer a:hover {
 }
 
 .page-product .color-li > p {
-  font-size: 0.64rem;
-  line-height: 0.74667rem;
+  font-size: 0.075rem;
+  line-height: 0.0875rem;
   font-weight: bold;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product .color-list {
-  margin-top: 0.64rem;
+  margin-top: 0.075rem;
 }
 
 .page-product .color-list li {
   display: inline-block;
-  margin-left: 0.26667rem;
+  margin-left: 0.03125rem;
 }
 
 .page-product .color-list :nth-child(1) {
-  width: 0.25333rem;
-  height: 0.25333rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #000;
 }
 
 .page-product .color-list :nth-child(2) {
-  width: 0.25333rem;
-  height: 0.25333rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #f5f5f5;
 }
 
 .page-product .color-list :nth-child(3) {
-  width: 0.25333rem;
-  height: 0.25333rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #ff0021;
 }
 
 .page-product .color-list :nth-child(4) {
-  width: 0.25333rem;
-  height: 0.25333rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #a0b779;
 }
 
 .page-product .color-list :nth-child(5) {
-  width: 0.25333rem;
-  height: 0.25333rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #939392;
 }
@@ -2140,30 +2055,30 @@ footer a:hover {
 }
 
 .page-product .top :nth-child(2) {
-  margin-left: 1.06667rem;
+  margin-left: 0.125rem;
 }
 
 .page-product .bottom {
-  margin-top: 0.66667rem;
+  margin-top: 0.07812rem;
   white-space: nowrap;
 }
 
 .page-product .bottom :nth-child(2) {
-  margin-left: 1.06667rem;
+  margin-left: 0.125rem;
 }
 
 .page-product .bottom :nth-child(3) {
-  margin-left: 1.06667rem;
+  margin-left: 0.125rem;
 }
 
 .page-product .use-manual {
   background-color: #fff;
-  height: 13.56rem;
+  height: 1.58906rem;
   border-bottom: 1px solid #b2b3b4;
 }
 
 .page-product .use-manual-main {
-  padding: 2.4rem 0;
+  padding: 0.28125rem 0;
   height: 100%;
 }
 
@@ -2174,8 +2089,8 @@ footer a:hover {
 }
 
 .page-product .use-manual-desc {
-  padding-left: 0.56rem;
-  width: 50%;
+  padding-left: 0.06563rem;
+  width: 45%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2193,16 +2108,16 @@ footer a:hover {
 }
 
 .page-product .use-manual-img img {
-  width: 7.93333rem;
+  width: 0.92969rem;
   display: inline-block;
 }
 
 .page-product .manual-title {
   white-space: nowrap;
-  font-size: 0.64rem;
+  font-size: 0.075rem;
   font-weight: bold;
   color: black;
-  line-height: 0.74667rem;
+  line-height: 0.0875rem;
   letter-spacing: 5px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2242,25 +2157,25 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 0.8rem;
+  margin-top: 0.09375rem;
 }
 
 .page-product .left-desc {
-  font-size: 0.26667rem;
+  font-size: 0.03125rem;
   font-weight: bold;
   color: black;
-  line-height: 0.4rem;
+  line-height: 0.04688rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product .right-desc {
-  padding: 0.22667rem;
+  padding: 0.02656rem;
   border: 2px solid #0698ec;
-  font-size: 0.2rem;
+  font-size: 0.02344rem;
   border-radius: 3px;
   font-weight: bold;
   color: #2196f3;
-  line-height: 0.22667rem;
+  line-height: 0.02656rem;
   letter-spacing: 2px;
   font-family: DIN-Medium, "Rubik300";
 }
@@ -2271,12 +2186,12 @@ footer a:hover {
 }
 
 .page-product .use-manual-desc :nth-child(3) {
-  margin-top: 0.53333rem;
+  margin-top: 0.0625rem;
 }
 
 .page-product .include-wrap {
   width: 100%;
-  height: 4.69333rem;
+  height: 0.55rem;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
 }
@@ -2315,29 +2230,29 @@ footer a:hover {
 }
 
 .page-product .include-wrap-desc :nth-child(1) {
-  font-size: 0.64rem;
+  font-size: 0.075rem;
   font-weight: bold;
   color: #111111;
-  line-height: 0.74667rem;
+  line-height: 0.0875rem;
   letter-spacing: 8px;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product .include-wrap-desc :nth-child(2) {
-  margin-top: 0.45333rem;
-  font-size: 0.21333rem;
+  margin-top: 0.05312rem;
+  font-size: 0.025rem;
   font-weight: bold;
   color: #111111;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product .include-img img {
-  width: 8.65333rem;
+  width: 1.01406rem;
 }
 
 .page-product .product-imglist {
   width: 100%;
-  height: 4.24rem;
+  height: 0.49688rem;
   background-color: #fff;
 }
 
@@ -2361,8 +2276,8 @@ footer a:hover {
 .page-product .product-imglist-main > :nth-child(1),
 .page-product .product-imglist-main > :nth-child(2) {
   background-size: 100%;
-  width: 8.66667rem;
-  height: 3.06667rem;
+  width: 48%;
+  height: 80%;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2379,16 +2294,18 @@ footer a:hover {
 
 .page-product .product1-img {
   position: absolute;
-  right: 0.8rem;
+  right: 0.09375rem;
   bottom: 0;
   z-index: 30;
+  height: 70%;
 }
 
 .page-product .product2-img {
   position: absolute;
-  left: 1.26667rem;
+  left: 0.14844rem;
   bottom: 0;
   z-index: 30;
+  height: 70%;
 }
 
 .page-product .product-info {
@@ -2419,14 +2336,14 @@ footer a:hover {
 }
 
 .page-product .product-info > :nth-child(1) {
-  font-size: 1.06667rem;
-  line-height: 1.25333rem;
+  font-size: 0.125rem;
+  line-height: 0.14688rem;
   color: #fff;
   font-weight: 500;
 }
 
 .page-product .product-info > :nth-child(2) {
-  font-size: 0.26667rem;
+  font-size: 0.03125rem;
   color: #fff;
 }
 

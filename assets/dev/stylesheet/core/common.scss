@@ -7,7 +7,7 @@ a {
 }
 
 .main-wrap {
-  max-width: map_get($global-width, pc);
+  max-width: map_get($global-width, max-width);
   height: 100%;
   margin: 0 auto;
   padding: 0 map_get($global-spacing, container);
@@ -41,7 +41,7 @@ a {
 }
 
 .page-padding-top {
-  padding-top: calc((141/$calc-base-num)*$global-font-unit - (14/$calc-base-num)*$global-font-unit); //减小header的padding
+  padding-top: (142/$calc-base-num)*$global-font-unit; //减小header的padding
 }
 
 //header nav hover style
@@ -65,6 +65,6 @@ a {
 }
 
 /* media start*/
-@media screen and (min-width: map_get($global-width, pad)) {
+@media screen and (min-width: map_get($global-width, pc)) {
 
 }

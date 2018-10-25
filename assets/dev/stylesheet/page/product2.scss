@@ -751,14 +751,21 @@
 
         margin-top: (265/$calc-base-num)*$global-font-unit;
         display: flex;
+    
     }
 
 
 
     .func-kinds-img {
-        flex: 1;
+        width: 50%;
         position: relative;
+        text-align: right;
     }
+    
+    // .func-kinds-img img{
+    //     display: inline-block;
+    //     position: absolute;
+    // }
 
     .animation-show {
         animation: myshow 2s infinite;
@@ -778,9 +785,10 @@
     }
 
     .func-kinds-img :nth-child(1) {
-        height: (500/$calc-base-num)*$global-font-unit;
+        width: 100%;
         position: absolute;
-        left: -(162/$calc-base-num)*$global-font-unit;
+        right: 0;
+       // left: -(162/$calc-base-num)*$global-font-unit;
     }
 
     .func-kinds-img :nth-child(2) {
@@ -791,8 +799,8 @@
     }
 
     .func-kinds-desc {
-        width: (500/$calc-base-num)*$global-font-unit;
-
+        width: 50%;
+        margin-left: (90/$calc-base-num)*$global-font-unit;
     }
 
     .func-kinds-desc >:nth-child(1){
@@ -818,11 +826,23 @@
            // background-repeat: no-repeat;
            // background-size: 100%;
          height: (441/$calc-base-num)*$global-font-unit;
-         margin-top: (124/$calc-base-num)*$global-font-unit;
+         margin-top: (324/$calc-base-num)*$global-font-unit;
          overflow: hidden;
+         display: flex;
+         justify-content: center;
+       }
+
+       .heatset-banner-list {
+          // display: flex;
+          //  width: 100%;
+          //  height: 100%;
+         width: (1400/$calc-base-num)*$global-font-unit;
        }
    
        .heatset-banner-list >li {
+           flex: 1;
+           width: 33%;
+           height: 100%;
            transition: all map_get($global-time, scroll);
            opacity: 0;
            transform: translate(0,200px);
@@ -835,6 +855,8 @@
        .heatset-banner-list :nth-child(1){
            position: absolute;
            transition-delay: .4s;
+           flex: 1
+           ;
        }
    
        .heatset-banner-list :nth-child(2){
@@ -852,4 +874,8 @@
        .heatset-banner-list li img{
            height: (441/$calc-base-num)*$global-font-unit;
        }
+
+    //    .heatset-product img{
+    //        width: (100/$calc-base-num)*$global-font-unit;
+    //    }
 }
