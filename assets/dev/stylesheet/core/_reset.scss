@@ -73,7 +73,7 @@ a,a:hover,del,ins,s,u {
 }
 
 body,button,input,keygen,legend,select,textarea {
-  font-size: .75rem;
+  font-size: 12px;
   line-height: 1.5;
   color: map_get($global-color, a);
   outline: 0;
