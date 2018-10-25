@@ -10,105 +10,172 @@
     <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
     <link rel="icon" href="image/favicon.png">
     <link rel="apple-touch-icon" href="image/favicon.png">
-    <script>!function(e,t){function i(){var t=n.getBoundingClientRect().width,i=navigator.userAgent.toLowerCase();/ipad.*yanxuan/.test(i)||t/s>750&&(t=750*s);var a=t/10;n.style.fontSize=a+"px",d.rem=e.rem=a}var a,r=e.document,n=r.documentElement,o=r.querySelector('meta[name="viewport"]'),l=r.querySelector('meta[name="flexible"]'),s=0,m=0,d=t.flexible||(t.flexible={});if(o){var c=o.getAttribute("content").match(/initial\-scale=([\d\.]+)/);c&&(m=parseFloat(c[1]),s=parseInt(1/m))}else if(l){var p=l.getAttribute("content");if(p){var u=p.match(/initial\-dpr=([\d\.]+)/),f=p.match(/maximum\-dpr=([\d\.]+)/);u&&(s=parseFloat(u[1]),m=parseFloat((1/s).toFixed(2))),f&&(s=parseFloat(f[1]),m=parseFloat((1/s).toFixed(2)))}}if(!s&&!m){var v=(e.navigator.appVersion.match(/android/gi),e.navigator.appVersion.match(/iphone/gi)),b=e.devicePixelRatio;s=v?b>=3&&(!s||s>=3)?3:b>=2&&(!s||s>=2)?2:1:1,m=1/s}if(n.setAttribute("data-dpr",s),!o)if(o=r.createElement("meta"),o.setAttribute("name","viewport"),e.webPageScalable?o.setAttribute("content","initial-scale="+m+", user-scalable=yes"):o.setAttribute("content","initial-scale="+m+", maximum-scale="+m+", minimum-scale="+m+", user-scalable=no viewport-fit=cover"),n.firstElementChild)n.firstElementChild.appendChild(o);else{var h=r.createElement("div");h.appendChild(o),r.write(h.innerHTML)}e.addEventListener("resize",function(){clearTimeout(a),a=setTimeout(i,300)},!1),e.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(a),a=setTimeout(i,300))},!1),"complete"===r.readyState?r.body.style.fontSize=12*s+"px":r.addEventListener("DOMContentLoaded",function(e){r.body.style.fontSize=12*s+"px"},!1),i(),d.dpr=e.dpr=s,d.refreshRem=i,d.rem2px=function(e){var t=parseFloat(e)*this.rem;return"string"==typeof e&&e.match(/rem$/)&&(t+="px"),t},d.px2rem=function(e){var t=parseFloat(e)/this.rem;return"string"==typeof e&&e.match(/px$/)&&(t+="rem"),t}}(window,window.lib||(window.lib={}));</script>
-    <body class="page-index">
-      <header class="x-header">
-        <div class="main-wrap header-wrap"><a class="logo" href="./index.html">
-            <h1></h1></a>
-          <nav class="nav">
-            <ul>
-              <li><a href="./company.html">COMPANY</a></li>
-              <li><a href="./philosophy.html">PHILOSOPHY</a></li>
-              <li class="product-link">PRODUCT
-                <ul class="nav-submenu-wrap">
-                  <li><a href="./product2.html">F2</a></li>
-                  <li><a href="./product1.html">F1</a></li>
-                </ul>
-              </li>
-              <li><a href="./shopList.html">SHOPLIST</a></li>
-            </ul>
-          </nav>
-        </div>
-      </header>
-      <div class="index-home-wrap x-home-height">
-        <div class="index-home-slick x-banner-slick">
-          <div class="slick-item"></div>
-          <div class="slick-item"></div>
-          <div class="slick-item"></div>
-          <div class="slick-item"></div>
-        </div>
-        <div class="main-wrap">
-          <div class="home-content-wrap">
-            <h2>耳に 心に 届ける<br>FLY on your HEARt</h2>
-            <p>完全ワイヤレスイヤホン：ファノーム<br>F2 2018 10.30 DEBUT!</p><a class="home-more-btn" href="./philosophy.html">READ MORE</a>
-          </div>
+    <script>
+      ! function(e, t)
+      {
+        function i()
+        {
+          var t = n.getBoundingClientRect().width,
+            i = navigator.userAgent.toLowerCase();
+          /ipad.*yanxuan/.test(i) || t / s > 750 && (t = 750 * s);
+          var a = t / 10;
+          n.style.fontSize = a + "px", d.rem = e.rem = a
+        }
+        var a, r = e.document,
+          n = r.documentElement,
+          o = r.querySelector('meta[name="viewport"]'),
+          l = r.querySelector('meta[name="flexible"]'),
+          s = 0,
+          m = 0,
+          d = t.flexible || (t.flexible = {});
+        if (o)
+        {
+          var c = o.getAttribute("content").match(/initial\-scale=([\d\.]+)/);
+          c && (m = parseFloat(c[1]), s = parseInt(1 / m))
+        }
+        else if (l)
+        {
+          var p = l.getAttribute("content");
+          if (p)
+          {
+            var u = p.match(/initial\-dpr=([\d\.]+)/),
+              f = p.match(/maximum\-dpr=([\d\.]+)/);
+            u && (s = parseFloat(u[1]), m = parseFloat((1 / s).toFixed(2))), f && (s = parseFloat(f[1]), m = parseFloat((1 / s).toFixed(2)))
+          }
+        }
+        if (!s && !m)
+        {
+          var v = (e.navigator.appVersion.match(/android/gi), e.navigator.appVersion.match(/iphone/gi)),
+            b = e.devicePixelRatio;
+          s = v ? b >= 3 && (!s || s >= 3) ? 3 : b >= 2 && (!s || s >= 2) ? 2 : 1 : 1, m = 1 / s
+        }
+        if (n.setAttribute("data-dpr", s), !o)
+          if (o = r.createElement("meta"), o.setAttribute("name", "viewport"), e.webPageScalable ? o.setAttribute("content", "initial-scale=" + m + ", user-scalable=yes") : o.setAttribute("content", "initial-scale=" + m + ", maximum-scale=" + m + ", minimum-scale=" + m + ", user-scalable=no viewport-fit=cover"), n.firstElementChild) n.firstElementChild.appendChild(o);
+          else
+          {
+            var h = r.createElement("div");
+            h.appendChild(o), r.write(h.innerHTML)
+          } e.addEventListener("resize", function()
+        {
+          clearTimeout(a), a = setTimeout(i, 300)
+        }, !1), e.addEventListener("pageshow", function(e)
+        {
+          e.persisted && (clearTimeout(a), a = setTimeout(i, 300))
+        }, !1), "complete" === r.readyState ? r.body.style.fontSize = 12 * s + "px" : r.addEventListener("DOMContentLoaded", function(e)
+        {
+          r.body.style.fontSize = 12 * s + "px"
+        }, !1), i(), d.dpr = e.dpr = s, d.refreshRem = i, d.rem2px = function(e)
+        {
+          var t = parseFloat(e) * this.rem;
+          return "string" == typeof e && e.match(/rem$/) && (t += "px"), t
+        }, d.px2rem = function(e)
+        {
+          var t = parseFloat(e) / this.rem;
+          return "string" == typeof e && e.match(/px$/) && (t += "rem"), t
+        }
+      }(window, window.lib || (window.lib = {}));
+    </script>
+  <body class="page-index">
+    <header class="x-header">
+      <div class="main-wrap header-wrap"><a class="logo" href="./index.html">
+          <h1></h1>
+        </a>
+        <nav class="nav">
+          <ul>
+            <li><a href="./company.html">COMPANY</a></li>
+            <li><a href="./philosophy.html">PHILOSOPHY</a></li>
+            <li class="product-link">PRODUCT <ul class="nav-submenu-wrap">
+                <li><a href="./product2.html">F2</a></li>
+                <li><a href="./product1.html">F1</a></li>
+              </ul>
+            </li>
+            <li><a href="./shopList.html">SHOPLIST</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="index-home-wrap x-home-height">
+      <div class="index-home-slick x-banner-slick">
+        <div class="slick-item"></div>
+        <div class="slick-item"></div>
+        <div class="slick-item"></div>
+        <div class="slick-item"></div>
+      </div>
+      <div class="main-wrap">
+        <div class="home-content-wrap">
+          <h2>耳に 心に 届ける<br>FLY on your HEARt</h2>
+          <p>完全ワイヤレスイヤホン：ファノーム<br>F2 2018 10.30 DEBUT!</p><a class="home-more-btn" href="./philosophy.html">READ MORE</a>
         </div>
       </div>
-            <div class="index-title-wrap">
-              <ul class="index-title-cont">
-                <li>
-                  <h3>PRODUCT</h3>
-                </li>
-                <li>
-                  <p>製品一覧</p>
-                </li>
-              </ul>
-            </div><a class="index-earphone-wrap" href="./product2.html">
-        <div class="mask-wrap"></div>
-        <div class="earphone-cont">
-          <h2>WIRELESS<br>EARPHONE F2</h2>
-        </div></a>
-            <div class="index-title-wrap">
-              <ul class="index-title-cont">
-                <li>
-                  <h3>SHOPLIST&amp;COMPANY</h3>
-                </li>
-                <li>
-                  <p>店舗一覧</p>
-                  <p>お買い求めできる店舗一覧です。</p>
-                </li>
-                <li>
-                  <p>会社概要</p>
-                </li>
-              </ul>
-            </div>
-      <div class="index-other-wrap"><a class="index-other-shop index-other-item" href="./shopList.html">
-          <h4>SHOP LIST</h4></a><a class="index-other-company index-other-item" href="./company.html">
-          <h4>COMPANY</h4></a></div>
-      <footer>
-        <div class="main-wrap footer-main">
-          <div class="contact-wrap">
-            <div class="contact-link">
-              <div class="logo-link"><img src="./image/Logo-product-white.svg" alt="FUNNOHM"></div>
-              <div class="media-link"><a class="t-icon" href="https://www.instagram.com/funohm/" target="_blank"></a><a class="f-icon" href="https://www.facebook.com/funohm/" target="_blank"></a><a class="b-icon" href="https://twitter.com/funohm1" target="_blank"></a></div>
-            </div>
-            <dl class="footer-product-col footer-link-wrap">
-              <dt>Product</dt>
-              <dd><a href="./product1.html">F1</a></dd>
-              <dd><a href="./product2.html">F2</a></dd>
-            </dl>
-            <dl class="footer-company-col footer-link-wrap">
-              <dt>Company</dt>
-              <dd><a href="./commercial.html">About</a></dd>
-              <dd><a href="./philosophy.html">Phylosophy</a></dd>
-              <dd><a href="./shopList.html">Shop list</a></dd>
-            </dl>
-            <div class="footer-tel-location">
-              <div class="location">
-                <p>Location</p>
-                <p>〒102-0083 東京都千代田区 麹町2-14 第1茜ビル6</p>
-                <p>1st akane Bld.6, 2-14, Kojimachi, Chiyoda-ku, Tokyo, 102-0083, Japan</p>
-              </div>
-            </div>
+    </div>
+    <div class="index-title-wrap">
+      <ul class="index-title-cont">
+        <li>
+          <h3>PRODUCT</h3>
+        </li>
+        <li>
+          <p>製品一覧</p>
+        </li>
+      </ul>
+    </div><a class="index-earphone-wrap" href="./product2.html">
+      <div class="mask-wrap"></div>
+      <div class="earphone-cont">
+        <h2>WIRELESS<br>EARPHONE F2</h2>
+      </div>
+    </a>
+    <div class="index-title-wrap">
+      <ul class="index-title-cont">
+        <li>
+          <h3>SHOPLIST&amp;COMPANY</h3>
+        </li>
+        <li>
+          <p>店舗一覧</p>
+          <p>お買い求めできる店舗一覧です。</p>
+        </li>
+        <li>
+          <p>会社概要</p>
+        </li>
+      </ul>
+    </div>
+    <div class="index-other-wrap"><a class="index-other-shop index-other-item" href="./shopList.html">
+        <h4>SHOP LIST</h4>
+      </a><a class="index-other-company index-other-item" href="./company.html">
+        <h4>COMPANY</h4>
+      </a></div>
+    <footer>
+      <div class="main-wrap footer-main">
+        <div class="contact-wrap">
+          <div class="contact-link">
+            <div class="logo-link"><img src="./image/Logo-product-white.svg" alt="FUNNOHM"></div>
+            <div class="media-link"><a class="t-icon" href="https://www.instagram.com/funohm/" target="_blank"></a><a class="f-icon" href="https://www.facebook.com/funohm/" target="_blank"></a><a class="b-icon" href="https://twitter.com/funohm1" target="_blank"></a></div>
           </div>
-          <div class="bottom-wrap">
-            <div class="http-wrap"><a href="./privacyPolicy.html">privacy policy</a><a>site map</a></div>
-            <p class="company-tag">&#169 2017 FUNOHM Inc.</p>
+          <dl class="footer-product-col footer-link-wrap">
+            <dt>Product</dt>
+            <dd><a href="./product1.html">F1</a></dd>
+            <dd><a href="./product2.html">F2</a></dd>
+          </dl>
+          <dl class="footer-company-col footer-link-wrap">
+            <dt>Company</dt>
+            <dd><a href="./commercial.html">About</a></dd>
+            <dd><a href="./philosophy.html">Phylosophy</a></dd>
+            <dd><a href="./shopList.html">Shop list</a></dd>
+          </dl>
+          <div class="footer-tel-location">
+            <div class="location">
+              <p>Location</p>
+              <p>〒102-0083 東京都千代田区 麹町2-14 第1茜ビル6</p>
+              <p>1st akane Bld.6, 2-14, Kojimachi, Chiyoda-ku, Tokyo, 102-0083, Japan</p>
+            </div>
           </div>
         </div>
-      </footer>
-      <script src="javascript/vendor.min.js"></script>
-      <script src="javascript/application.min.js"></script>
-    </body>
+        <div class="bottom-wrap">
+          <div class="http-wrap"><a href="./privacyPolicy.html">privacy policy</a><a>site map</a></div>
+          <p class="company-tag">&#169 2017 FUNOHM Inc.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="javascript/vendor.min.js"></script>
+    <script src="javascript/application.min.js"></script>
+  </body>
   </head>
 </html>

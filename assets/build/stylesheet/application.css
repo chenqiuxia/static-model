@@ -208,7 +208,7 @@ a {
   opacity: 0;
 }
 
-.is_scoped {
+.is_scoped, .page-product2 .heatset-banner-list > li.is_scoped {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
   transform: translate(0, 0);
@@ -1595,7 +1595,12 @@ footer a:hover {
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   z-index: 20;
+  transition: all 0.4s;
   opacity: 0;
+}
+
+.page-product1 .product-hover-black {
+  opacity: 1;
 }
 
 .page-product1 .product-show1 {
@@ -1931,6 +1936,7 @@ footer a:hover {
 .page-product2 .banner-desc :nth-child(1) {
   font-size: 2.94666rem;
   line-height: 2.94666rem;
+  font-family: 'NotoSansCJKjp-Bold';
 }
 
 .page-product2 .banner-desc :nth-child(2) {
@@ -2334,11 +2340,43 @@ footer a:hover {
 }
 
 .page-product2 .heatset-banner {
-  background: url("../image/product1/box.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
   height: 5.88rem;
   margin-top: 1.61333rem;
+}
+
+.page-product2 .heatset-banner-list > li {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  opacity: 0;
+  -webkit-transform: translate(0, 200px);
+  -ms-transform: translate(0, 200px);
+  transform: translate(0, 200px);
+}
+
+.page-product2 .heatset-banner-list {
+  position: relative;
+}
+
+.page-product2 .heatset-banner-list :nth-child(1) {
+  position: absolute;
+  -webkit-transition-delay: 1s;
+  transition-delay: 1s;
+}
+
+.page-product2 .heatset-banner-list :nth-child(2) {
+  position: absolute;
+  left: 4.30666rem;
+  -webkit-transition-delay: .5s;
+  transition-delay: .5s;
+}
+
+.page-product2 .heatset-banner-list :nth-child(3) {
+  position: absolute;
+  left: 8.90666rem;
+}
+
+.page-product2 .heatset-banner-list li img {
+  height: 5.88rem;
 }
 
 .page-product2 .heatset-color {
@@ -2747,7 +2785,12 @@ footer a:hover {
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   z-index: 20;
+  transition: all 0.4s;
   opacity: 0;
+}
+
+.page-product2 .product-hover-black {
+  opacity: 1;
 }
 
 .page-product2 .product-show1 {
