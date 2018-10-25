@@ -1,7 +1,16 @@
 .page-product1 {
-
     header {
-        border-top-color: map_get($global-color, b);
+        border-top-color: map_get($global-color, h);
+        // color: #fff;
+        // .logo {
+        //     background-image: url('../image/Logo-product-white.svg');
+        // }
+        // .nav>ul>li {
+        //     color: #fff;
+        // }
+        // a {
+        //     color: #fff;
+        // }
     }
 
     .clear {
@@ -23,7 +32,7 @@
     }
 
     .banner-desc> div {
-       
+
     }
 
     .product-intro {
@@ -44,7 +53,7 @@
         font-size: 2.94666rem;
         line-height: 2.94666rem;
         display:  inline-block;
-       
+
         vertical-align: bottom;
         position: absolute;
         bottom: .5rem;
@@ -76,7 +85,7 @@
 
     .product-desc :nth-child(1) {
         font-size: .22666rem;
-      
+
         letter-spacing:3px;
         line-height: .5rem;
      //   height: 2.85333rem;
@@ -87,7 +96,7 @@
         margin-left: .293333rem;
         width: 5.84rem;
     }
- 
+
     .banner-desc >:nth-child(3) {
         margin-left: .66666rem;
         width: 6.90666rem;
@@ -101,7 +110,7 @@
 
     .run-img {
         width: 100%;
-      
+
         height: 8rem;
     }
 
@@ -236,7 +245,7 @@
     .battery-list :nth-child(2){
         display: flex;
         justify-content: flex-end;
-        
+
     }
 
     .battery-sum  {
@@ -278,12 +287,12 @@
 
     .func-item-desc {
         flex: 1;
-        
+
     }
 
     .func-item-desc :nth-child(1) {
         font-size: .32rem;
-        
+
     }
 
     .func-item-desc :nth-child(2) {
@@ -318,7 +327,7 @@
 
     .heatset-color-main {
         height: 100%;
-     
+
     }
 
     .color-li {
@@ -370,7 +379,7 @@
         float: left;
         width: 50%;
         height: 100%;
-    
+
         display: flex;
         justify-content: center;
         align-items: center;
@@ -380,7 +389,7 @@
     .color-prod li{
         display: inline-block;
     }
-    
+
     .top :nth-child(2) {
         margin-left: 1.0666rem;
     }
@@ -406,13 +415,12 @@
         text-align: right;
         float: left;
 
-     
+
     }
 
     .use-manual-desc {
         padding-left: .56rem;
         width: 50%;
-        float: left;
         display: flex;
         height: 100%;
         flex-direction: column;
@@ -424,12 +432,9 @@
         display: inline-block;
     }
 
-    .manual-title div {
-        display: inline-block;
-        
-    }
 
     .manual-title {
+        line-height: 1;
         white-space: nowrap;
         font-size:.64rem;
         font-weight:bold;
@@ -438,6 +443,9 @@
         letter-spacing:5px;
         display: flex;
         justify-content: space-between;
+    }
+    .manual-title div {
+        display: inline-block;
     }
 
     .white-title {
@@ -459,18 +467,18 @@
 
     .left-desc {
         font-size:.26666rem;
-      
+
         font-weight:bold;
         color:rgba(0,0,0,1);
         line-height:.38666rem;
-       
+
     }
 
     .right-desc {
         padding: .226666rem;
-        border: 3px solid #0698ec;
+        border: 2px solid #0698ec;
         font-size:.2rem;
-      
+        border-radius: 3px;
         font-weight:bold;
         color:rgba(33,150,243,1);
         line-height:.22666rem;
@@ -524,7 +532,7 @@
         font-size:.21333rem;
         font-weight:bold;
         color:rgba(17,17,17,1);
-     
+
     }
 
     .include-img img {
@@ -545,20 +553,21 @@
         align-items: center;
     }
 
-    .product-imglist-main >:nth-child(1) {
-        background: url('../../image/product/product1.png') no-repeat;
-        background-size: 100%;
-        width: 8.66666rem;
-        height: 3.06666rem;
-        position: relative;
-    }
-
+    .product-imglist-main >:nth-child(1),
     .product-imglist-main >:nth-child(2) {
-        background: url('../../image/product/product2.png') no-repeat;
         background-size: 100%;
         width: 8.66666rem;
         height: 3.06666rem;
         position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+    .product-imglist-main >:nth-child(1) {
+        background-image: url('../../image/product/product1.png');
+    }
+    .product-imglist-main >:nth-child(2) {
+        background-image: url('../../image/product/product2.png');
     }
 
     .product1-img {
@@ -599,20 +608,29 @@
 
     .product-info >:nth-child(2) {
         font-size: .26666rem;
-       
+
         color: #fff;
-       
+
+    }
+
+    .product-imglist-img {
+        &:hover {
+            .product-hover {
+                opacity: 1;
+            }
+        }
     }
 
     .product-hover {
+        transition: all map_get($global-time, transition);
         position: absolute;
         width: 100%;
         height: 100%;
         background: rgba(0,0,0,.3);
         z-index: 20;
-        display: none;
+        opacity: 0;
     }
-   
+
     .product-show1 {
         position: absolute;
         width: 100%;

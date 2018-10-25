@@ -13,12 +13,12 @@ const bottomHover = ()=>{
         $('.product-imglist-img').eq(1).find('.product-hover').css('display','none')
     })
 }
-  
+
   const init = () => {
-    bottomHover()
+    // bottomHover()
   }
   const bind = () => {
-  
+
   }
   export default {
     init: init(),
