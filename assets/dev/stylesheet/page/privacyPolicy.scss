@@ -8,7 +8,7 @@
     h2 {
       font-size: map_get($global-font-size, a);
       line-height: 1;
-      padding: map_get($global-spacing, f) 0 .58666rem;
+      padding: map_get($global-spacing, f) 0 (44/$calc-base-num)*$global-font-unit;
       text-align: center;
       font-family: NotoSansCJKjp-Medium ,$global-default-family;
     }

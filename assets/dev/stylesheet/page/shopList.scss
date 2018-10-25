@@ -31,7 +31,7 @@
     }
 
     dd {
-      font-size: map_get($global-font-size, c);
+      font-size: map_get($global-font-size, e);
       color: map_get($global-color, a);
       line-height: 25px;
       margin-top: map_get($global-spacing, d);
@@ -45,7 +45,7 @@
 
   //mixin shopRegin start
   .shop-region-top {
-    margin: 1.26666rem auto 1.04rem;
+    margin: (95/$calc-base-num)*$global-font-unit auto (78/$calc-base-num)*$global-font-unit;
 
     .top-content {
       margin-left: 20%;
@@ -61,7 +61,7 @@
           &:before {
             content: '';
             display: block;
-            width: 50px;
+            width: (50/$calc-base-num)*$global-font-unit;
             height: 3px;
             background-color: map_get($global-color, a);
             margin-bottom: map_get($global-spacing, e);
@@ -73,11 +73,11 @@
         }
 
         &:nth-child(2) {
-          margin-left: .54666rem;
+          margin-left: (42/$calc-base-num)*$global-font-unit;
         }
 
         &:nth-child(3) {
-          margin-left: 1.33333rem;
+          margin-left: (100/$calc-base-num)*$global-font-unit;
         }
 
         &+li {
@@ -92,23 +92,37 @@
 
   .shop-region-content {
     border: 1px dashed map_get($global-color, c);
-    padding: .506666rem 0 .84rem;
+    padding: (40/$calc-base-num)*$global-font-unit 0 (63/$calc-base-num)*$global-font-unit;
   }
   .shop-region-ul {
     display: flex;
+    flex-wrap: wrap;
 
     li {
-      flex-grow: 1;
+      width: 33.3333%;
+      padding: 0 (12/$calc-base-num)*$global-font-unit (80/$calc-base-num)*$global-font-unit;
 
-      h3 {
+      .region-item-title {
         font-size: map_get($global-font-size, f);
         font-weight: 600;
-        margin-bottom: map_get($global-spacing, c);
-        font-family: 'NotoSansCJKjp-Bold' ,$global-default-family;
+        margin-bottom: map_get($global-spacing, h);
+        font-family: 'NotoSansCJKjp-Bold', $global-default-family;
+
+        p {
+          height: 18px;
+        }
       }
 
-      p {
-        font-size: map_get($global-font-size, e);
+      p, a {
+        display: block;
+        font-size: map_get($global-font-size, c);
+        word-break: break-word;
+        word-break: break-all;
+        font-family: "NotoSansCJKjp-Regular", $global-default-family;
+
+      }
+      a:hover {
+        text-decoration: underline;
       }
     }
   }

@@ -1,7 +1,7 @@
 .page-index {
   .index-home-wrap {
     position: relative;
-    padding-bottom: 2.4rem;
+    padding-bottom: 10vh;
 
     .main-wrap {
       position: relative;
@@ -49,29 +49,30 @@
     color: #fff;
 
     h2 {
-      font-size: map_get($global-font-size, h);
+      font-size: (50/$calc-base-num)*$global-font-unit;
       line-height: 1.1;
       font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
     h3 {
-      font-size: map_get($global-font-size, h);
+      font-size: (50/$calc-base-num)*$global-font-unit;
       line-height: 1.5;
       font-family: SFNSDisplay ,$global-default-family;
       font-weight: 500;
     }
 
     p {
-      font-size: map_get($global-font-size, i);
+      font-size: (22/$calc-base-num)*$global-font-unit;
       line-height: 1.6;
-      margin-top: map_get($global-spacing, g);
+      margin-top: (70/$calc-base-num)*$global-font-unit;
       font-family: NotoSansCJKjp-Medium ,$global-default-family;
+      letter-spacing: 5px;
     }
 
     a {
       display: inline-block;
       background-color: map_get($global-color, a);
-      padding: map_get($global-spacing, e) map_get($global-spacing, g);
+      padding: map_get($global-spacing, d) map_get($global-spacing, a);
       color: #fff;
       font-size: map_get($global-font-size, b);
       margin-top: map_get($global-spacing, c);
@@ -92,28 +93,38 @@
 
     .index-title-cont {
       display: flex;
-      margin-left: 30%;
+      margin-left: 25%;
 
       h3 {
         font-size: map_get($global-font-size, d);
         line-height: 1.19;
-        width: 440px;
         font-family: SFNSDisplay ,$global-default-family;
 
         &:before {
           content: '';
           display: block;
-          width: 50px;
+          width: (50/$calc-base-num)*$global-font-unit;
           height: 3px;
           background-color: map_get($global-color, a);
           margin-bottom: map_get($global-spacing, e);
         }
       }
 
+      li:first-child {
+        min-width: (420/$calc-base-num)*$global-font-unit;
+      }
+
+      li:nth-child(2) {
+        min-width: 220px;
+      }
+
+      li:last-child {
+        flex: 1;
+      }
+
       li + li {
         font-size: map_get($global-font-size, e);
         margin-left: map_get($global-spacing, m);
-        width: 220px;
         font-family: NotoSansCJKjp-Regular ,$global-default-family;
       }
     }
@@ -124,7 +135,7 @@
     padding: 10px;
     background: url("../image/index/home-pro-f2.jpg") center no-repeat;
     background-size: cover;
-    height: 600px;
+    height: 50vh;
 
     &:hover .mask-wrap {
       opacity: .6;
@@ -162,7 +173,7 @@
 
   .index-other-wrap {
     display: flex;
-    height: 400px;
+    height: 33vh;
   }
 
   .index-other-item {

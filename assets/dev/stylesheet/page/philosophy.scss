@@ -53,9 +53,9 @@
     .cont-img-wrap {
       position: relative;
       width: 40%;
-      background: url("../image/philosophy/philosophy-word.jpg") bottom no-repeat;
+      background: url("../image/philosophy/philosophy-word.jpg") center no-repeat;
       background-size: cover;
-      height: 700px;
+      height: 58vh;
 
       .side-icon-img {
         left: auto;
@@ -76,7 +76,7 @@
         width: 70%;
 
         h2 {
-          font-size: map_get($global-font-size, h);
+          font-size: (56/$calc-base-num)*$global-font-unit;
           line-height: 1.15;
           font-family: DIN-BoldAlternate ,$global-default-family;
           letter-spacing:6px;
@@ -87,7 +87,7 @@
           line-height: 1.6;
           letter-spacing:5px;
           font-family: NotoSansCJKjp-Medium,$global-default-family;
-          margin-top: (12/$calc-base-num)*1rem;
+          margin-top: (12/$calc-base-num)*$global-font-unit;
         }
       }
     }
