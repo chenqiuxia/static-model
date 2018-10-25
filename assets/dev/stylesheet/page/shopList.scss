@@ -35,6 +35,7 @@
       color: map_get($global-color, a);
       line-height: 25px;
       margin-top: map_get($global-spacing, d);
+      font-family: NotoSansCJKjp-Regular;
 
       a:hover {
         text-decoration: underline;

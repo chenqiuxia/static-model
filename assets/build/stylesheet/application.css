@@ -234,7 +234,7 @@ a {
 }
 
 .page-company .nav-submenu-wrap li:hover, .page-shop .nav-submenu-wrap li:hover, .page-policy .nav-submenu-wrap li:hover, .page-commercial .nav-submenu-wrap li:hover {
-  background-color: #0d0d0d;
+  background-color: #333333;
 }
 
 /* media start*/
@@ -298,6 +298,7 @@ header .nav > ul > li {
   cursor: pointer;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  font-family: AppleSystemUIFont;
 }
 
 header .nav > ul > li + li {
@@ -451,6 +452,7 @@ footer a:hover {
   padding-bottom: 0.26667rem;
   font-size: 0.21333rem;
   line-height: 1.5;
+  font-family: NotoSansCJKjp-Regular;
 }
 
 .footer-main .bottom-wrap {
@@ -468,6 +470,7 @@ footer a:hover {
 .footer-main .bottom-wrap .http-wrap {
   font-size: 0.16rem;
   line-height: 1.5;
+  font-family: NotoSansCJKjp-Light;
 }
 
 .footer-main .bottom-wrap .http-wrap a + a {
@@ -494,7 +497,8 @@ footer a:hover {
 .shop-title-wrap h2 {
   position: relative;
   line-height: 1.178;
-  font-family: 'Rubik300';
+  font-family: 'SFNSDisplay';
+  letter-spacing: 4px;
 }
 
 .shop-title-wrap h2:first-child:after {
@@ -509,6 +513,9 @@ footer a:hover {
 .shop-title-wrap p {
   line-height: 1;
   margin-top: 0.56rem;
+  font-family: NotoSansCJKjp-Thin;
+  font-weight: 100;
+  letter-spacing: 2px;
 }
 
 .contact-us-wrap {
@@ -539,7 +546,7 @@ footer a:hover {
   font-size: 0.53333rem;
   line-height: 1;
   padding: 0.26667rem 0.8rem;
-  font-family: DIN-BoldAlternate;
+  font-family: DINAlternate-Bold;
 }
 
 .contact-us-wrap .contact-cont .text-row {
@@ -718,13 +725,15 @@ footer a:hover {
 .page-index .home-content-wrap h3 {
   font-size: 0.85333rem;
   line-height: 1.1;
+  font-family: SFNSDisplay;
+  font-weight: 400;
 }
 
 .page-index .home-content-wrap p {
   font-size: 0.4rem;
   line-height: 1.6;
   margin-top: 1.33333rem;
-  font-family: 'Rubik300';
+  font-family: 'NotoSansCJKjp-Medium';
 }
 
 .page-index .home-content-wrap a {
@@ -762,6 +771,7 @@ footer a:hover {
   font-size: 0.48rem;
   line-height: 1.19;
   width: 440px;
+  font-family: SFNSDisplay;
 }
 
 .page-index .index-title-wrap .index-title-cont h3:before {
@@ -777,6 +787,7 @@ footer a:hover {
   font-size: 0.16rem;
   margin-left: 0.33333rem;
   width: 220px;
+  font-family: NotoSansCJKjp-Regular;
 }
 
 .page-index .index-earphone-wrap {
@@ -825,6 +836,7 @@ footer a:hover {
   color: #fff;
   letter-spacing: 10px;
   margin-left: 30%;
+  font-family: DIN-Medium;
 }
 
 .page-index .index-other-wrap {
@@ -1698,6 +1710,7 @@ footer a:hover {
   color: #111;
   line-height: 25px;
   margin-top: 0.2rem;
+  font-family: NotoSansCJKjp-Regular;
 }
 
 .page-shop .shop-img-dl dd a:hover {
@@ -1789,6 +1802,7 @@ footer a:hover {
   font-size: 0.21333rem;
   line-height: 2.5;
   padding-bottom: 1.33333rem;
+  font-family: NotoSansCJKjp-Regular;
 }
 
 .page-policy .policy-content h2 {
@@ -1796,6 +1810,7 @@ footer a:hover {
   line-height: 1;
   padding: 0.86667rem 0 0.58666rem;
   text-align: center;
+  font-family: NotoSansCJKjp-Medium;
 }
 
 .page-commercial .commercial-content {
@@ -1850,6 +1865,7 @@ footer a:hover {
   display: flex;
   font-size: 0.21333rem;
   line-height: 1.56;
+  font-family: NotoSansCJKjp-Regular;
 }
 
 .page-company .company-info-wrap dl dt {
@@ -2326,6 +2342,8 @@ footer a:hover {
 
 .page-product2 .func-kinds-desc > :nth-child(1) {
   font-size: 0.21333rem;
+  font-family: DIN-Medium;
+  letter-spacing: 6px;
 }
 
 .page-product2 .func-kinds-desc > :nth-child(2) {
@@ -2337,6 +2355,7 @@ footer a:hover {
 .page-product2 .func-kinds-desc > :nth-child(3) {
   margin-top: .33333rem;
   font-size: 0.22667rem;
+  font-family: NotoSansCJKjp-Regular;
 }
 
 .page-product2 .kinds-icon {
@@ -2964,7 +2983,7 @@ footer a:hover {
   font-size: 0.85333rem;
   line-height: 1.15;
   font-family: DIN-BoldAlternate;
-  letter-spacing: 10px;
+  letter-spacing: 6px;
 }
 
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content p {
