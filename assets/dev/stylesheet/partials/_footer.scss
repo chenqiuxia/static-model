@@ -58,7 +58,7 @@ footer {
   }
 
   .footer-link-wrap {
-    font-size: map_get($global-font-size, c);
+    font-size: map_get($global-font-size, e);
     line-height: 1.5;
 
     dt {
@@ -71,11 +71,11 @@ footer {
   }
 
   .footer-product-col {
-    margin-left: 2.66666rem;
+    margin-left: 10vw;
   }
 
   .footer-company-col {
-    margin-left: .88rem;
+    margin-left: (66/$calc-base-num)*$global-font-unit;
   }
 
   .footer-tel-location {

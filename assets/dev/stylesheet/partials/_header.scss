@@ -3,8 +3,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  border-top: .26666rem solid map_get($global-color, g);
-  padding: .74666rem 0 .74666rem;
+  border-top: (20/$calc-base-num)*$global-font-unit solid map_get($global-color, g);
+  padding: (56/$calc-base-num)*$global-font-unit 0;
   z-index: map_get($global-zIndex, header);
   transition: background-color map_get($global-time, transition);
   &.is-scrolled {
@@ -14,14 +14,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: .66666rem;
-    line-height: .66666rem;
+    height: (50/$calc-base-num)*$global-font-unit;
+    line-height: (50/$calc-base-num)*$global-font-unit;
     background: transparent;
   }
 
   .logo {
     display: block;
-    width: 3.3333rem;
+    width: (250/$calc-base-num)*$global-font-unit;
     height: 100%;
     background-image: url('../image/Logo-product-black.svg');
     background-repeat: no-repeat;
@@ -32,12 +32,12 @@ header {
     }
   }
   .nav {
-    margin-top: (15/$calc-base-num)*1rem;
+    margin-top: (15/$calc-base-num)*$global-font-unit;
   }
   .nav > ul > li{
     position: relative;
     display: inline-block;
-    font-size: .21333rem;
+    font-size: (18/$calc-base-num)*$global-font-unit;
     color: #000;
     padding: 0 map_get($global-spacing, i);
     cursor: pointer;
@@ -45,7 +45,7 @@ header {
     font-family: AppleSystemUIFont ,$global-default-family;
 
     & + li {
-      margin-left: .8rem;
+      margin-left: (60/$calc-base-num)*$global-font-unit;
     }
 
     &:hover {
@@ -55,22 +55,22 @@ header {
 
     &.product-link:hover .nav-submenu-wrap {
       height: auto;
-      top: .66rem;
+      top: (48/$calc-base-num)*$global-font-unit;
       z-index: 1;
       opacity: 1;
     }
 
     a {
       display: block;
-      font-size: .21333rem;
+      font-size: (18/$calc-base-num)*$global-font-unit;
     }
   }
 
   h1 {
     height: 34px;
     line-height: 34px;
-    padding: 0 .22666rem;
-    font-size: .18666rem;
+    padding: 0 (17/$calc-base-num)*$global-font-unit;
+    font-size: (15/$calc-base-num)*$global-font-unit;
     border-radius: 5px;
     color: #fff;
   }

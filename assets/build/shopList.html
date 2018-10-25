@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>取扱店舗一覧-完全ワイヤレスイヤホン「ファノーム」公式サイト</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no viewport-fit=cover">
     <meta name="keywords" content="イヤフォン,ワイヤレス,ファノーム,FUNOHM,ワイヤレスイヤホン">
     <meta name="description" content="完全独立型ワイヤレスイヤホン「ファノーム」の公式サイトです。20時間連続再生、防水、防滴仕様、落下に強いワイヤレスイヤフォンを製造・販売しています。">
     <link rel="stylesheet" href="stylesheet/application.min.css" type="text/css">
@@ -13,67 +14,40 @@
     <script>
       ! function(e, t)
       {
+        var n = t.documentElement,
+          d = e.devicePixelRatio || 1;
+
         function i()
         {
-          var t = n.getBoundingClientRect().width,
-            i = navigator.userAgent.toLowerCase();
-          /ipad.*yanxuan/.test(i) || t / s > 750 && (t = 750 * s);
-          var a = t / 10;
-          n.style.fontSize = a + "px", d.rem = e.rem = a
-        }
-        var a, r = e.document,
-          n = r.documentElement,
-          o = r.querySelector('meta[name="viewport"]'),
-          l = r.querySelector('meta[name="flexible"]'),
-          s = 0,
-          m = 0,
-          d = t.flexible || (t.flexible = {});
-        if (o)
-        {
-          var c = o.getAttribute("content").match(/initial\-scale=([\d\.]+)/);
-          c && (m = parseFloat(c[1]), s = parseInt(1 / m))
-        }
-        else if (l)
-        {
-          var p = l.getAttribute("content");
-          if (p)
+          var clientWidth = 0;
+          if (n.clientWidth > 1200)
           {
-            var u = p.match(/initial\-dpr=([\d\.]+)/),
-              f = p.match(/maximum\-dpr=([\d\.]+)/);
-            u && (s = parseFloat(u[1]), m = parseFloat((1 / s).toFixed(2))), f && (s = parseFloat(f[1]), m = parseFloat((1 / s).toFixed(2)))
+            clientWidth = 1560
           }
-        }
-        if (!s && !m)
-        {
-          var v = (e.navigator.appVersion.match(/android/gi), e.navigator.appVersion.match(/iphone/gi)),
-            b = e.devicePixelRatio;
-          s = v ? b >= 3 && (!s || s >= 3) ? 3 : b >= 2 && (!s || s >= 2) ? 2 : 1 : 1, m = 1 / s
-        }
-        if (n.setAttribute("data-dpr", s), !o)
-          if (o = r.createElement("meta"), o.setAttribute("name", "viewport"), e.webPageScalable ? o.setAttribute("content", "initial-scale=" + m + ", user-scalable=yes") : o.setAttribute("content", "initial-scale=" + m + ", maximum-scale=" + m + ", minimum-scale=" + m + ", user-scalable=no viewport-fit=cover"), n.firstElementChild) n.firstElementChild.appendChild(o);
+          else if (n.clientWidth < 1200)
+          {
+            clientWidth = 1200
+          }
           else
           {
-            var h = r.createElement("div");
-            h.appendChild(o), r.write(h.innerHTML)
-          } e.addEventListener("resize", function()
-        {
-          clearTimeout(a), a = setTimeout(i, 300)
-        }, !1), e.addEventListener("pageshow", function(e)
-        {
-          e.persisted && (clearTimeout(a), a = setTimeout(i, 300))
-        }, !1), "complete" === r.readyState ? r.body.style.fontSize = 12 * s + "px" : r.addEventListener("DOMContentLoaded", function(e)
-        {
-          r.body.style.fontSize = 12 * s + "px"
-        }, !1), i(), d.dpr = e.dpr = s, d.refreshRem = i, d.rem2px = function(e)
-        {
-          var t = parseFloat(e) * this.rem;
-          return "string" == typeof e && e.match(/rem$/) && (t += "px"), t
-        }, d.px2rem = function(e)
-        {
-          var t = parseFloat(e) / this.rem;
-          return "string" == typeof e && e.match(/px$/) && (t += "rem"), t
+            clientWidth = n.clientWidth
+          }
+          var e = clientWidth / 3.75;
+          n.style.fontSize = e + "px"
         }
-      }(window, window.lib || (window.lib = {}));
+        if (function e()
+          {
+            t.body ? t.body.style.fontSize = "12px" : t.addEventListener("DOMContentLoaded", e)
+          }(), i(), e.addEventListener("resize", i), e.addEventListener("pageshow", function(e)
+          {
+            e.persisted && i()
+          }), d >= 2)
+        {
+          var o = t.createElement("body"),
+            a = t.createElement("div");
+          a.style.border = ".5px solid transparent", o.appendChild(a), n.appendChild(o), 1 === a.offsetHeight && n.classList.add("hairlines"), n.removeChild(o)
+        }
+      }(window, document)
     </script>
   <body class="page-padding-top page-shop">
     <header class="x-header">
@@ -144,153 +118,44 @@
     <div class="shop-region-content">
       <ul class="main-wrap shop-region-ul">
         <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
+          <div class="region-item-title">
+            <p>アンジェ・ビュロー</p>
+            <p>ecute上野店</p>
+          </div>
+          <p>〒110-0005 東京都台東区上野7-1-1<br>JR東日本上野駅構内3階 ecute上野内 </p><a href="tel:03-5826-5681">TEL：03-5826-5681</a>
+          <p>営業時間：8:00-22:00（日祝 8:00-21:30）</p><a href="https://www.angers.jp/shoplist/angers-ueno/">https://www.angers.jp/shoplist/angers-ueno/</a>
         </li>
         <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
+          <div class="region-item-title">
+            <p>フジヤエービック</p>
+            <p>Part3</p>
+          </div>
+          <p>〒164-0001 東京都中野区中野5-52-15<br>中野ブロードウェイ3F </p><a href="tel:0120-189-248">TEL：0120-189-248</a>
+          <p>営業時間 : 10:30-20:00 定休日：正月、休館日のみ</p><a href="https://www.fujiya-avic.jp/">https://www.fujiya-avic.jp/</a>
         </li>
         <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
+          <div class="region-item-title">
+            <p>マークスタイルトーキョー</p>
+            <p>表参道ヒルズ店</p>
+          </div>
+          <p>〒150-0001 東京都渋谷区神宮前4-12-10<br>表参道ヒルズB3F </p><a href="tel:03-3478-5337 ">TEL：03-3478-5337 </a>
+          <p>営業時間：11:00～21:00 　日曜日 11:00～20:00</p><a href="https://marks.jp/shop/markstyle-tokyo/">https://marks.jp/shop/markstyle-tokyo/</a>
         </li>
         <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
+          <div class="region-item-title">
+            <p>ONKYO BASE</p>
+            <p></p>
+          </div>
+          <p>〒101-0041 東京都千代田区神田須田町1丁目25番地4<br>mAAch ecute KANDA MANSEIBASHI </p><a href="tel:080-8310-6278">TEL：080-8310-6278</a>
+          <p>営業時間：11:00～20:00 （定休日：不定休）</p><a href="http://onkyodirect.jp/shop/pages/ONKYOBASE_ACCESS.aspx">http://onkyodirect.jp/shop/pages/ONKYOBASE_ACCESS.aspx</a>
         </li>
         <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-      </ul>
-    </div>
-    <div class="shop-region-top main-wrap">
-      <ul class="top-content">
-        <li>
-          <p>大阪</p>
-          <p>OSAKA</p>
-        </li>
-        <li>
-          <p></p>
-          <p></p>
-          <p></p>
-        </li>
-        <li>
-          <p></p>
-          <p></p>
-          <p></p>
-        </li>
-      </ul>
-    </div>
-    <div class="shop-region-content">
-      <ul class="main-wrap shop-region-ul">
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-      </ul>
-    </div>
-    <div class="shop-region-top main-wrap">
-      <ul class="top-content">
-        <li>
-          <p>仙台</p>
-          <p>SENDAI</p>
-        </li>
-        <li>
-          <p></p>
-          <p></p>
-          <p></p>
-        </li>
-        <li>
-          <p></p>
-          <p></p>
-          <p></p>
-        </li>
-      </ul>
-    </div>
-    <div class="shop-region-content">
-      <ul class="main-wrap shop-region-ul">
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
-        </li>
-        <li>
-          <h3>STORE-01</h3>
-          <p>Maybellshire</p>
-          <p>810 Alexandro Port Suite 731</p>
-          <p>10448-7568</p>
-          <p>kris.jones@winifred.us</p>
+          <div class="region-item-title">
+            <p>山野楽器 銀座本店 B1</p>
+            <p>Beat Stage</p>
+          </div>
+          <p>山野楽器 銀座本店 B1,Beat Stage</p><a href="tel:03-3562-5051 ">TEL：03-3562-5051 </a>
+          <p>営業時間：10:30～20:00 　定休日：不定休</p><a href="https://www.yamano-music.co.jp/shops/ginza/g-audio">https://www.yamano-music.co.jp/shops/ginza/g-audio</a>
         </li>
       </ul>
     </div>
@@ -320,7 +185,7 @@
           </div>
         </div>
         <div class="bottom-wrap">
-          <div class="http-wrap"><a href="./privacyPolicy.html">privacy policy</a><a>site map</a></div>
+          <div class="http-wrap"><a href="./privacyPolicy.html">privacy policy</a></div>
           <p class="company-tag">&#169 2017 FUNOHM Inc.</p>
         </div>
       </div>

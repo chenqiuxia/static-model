@@ -1,11 +1,11 @@
 .contact-us-wrap {
-  padding: 4.13333rem 0 4.13333rem;
+  padding: (310/$calc-base-num)*$global-font-unit 0;
 
   .contact-cont {
     display: flex;
     justify-content: center;
     transition: all map_get($global-time, transition);
-    width: 60%;
+    width: 53%;
     margin: 0 auto;
 
     &:hover {
@@ -14,8 +14,10 @@
 
     span {
       display: inline-block;
-      font-size: map_get($global-font-size, g);
+      font-size: map_get($global-font-size, j);
       line-height: 1;
+      flex-grow: 1;
+      min-width: 400px;
       padding: map_get($global-spacing, i) map_get($global-spacing, c);
       font-family: DINAlternate-Bold ,$global-default-family;
     }
