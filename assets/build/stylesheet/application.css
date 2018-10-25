@@ -216,7 +216,7 @@ a {
 }
 
 .page-padding-top {
-  padding-top: 0.22187rem;
+  padding-top: 0.26792rem;
 }
 
 .page-company .nav > ul > li:hover, .page-shop .nav > ul > li:hover, .page-policy .nav > ul > li:hover, .page-commercial .nav > ul > li:hover {
@@ -242,8 +242,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  border-top: 0.03125rem solid #EFE9DD;
-  padding: 0.0875rem 0;
+  border-top: 0.03774rem solid #EFE9DD;
+  padding: 0.10566rem 0;
   z-index: 9999;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
@@ -266,14 +266,14 @@ header .header-wrap {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 0.07812rem;
-  line-height: 0.07812rem;
+  height: 0.09434rem;
+  line-height: 0.09434rem;
   background: transparent;
 }
 
 header .logo {
   display: block;
-  width: 0.39062rem;
+  width: 0.4717rem;
   height: 100%;
   background-image: url("../image/Logo-product-black.svg");
   background-repeat: no-repeat;
@@ -285,15 +285,15 @@ header .logo:hover {
 }
 
 header .nav {
-  margin-top: 0.02344rem;
+  margin-top: 0.0283rem;
 }
 
 header .nav > ul > li {
   position: relative;
   display: inline-block;
-  font-size: 0.025rem;
+  font-size: 0.03019rem;
   color: #000;
-  padding: 0 0.03125rem;
+  padding: 0 0.03774rem;
   cursor: pointer;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -301,7 +301,7 @@ header .nav > ul > li {
 }
 
 header .nav > ul > li + li {
-  margin-left: 0.09375rem;
+  margin-left: 0.11321rem;
 }
 
 header .nav > ul > li:hover {
@@ -311,21 +311,21 @@ header .nav > ul > li:hover {
 
 header .nav > ul > li.product-link:hover .nav-submenu-wrap {
   height: auto;
-  top: 0.075rem;
+  top: 0.09057rem;
   z-index: 1;
   opacity: 1;
 }
 
 header .nav > ul > li a {
   display: block;
-  font-size: 0.025rem;
+  font-size: 0.03019rem;
 }
 
 header h1 {
   height: 34px;
   line-height: 34px;
-  padding: 0 0.02656rem;
-  font-size: 0.02344rem;
+  padding: 0 0.03208rem;
+  font-size: 0.0283rem;
   border-radius: 5px;
   color: #fff;
 }
@@ -353,7 +353,7 @@ header .nav-submenu-wrap li:hover {
 footer {
   background-color: #000;
   color: #fff;
-  padding: 0.09375rem 0 0.09375rem;
+  padding: 0.11321rem 0 0.11321rem;
 }
 
 footer a {
@@ -380,7 +380,7 @@ footer a:hover {
 }
 
 .footer-main .contact-wrap .media-link {
-  margin-top: 0.1875rem;
+  margin-top: 0.22642rem;
 }
 
 .footer-main .contact-wrap .media-link a {
@@ -392,7 +392,7 @@ footer a:hover {
 }
 
 .footer-main .contact-wrap .media-link a + a {
-  margin-left: 0.03125rem;
+  margin-left: 0.03774rem;
 }
 
 .footer-main .contact-wrap .media-link a:hover {
@@ -412,7 +412,7 @@ footer a:hover {
 }
 
 .footer-main .footer-link-wrap {
-  font-size: 0.025rem;
+  font-size: 0.03019rem;
   line-height: 1.5;
 }
 
@@ -421,15 +421,15 @@ footer a:hover {
 }
 
 .footer-main .footer-link-wrap dd {
-  margin-top: 0.03125rem;
+  margin-top: 0.03774rem;
 }
 
 .footer-main .footer-product-col {
-  margin-left: 0.3125rem;
+  margin-left: 0.37736rem;
 }
 
 .footer-main .footer-company-col {
-  margin-left: 0.10312rem;
+  margin-left: 0.12453rem;
 }
 
 .footer-main .footer-tel-location {
@@ -449,8 +449,8 @@ footer a:hover {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  padding-bottom: 0.03125rem;
-  font-size: 0.025rem;
+  padding-bottom: 0.03774rem;
+  font-size: 0.03019rem;
   line-height: 1.5;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -464,21 +464,21 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 0.10938rem;
+  margin-top: 0.13208rem;
 }
 
 .footer-main .bottom-wrap .http-wrap {
-  font-size: 0.01875rem;
+  font-size: 0.02264rem;
   line-height: 1.5;
   font-family: NotoSansCJKjp-Light, "Rubik300";
 }
 
 .footer-main .bottom-wrap .http-wrap a + a {
-  margin-left: 0.05469rem;
+  margin-left: 0.06604rem;
 }
 
 .footer-main .bottom-wrap .company-tag {
-  font-size: 0.025rem;
+  font-size: 0.03019rem;
   line-height: 1.2;
   letter-spacing: 5px;
 }
@@ -486,11 +486,11 @@ footer a:hover {
 .shop-title-wrap {
   position: relative;
   text-align: center;
-  margin-top: 0.09375rem;
-  border-top: 0.01562rem solid #1a1a1a;
-  border-bottom: 0.01562rem solid #1a1a1a;
-  padding: 0.09375rem 0;
-  font-size: 0.04375rem;
+  margin-top: 0.11321rem;
+  border-top: 0.01887rem solid #1a1a1a;
+  border-bottom: 0.01887rem solid #1a1a1a;
+  padding: 0.11321rem 0;
+  font-size: 0.05283rem;
   color: #111;
 }
 
@@ -512,14 +512,14 @@ footer a:hover {
 
 .shop-title-wrap p {
   line-height: 1;
-  margin-top: 0.06563rem;
+  margin-top: 0.07925rem;
   font-family: NotoSansCJKjp-Thin, "Rubik300";
   font-weight: 100;
   letter-spacing: 2px;
 }
 
 .contact-us-wrap {
-  padding: 0.48438rem 0;
+  padding: 0.58491rem 0;
 }
 
 .contact-us-wrap .contact-cont {
@@ -543,9 +543,9 @@ footer a:hover {
 
 .contact-us-wrap .contact-cont span {
   display: inline-block;
-  font-size: 0.0625rem;
+  font-size: 0.07547rem;
   line-height: 1;
-  padding: 0.03125rem 0.09375rem;
+  padding: 0.03774rem 0.11321rem;
   font-family: DINAlternate-Bold, "Rubik300";
 }
 
@@ -665,7 +665,7 @@ footer a:hover {
 
 .page-index .index-home-wrap {
   position: relative;
-  padding-bottom: 0.28125rem;
+  padding-bottom: 0.33962rem;
 }
 
 .page-index .index-home-wrap .main-wrap {
@@ -717,32 +717,33 @@ footer a:hover {
 }
 
 .page-index .home-content-wrap h2 {
-  font-size: 0.1rem;
+  font-size: 0.12075rem;
   line-height: 1.1;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-index .home-content-wrap h3 {
-  font-size: 0.1rem;
+  font-size: 0.12075rem;
   line-height: 1.5;
   font-family: SFNSDisplay, "Rubik300";
   font-weight: 500;
 }
 
 .page-index .home-content-wrap p {
-  font-size: 0.04688rem;
+  font-size: 0.0566rem;
   line-height: 1.6;
-  margin-top: 0.15625rem;
+  margin-top: 0.18868rem;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
+  letter-spacing: 5px;
 }
 
 .page-index .home-content-wrap a {
   display: inline-block;
   background-color: #111;
-  padding: 0.04688rem 0.15625rem;
+  padding: 0.0566rem 0.18868rem;
   color: #fff;
-  font-size: 0.03438rem;
-  margin-top: 0.09375rem;
+  font-size: 0.04151rem;
+  margin-top: 0.11321rem;
   letter-spacing: 3px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -756,7 +757,7 @@ footer a:hover {
 .page-index .index-title-wrap {
   color: #000;
   border: 1px dashed #979797;
-  padding: 0.125rem 0;
+  padding: 0.15094rem 0;
 }
 
 .page-index .index-title-wrap .index-title-cont {
@@ -768,7 +769,7 @@ footer a:hover {
 }
 
 .page-index .index-title-wrap .index-title-cont h3 {
-  font-size: 0.05625rem;
+  font-size: 0.06792rem;
   line-height: 1.19;
   font-family: SFNSDisplay, "Rubik300";
 }
@@ -776,14 +777,14 @@ footer a:hover {
 .page-index .index-title-wrap .index-title-cont h3:before {
   content: '';
   display: block;
-  width: 0.07812rem;
+  width: 0.09434rem;
   height: 3px;
   background-color: #111;
-  margin-bottom: 0.04688rem;
+  margin-bottom: 0.0566rem;
 }
 
 .page-index .index-title-wrap .index-title-cont li:first-child {
-  min-width: 0.65625rem;
+  min-width: 0.79245rem;
 }
 
 .page-index .index-title-wrap .index-title-cont li:nth-child(2) {
@@ -798,8 +799,8 @@ footer a:hover {
 }
 
 .page-index .index-title-wrap .index-title-cont li + li {
-  font-size: 0.01875rem;
-  margin-left: 0.03906rem;
+  font-size: 0.02264rem;
+  margin-left: 0.04717rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
@@ -845,7 +846,7 @@ footer a:hover {
 }
 
 .page-index .index-earphone-wrap .earphone-cont h2 {
-  font-size: 0.1125rem;
+  font-size: 0.13585rem;
   color: #fff;
   letter-spacing: 10px;
   margin-left: 30%;
@@ -901,7 +902,7 @@ footer a:hover {
 
 .page-index .index-other-item h4 {
   text-align: center;
-  font-size: 0.075rem;
+  font-size: 0.09057rem;
   color: #fff;
   letter-spacing: 8px;
   font-family: DIN-BoldAlternate, "Rubik300";
@@ -944,14 +945,14 @@ footer a:hover {
 .page-product1 .banner-desc {
   white-space: nowrap;
   position: absolute;
-  bottom: 0.16094rem;
+  bottom: 0.19434rem;
   height: 100%;
 }
 
 .page-product1 .banner-desc .imgs {
-  left: 1.17188rem;
+  left: 1.41509rem;
   position: absolute;
-  bottom: 0.04688rem;
+  bottom: 0.0566rem;
   width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -969,30 +970,30 @@ footer a:hover {
 }
 
 .page-product1 .banner-desc .imgs :nth-child(2) {
-  margin-left: 0.07812rem;
+  margin-left: 0.09434rem;
 }
 
 .page-product1 .product-intro {
   display: inline-block;
-  width: 0.96094rem;
-  height: 0.33437rem;
+  width: 1.16038rem;
+  height: 0.40377rem;
 }
 
 .page-product1 .banner-desc > img {
   display: inline-block;
-  height: 1.29531rem;
+  height: 1.56415rem;
 }
 
 .page-product1 .product1-name {
-  width: 0.47187rem;
-  height: 0.45156rem;
-  font-size: 0.34531rem;
-  line-height: 0.34531rem;
+  width: 0.56981rem;
+  height: 0.54528rem;
+  font-size: 0.41698rem;
+  line-height: 0.41698rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  bottom: 0.16406rem;
-  left: -0.11719rem;
+  bottom: 0.19811rem;
+  left: -0.14151rem;
   font-weight: 1000;
 }
 
@@ -1002,26 +1003,26 @@ footer a:hover {
 
 .page-product1 .product-desc {
   white-space: normal;
-  width: 0.70312rem;
-  height: 0.33437rem;
-  margin-left: 0.06719rem;
+  width: 0.84906rem;
+  height: 0.40377rem;
+  margin-left: 0.08113rem;
   display: inline-block;
-  font-size: 0.02656rem;
-  line-height: 0.03984rem;
+  font-size: 0.03208rem;
+  line-height: 0.04811rem;
   vertical-align: bottom;
   position: absolute;
-  left: 0.35156rem;
-  bottom: 0.29297rem;
+  left: 0.42453rem;
+  bottom: 0.35377rem;
 }
 
 .page-product1 .product-left :nth-child(0) {
-  font-size: 0.03125rem;
-  line-height: 0.09922rem;
+  font-size: 0.03774rem;
+  line-height: 0.11981rem;
   letter-spacing: 3px;
 }
 
 .page-product1 .product-desc :nth-child(1) {
-  font-size: 0.03828rem;
+  font-size: 0.04623rem;
   font-family: NotoSansCJKjp-Bold;
   letter-spacing: 3px;
   line-height: 1rem;
@@ -1072,17 +1073,17 @@ footer a:hover {
 }
 
 .page-shop .shop-img-dl dt {
-  font-size: 0.03438rem;
+  font-size: 0.04151rem;
   color: #111;
   line-height: 33px;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
 .page-shop .shop-img-dl dd {
-  font-size: 0.025rem;
+  font-size: 0.03019rem;
   color: #111;
   line-height: 25px;
-  margin-top: 0.02344rem;
+  margin-top: 0.0283rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
@@ -1091,7 +1092,7 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top {
-  margin: 0.14844rem auto 0.12187rem;
+  margin: 0.17925rem auto 0.14717rem;
 }
 
 .page-shop .shop-region-top .top-content {
@@ -1107,7 +1108,7 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top .top-content li:first-child {
-  font-size: 0.05625rem;
+  font-size: 0.06792rem;
   color: #111;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
@@ -1115,10 +1116,10 @@ footer a:hover {
 .page-shop .shop-region-top .top-content li:first-child:before {
   content: '';
   display: block;
-  width: 0.07812rem;
+  width: 0.09434rem;
   height: 3px;
   background-color: #111;
-  margin-bottom: 0.04688rem;
+  margin-bottom: 0.0566rem;
 }
 
 .page-shop .shop-region-top .top-content li:first-child p {
@@ -1126,15 +1127,15 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top .top-content li:nth-child(2) {
-  margin-left: 0.06563rem;
+  margin-left: 0.07925rem;
 }
 
 .page-shop .shop-region-top .top-content li:nth-child(3) {
-  margin-left: 0.15625rem;
+  margin-left: 0.18868rem;
 }
 
 .page-shop .shop-region-top .top-content li + li {
-  font-size: 0.01875rem;
+  font-size: 0.02264rem;
 }
 
 .page-shop .shop-region-top .top-content li + li p {
@@ -1143,7 +1144,7 @@ footer a:hover {
 
 .page-shop .shop-region-content {
   border: 1px dashed #D8D8D8;
-  padding: 0.0625rem 0 0.09844rem;
+  padding: 0.07547rem 0 0.11887rem;
 }
 
 .page-shop .shop-region-ul {
@@ -1158,13 +1159,13 @@ footer a:hover {
 
 .page-shop .shop-region-ul li {
   width: 33.3333%;
-  padding: 0 0.02344rem 0.125rem;
+  padding: 0 0.0283rem 0.15094rem;
 }
 
 .page-shop .shop-region-ul li .region-item-title {
-  font-size: 0.03125rem;
+  font-size: 0.03774rem;
   font-weight: 600;
-  margin-bottom: 0.09375rem;
+  margin-bottom: 0.06604rem;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
@@ -1174,7 +1175,7 @@ footer a:hover {
 
 .page-shop .shop-region-ul li p, .page-shop .shop-region-ul li a {
   display: block;
-  font-size: 0.01875rem;
+  font-size: 0.02264rem;
   word-break: break-word;
 }
 
@@ -1183,16 +1184,16 @@ footer a:hover {
 }
 
 .page-policy .policy-content {
-  font-size: 0.025rem;
+  font-size: 0.03019rem;
   line-height: 2.5;
-  padding-bottom: 0.15625rem;
+  padding-bottom: 0.18868rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-policy .policy-content h2 {
-  font-size: 0.04375rem;
+  font-size: 0.05283rem;
   line-height: 1;
-  padding: 0.10156rem 0 0.06875rem;
+  padding: 0.12264rem 0 0.08302rem;
   text-align: center;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
@@ -1202,15 +1203,15 @@ footer a:hover {
 }
 
 .page-commercial .commercial-content {
-  font-size: 0.025rem;
+  font-size: 0.03019rem;
   line-height: 1.5;
-  padding-bottom: 0.15625rem;
+  padding-bottom: 0.18868rem;
 }
 
 .page-commercial .commercial-content h2 {
-  font-size: 0.04375rem;
+  font-size: 0.05283rem;
   line-height: 1;
-  padding: 0.10156rem 0 0.07031rem;
+  padding: 0.12264rem 0 0.08491rem;
   text-align: center;
 }
 
@@ -1222,7 +1223,7 @@ footer a:hover {
 }
 
 .page-commercial .commercial-content .cont-row + .cont-row {
-  margin-top: 0.05469rem;
+  margin-top: 0.06604rem;
 }
 
 .page-commercial .commercial-content .cont-row span {
@@ -1238,7 +1239,7 @@ footer a:hover {
 }
 
 .page-company .company-info-wrap {
-  padding: 0.10938rem 0 0.125rem;
+  padding: 0.13208rem 0 0.15094rem;
 }
 
 .page-company .company-info-wrap dl {
@@ -1247,7 +1248,7 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0.025rem;
+  font-size: 0.03019rem;
   line-height: 1.56;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -1264,7 +1265,7 @@ footer a:hover {
 }
 
 .page-company .company-info-wrap dl + dl {
-  margin-top: 0.05469rem;
+  margin-top: 0.06604rem;
 }
 
 .page-company .company-map-wrap {
@@ -1366,80 +1367,80 @@ footer a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 0.23438rem;
+  padding-bottom: 0.28302rem;
   color: #fff;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .banner-desc :nth-child(1) {
-  font-size: 0.4625rem;
-  line-height: 0.4625rem;
+  font-size: 0.55849rem;
+  line-height: 0.55849rem;
   font-family: DIN-BoldAlternate, "Rubik300";
 }
 
 .page-product2 .banner-desc :nth-child(2) {
-  margin-top: 0.04063rem;
-  font-size: 0.03125rem;
-  width: 0.53906rem;
+  margin-top: 0.04906rem;
+  font-size: 0.03774rem;
+  width: 0.65094rem;
 }
 
 .page-product2 .banner-desc :nth-child(3) {
-  margin-top: 0.01562rem;
-  width: 0.53906rem;
-  font-size: 0.025rem;
+  margin-top: 0.01887rem;
+  width: 0.65094rem;
+  font-size: 0.03019rem;
 }
 
 .page-product2 .banner-desc :nth-child(4) {
-  width: 0.53906rem;
-  font-size: 0.025rem;
+  width: 0.65094rem;
+  font-size: 0.03019rem;
 }
 
 .page-product2 .product-intro {
   display: inline-block;
   position: relative;
-  width: 0.96094rem;
-  height: 0.33437rem;
+  width: 1.16038rem;
+  height: 0.40377rem;
 }
 
 .page-product2 .product1-name {
-  width: 0.35469rem;
-  height: 0.33281rem;
-  font-size: 0.34531rem;
-  line-height: 0.34531rem;
+  width: 0.4283rem;
+  height: 0.40189rem;
+  font-size: 0.41698rem;
+  line-height: 0.41698rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  bottom: 0.05937rem;
+  bottom: 0.0717rem;
 }
 
 .page-product2 .product-desc {
   white-space: normal;
-  width: 0.53906rem;
-  height: 0.33437rem;
+  width: 0.65094rem;
+  height: 0.40377rem;
   overflow: hidden;
-  margin-left: 0.06719rem;
+  margin-left: 0.08113rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  left: 0.35156rem;
-  bottom: 0.05937rem;
+  left: 0.42453rem;
+  bottom: 0.0717rem;
 }
 
 .page-product2 .product-left :nth-child(0) {
-  font-size: 0.03125rem;
-  line-height: 0.1rem;
+  font-size: 0.03774rem;
+  line-height: 0.12075rem;
   letter-spacing: 3px;
 }
 
 .page-product2 .product-desc :nth-child(1) {
-  font-size: 0.02656rem;
+  font-size: 0.03208rem;
   letter-spacing: 3px;
 }
 
 .page-product2 .func-kinds {
   width: 100%;
-  height: 0.78125rem;
-  margin-top: 0.41406rem;
+  height: 0.9434rem;
+  margin-top: 0.5rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1488,38 +1489,38 @@ footer a:hover {
 }
 
 .page-product2 .func-kinds-img :nth-child(2) {
-  height: 0.28125rem;
+  height: 0.33962rem;
   position: absolute;
-  right: 0.17188rem;
-  top: -0.14062rem;
+  right: 0.20755rem;
+  top: -0.16981rem;
 }
 
 .page-product2 .func-kinds-desc {
   width: 50%;
-  margin-left: 0.14062rem;
+  margin-left: 0.16981rem;
 }
 
 .page-product2 .func-kinds-desc > :nth-child(1) {
-  font-size: 0.025rem;
+  font-size: 0.03019rem;
   font-family: DIN-Medium, "Rubik300";
   letter-spacing: 6px;
 }
 
 .page-product2 .func-kinds-desc > :nth-child(2) {
-  margin-top: 0.02813rem;
-  font-size: 0.05469rem;
+  margin-top: 0.03396rem;
+  font-size: 0.06604rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .func-kinds-desc > :nth-child(3) {
-  margin-top: 0.03906rem;
-  font-size: 0.02656rem;
+  margin-top: 0.04717rem;
+  font-size: 0.03208rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-product2 .heatset-banner {
-  height: 0.68906rem;
-  margin-top: 0.50625rem;
+  height: 0.83208rem;
+  margin-top: 0.61132rem;
   overflow: hidden;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1532,7 +1533,7 @@ footer a:hover {
 }
 
 .page-product2 .heatset-banner-list {
-  width: 2.1875rem;
+  width: 2.64151rem;
 }
 
 .page-product2 .heatset-banner-list > li {
@@ -1566,18 +1567,18 @@ footer a:hover {
 
 .page-product2 .heatset-banner-list :nth-child(2) {
   position: absolute;
-  left: 0.50469rem;
+  left: 0.60943rem;
   -webkit-transition-delay: .2s;
   transition-delay: .2s;
 }
 
 .page-product2 .heatset-banner-list :nth-child(3) {
   position: absolute;
-  left: 1.04375rem;
+  left: 1.26038rem;
 }
 
 .page-product2 .heatset-banner-list li img {
-  height: 0.68906rem;
+  height: 0.83208rem;
 }
 
 .page-philosophy .philosophy-home-wrap {
@@ -1604,7 +1605,7 @@ footer a:hover {
 }
 
 .page-philosophy .home-content-wrap h2 {
-  font-size: 0.075rem;
+  font-size: 0.09057rem;
   font-weight: bold;
   line-height: 1.48;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
@@ -1624,7 +1625,7 @@ footer a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  width: 0.03125rem;
+  width: 0.03774rem;
   background: #E50113;
   background-size: contain;
   height: 65%;
@@ -1632,12 +1633,12 @@ footer a:hover {
 
 .page-philosophy .side-icon-img:after {
   position: absolute;
-  bottom: -0.09375rem;
+  bottom: -0.11321rem;
   left: 0;
   content: '';
   display: inline-block;
   width: 100%;
-  height: 0.09375rem;
+  height: 0.11321rem;
   background: url("../image/philosophy/phy-icon.png") no-repeat;
   background-size: contain;
 }
@@ -1691,29 +1692,29 @@ footer a:hover {
 }
 
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content h2 {
-  font-size: 0.1rem;
+  font-size: 0.12075rem;
   line-height: 1.15;
   font-family: DIN-BoldAlternate, "Rubik300";
   letter-spacing: 6px;
 }
 
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content p {
-  font-size: 0.04688rem;
+  font-size: 0.0566rem;
   line-height: 1.6;
   letter-spacing: 5px;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
-  margin-top: 0.01875rem;
+  margin-top: 0.02264rem;
 }
 
 .page-product .func-wrap {
   overflow: hidden;
   position: relative;
-  height: 2.37812rem;
+  height: 2.8717rem;
 }
 
 .page-product .run-img {
   width: 100%;
-  height: 0.9375rem;
+  height: 1.13208rem;
 }
 
 .page-product .run-img img {
@@ -1725,7 +1726,7 @@ footer a:hover {
 .page-product .rock-img {
   width: 100%;
   position: relative;
-  height: 0.9375rem;
+  height: 1.13208rem;
 }
 
 .page-product .rock-img img {
@@ -1737,7 +1738,7 @@ footer a:hover {
 
 .page-product .func-desc {
   position: absolute;
-  top: 0.51094rem;
+  top: 0.61698rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1759,50 +1760,50 @@ footer a:hover {
 }
 
 .page-product .func-desc > div {
-  width: 1.05469rem;
+  width: 1.27358rem;
 }
 
 .page-product .func-desc > img {
-  width: 1.05469rem;
+  width: 1.27358rem;
 }
 
 .page-product .func-desc-line {
-  height: 0.03438rem;
+  height: 0.04151rem;
   width: 100%;
   background-color: #006965;
-  margin-top: 0.28125rem;
+  margin-top: 0.33962rem;
 }
 
 .page-product .func-desc-title {
   white-space: nowrap;
-  font-size: 0.125rem;
+  font-size: 0.15094rem;
   font-weight: 600;
-  line-height: 0.14062rem;
+  line-height: 0.16981rem;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product .func-title-all {
-  margin-top: 0.04063rem;
+  margin-top: 0.04906rem;
 }
 
 .page-product .func-desc-content {
-  font-size: 0.0625rem;
-  line-height: 0.07812rem;
+  font-size: 0.07547rem;
+  line-height: 0.09434rem;
   color: #111111;
   font-weight: bold;
-  margin-top: 0.03906rem;
+  margin-top: 0.04717rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product .func-desc-detial {
-  font-size: 0.02656rem;
-  margin-top: 0.04375rem;
+  font-size: 0.03208rem;
+  margin-top: 0.05283rem;
   font-weight: 400;
   line-height: 1.4;
 }
 
 .page-product .battery-main {
-  margin-top: 0.09375rem;
+  margin-top: 0.11321rem;
   background-color: #fff;
 }
 
@@ -1810,11 +1811,11 @@ footer a:hover {
   background-image: url("../image/product2/battery_BG.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1.17188rem;
+  height: 1.41509rem;
 }
 
 .page-product .battery-content {
-  padding-top: 0.44688rem;
+  padding-top: 0.53962rem;
   width: 100%;
   height: 100%;
 }
@@ -1830,8 +1831,8 @@ footer a:hover {
 }
 
 .page-product .battery-list li {
-  width: 0.76562rem;
-  height: 0.22344rem;
+  width: 0.92453rem;
+  height: 0.26981rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1847,28 +1848,28 @@ footer a:hover {
   flex-direction: column;
   border: 5px solid #fff;
   color: #fff;
-  padding: 0.0375rem;
-  font-size: 0.02656rem;
-  line-height: 0.04063rem;
+  padding: 0.04528rem;
+  font-size: 0.03208rem;
+  line-height: 0.04906rem;
   font-weight: normal;
   position: relative;
 }
 
 .page-product .battery-list li::before {
   content: '';
-  top: 0.07031rem;
-  left: -0.04688rem;
-  height: 0.08125rem;
-  width: 0.03125rem;
+  top: 0.08491rem;
+  left: -0.0566rem;
+  height: 0.09811rem;
+  width: 0.03774rem;
   background-color: #fff;
   position: absolute;
 }
 
 .page-product .battery-list :nth-child(1) {
-  font-size: 0.0625rem;
+  font-size: 0.07547rem;
   font-weight: bold;
   color: white;
-  line-height: 0.08281rem;
+  line-height: 0.1rem;
   letter-spacing: 5px;
 }
 
@@ -1877,7 +1878,7 @@ footer a:hover {
 }
 
 .page-product .battery-sum {
-  margin-top: 0.16562rem;
+  margin-top: 0.2rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1891,26 +1892,26 @@ footer a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 0.075rem;
-  line-height: 0.0875rem;
+  font-size: 0.09057rem;
+  line-height: 0.10566rem;
   letter-spacing: 8px;
   font-weight: 500;
   color: #fff;
 }
 
 .page-product .fun-list {
-  margin-top: 0.30312rem;
+  margin-top: 0.36604rem;
 }
 
 .page-product .fun-list-all {
-  padding-top: 0.30312rem;
+  padding-top: 0.36604rem;
   width: 100%;
   line-height: 1.4;
   margin: 0 auto;
 }
 
 .page-product .fun-list-all li {
-  height: 0.27031rem;
+  height: 0.32642rem;
   width: 48%;
   float: left;
   display: -webkit-box;
@@ -1924,12 +1925,12 @@ footer a:hover {
 }
 
 .page-product .fun-list-all > :nth-child(3) {
-  margin-top: 0.15781rem;
+  margin-top: 0.19057rem;
 }
 
 .page-product .fun-list-all > :nth-child(4) {
   margin-left: 4%;
-  margin-top: 0.15781rem;
+  margin-top: 0.19057rem;
 }
 
 .page-product .kinds-icon {
@@ -1941,7 +1942,7 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 0.14375rem;
+  margin-top: 0.17358rem;
 }
 
 .page-product .func-item-desc {
@@ -1952,26 +1953,26 @@ footer a:hover {
 }
 
 .page-product .func-item-desc :nth-child(1) {
-  font-size: 0.0375rem;
+  font-size: 0.04528rem;
   font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product .func-item-desc :nth-child(2) {
-  margin-top: 0.02656rem;
-  font-size: 0.02656rem;
+  margin-top: 0.03208rem;
+  font-size: 0.03208rem;
 }
 
 .page-product .func-item-img {
   height: 100%;
-  margin-left: 0.02344rem;
+  margin-left: 0.0283rem;
 }
 
 .page-product .func-item-img img {
-  height: 0.46875rem;
+  height: 0.56604rem;
 }
 
 .page-product .heatset-color {
-  height: 3.125rem;
+  height: 3.77358rem;
   width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
@@ -2001,52 +2002,52 @@ footer a:hover {
 }
 
 .page-product .color-li > p {
-  font-size: 0.075rem;
-  line-height: 0.0875rem;
+  font-size: 0.09057rem;
+  line-height: 0.10566rem;
   font-weight: bold;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product .color-list {
-  margin-top: 0.075rem;
+  margin-top: 0.09057rem;
 }
 
 .page-product .color-list li {
   display: inline-block;
-  margin-left: 0.03125rem;
+  margin-left: 0.03774rem;
 }
 
 .page-product .color-list :nth-child(1) {
-  width: 0.02969rem;
-  height: 0.02969rem;
+  width: 0.03585rem;
+  height: 0.03585rem;
   border-radius: 100px;
   background-color: #000;
 }
 
 .page-product .color-list :nth-child(2) {
-  width: 0.02969rem;
-  height: 0.02969rem;
+  width: 0.03585rem;
+  height: 0.03585rem;
   border-radius: 100px;
   background-color: #f5f5f5;
 }
 
 .page-product .color-list :nth-child(3) {
-  width: 0.02969rem;
-  height: 0.02969rem;
+  width: 0.03585rem;
+  height: 0.03585rem;
   border-radius: 100px;
   background-color: #ff0021;
 }
 
 .page-product .color-list :nth-child(4) {
-  width: 0.02969rem;
-  height: 0.02969rem;
+  width: 0.03585rem;
+  height: 0.03585rem;
   border-radius: 100px;
   background-color: #a0b779;
 }
 
 .page-product .color-list :nth-child(5) {
-  width: 0.02969rem;
-  height: 0.02969rem;
+  width: 0.03585rem;
+  height: 0.03585rem;
   border-radius: 100px;
   background-color: #939392;
 }
@@ -2079,30 +2080,30 @@ footer a:hover {
 }
 
 .page-product .top :nth-child(2) {
-  margin-left: 0.125rem;
+  margin-left: 0.15094rem;
 }
 
 .page-product .bottom {
-  margin-top: 0.07812rem;
+  margin-top: 0.09434rem;
   white-space: nowrap;
 }
 
 .page-product .bottom :nth-child(2) {
-  margin-left: 0.125rem;
+  margin-left: 0.15094rem;
 }
 
 .page-product .bottom :nth-child(3) {
-  margin-left: 0.125rem;
+  margin-left: 0.15094rem;
 }
 
 .page-product .use-manual {
   background-color: #fff;
-  height: 1.58906rem;
+  height: 1.91887rem;
   border-bottom: 1px solid #b2b3b4;
 }
 
 .page-product .use-manual-main {
-  padding: 0.28125rem 0;
+  padding: 0.33962rem 0;
   height: 100%;
 }
 
@@ -2113,7 +2114,7 @@ footer a:hover {
 }
 
 .page-product .use-manual-desc {
-  padding-left: 0.06563rem;
+  padding-left: 0.07925rem;
   width: 45%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2132,16 +2133,16 @@ footer a:hover {
 }
 
 .page-product .use-manual-img img {
-  width: 0.92969rem;
+  width: 1.12264rem;
   display: inline-block;
 }
 
 .page-product .manual-title {
   white-space: nowrap;
-  font-size: 0.075rem;
+  font-size: 0.09057rem;
   font-weight: bold;
   color: black;
-  line-height: 0.0875rem;
+  line-height: 0.10566rem;
   letter-spacing: 5px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2181,25 +2182,25 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 0.09375rem;
+  margin-top: 0.11321rem;
 }
 
 .page-product .left-desc {
-  font-size: 0.03125rem;
+  font-size: 0.03774rem;
   font-weight: bold;
   color: black;
-  line-height: 0.04688rem;
+  line-height: 0.0566rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product .right-desc {
-  padding: 0.02656rem;
+  padding: 0.03208rem;
   border: 2px solid #0698ec;
-  font-size: 0.02344rem;
+  font-size: 0.0283rem;
   border-radius: 3px;
   font-weight: bold;
   color: #2196f3;
-  line-height: 0.02656rem;
+  line-height: 0.03208rem;
   letter-spacing: 2px;
   font-family: DIN-Medium, "Rubik300";
 }
@@ -2210,12 +2211,12 @@ footer a:hover {
 }
 
 .page-product .use-manual-desc :nth-child(3) {
-  margin-top: 0.0625rem;
+  margin-top: 0.07547rem;
 }
 
 .page-product .include-wrap {
   width: 100%;
-  height: 0.55rem;
+  height: 0.66415rem;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
 }
@@ -2254,29 +2255,29 @@ footer a:hover {
 }
 
 .page-product .include-wrap-desc :nth-child(1) {
-  font-size: 0.075rem;
+  font-size: 0.09057rem;
   font-weight: bold;
   color: #111111;
-  line-height: 0.0875rem;
+  line-height: 0.10566rem;
   letter-spacing: 8px;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product .include-wrap-desc :nth-child(2) {
-  margin-top: 0.05312rem;
-  font-size: 0.025rem;
+  margin-top: 0.06415rem;
+  font-size: 0.03019rem;
   font-weight: bold;
   color: #111111;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product .include-img img {
-  width: 1.01406rem;
+  width: 1.22453rem;
 }
 
 .page-product .product-imglist {
   width: 100%;
-  height: 0.49688rem;
+  height: 0.6rem;
   background-color: #fff;
 }
 
@@ -2318,7 +2319,7 @@ footer a:hover {
 
 .page-product .product1-img {
   position: absolute;
-  right: 0.09375rem;
+  right: 0.11321rem;
   bottom: 0;
   z-index: 30;
   height: 70%;
@@ -2326,7 +2327,7 @@ footer a:hover {
 
 .page-product .product2-img {
   position: absolute;
-  left: 0.14844rem;
+  left: 0.17925rem;
   bottom: 0;
   z-index: 30;
   height: 70%;
@@ -2360,14 +2361,14 @@ footer a:hover {
 }
 
 .page-product .product-info > :nth-child(1) {
-  font-size: 0.125rem;
-  line-height: 0.14688rem;
+  font-size: 0.15094rem;
+  line-height: 0.17736rem;
   color: #fff;
   font-weight: 500;
 }
 
 .page-product .product-info > :nth-child(2) {
-  font-size: 0.03125rem;
+  font-size: 0.03774rem;
   color: #fff;
 }
 
