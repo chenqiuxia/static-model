@@ -16,6 +16,14 @@ footer {
   .contact-wrap {
     display: flex;
 
+    .logo-link {
+      display: block;
+    }
+
+    .logo-link:hover {
+      opacity: .7;
+    }
+
     .media-link {
       margin-top: map_get($global-spacing, j);
 

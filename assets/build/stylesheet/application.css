@@ -281,8 +281,12 @@ header .logo {
   background-size: 100%;
 }
 
+header .logo:hover {
+  opacity: .7;
+}
+
 header .nav {
-  margin-top: 0.13333rem;
+  margin-top: 0.2rem;
 }
 
 header .nav > ul > li {
@@ -364,6 +368,14 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+.footer-main .contact-wrap .logo-link {
+  display: block;
+}
+
+.footer-main .contact-wrap .logo-link:hover {
+  opacity: .7;
 }
 
 .footer-main .contact-wrap .media-link {
