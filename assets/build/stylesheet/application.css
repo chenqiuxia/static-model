@@ -955,15 +955,14 @@ footer a:hover {
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  bottom: .5rem;
+  bottom: 1.4rem;
   font-weight: 1000;
 }
 
 .page-product1 .product-desc {
   white-space: normal;
-  width: 4.6rem;
+  width: 6rem;
   height: 2.85333rem;
-  overflow: hidden;
   margin-left: .573333rem;
   display: inline-block;
   font-size: .22666rem;
@@ -971,7 +970,7 @@ footer a:hover {
   vertical-align: bottom;
   position: absolute;
   left: 3rem;
-  bottom: .5rem;
+  bottom: 1.5rem;
 }
 
 .page-product1 .product-left :nth-child(0) {
@@ -981,14 +980,28 @@ footer a:hover {
 }
 
 .page-product1 .product-desc :nth-child(1) {
-  font-size: .22666rem;
+  font-size: .32666rem;
+  font-family: NotoSansCJKjp-Bold;
   letter-spacing: 3px;
-  line-height: .5rem;
+  line-height: 1rem;
+}
+
+.page-product1 .product-desc :nth-child(2) {
+  font-size: .12666rem;
+  letter-spacing: 3px;
+  line-height: 1.5;
+}
+
+.page-product1 .product-desc :nth-child(3) {
+  font-size: .12666rem;
+  letter-spacing: 3px;
+  line-height: 1.5;
 }
 
 .page-product1 .banner-desc > :nth-child(2) {
-  margin-left: .293333rem;
+  margin-left: 1.693333rem;
   width: 5.84rem;
+  line-height: 1.5;
 }
 
 .page-product1 .banner-desc > :nth-child(3) {
@@ -1126,6 +1139,11 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -1157,19 +1175,12 @@ footer a:hover {
   font-size: .5333rem;
   font-weight: bold;
   color: white;
-  line-height: .8rem;
+  line-height: .6rem;
   letter-spacing: 6px;
 }
 
 .page-product1 .battery-list :nth-child(2) {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  line-height: 1.2;
 }
 
 .page-product1 .battery-sum {
@@ -1195,6 +1206,8 @@ footer a:hover {
 
 .page-product1 .fun-list-all {
   margin-top: 2.58666rem;
+  width: 110%;
+  line-height: 1.4;
 }
 
 .page-product1 .fun-list-all li {
@@ -1229,12 +1242,12 @@ footer a:hover {
 
 .page-product1 .func-item-desc :nth-child(1) {
   font-size: .32rem;
+  font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product1 .func-item-desc :nth-child(2) {
   margin-top: .22666rem;
   font-size: .22666rem;
-  line-height: .34666rem;
 }
 
 .page-product1 .func-item-img {
@@ -1257,6 +1270,7 @@ footer a:hover {
 .page-product1 .heatset-color {
   height: 13.33333rem;
   width: 100%;
+  margin-top: .8rem;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
 }
@@ -2189,6 +2203,11 @@ footer a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   border: 5px solid #fff;
   color: #fff;
   padding: .32rem;
@@ -2212,19 +2231,12 @@ footer a:hover {
   font-size: .5333rem;
   font-weight: bold;
   color: white;
-  line-height: .8rem;
+  line-height: .6rem;
   letter-spacing: 6px;
 }
 
 .page-product2 .battery-list :nth-child(2) {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  line-height: 1.2;
 }
 
 .page-product2 .battery-sum {
@@ -2251,6 +2263,8 @@ footer a:hover {
 
 .page-product2 .fun-list-all {
   margin-top: 2.58666rem;
+  width: 110%;
+  line-height: 1.4;
 }
 
 .page-product2 .fun-list-all li {
@@ -2379,12 +2393,12 @@ footer a:hover {
 
 .page-product2 .func-item-desc :nth-child(1) {
   font-size: .32rem;
+  font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product2 .func-item-desc :nth-child(2) {
   margin-top: .22666rem;
   font-size: .22666rem;
-  line-height: .34666rem;
 }
 
 .page-product2 .func-item-img {

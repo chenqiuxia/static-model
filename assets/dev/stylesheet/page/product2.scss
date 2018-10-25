@@ -266,6 +266,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        flex-direction: column;
         border: 5px solid #fff;
         color: #fff;
         padding: .32rem;
@@ -290,13 +291,14 @@
         font-size:.5333rem;
         font-weight:bold;
         color:rgba(255,255,255,1);
-        line-height:.8rem;
+        line-height:.6rem;
         letter-spacing:6px;
     }
 
     .battery-list :nth-child(2) {
-        display: flex;
-        justify-content: flex-end;
+     
+        line-height: 1.2;
+        
 
     }
 
@@ -315,6 +317,8 @@
 
     .fun-list-all {
         margin-top: 2.58666rem;
+        width: 110%;
+        line-height: 1.4;
     }
 
     .fun-list-all li{
@@ -420,13 +424,14 @@
 
     .func-item-desc :nth-child(1) {
         font-size: .32rem;
+        font-family: NotoSansCJKjp-Bold;
 
     }
 
     .func-item-desc :nth-child(2) {
         margin-top: .22666rem;
         font-size: .22666rem;
-        line-height: .34666rem;
+       // line-height: .34666rem;
     }
 
     .func-item-img {
