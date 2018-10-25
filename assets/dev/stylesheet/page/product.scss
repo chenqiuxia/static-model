@@ -1,8 +1,9 @@
 .page-product {
     .func-wrap {
         overflow: hidden;
+      // padding-bottom: 3rem;
         position: relative;
-        height: (1522/$calc-base-num)*$global-font-unit;
+        height: (1500/$calc-base-num)*$global-font-unit;
     }
 
     .run-img {
@@ -82,6 +83,7 @@
         margin-top: (28/$calc-base-num)*$global-font-unit;
         font-weight:400;
         line-height:1.4;
+        font-family: NotoSansCJKjp-Bold;
     }
 
     .battery-main {
@@ -99,7 +101,7 @@
     // }
 
     .battery-content {
-        margin-top: (286/$calc-base-num)*$global-font-unit;
+       // margin-top: (286/$calc-base-num)*$global-font-unit;
         padding-top: (286/$calc-base-num)*$global-font-unit;
         width: 100%;
         height: 100%;
@@ -296,6 +298,14 @@
         margin-top: (17/$calc-base-num)*$global-font-unit;
         font-size: (17/$calc-base-num)*$global-font-unit;
        // line-height: .34666rem;
+       font-family: NotoSansCJKjp-Regular,$global-default-family;
+    }
+
+    .func-item-desc :nth-child(3) {
+      
+        font-size: (17/$calc-base-num)*$global-font-unit;
+       // line-height: .34666rem;
+       font-family: NotoSansCJKjp-Regular,$global-default-family;
     }
 
     .func-item-img {
@@ -351,10 +361,11 @@
 
 
     .heatset-color {
-        height: (1200/$calc-base-num)*$global-font-unit;
+        height: (1000/$calc-base-num)*$global-font-unit;
         width: 100%;
         background-color: #fff;
         border-bottom: 1px solid #b2b3b4;
+        border-top: 1px solid  #b2b3b4;
     }
 
     .heatset-color-main {
@@ -474,14 +485,14 @@
 
     .use-manual-img {
         width: 50%;
-        text-align: right;
+        text-align: center;
         float: left;
 
 
     }
 
     .use-manual-desc {
-        padding-left: (42/$calc-base-num)*$global-font-unit;
+       // padding-left: (42/$calc-base-num)*$global-font-unit;
         width: 45%;
         display: flex;
         height: 100%;
@@ -497,7 +508,7 @@
 
     .manual-title {
         white-space: nowrap;
-        font-size:(48/$calc-base-num)*$global-font-unit;
+        font-size:(40/$calc-base-num)*$global-font-unit;
         font-weight:bold;
         color:rgba(0,0,0,1);
         line-height:(56/$calc-base-num)*$global-font-unit;
@@ -506,8 +517,15 @@
         justify-content: space-between;
         font-family: DIN-Medium ,$global-default-family;
     }
+
+    .manual-title :nth-child(2) {
+        flex: 1;
+        text-align: center;
+    }
+
     .manual-title div {
         display: inline-block;
+        
     }
 
     .white-title {
@@ -517,7 +535,7 @@
     }
 
     .black-title {
-        padding: 12px 12px;
+        padding: 12px 12px 12px 0;
     }
 
     .manual-desc {

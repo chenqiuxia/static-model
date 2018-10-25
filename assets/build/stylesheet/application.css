@@ -1364,6 +1364,7 @@ footer a:hover {
 }
 
 .page-product2 .banner-desc {
+  padding-top: 1%;
   width: 50%;
   float: left;
   height: 100%;
@@ -1371,7 +1372,7 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  padding-right: 10%;
+  padding-left: 16%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1381,10 +1382,6 @@ footer a:hover {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   padding-bottom: 0.28302rem;
   color: #fff;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
@@ -1394,25 +1391,27 @@ footer a:hover {
   font-size: 0.55849rem;
   line-height: 0.55849rem;
   font-family: DIN-BoldAlternate, "Rubik300";
-  width: 0.83962rem;
+  width: 0.46226rem;
   display: inline-block;
   text-align: center;
 }
 
 .page-product2 .banner-desc :nth-child(2) {
+  white-space: nowrap;
   margin-top: 0.04906rem;
-  font-size: 0.03774rem;
-  width: 0.83962rem;
+  font-size: 0.05283rem;
+  width: 0.65094rem;
+  letter-spacing: 3px;
 }
 
 .page-product2 .banner-desc :nth-child(3) {
   margin-top: 0.01887rem;
-  width: 0.83962rem;
+  width: 0.65094rem;
   font-size: 0.03019rem;
 }
 
 .page-product2 .banner-desc :nth-child(4) {
-  width: 0.83962rem;
+  width: 0.65094rem;
   font-size: 0.03019rem;
 }
 
@@ -1736,7 +1735,7 @@ footer a:hover {
 .page-product .func-wrap {
   overflow: hidden;
   position: relative;
-  height: 2.8717rem;
+  height: 2.83019rem;
 }
 
 .page-product .run-img {
@@ -1827,6 +1826,7 @@ footer a:hover {
   margin-top: 0.05283rem;
   font-weight: 400;
   line-height: 1.4;
+  font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product .battery-main {
@@ -1835,7 +1835,6 @@ footer a:hover {
 }
 
 .page-product .battery-content {
-  margin-top: 0.53962rem;
   padding-top: 0.53962rem;
   width: 100%;
   height: 100%;
@@ -1989,6 +1988,12 @@ footer a:hover {
 .page-product .func-item-desc :nth-child(2) {
   margin-top: 0.03208rem;
   font-size: 0.03208rem;
+  font-family: NotoSansCJKjp-Regular, "Rubik300";
+}
+
+.page-product .func-item-desc :nth-child(3) {
+  font-size: 0.03208rem;
+  font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-product .func-item-img {
@@ -2001,10 +2006,11 @@ footer a:hover {
 }
 
 .page-product .heatset-color {
-  height: 2.26415rem;
+  height: 1.88679rem;
   width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
+  border-top: 1px solid  #b2b3b4;
 }
 
 .page-product .heatset-color-main {
@@ -2143,12 +2149,11 @@ footer a:hover {
 
 .page-product .use-manual-img {
   width: 50%;
-  text-align: right;
+  text-align: center;
   float: left;
 }
 
 .page-product .use-manual-desc {
-  padding-left: 0.07925rem;
   width: 45%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2173,7 +2178,7 @@ footer a:hover {
 
 .page-product .manual-title {
   white-space: nowrap;
-  font-size: 0.09057rem;
+  font-size: 0.07547rem;
   font-weight: bold;
   color: black;
   line-height: 0.10566rem;
@@ -2189,6 +2194,14 @@ footer a:hover {
   font-family: DIN-Medium, "Rubik300";
 }
 
+.page-product .manual-title :nth-child(2) {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  text-align: center;
+}
+
 .page-product .manual-title div {
   display: inline-block;
 }
@@ -2200,7 +2213,7 @@ footer a:hover {
 }
 
 .page-product .black-title {
-  padding: 12px 12px;
+  padding: 12px 12px 12px 0;
 }
 
 .page-product .manual-desc {
