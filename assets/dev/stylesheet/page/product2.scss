@@ -70,14 +70,13 @@
         align-items: center;
         padding-bottom: 2rem;
         color: #fff;
-
-        font-family: Rubik300;
+        font-family: NotoSansCJKjp-Bold;
     }
 
     .banner-desc :nth-child(1){
-        font-size: 2.94666rem;
+        font-size: 3.94666rem;
         line-height: 2.94666rem;
-        font-family: 'NotoSansCJKjp-Bold';
+        font-family: DIN-BoldAlternate;
     }
 
     .banner-desc :nth-child(2){
@@ -212,6 +211,7 @@
         font-size: 1.0666rem;
         font-weight: 600;
         line-height: 1.2rem;
+        font-family: DIN-Medium;
     }
 
     .func-title-all{
@@ -224,6 +224,7 @@
         color: rgba(17,17,17,1);
         font-weight:bold;
         margin-top: .3333rem;
+        font-family: NotoSansCJKjp-Bold;
     }
 
     .func-desc-detial {
@@ -394,6 +395,7 @@
     .func-kinds-desc >:nth-child(2){
         margin-top: .24rem;
         font-size:   map_get($global-font-size, j);
+        font-family: NotoSansCJKjp-Bold;
     }
 
     .func-kinds-desc >:nth-child(3){
@@ -500,6 +502,7 @@
         font-size: .64rem;
         line-height: .74666rem;
         font-weight: bold;
+        font-family: DIN-Medium;
     }
 
     .color-list {
@@ -614,7 +617,6 @@
     }
 
     .manual-title {
-        line-height: 1;
         white-space: nowrap;
         font-size:.64rem;
         font-weight:bold;
@@ -623,6 +625,7 @@
         letter-spacing:5px;
         display: flex;
         justify-content: space-between;
+        font-family: DIN-Medium;;
     }
     .manual-title div {
         display: inline-block;
@@ -647,11 +650,10 @@
 
     .left-desc {
         font-size:.26666rem;
-
         font-weight:bold;
         color:rgba(0,0,0,1);
         line-height:.38666rem;
-
+        font-family: NotoSansCJKjp-Bold;
     }
 
     .right-desc {
@@ -663,6 +665,7 @@
         color:rgba(33,150,243,1);
         line-height:.22666rem;
         letter-spacing:2px;
+        font-family: DIN-Medium;
     }
 
     .right-desc:hover {
@@ -705,6 +708,7 @@
         color:rgba(17,17,17,1);
         line-height:.74666rem;
         letter-spacing:8px;
+        font-family: DIN-Medium;
     }
 
     .include-wrap-desc :nth-child(2) {
@@ -712,7 +716,7 @@
         font-size:.21333rem;
         font-weight:bold;
         color:rgba(17,17,17,1);
-
+        font-family: NotoSansCJKjp-Bold;
     }
 
     .include-img img {
