@@ -11,10 +11,10 @@ import product2 from './page/product2';
 import company from './page/company';
 let Route = {
     "all": '.',
-    "index":'^/index.html$',
-    "product1":'^/product1.html$',
-    "product2":'^/product2.html$',
-    "company":'^/company.html$',
+    "index":'^index/index.html$',
+    "product1":'^product1/product1.html$',
+    "product2":'^product2/product2.html$',
+    "company":'^company/company.html$',
 }
 $(function () {
   dispatcher(Route.all, () => {
