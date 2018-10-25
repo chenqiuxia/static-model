@@ -49,22 +49,22 @@
     color: #fff;
 
     h2 {
-      font-size: map_get($global-font-size, h);
+      font-size: (50/$calc-base-num)*$global-font-unit;
       line-height: 1.1;
       font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
     h3 {
-      font-size: map_get($global-font-size, h);
+      font-size: (50/$calc-base-num)*$global-font-unit;
       line-height: 1.5;
       font-family: SFNSDisplay ,$global-default-family;
       font-weight: 500;
     }
 
     p {
-      font-size: map_get($global-font-size, i);
+      font-size: (22/$calc-base-num)*$global-font-unit;
       line-height: 1.6;
-      margin-top: map_get($global-spacing, g);
+      margin-top: (70/$calc-base-num)*$global-font-unit;
       font-family: NotoSansCJKjp-Medium ,$global-default-family;
       letter-spacing: 5px;
     }
@@ -72,7 +72,7 @@
     a {
       display: inline-block;
       background-color: map_get($global-color, a);
-      padding: map_get($global-spacing, e) map_get($global-spacing, g);
+      padding: map_get($global-spacing, d) map_get($global-spacing, a);
       color: #fff;
       font-size: map_get($global-font-size, b);
       margin-top: map_get($global-spacing, c);

@@ -291,7 +291,7 @@ header .nav {
 header .nav > ul > li {
   position: relative;
   display: inline-block;
-  font-size: 0.03019rem;
+  font-size: 0.03396rem;
   color: #000;
   padding: 0 0.03774rem;
   cursor: pointer;
@@ -318,7 +318,7 @@ header .nav > ul > li.product-link:hover .nav-submenu-wrap {
 
 header .nav > ul > li a {
   display: block;
-  font-size: 0.03019rem;
+  font-size: 0.03396rem;
 }
 
 header h1 {
@@ -412,7 +412,7 @@ footer a:hover {
 }
 
 .footer-main .footer-link-wrap {
-  font-size: 0.03019rem;
+  font-size: 0.03396rem;
   line-height: 1.5;
 }
 
@@ -425,7 +425,7 @@ footer a:hover {
 }
 
 .footer-main .footer-product-col {
-  margin-left: 0.37736rem;
+  margin-left: 10vw;
 }
 
 .footer-main .footer-company-col {
@@ -468,7 +468,7 @@ footer a:hover {
 }
 
 .footer-main .bottom-wrap .http-wrap {
-  font-size: 0.02264rem;
+  font-size: 0.03396rem;
   line-height: 1.5;
   font-family: NotoSansCJKjp-Light, "Rubik300";
 }
@@ -519,6 +519,14 @@ footer a:hover {
 }
 
 .contact-us-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   padding: 0.58491rem 0;
 }
 
@@ -533,7 +541,6 @@ footer a:hover {
   justify-content: center;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  width: 60%;
   margin: 0 auto;
 }
 
@@ -543,7 +550,7 @@ footer a:hover {
 
 .contact-us-wrap .contact-cont span {
   display: inline-block;
-  font-size: 0.07547rem;
+  font-size: 0.06604rem;
   line-height: 1;
   padding: 0.03774rem 0.11321rem;
   font-family: DINAlternate-Bold, "Rubik300";
@@ -717,22 +724,22 @@ footer a:hover {
 }
 
 .page-index .home-content-wrap h2 {
-  font-size: 0.12075rem;
+  font-size: 0.09434rem;
   line-height: 1.1;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-index .home-content-wrap h3 {
-  font-size: 0.12075rem;
+  font-size: 0.09434rem;
   line-height: 1.5;
   font-family: SFNSDisplay, "Rubik300";
   font-weight: 500;
 }
 
 .page-index .home-content-wrap p {
-  font-size: 0.0566rem;
+  font-size: 0.04151rem;
   line-height: 1.6;
-  margin-top: 0.18868rem;
+  margin-top: 0.13208rem;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
   letter-spacing: 5px;
 }
@@ -740,7 +747,7 @@ footer a:hover {
 .page-index .home-content-wrap a {
   display: inline-block;
   background-color: #111;
-  padding: 0.0566rem 0.18868rem;
+  padding: 0.0283rem 0.13208rem;
   color: #fff;
   font-size: 0.04151rem;
   margin-top: 0.11321rem;
@@ -799,7 +806,7 @@ footer a:hover {
 }
 
 .page-index .index-title-wrap .index-title-cont li + li {
-  font-size: 0.02264rem;
+  font-size: 0.03396rem;
   margin-left: 0.04717rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -1080,7 +1087,7 @@ footer a:hover {
 }
 
 .page-shop .shop-img-dl dd {
-  font-size: 0.03019rem;
+  font-size: 0.03396rem;
   color: #111;
   line-height: 25px;
   margin-top: 0.0283rem;
@@ -1135,7 +1142,7 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top .top-content li + li {
-  font-size: 0.02264rem;
+  font-size: 0.03396rem;
 }
 
 .page-shop .shop-region-top .top-content li + li p {
@@ -1175,8 +1182,9 @@ footer a:hover {
 
 .page-shop .shop-region-ul li p, .page-shop .shop-region-ul li a {
   display: block;
-  font-size: 0.02264rem;
+  font-size: 0.03396rem;
   word-break: break-word;
+  font-family: "NotoSansCJKjp-Regular", "Rubik300";
 }
 
 .page-shop .shop-region-ul li a:hover {
@@ -1248,7 +1256,7 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0.03019rem;
+  font-size: 0.03396rem;
   line-height: 1.56;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
