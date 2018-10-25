@@ -11,7 +11,7 @@
   h2 {
     position: relative;
     line-height: 1.178;
-    font-family: 'SFNSDisplay';
+    font-family: SFNSDisplay ,$global-default-family;
     letter-spacing:4px;
 
     &:first-child:after {
@@ -27,7 +27,7 @@
   p {
     line-height: 1;
     margin-top: map_get($global-spacing, b);
-    font-family: NotoSansCJKjp-Thin;
+    font-family: NotoSansCJKjp-Thin ,$global-default-family;
     font-weight:100;
     letter-spacing:2px;
   }
