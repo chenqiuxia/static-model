@@ -16,7 +16,7 @@ const bottomHover = ()=>{
 }
 
 const _animation = () => {
-    var $scroll = $('.heatset-product'),
+    var $scroll = $('.heatset-banner'),
           window_scroll_top;
     var bind = function () {
         $(window).scroll(function () {
@@ -27,8 +27,8 @@ const _animation = () => {
         window_scroll_top = $(window).scrollTop();
         
         $scroll.each(function () {
-            if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +200){
-                $(this).addClass('is_scoped');
+            if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +400){
+                $('.heatset-product').addClass('is_scoped');
             }
         });
     };
