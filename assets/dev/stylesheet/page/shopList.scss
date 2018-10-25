@@ -100,7 +100,7 @@
 
     li {
       width: 33.3333%;
-      padding: 0 (15/$calc-base-num)*$global-font-unit (80/$calc-base-num)*$global-font-unit;
+      padding: 0 (12/$calc-base-num)*$global-font-unit (80/$calc-base-num)*$global-font-unit;
 
       .region-item-title {
         font-size: map_get($global-font-size, f);
@@ -115,7 +115,7 @@
 
       p, a {
         display: block;
-        font-size: map_get($global-font-size, e);
+        font-size: map_get($global-font-size, c);
         word-break: break-word;
         font-family: "NotoSansCJKjp-Regular", $global-default-family;
 

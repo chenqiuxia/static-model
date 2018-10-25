@@ -1175,7 +1175,7 @@ footer a:hover {
 
 .page-shop .shop-region-ul li {
   width: 33.3333%;
-  padding: 0 0.0283rem 0.15094rem;
+  padding: 0 0.02264rem 0.15094rem;
 }
 
 .page-shop .shop-region-ul li .region-item-title {
@@ -1191,7 +1191,7 @@ footer a:hover {
 
 .page-shop .shop-region-ul li p, .page-shop .shop-region-ul li a {
   display: block;
-  font-size: 0.03396rem;
+  font-size: 0.03019rem;
   word-break: break-word;
   font-family: "NotoSansCJKjp-Regular", "Rubik300";
 }
