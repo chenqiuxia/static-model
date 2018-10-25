@@ -86,6 +86,8 @@
           font-size: map_get($global-font-size, i);
           line-height: 1.6;
           letter-spacing:5px;
+          font-family: NotoSansCJKjp-Medium,$global-default-family;
+          margin-top: (12/$calc-base-num)*1rem;
         }
       }
     }
