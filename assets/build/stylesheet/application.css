@@ -1191,6 +1191,7 @@ footer a:hover {
   display: block;
   font-size: 0.03019rem;
   word-break: break-word;
+  word-break: break-all;
   font-family: "NotoSansCJKjp-Regular", "Rubik300";
 }
 

@@ -117,6 +117,7 @@
         display: block;
         font-size: map_get($global-font-size, c);
         word-break: break-word;
+        word-break: break-all;
         font-family: "NotoSansCJKjp-Regular", $global-default-family;
 
       }
