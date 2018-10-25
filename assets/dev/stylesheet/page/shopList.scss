@@ -27,7 +27,7 @@
       font-size: map_get($global-font-size, b);
       color: map_get($global-color, a);
       line-height: 33px;
-      font-family: 'NotoSansCJKjp-Bold' + $global-default-family;
+      font-family: 'NotoSansCJKjp-Bold' ,$global-default-family;
     }
 
     dd {
@@ -35,7 +35,7 @@
       color: map_get($global-color, a);
       line-height: 25px;
       margin-top: map_get($global-spacing, d);
-      font-family: NotoSansCJKjp-Regular + $global-default-family;
+      font-family: NotoSansCJKjp-Regular ,$global-default-family;
 
       a:hover {
         text-decoration: underline;
@@ -56,7 +56,7 @@
         &:first-child {
           font-size: map_get($global-font-size, d);
           color: map_get($global-color, a);
-          font-family: 'NotoSansCJKjp-Bold' + $global-default-family;
+          font-family: 'NotoSansCJKjp-Bold' ,$global-default-family;
 
           &:before {
             content: '';
@@ -104,7 +104,7 @@
         font-size: map_get($global-font-size, f);
         font-weight: 600;
         margin-bottom: map_get($global-spacing, c);
-        font-family: 'NotoSansCJKjp-Bold' + $global-default-family;
+        font-family: 'NotoSansCJKjp-Bold' ,$global-default-family;
       }
 
       p {

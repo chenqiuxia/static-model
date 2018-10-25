@@ -13,7 +13,7 @@
       font-size: map_get($global-font-size, m);
       font-weight: bold;
       line-height: 1.48;
-      font-family: NotoSansCJKjp-Bold + $global-default-family;
+      font-family: NotoSansCJKjp-Bold ,$global-default-family;
 
     }
   }
@@ -78,7 +78,7 @@
         h2 {
           font-size: map_get($global-font-size, h);
           line-height: 1.15;
-          font-family: DIN-BoldAlternate + $global-default-family;
+          font-family: DIN-BoldAlternate ,$global-default-family;
           letter-spacing:6px;
         }
 

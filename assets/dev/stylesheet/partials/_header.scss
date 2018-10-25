@@ -14,8 +14,8 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: .6666rem;
-    line-height: .6666rem;
+    height: .66666rem;
+    line-height: .66666rem;
     background: transparent;
   }
 
@@ -42,7 +42,7 @@ header {
     padding: 0 map_get($global-spacing, i);
     cursor: pointer;
     transition: all map_get($global-time, transition);
-    font-family: AppleSystemUIFont + $global-default-family;
+    font-family: AppleSystemUIFont ,$global-default-family;
 
     & + li {
       margin-left: .8rem;
@@ -54,8 +54,8 @@ header {
     }
 
     &.product-link:hover .nav-submenu-wrap {
-      height: 1.3rem;
-      top: .66666rem;
+      height: auto;
+      top: .66rem;
       z-index: 1;
       opacity: 1;
     }
@@ -86,6 +86,7 @@ header {
     opacity: 0;
     height: 0;
     z-index: -1;
+    cursor: pointer;
     transition: all map_get($global-time, transition);
 
     li:hover {

@@ -70,13 +70,13 @@
         align-items: center;
         padding-bottom: 2rem;
         color: #fff;
-        font-family: NotoSansCJKjp-Bold + $global-default-family;
+        font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
     .banner-desc :nth-child(1){
         font-size: 3.94666rem;
         line-height: 2.94666rem;
-        font-family: DIN-BoldAlternate + $global-default-family;
+        font-family: DIN-BoldAlternate ,$global-default-family;
     }
 
     .banner-desc :nth-child(2){
@@ -211,7 +211,7 @@
         font-size: 1.0666rem;
         font-weight: 600;
         line-height: 1.2rem;
-        font-family: DIN-Medium + $global-default-family;
+        font-family: DIN-Medium ,$global-default-family;
     }
 
     .func-title-all{
@@ -224,7 +224,7 @@
         color: rgba(17,17,17,1);
         font-weight:bold;
         margin-top: .3333rem;
-        font-family: NotoSansCJKjp-Bold + $global-default-family;
+        font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
     .func-desc-detial {
@@ -390,20 +390,20 @@
 
     .func-kinds-desc >:nth-child(1){
         font-size:   map_get($global-font-size, c);
-        font-family: DIN-Medium + $global-default-family;
+        font-family: DIN-Medium ,$global-default-family;
         letter-spacing:6px;
     }
 
     .func-kinds-desc >:nth-child(2){
         margin-top: .24rem;
         font-size:   map_get($global-font-size, j);
-        font-family: NotoSansCJKjp-Bold + $global-default-family;
+        font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
     .func-kinds-desc >:nth-child(3){
         margin-top: .33333rem;
         font-size:   map_get($global-font-size, k);
-        font-family: NotoSansCJKjp-Regular + $global-default-family;
+        font-family: NotoSansCJKjp-Regular ,$global-default-family;
     }
 
 
@@ -505,7 +505,7 @@
         font-size: .64rem;
         line-height: .74666rem;
         font-weight: bold;
-        font-family: DIN-Medium + $global-default-family;
+        font-family: DIN-Medium ,$global-default-family;
     }
 
     .color-list {
@@ -628,7 +628,7 @@
         letter-spacing:5px;
         display: flex;
         justify-content: space-between;
-        font-family: DIN-Medium + $global-default-family;
+        font-family: DIN-Medium ,$global-default-family;
     }
     .manual-title div {
         display: inline-block;
@@ -656,7 +656,7 @@
         font-weight:bold;
         color:rgba(0,0,0,1);
         line-height:.38666rem;
-        font-family: NotoSansCJKjp-Bold + $global-default-family;
+        font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
     .right-desc {
@@ -668,7 +668,7 @@
         color:rgba(33,150,243,1);
         line-height:.22666rem;
         letter-spacing:2px;
-        font-family: DIN-Medium + $global-default-family;
+        font-family: DIN-Medium ,$global-default-family;
     }
 
     .right-desc:hover {
@@ -711,7 +711,7 @@
         color:rgba(17,17,17,1);
         line-height:.74666rem;
         letter-spacing:8px;
-        font-family: DIN-Medium + $global-default-family;
+        font-family: DIN-Medium ,$global-default-family;
     }
 
     .include-wrap-desc :nth-child(2) {
@@ -719,7 +719,7 @@
         font-size:.21333rem;
         font-weight:bold;
         color:rgba(17,17,17,1);
-        font-family: NotoSansCJKjp-Bold + $global-default-family;
+        font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
     .include-img img {
