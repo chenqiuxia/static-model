@@ -3,6 +3,7 @@ const initBanner = () => {
     $('.x-banner-slick').slick({
       infinite: true,
       pauseOnFocus: false,
+      lazyLoad: 'ondemand',
       speed: 2000,
       fade: true,
       cssEase: 'linear',
