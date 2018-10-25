@@ -727,7 +727,7 @@ footer a:hover {
   font-size: 0.85333rem;
   line-height: 1.1;
   font-family: SFNSDisplay, "Rubik300";
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .page-index .home-content-wrap p {
@@ -1149,10 +1149,6 @@ footer a:hover {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   border: 5px solid #fff;
   color: #fff;
   padding: .32rem;
@@ -1176,7 +1172,7 @@ footer a:hover {
   font-size: .5333rem;
   font-weight: bold;
   color: white;
-  line-height: .6rem;
+  line-height: .7rem;
   letter-spacing: 6px;
 }
 
@@ -2200,10 +2196,6 @@ footer a:hover {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -2232,7 +2224,7 @@ footer a:hover {
   font-size: .5333rem;
   font-weight: bold;
   color: white;
-  line-height: .6rem;
+  line-height: .7rem;
   letter-spacing: 6px;
 }
 
