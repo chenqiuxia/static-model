@@ -108,7 +108,7 @@ a, a:hover, del, ins, s, u {
 }
 
 body, button, input, keygen, legend, select, textarea {
-  font-size: .75rem;
+  font-size: 12px;
   line-height: 1.5;
   color: #111;
   outline: 0;
@@ -314,6 +314,7 @@ header .nav > ul > li.product-link:hover .nav-submenu-wrap {
 
 header .nav > ul > li a {
   display: block;
+  font-size: .21333rem;
 }
 
 header h1 {
@@ -327,7 +328,7 @@ header h1 {
 
 header .nav-submenu-wrap {
   position: absolute;
-  top: 0rem;
+  top: 0;
   left: 0;
   right: 0;
   text-align: center;
