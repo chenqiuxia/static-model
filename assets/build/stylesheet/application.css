@@ -1725,8 +1725,9 @@ footer a:hover {
 }
 
 .page-product .func-wrap {
+  overflow: hidden;
   position: relative;
-  height: 2.37812rem;
+  height: 2.65625rem;
 }
 
 .page-product .run-img {
@@ -1826,7 +1827,6 @@ footer a:hover {
 }
 
 .page-product .battery-content {
-  margin-top: 0.44688rem;
   padding-top: 0.44688rem;
   width: 100%;
   height: 100%;

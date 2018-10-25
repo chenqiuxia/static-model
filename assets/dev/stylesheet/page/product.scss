@@ -1,8 +1,8 @@
 .page-product {
     .func-wrap {
-       // overflow: hidden;
+        overflow: hidden;
         position: relative;
-        height: (1522/$calc-base-num)*$global-font-unit;
+        height: (1700/$calc-base-num)*$global-font-unit;
     }
 
     .run-img {
@@ -100,7 +100,7 @@
     // }
 
     .battery-content {
-        margin-top: (286/$calc-base-num)*$global-font-unit;
+       // margin-top: (286/$calc-base-num)*$global-font-unit;
         padding-top: (286/$calc-base-num)*$global-font-unit;
         width: 100%;
         height: 100%;
