@@ -4,7 +4,7 @@ const initMap = () => {
     var myCenter=new google.maps.LatLng(35.6853303, 139.7412925)
     var mapProp = {
       center:myCenter,
-      zoom:12,
+      zoom:18,
       mapTypeId:google.maps.MapTypeId.ROADMAP
     };
     var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);

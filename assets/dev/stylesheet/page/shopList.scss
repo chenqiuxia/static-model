@@ -61,7 +61,7 @@
           &:before {
             content: '';
             display: block;
-            width: 50px;
+            width: (50/$calc-base-num)*$global-font-unit;
             height: 3px;
             background-color: map_get($global-color, a);
             margin-bottom: map_get($global-spacing, e);
@@ -96,19 +96,31 @@
   }
   .shop-region-ul {
     display: flex;
+    flex-wrap: wrap;
 
     li {
-      flex-grow: 1;
+      width: 33.3333%;
+      padding: 0 (15/$calc-base-num)*$global-font-unit (80/$calc-base-num)*$global-font-unit;
 
-      h3 {
+      .region-item-title {
         font-size: map_get($global-font-size, f);
         font-weight: 600;
         margin-bottom: map_get($global-spacing, c);
         font-family: 'NotoSansCJKjp-Bold' ,$global-default-family;
+
+        p {
+          height: 18px;
+        }
       }
 
-      p {
+      p, a {
+        display: block;
         font-size: map_get($global-font-size, e);
+        word-break: break-word;
+
+      }
+      a:hover {
+        text-decoration: underline;
       }
     }
   }
