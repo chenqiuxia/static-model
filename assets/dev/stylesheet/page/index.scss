@@ -92,28 +92,38 @@
 
     .index-title-cont {
       display: flex;
-      margin-left: 30%;
+      margin-left: 25%;
 
       h3 {
         font-size: map_get($global-font-size, d);
         line-height: 1.19;
-        width: 440px;
         font-family: SFNSDisplay ,$global-default-family;
 
         &:before {
           content: '';
           display: block;
-          width: 50px;
+          width: (50/$calc-base-num)*$global-font-unit;
           height: 3px;
           background-color: map_get($global-color, a);
           margin-bottom: map_get($global-spacing, e);
         }
       }
 
+      li:first-child {
+        min-width: (420/$calc-base-num)*$global-font-unit;
+      }
+
+      li:nth-child(2) {
+        min-width: 220px;
+      }
+
+      li:last-child {
+        flex: 1;
+      }
+
       li + li {
         font-size: map_get($global-font-size, e);
         margin-left: map_get($global-spacing, m);
-        width: 220px;
         font-family: NotoSansCJKjp-Regular ,$global-default-family;
       }
     }
