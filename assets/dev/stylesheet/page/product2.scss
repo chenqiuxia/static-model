@@ -44,7 +44,7 @@
         position: absolute;
         width: 100%;
         height: 100%;
-        bottom: -(178/$calc-base-num)*$global-font-unit;
+        bottom: -20%;
         z-index: 30;;
     }
 
@@ -54,10 +54,12 @@
         display: flex;
         float: left;
         align-items: flex-end;
+        justify-content: flex-end;
     }
 
     .banner-img img {
         display: inline-block;
+        max-height: 100%;
     }
 
     .banner-desc {
@@ -153,7 +155,7 @@
     .func-wrap {
         overflow: hidden;
         position: relative;
-        height: (1446/$calc-base-num)*$global-font-unit;
+        height: (1522/$calc-base-num)*$global-font-unit;
     }
 
     .run-img {
@@ -229,11 +231,11 @@
         font-size: (17/$calc-base-num)*$global-font-unit;
         margin-top: (28/$calc-base-num)*$global-font-unit;
         font-weight:400;
-        line-height:(26/$calc-base-num)*$global-font-unit;
+        line-height:1.4;
     }
 
     .battery-main {
-        margin-top: (135/$calc-base-num)*$global-font-unit;
+        margin-top: (60/$calc-base-num)*$global-font-unit;
         background-color: #fff;
 
 
@@ -243,11 +245,11 @@
         background-image: url('../image/product2/battery_BG.png');
         background-repeat:  no-repeat;
         background-size: cover;
-        height: (608/$calc-base-num)*$global-font-unit;
+        height: (750/$calc-base-num)*$global-font-unit;
     }
 
     .battery-content {
-        padding-top: (213/$calc-base-num)*$global-font-unit;
+        padding-top: (286/$calc-base-num)*$global-font-unit;
         width: 100%;
         height: 100%;
 
@@ -442,8 +444,9 @@
      //   background:url('../image/product1/box.png');
         // background-repeat: no-repeat;
         // background-size: 100%;
-        height: (441/$calc-base-num)*$global-font-unit;
-        margin-top: (124/$calc-base-num)*$global-font-unit;
+      height: (441/$calc-base-num)*$global-font-unit;
+      margin-top: (124/$calc-base-num)*$global-font-unit;
+      overflow: hidden;
     }
 
     .heatset-banner-list >li {
