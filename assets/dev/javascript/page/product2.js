@@ -1,16 +1,17 @@
 
 const bottomHover = ()=>{
    $('.product-show1').mouseover(function(){
-       $('.product-imglist-img').eq(0).find('.product-hover').css('display','block')
+       console.log($('.product-imglist-img').eq(0).find('.product-hover'))
+       $('.product-imglist-img').eq(0).find('.product-hover').addClass('product-hover-black')
    })
    $('.product-show2').mouseover(function(){
-       $('.product-imglist-img').eq(1).find('.product-hover').css('display','block')
+       $('.product-imglist-img').eq(1).find('.product-hover').addClass('product-hover-black')
    })
    $('.product-show1').mouseout(function(){
-        $('.product-imglist-img').eq(0).find('.product-hover').css('display','none')
+        $('.product-imglist-img').eq(0).find('.product-hover').removeClass('product-hover-black')
     })
     $('.product-show2').mouseout(function(){
-        $('.product-imglist-img').eq(1).find('.product-hover').css('display','none')
+        $('.product-imglist-img').eq(1).find('.product-hover').removeClass('product-hover-black')
     })
 }
   

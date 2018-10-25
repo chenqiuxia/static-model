@@ -1400,7 +1400,13 @@ footer a:hover {
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   z-index: 20;
-  display: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.page-product1 .product-hover-black {
+  opacity: 1;
 }
 
 .page-product1 .product-show1 {
@@ -2119,11 +2125,30 @@ footer a:hover {
 }
 
 .page-product2 .heatset-banner {
-  background: url("../image/product1/box.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
   height: 5.88rem;
   margin-top: 1.61333rem;
+}
+
+.page-product2 .heatset-banner-list {
+  position: relative;
+}
+
+.page-product2 .heatset-banner-list :nth-child(1) {
+  position: absolute;
+}
+
+.page-product2 .heatset-banner-list :nth-child(2) {
+  position: absolute;
+  left: 4.30666rem;
+}
+
+.page-product2 .heatset-banner-list :nth-child(3) {
+  position: absolute;
+  left: 8.90666rem;
+}
+
+.page-product2 .heatset-banner-list li img {
+  height: 5.88rem;
 }
 
 .page-product2 .heatset-color {
@@ -2521,7 +2546,13 @@ footer a:hover {
   height: 100%;
   background: rgba(0, 0, 0, 0.3);
   z-index: 20;
-  display: none;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+  opacity: 0;
+}
+
+.page-product2 .product-hover-black {
+  opacity: 1;
 }
 
 .page-product2 .product-show1 {

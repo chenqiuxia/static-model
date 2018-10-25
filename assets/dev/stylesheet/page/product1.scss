@@ -610,7 +610,14 @@
         height: 100%;
         background: rgba(0,0,0,.3);
         z-index: 20;
-        display: none;
+        transition: all map_get($global-time, transition);
+        opacity: 0;
+        // display: none;
+    }
+
+    .product-hover-black {
+        opacity: 1;
+         //background: rgba(0,0,0,.3);
     }
    
     .product-show1 {

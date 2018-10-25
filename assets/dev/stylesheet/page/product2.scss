@@ -424,12 +424,40 @@
     }
 
     .heatset-banner {
-        background:url('../image/product1/box.png');
-        background-repeat: no-repeat;
-        background-size: 100%;
+     //   background:url('../image/product1/box.png');
+        // background-repeat: no-repeat;
+        // background-size: 100%;
         height: 5.88rem;
         margin-top: 1.61333rem;
     }
+
+    .heatset-banner-list {
+        position: relative;
+    }
+
+    .heatset-banner-list :nth-child(1){
+        position: absolute;
+
+    }
+
+    .heatset-banner-list :nth-child(2){
+        position: absolute;
+        left: 4.30666rem;
+        
+    }
+
+    .heatset-banner-list :nth-child(3){
+        position: absolute;
+        left: 8.90666rem;
+        
+    }
+
+    .heatset-banner-list li img{
+        height: 5.88rem;
+    }
+
+
+
 
     .heatset-color {
         height: 13.33333rem;
@@ -755,7 +783,14 @@
         height: 100%;
         background: rgba(0,0,0,.3);
         z-index: 20;
-        display: none;
+        transition: all map_get($global-time, transition);
+        opacity: 0;
+        // display: none;
+    }
+
+    .product-hover-black {
+        opacity: 1;
+         //background: rgba(0,0,0,.3);
     }
    
     .product-show1 {
