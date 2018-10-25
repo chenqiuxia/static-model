@@ -37,7 +37,7 @@ header {
   .nav > ul > li{
     position: relative;
     display: inline-block;
-    font-size: (16/$calc-base-num)*$global-font-unit;
+    font-size: (18/$calc-base-num)*$global-font-unit;
     color: #000;
     padding: 0 map_get($global-spacing, i);
     cursor: pointer;
@@ -62,7 +62,7 @@ header {
 
     a {
       display: block;
-      font-size: (16/$calc-base-num)*$global-font-unit;
+      font-size: (18/$calc-base-num)*$global-font-unit;
     }
   }
 

@@ -19,7 +19,20 @@
 
         function i()
         {
-          var e = n.clientWidth > 1920 ? 512 : n.clientWidth / 3.75;
+          var clientWidth = 0;
+          if (n.clientWidth > 1200)
+          {
+            clientWidth = 1360
+          }
+          else if (n.clientWidth < 1200)
+          {
+            clientWidth = 1200
+          }
+          else
+          {
+            clientWidth = n.clientWidth
+          }
+          var e = clientWidth / 3.75;
           n.style.fontSize = e + "px"
         }
         if (function e()

@@ -64,14 +64,16 @@
     }
 
     .banner-desc {
+        padding-top: 1%;
         width: 50%;
         float: left;
         height: 100%;
         display: flex;
-        padding-right: 10%;
+        //padding-right: 10%;
+        padding-left: 16%;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
+       // align-items: center;
         padding-bottom: (150/$calc-base-num)*$global-font-unit;
         color: #fff;
         font-family: NotoSansCJKjp-Bold ,$global-default-family;
@@ -81,25 +83,27 @@
         font-size: (296/$calc-base-num)*$global-font-unit;
         line-height: (296/$calc-base-num)*$global-font-unit;
         font-family: DIN-BoldAlternate ,$global-default-family;
-        width: (445/$calc-base-num)*$global-font-unit;
+        width: (245/$calc-base-num)*$global-font-unit;
         display: inline-block;
         text-align: center;
     }
 
     .banner-desc :nth-child(2){
+       white-space: nowrap;
        margin-top: (26/$calc-base-num)*$global-font-unit;
-       font-size: (20/$calc-base-num)*$global-font-unit;
-       width: (445/$calc-base-num)*$global-font-unit;
+       font-size: (28/$calc-base-num)*$global-font-unit;
+       width: (345/$calc-base-num)*$global-font-unit;
+       letter-spacing:3px
     }
 
     .banner-desc :nth-child(3) {
         margin-top: (10/$calc-base-num)*$global-font-unit;
-        width: (445/$calc-base-num)*$global-font-unit;
+        width: (345/$calc-base-num)*$global-font-unit;
         font-size: (16/$calc-base-num)*$global-font-unit;
     }
 
     .banner-desc :nth-child(4) {
-        width: (445/$calc-base-num)*$global-font-unit;
+        width: (345/$calc-base-num)*$global-font-unit;
         font-size: (16/$calc-base-num)*$global-font-unit;
      }
 
