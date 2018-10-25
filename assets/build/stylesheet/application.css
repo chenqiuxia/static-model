@@ -382,6 +382,10 @@ footer a:hover {
   margin-left: 0.26667rem;
 }
 
+.footer-main .contact-wrap .media-link a:hover {
+  opacity: .5;
+}
+
 .footer-main .contact-wrap .media-link .t-icon {
   background-image: url("../image/SNS-icons-01.svg");
 }
