@@ -1,7 +1,6 @@
 
 const bottomHover = ()=>{
    $('.product-show1').mouseover(function(){
-       console.log($('.product-imglist-img').eq(0).find('.product-hover'))
        $('.product-imglist-img').eq(0).find('.product-hover').addClass('product-hover-black')
    })
    $('.product-show2').mouseover(function(){
