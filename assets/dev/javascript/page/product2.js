@@ -16,7 +16,7 @@ const bottomHover = ()=>{
 }
 
 const _animation = () => {
-    var $scroll = $('.heatset-product '),
+    var $scroll = $('.heatset-product'),
           window_scroll_top;
     var bind = function () {
         $(window).scroll(function () {
