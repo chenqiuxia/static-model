@@ -1,14 +1,49 @@
 .page-index {
   .index-home-wrap {
-    background: url("../image/index/home-bg.jpg") center no-repeat;
-    background-size: cover;
+    position: relative;
     padding-bottom: 2.4rem;
 
     .main-wrap {
+      position: relative;
       display: flex;
       align-items: flex-end;
+      z-index: map_get($global-zIndex, b);
     }
   }
+
+  //index banner style
+  .index-home-slick {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+
+    .slick-item {
+      height: 100vh;
+      background-size: cover;
+      background-position: top;
+      background-repeat: no-repeat;
+    }
+
+    .slick-item:nth-child(1) {
+      background-image: url("../image/index/banner/home-bg-01.jpg");
+    }
+
+    .slick-item:nth-child(2) {
+      background-image: url("../image/index/banner/home-bg-02.jpg");
+    }
+
+    .slick-item:nth-child(3) {
+      background-image: url("../image/index/banner/home-bg-03.jpg");
+    }
+
+    .slick-item:nth-child(4) {
+      background-image: url("../image/index/banner/home-bg-04.jpg");
+    }
+  }
+
+  //index banner style end
 
   .home-content-wrap {
     color: #fff;
@@ -124,11 +159,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all map_get($global-time, transition);
+    // background-size: cover;
+    position: relative;
+    overflow: hidden;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      top: 0;
+      left: 0;
+      transition: all map_get($global-time, transition);
+      background-image: url("");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
 
-
+    }
     &:hover {
-      background-size: 120% auto;
+      &:after {
+        transform: scale(1.05);
+      }
     }
 
     h4 {
@@ -141,13 +193,15 @@
 
   .index-other-shop {
     width: 62.5%;
-    background: url("../image/shopList/shop-six.png") center no-repeat;
-    background-size: cover;
+    &:after {
+      background-image: url("../image/index/home-shop-list.jpg");
+    }
   }
 
   .index-other-company {
     flex-grow: 1;
-    background: url("../image/index/home-company.jpg") center no-repeat;
-    background-size: cover;
+    &:after {
+      background-image: url("../image/index/home-company.jpg");
+    }
   }
 }

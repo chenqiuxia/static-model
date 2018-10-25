@@ -12,6 +12,7 @@ $global-color: (
 );
 
 $global-zIndex: (
+        header: 9999,
         a: 999,
         b: 90
 );
@@ -34,19 +35,19 @@ $global-font-size: (
 
 $global-spacing: (
         container:15px,
-        a: (70/$calc-base-num)*1rem, // 70px
-        b: (42/$calc-base-num)*1rem,  //42px
-        c: (60/$calc-base-num)*1rem, // 60px
-        d: (15/$calc-base-num)*1rem, // 15px
-        e: (30/$calc-base-num)*1rem, //30px
-        f: (65/$calc-base-num)*1rem, //65px
-        g: 100/$calc-base-num *1rem, //100px
-        h: (35/$calc-base-num)*1rem, //35px
-        i: (20/$calc-base-num)*1rem, //20px
-        j: (120/$calc-base-num)*1rem, //120x
-        k: (50/$calc-base-num)*1rem, //50px
-        l: (80/$calc-base-num)*1rem, //80px
-        m: (25/$calc-base-num)*1rem, //25px
+        a: (70/$calc-base-num)*1rem,  // 70px
+        b: (42/$calc-base-num)*1rem,  // 42px
+        c: (60/$calc-base-num)*1rem,  // 60px
+        d: (15/$calc-base-num)*1rem,  // 15px
+        e: (30/$calc-base-num)*1rem,  // 30px
+        f: (65/$calc-base-num)*1rem,  // 65px
+        g: 100/$calc-base-num *1rem,  // 100px
+        h: (35/$calc-base-num)*1rem,  // 35px
+        i: (20/$calc-base-num)*1rem,  // 20px
+        j: (120/$calc-base-num)*1rem, // 120px
+        k: (50/$calc-base-num)*1rem,  // 50px
+        l: (80/$calc-base-num)*1rem,  // 80px
+        m: (25/$calc-base-num)*1rem,  // 25px
 );
 
 $global-width: (
