@@ -7,25 +7,26 @@
 
     .run-img {
         width: 100%;
-
+        overflow: hidden;
         height: (600/$calc-base-num)*$global-font-unit;
     }
 
     .run-img img {
         width: 64%;
-        height: 100%;
+       // height: 100%;
         position: absolute;
     }
 
     .rock-img {
         width: 100%;
         position: relative;
+        overflow: hidden;
         height: (600/$calc-base-num)*$global-font-unit;
     }
 
     .rock-img img {
         width: 36%;
-        height: 100%;
+       // height: 100%;
         right: 0;
         position: absolute;
     }
@@ -41,11 +42,11 @@
     }
 
     .func-desc >div{
-        width: (675/$calc-base-num)*$global-font-unit;
+        width: 35.1%;
     }
 
     .func-desc >img{
-        width: (675/$calc-base-num)*$global-font-unit;
+        width: 35.1%;
     }
 
     .func-desc-line {
@@ -90,14 +91,15 @@
 
     }
 
-    .battery-banner {
-        background-image: url('../image/product2/battery_BG.png');
-        background-repeat:  no-repeat;
-        background-size: cover;
-        height: (750/$calc-base-num)*$global-font-unit;
-    }
+    // .battery-banner {
+    //     background-image: url('../image/product2/battery_BG.png');
+    //     background-repeat:  no-repeat;
+    //     background-size: cover;
+    //     height: (750/$calc-base-num)*$global-font-unit;
+    // }
 
     .battery-content {
+        margin-top: (286/$calc-base-num)*$global-font-unit;
         padding-top: (286/$calc-base-num)*$global-font-unit;
         width: 100%;
         height: 100%;
@@ -106,12 +108,13 @@
 
     .battery-list {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
     }
 
     .battery-list li {
-        width: (490/$calc-base-num)*$global-font-unit;
-        height: (143/$calc-base-num)*$global-font-unit;
+        width: (489/$calc-base-num)*$global-font-unit;
+        min-width: 33%;
+        height: (163/$calc-base-num)*$global-font-unit;
         display: flex;
         justify-content: center;
      //   align-items: center;
@@ -137,6 +140,7 @@
     }
 
     .battery-list :nth-child(1) {
+        white-space: nowrap;
         font-size: (40/$calc-base-num)*$global-font-unit;
         font-weight: bold;
         color: rgba(255,255,255,1);
@@ -162,14 +166,18 @@
     }
 
     .fun-list {
+    
         margin-top: (194/$calc-base-num)*$global-font-unit;
     }
 
     .fun-list-all {
         padding-top: (194/$calc-base-num)*$global-font-unit;
+        padding-bottom: (194/$calc-base-num)*$global-font-unit;
         width: 100%;
         line-height: 1.4;
         margin: 0 auto;
+        //height: (780/$calc-base-num)*$global-font-unit;
+       
     }
 
     .fun-list-all li{
@@ -271,7 +279,11 @@
 
     .func-item-desc {
         flex: 1;
+       
+    }
 
+    .func-item-desc p {
+        line-height: 1.6;
     }
 
     .func-item-desc :nth-child(1) {
@@ -292,7 +304,7 @@
     }
 
     .func-item-img img{
-        height: (300/$calc-base-num)*$global-font-unit;
+        height: 100%;
     }
 
     // .heatset-banner {
@@ -339,7 +351,7 @@
 
 
     .heatset-color {
-        height: (2000/$calc-base-num)*$global-font-unit;
+        height: (1200/$calc-base-num)*$global-font-unit;
         width: 100%;
         background-color: #fff;
         border-bottom: 1px solid #b2b3b4;
@@ -352,7 +364,7 @@
 
     .color-li {
         float: left;
-        width: 40%;
+        width: 50%;
         height: 100%;
         display: flex;
         flex-direction: column;
@@ -424,6 +436,11 @@
 
     .color-prod li{
         display: inline-block;
+        width: (180/$calc-base-num)*$global-font-unit;
+    }
+
+    .color-prod li img{
+       width: 100%;
     }
 
     .top :nth-child(2) {

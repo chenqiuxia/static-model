@@ -31,9 +31,11 @@
         position: absolute;
         bottom: (103/$calc-base-num)*1rem;
         height: 100%;
-
+        width: 100%;
         .imgs {
-            left:(750/$calc-base-num)*1rem;;
+            left :50%;
+            // margin-left:(1000/$calc-base-num)*1rem;;
+           margin-left:(100/$calc-base-num)*1rem;;
             position: absolute;
             bottom: (30/$calc-base-num)*1rem;;
             width: 50%;
@@ -57,15 +59,19 @@
     }
 
     .product-intro {
-        display: inline-block;
-       // position: relative;
-        width: (615/$calc-base-num)*1rem;
-        height: (214/$calc-base-num)*1rem;
+    //     display: inline-block;
+    //    // position: relative;
+    //     width: (615/$calc-base-num)*1rem;
+    //     height: (214/$calc-base-num)*1rem;
     }
 
     .banner-desc >img {
         display: inline-block;
         height: (829/$calc-base-num)*1rem;
+    }
+
+    .banner-content {
+        position: relative;
     }
 
     .product1-name {
@@ -78,7 +84,8 @@
         vertical-align: bottom;
         position: absolute;
         bottom: (105/$calc-base-num)*1rem;;
-        left: -(75/$calc-base-num)*1rem;;
+        //        margin-left: -(772/$calc-base-num)*1rem;
+        left: 0;
         font-weight: 1000;
 
     }
@@ -89,16 +96,18 @@
 
     .product-desc {
         white-space: normal;
-        width: (450/$calc-base-num)*1rem;
+        width: calc(50%  - #{(302/$calc-base-num)*1rem});
         height: (214/$calc-base-num)*1rem;
-       
+        font-family: NotoSansCJKjp-Bold;
         margin-left: (43/$calc-base-num)*1rem;
         display:  inline-block;
         font-size: (17/$calc-base-num)*1rem;
         line-height: (25.5/$calc-base-num)*1rem;
         vertical-align: bottom;
         position: absolute;
-        left: (225/$calc-base-num)*1rem;
+        left: (302/$calc-base-num)*1rem;
+        //left: 50%;
+        //margin-left: -(450/$calc-base-num)*1rem;
         bottom: (187.5/$calc-base-num)*1rem;
     }
 
@@ -113,7 +122,7 @@
         font-size: (24.5/$calc-base-num)*1rem;
         font-family: NotoSansCJKjp-Bold;
         letter-spacing:3px;
-        line-height: 1rem;
+        line-height: (75/$calc-base-num)*1rem;
   
     }
 
@@ -217,12 +226,12 @@
 
     // }
 
-    // .battery-banner {
-    //     background-image: url('../image/product1/battery.jpg');
-    //     background-repeat:  no-repeat;
-    //     background-size: cover;
-    //     height: (750/$calc-base-num)*1rem;;
-    // }
+    .battery-banner {
+        background-image: url('../image/product1/battery.jpg');
+        background-repeat:  no-repeat;
+        background-size: cover;
+        height: (750/$calc-base-num)*1rem;;
+    }
 
     // .battery-content {
     //     padding-top: (286/$calc-base-num)*1rem;
