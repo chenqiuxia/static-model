@@ -946,10 +946,12 @@ footer a:hover {
   position: absolute;
   bottom: 0.16094rem;
   height: 100%;
+  width: 100%;
 }
 
 .page-product1 .banner-desc .imgs {
-  left: 1.17188rem;
+  left: 50%;
+  margin-left: 0.15625rem;
   position: absolute;
   bottom: 0.04688rem;
   width: 50%;
@@ -972,15 +974,13 @@ footer a:hover {
   margin-left: 0.07812rem;
 }
 
-.page-product1 .product-intro {
-  display: inline-block;
-  width: 0.96094rem;
-  height: 0.33437rem;
-}
-
 .page-product1 .banner-desc > img {
   display: inline-block;
   height: 1.29531rem;
+}
+
+.page-product1 .banner-content {
+  position: relative;
 }
 
 .page-product1 .product1-name {
@@ -992,7 +992,7 @@ footer a:hover {
   vertical-align: bottom;
   position: absolute;
   bottom: 0.16406rem;
-  left: -0.11719rem;
+  left: 0;
   font-weight: 1000;
 }
 
@@ -1002,15 +1002,17 @@ footer a:hover {
 
 .page-product1 .product-desc {
   white-space: normal;
-  width: 0.70312rem;
+  width: -webkit-calc(50%  - 0.47187rem);
+  width: calc(50%  - 0.47187rem);
   height: 0.33437rem;
+  font-family: NotoSansCJKjp-Bold;
   margin-left: 0.06719rem;
   display: inline-block;
   font-size: 0.02656rem;
   line-height: 0.03984rem;
   vertical-align: bottom;
   position: absolute;
-  left: 0.35156rem;
+  left: 0.47187rem;
   bottom: 0.29297rem;
 }
 
@@ -1024,7 +1026,7 @@ footer a:hover {
   font-size: 0.03828rem;
   font-family: NotoSansCJKjp-Bold;
   letter-spacing: 3px;
-  line-height: 1rem;
+  line-height: 0.11719rem;
 }
 
 .page-product1 .product-desc :nth-child(2) {
@@ -1035,6 +1037,13 @@ footer a:hover {
 .page-product1 .product-desc :nth-child(3) {
   letter-spacing: 3px;
   line-height: 1.5;
+}
+
+.page-product1 .battery-banner {
+  background-image: url("../image/product1/battery.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1.17188rem;
 }
 
 .page-shop header {
@@ -1334,10 +1343,10 @@ footer a:hover {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-  -ms-flex-pack: end;
-  justify-content: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .page-product2 .banner-img img {
@@ -1353,6 +1362,7 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  padding-right: 10%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -1375,22 +1385,25 @@ footer a:hover {
   font-size: 0.4625rem;
   line-height: 0.4625rem;
   font-family: DIN-BoldAlternate, "Rubik300";
+  width: 0.69531rem;
+  display: inline-block;
+  text-align: center;
 }
 
 .page-product2 .banner-desc :nth-child(2) {
   margin-top: 0.04063rem;
   font-size: 0.03125rem;
-  width: 0.53906rem;
+  width: 0.69531rem;
 }
 
 .page-product2 .banner-desc :nth-child(3) {
   margin-top: 0.01562rem;
-  width: 0.53906rem;
+  width: 0.69531rem;
   font-size: 0.025rem;
 }
 
 .page-product2 .banner-desc :nth-child(4) {
-  width: 0.53906rem;
+  width: 0.69531rem;
   font-size: 0.025rem;
 }
 
@@ -1434,6 +1447,13 @@ footer a:hover {
 .page-product2 .product-desc :nth-child(1) {
   font-size: 0.02656rem;
   letter-spacing: 3px;
+}
+
+.page-product2 .battery-banner {
+  background-image: url("../image/product2/battery_BG.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 1.17188rem;
 }
 
 .page-product2 .func-kinds {
@@ -1488,9 +1508,9 @@ footer a:hover {
 }
 
 .page-product2 .func-kinds-img :nth-child(2) {
-  height: 0.28125rem;
+  height: 30%;
   position: absolute;
-  right: 0.17188rem;
+  right: 0.01562rem;
   top: -0.14062rem;
 }
 
@@ -1520,7 +1540,6 @@ footer a:hover {
 .page-product2 .heatset-banner {
   height: 0.68906rem;
   margin-top: 0.50625rem;
-  overflow: hidden;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1532,7 +1551,7 @@ footer a:hover {
 }
 
 .page-product2 .heatset-banner-list {
-  width: 2.1875rem;
+  width: 1.71875rem;
 }
 
 .page-product2 .heatset-banner-list > li {
@@ -1713,24 +1732,24 @@ footer a:hover {
 
 .page-product .run-img {
   width: 100%;
+  overflow: hidden;
   height: 0.9375rem;
 }
 
 .page-product .run-img img {
   width: 64%;
-  height: 100%;
   position: absolute;
 }
 
 .page-product .rock-img {
   width: 100%;
   position: relative;
+  overflow: hidden;
   height: 0.9375rem;
 }
 
 .page-product .rock-img img {
   width: 36%;
-  height: 100%;
   right: 0;
   position: absolute;
 }
@@ -1759,11 +1778,11 @@ footer a:hover {
 }
 
 .page-product .func-desc > div {
-  width: 1.05469rem;
+  width: 35.1%;
 }
 
 .page-product .func-desc > img {
-  width: 1.05469rem;
+  width: 35.1%;
 }
 
 .page-product .func-desc-line {
@@ -1806,14 +1825,8 @@ footer a:hover {
   background-color: #fff;
 }
 
-.page-product .battery-banner {
-  background-image: url("../image/product2/battery_BG.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 1.17188rem;
-}
-
 .page-product .battery-content {
+  margin-top: 0.44688rem;
   padding-top: 0.44688rem;
   width: 100%;
   height: 100%;
@@ -1824,14 +1837,16 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-justify-content: space-around;
-  -ms-flex-pack: distribute;
-  justify-content: space-around;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
 }
 
 .page-product .battery-list li {
-  width: 0.76562rem;
-  height: 0.22344rem;
+  width: 0.76406rem;
+  min-width: 33%;
+  height: 0.25469rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1865,6 +1880,7 @@ footer a:hover {
 }
 
 .page-product .battery-list :nth-child(1) {
+  white-space: nowrap;
   font-size: 0.0625rem;
   font-weight: bold;
   color: white;
@@ -1904,6 +1920,7 @@ footer a:hover {
 
 .page-product .fun-list-all {
   padding-top: 0.30312rem;
+  padding-bottom: 0.30312rem;
   width: 100%;
   line-height: 1.4;
   margin: 0 auto;
@@ -1951,6 +1968,10 @@ footer a:hover {
   flex: 1;
 }
 
+.page-product .func-item-desc p {
+  line-height: 1.6;
+}
+
 .page-product .func-item-desc :nth-child(1) {
   font-size: 0.0375rem;
   font-family: NotoSansCJKjp-Bold;
@@ -1967,11 +1988,11 @@ footer a:hover {
 }
 
 .page-product .func-item-img img {
-  height: 0.46875rem;
+  height: 100%;
 }
 
 .page-product .heatset-color {
-  height: 3.125rem;
+  height: 1.875rem;
   width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
@@ -1983,7 +2004,7 @@ footer a:hover {
 
 .page-product .color-li {
   float: left;
-  width: 40%;
+  width: 50%;
   height: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2076,6 +2097,11 @@ footer a:hover {
 
 .page-product .color-prod li {
   display: inline-block;
+  width: 0.28125rem;
+}
+
+.page-product .color-prod li img {
+  width: 100%;
 }
 
 .page-product .top :nth-child(2) {
