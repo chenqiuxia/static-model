@@ -26,6 +26,10 @@ header {
     background-image: url('../image/Logo-product-black.svg');
     background-repeat: no-repeat;
     background-size: 100%;
+
+    &:hover {
+      opacity: .7;
+    }
   }
   .nav {
     margin-top: (15/$calc-base-num)*1rem;
