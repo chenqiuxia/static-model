@@ -725,7 +725,7 @@ footer a:hover {
 
 .page-index .home-content-wrap h3 {
   font-size: 0.85333rem;
-  line-height: 1.1;
+  line-height: 1.5;
   font-family: SFNSDisplay, "Rubik300";
   font-weight: 500;
 }
@@ -2997,6 +2997,8 @@ footer a:hover {
   font-size: 0.4rem;
   line-height: 1.6;
   letter-spacing: 5px;
+  font-family: NotoSansCJKjp-Medium, "Rubik300";
+  margin-top: 0.16rem;
 }
 
 /*# sourceMappingURL=application.css.map */

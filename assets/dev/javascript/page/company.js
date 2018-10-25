@@ -1,7 +1,7 @@
 
 const initMap = () => {
   if(window.google) {
-    var myCenter=new google.maps.LatLng(35.6853346,139.7391038)
+    var myCenter=new google.maps.LatLng(35.6853303, 139.7412925)
     var mapProp = {
       center:myCenter,
       zoom:12,
