@@ -390,6 +390,8 @@
 
     .func-kinds-desc >:nth-child(1){
         font-size:   map_get($global-font-size, c);
+        font-family: DIN-Medium;
+        letter-spacing:6px;
     }
 
     .func-kinds-desc >:nth-child(2){
@@ -401,6 +403,7 @@
     .func-kinds-desc >:nth-child(3){
         margin-top: .33333rem;
         font-size:   map_get($global-font-size, k);
+        font-family: NotoSansCJKjp-Regular;
     }
 
 

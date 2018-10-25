@@ -42,6 +42,7 @@ header {
     padding: 0 map_get($global-spacing, i);
     cursor: pointer;
     transition: all map_get($global-time, transition);
+    font-family: AppleSystemUIFont;
 
     & + li {
       margin-left: .8rem;
