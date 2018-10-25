@@ -5,7 +5,7 @@ header {
   right: 0;
   border-top: .26666rem solid map_get($global-color, g);
   padding: .74666rem 0 .74666rem;
-  z-index: map_get($global-zIndex, b);
+  z-index: map_get($global-zIndex, header);
   transition: background-color map_get($global-time, transition);
   &.is-scrolled {
     background-color:rgba(51,51,51,0.2);
@@ -57,6 +57,7 @@ header {
 
     a {
       display: block;
+      font-size: .21333rem;
     }
   }
 
@@ -71,7 +72,7 @@ header {
 
   .nav-submenu-wrap {
     position: absolute;
-    top: 0rem;
+    top: 0;
     left: 0;
     right: 0;
     text-align: center;

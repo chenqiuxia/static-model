@@ -35,13 +35,33 @@ a {
   opacity: 0;
 }
 
-.is_scoped {
+.is_scoped, .page-product2 .heatset-banner-list >li.is_scoped {
   transform: translate(0,0);
   opacity: 1;
 }
 
 .page-padding-top {
   padding-top: calc(1.87998rem - .18rem); //减小header的padding
+}
+
+//header nav hover style
+.page-company, .page-shop, .page-policy, .page-commercial {
+  .nav>ul>li {
+    &:hover {
+      background-color: #000;
+      color: #fff;
+    }
+
+    &:hover a {
+      color: #fff;
+    }
+  }
+  .nav-submenu-wrap {
+    background-color: #000;
+    li:hover {
+      background-color: lighten(#000, 5%);
+    }
+  }
 }
 
 /* media start*/
