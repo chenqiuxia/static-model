@@ -281,8 +281,12 @@ header .logo {
   background-size: 100%;
 }
 
+header .logo:hover {
+  opacity: .7;
+}
+
 header .nav {
-  margin-top: 0.13333rem;
+  margin-top: 0.2rem;
 }
 
 header .nav > ul > li {
@@ -366,6 +370,14 @@ footer a:hover {
   display: flex;
 }
 
+.footer-main .contact-wrap .logo-link {
+  display: block;
+}
+
+.footer-main .contact-wrap .logo-link:hover {
+  opacity: .7;
+}
+
 .footer-main .contact-wrap .media-link {
   margin-top: 1.6rem;
 }
@@ -380,6 +392,10 @@ footer a:hover {
 
 .footer-main .contact-wrap .media-link a + a {
   margin-left: 0.26667rem;
+}
+
+.footer-main .contact-wrap .media-link a:hover {
+  opacity: .5;
 }
 
 .footer-main .contact-wrap .media-link .t-icon {
