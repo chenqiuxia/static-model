@@ -1,12 +1,16 @@
-const onMenuClick = () => {
-  $('.x-menu-wrap').click(function (e) {
-    e.stopPropagation()
-    $(this).find('.menu-icon-wrap').toggleClass('menu-icon-close')
-  })
+const onScroll = () => {
+  $(window).scroll(function () {
+    if ($(this).scrollTop() > 0) {
+      $('.x-header').addClass('is-scrolled')
+    } else {
+      $('.x-header').removeClass('is-scrolled')
+    }
+
+  });
 }
 
 const bind = () => {
-  onMenuClick()
+  onScroll();
 }
 
 export default {

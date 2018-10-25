@@ -10,159 +10,96 @@
     <link rel="shortcut icon" type="image/x-icon" href="image/favicon.ico">
     <link rel="icon" href="image/favicon.png">
     <link rel="apple-touch-icon" href="image/favicon.png">
-    <script>
-      ! function(e, t)
-      {
-        function i()
-        {
-          var t = n.getBoundingClientRect().width,
-            i = navigator.userAgent.toLowerCase();
-          /ipad.*yanxuan/.test(i) || t / s > 750 && (t = 750 * s);
-          var a = t / 10;
-          n.style.fontSize = a + "px", d.rem = e.rem = a
-        }
-        var a, r = e.document,
-          n = r.documentElement,
-          o = r.querySelector('meta[name="viewport"]'),
-          l = r.querySelector('meta[name="flexible"]'),
-          s = 0,
-          m = 0,
-          d = t.flexible || (t.flexible = {});
-        if (o)
-        {
-          var c = o.getAttribute("content").match(/initial\-scale=([\d\.]+)/);
-          c && (m = parseFloat(c[1]), s = parseInt(1 / m))
-        }
-        else if (l)
-        {
-          var p = l.getAttribute("content");
-          if (p)
-          {
-            var u = p.match(/initial\-dpr=([\d\.]+)/),
-              f = p.match(/maximum\-dpr=([\d\.]+)/);
-            u && (s = parseFloat(u[1]), m = parseFloat((1 / s).toFixed(2))), f && (s = parseFloat(f[1]), m = parseFloat((1 / s).toFixed(2)))
-          }
-        }
-        if (!s && !m)
-        {
-          var v = (e.navigator.appVersion.match(/android/gi), e.navigator.appVersion.match(/iphone/gi)),
-            b = e.devicePixelRatio;
-          s = v ? b >= 3 && (!s || s >= 3) ? 3 : b >= 2 && (!s || s >= 2) ? 2 : 1 : 1, m = 1 / s
-        }
-        if (n.setAttribute("data-dpr", s), !o)
-          if (o = r.createElement("meta"), o.setAttribute("name", "viewport"), e.webPageScalable ? o.setAttribute("content", "initial-scale=" + m + ", user-scalable=yes") : o.setAttribute("content", "initial-scale=" + m + ", maximum-scale=" + m + ", minimum-scale=" + m + ", user-scalable=no viewport-fit=cover"), n.firstElementChild) n.firstElementChild.appendChild(o);
-          else
-          {
-            var h = r.createElement("div");
-            h.appendChild(o), r.write(h.innerHTML)
-          } e.addEventListener("resize", function()
-        {
-          clearTimeout(a), a = setTimeout(i, 300)
-        }, !1), e.addEventListener("pageshow", function(e)
-        {
-          e.persisted && (clearTimeout(a), a = setTimeout(i, 300))
-        }, !1), "complete" === r.readyState ? r.body.style.fontSize = 12 * s + "px" : r.addEventListener("DOMContentLoaded", function(e)
-        {
-          r.body.style.fontSize = 12 * s + "px"
-        }, !1), i(), d.dpr = e.dpr = s, d.refreshRem = i, d.rem2px = function(e)
-        {
-          var t = parseFloat(e) * this.rem;
-          return "string" == typeof e && e.match(/rem$/) && (t += "px"), t
-        }, d.px2rem = function(e)
-        {
-          var t = parseFloat(e) / this.rem;
-          return "string" == typeof e && e.match(/px$/) && (t += "rem"), t
-        }
-      }(window, window.lib || (window.lib = {}));
-    </script>
-  <body class="page-padding-top page-policy">
-    <header>
-      <div class="main-wrap header-wrap"><a class="logo" href="./index.html">
-          <h1></h1>
-        </a>
-        <nav class="nav">
-          <ul>
-            <li><a href="./company.html">COMPANY</a></li>
-            <li><a href="./philosophy.html">PHILOSOPHY</a></li>
-            <li class="product-link">PRODUCT <ul class="nav-submenu-wrap">
-                <li><a href="./product2.html">F2</a></li>
-                <li><a href="./product1.html">F1</a></li>
-              </ul>
-            </li>
-            <li><a href="./shopList.html">SHOPLIST</a></li>
-          </ul>
-        </nav>
+    <script>!function(e,t){function i(){var t=n.getBoundingClientRect().width,i=navigator.userAgent.toLowerCase();/ipad.*yanxuan/.test(i)||t/s>750&&(t=750*s);var a=t/10;n.style.fontSize=a+"px",d.rem=e.rem=a}var a,r=e.document,n=r.documentElement,o=r.querySelector('meta[name="viewport"]'),l=r.querySelector('meta[name="flexible"]'),s=0,m=0,d=t.flexible||(t.flexible={});if(o){var c=o.getAttribute("content").match(/initial\-scale=([\d\.]+)/);c&&(m=parseFloat(c[1]),s=parseInt(1/m))}else if(l){var p=l.getAttribute("content");if(p){var u=p.match(/initial\-dpr=([\d\.]+)/),f=p.match(/maximum\-dpr=([\d\.]+)/);u&&(s=parseFloat(u[1]),m=parseFloat((1/s).toFixed(2))),f&&(s=parseFloat(f[1]),m=parseFloat((1/s).toFixed(2)))}}if(!s&&!m){var v=(e.navigator.appVersion.match(/android/gi),e.navigator.appVersion.match(/iphone/gi)),b=e.devicePixelRatio;s=v?b>=3&&(!s||s>=3)?3:b>=2&&(!s||s>=2)?2:1:1,m=1/s}if(n.setAttribute("data-dpr",s),!o)if(o=r.createElement("meta"),o.setAttribute("name","viewport"),e.webPageScalable?o.setAttribute("content","initial-scale="+m+", user-scalable=yes"):o.setAttribute("content","initial-scale="+m+", maximum-scale="+m+", minimum-scale="+m+", user-scalable=no viewport-fit=cover"),n.firstElementChild)n.firstElementChild.appendChild(o);else{var h=r.createElement("div");h.appendChild(o),r.write(h.innerHTML)}e.addEventListener("resize",function(){clearTimeout(a),a=setTimeout(i,300)},!1),e.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(a),a=setTimeout(i,300))},!1),"complete"===r.readyState?r.body.style.fontSize=12*s+"px":r.addEventListener("DOMContentLoaded",function(e){r.body.style.fontSize=12*s+"px"},!1),i(),d.dpr=e.dpr=s,d.refreshRem=i,d.rem2px=function(e){var t=parseFloat(e)*this.rem;return"string"==typeof e&&e.match(/rem$/)&&(t+="px"),t},d.px2rem=function(e){var t=parseFloat(e)/this.rem;return"string"==typeof e&&e.match(/px$/)&&(t+="rem"),t}}(window,window.lib||(window.lib={}));</script>
+    <body class="page-padding-top page-policy">
+      <header class="x-header">
+        <div class="main-wrap header-wrap"><a class="logo" href="./index.html">
+            <h1></h1></a>
+          <nav class="nav">
+            <ul>
+              <li><a href="./company.html">COMPANY</a></li>
+              <li><a href="./philosophy.html">PHILOSOPHY</a></li>
+              <li class="product-link">PRODUCT
+                <ul class="nav-submenu-wrap">
+                  <li><a href="./product2.html">F2</a></li>
+                  <li><a href="./product1.html">F1</a></li>
+                </ul>
+              </li>
+              <li><a href="./shopList.html">SHOPLIST</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+            <div class="shop-title-wrap">
+              <h2>PRIVACY</h2>
+              <h2>POLICY</h2>
+              <p>プライバシーポリシー<br>店名および
+              </p>
+            </div>
+      <div class="policy-content main-wrap">
+        <h2>個人情報保護方針</h2>
+        <p>プライバシーポリシー（または個人情報保護方針）</p>
+        <p>当社は、当社が取得した個人情報の取扱いに関し、個人情報の保護に関する法律、個人情報保護に関するガイドライン等の指針、その他個人情報保護に関する関係法令を遵守します。</p>
+        <p>２.個人情報の安全管理</p>
+        <p>当社は、個人情報の保護に関して、組織的、物理的、人的、技術的に適切な対策を実施し、当社の取り扱う個人情報の漏えい、滅失又はき損の防止その他の個人情報の安全管理のために必要かつ適切な措置を講ずるものとします。</p>
+        <p>３.個人情報の取得等の遵守事項</p>
+        <p>当社による個人情報の取得、利用、提供については、以下の事項を遵守します。</p>
+        <p>(1)個人情報の取得</p>
+        <p>当社は、当社が管理するインターネットによる情報提供サイト（以下「本サイト」といいます。）の運営に必要な範囲で、本サイトの一般利用者（以下「ユーザー」といいます。）又は本サイトに広告掲載を行う者（以下「掲載主」といいます。）から、ユーザー又は掲載主に係る個人情報を取得することがあります。 (2)個人情報の利用目的 当社は、当社が取得した個人情報について、法令に定める場合又は本人の同意を得た場合を除き、以下に定める利用目的の達成に必要な範囲を超えて利用することはありません。</p>
+        <p>① 本サイトの運営、維持、管理</p>
+        <p>② 本サイトを通じたサービスの提供及び紹介</p>
+        <p>③ 本サイトの品質向上のためのアンケート</p>
+        <p>(3)個人情報の提供等</p>
+        <p>当社は、法令で定める場合を除き、本人の同意に基づき取得した個人情報を、本人の事前の同意なく第三者に提供することはありません。なお、本人の求めによる個人情報の開示、訂正、追加若しくは削除又は利用目的の通知については、法令に従いこれを行うとともに、ご意見、ご相談に関して適切に対応します。</p>
+        <p>4 .個人情報の利用目的の変更</p>
+        <p>当社は、前項で特定した利用目的は、予め本人の同意を得た場合を除くほかは、原則として変更しません。但し、変更前の利用目的と相当の関連性を有すると合理的に認められる範囲において、予め変更後の利用目的を公表の上で変更を行う場合はこの限りではありません。</p>
+        <p>５.個人情報の第三者提供</p>
+        <p>当社は、個人情報の取扱いの全部又は一部を第三者に委託する場合、その適格性を十分に審査し、その取扱いを委託された個人情報の安全管理が図られるよう、委託を受けた者に対する必要かつ適切な監督を行うこととします。</p>
+        <p>６.個人情報の取扱いの改善・見直し</p>
+        <p>当社は、個人情報の取扱い、管理体制及び取組みに関する点検を実施し、継続的に改善・見直しを行います。</p>
+        <p>７.個人情報の廃棄</p>
+        <p>当社は、個人情報の利用目的に照らしその必要性が失われたときは、個人情報を消去又は廃棄するものとし、当該消去及び廃棄は、外部流失等の危険を防止するために必要かつ適切な方法により、業務の遂行上必要な限りにおいて行います。</p>
+        <p>８.苦情や相談の担当窓口</p>
+        <p>当社は、個人情報の取扱いに関する担当窓口及び責任者を以下の通り設けます。</p>
+        <p>【株式会社○○】</p>
+        <p>〒 ○○○-○○○○ 東京都新宿区1-2-3 ○○ビル10階</p>
+        <p><a>Tel：○○-○○○○-○○○○</a></p>
+        <p>個人情報苦情・相談窓口責任者 アシロ 太郎</p>
       </div>
-    </header>
-    <div class="shop-title-wrap">
-      <h2>PRIVACY</h2>
-      <h2>POLICY</h2>
-      <p>プライバシーポリシー<br>店名および </p>
-    </div>
-    <div class="policy-content main-wrap">
-      <h2>個人情報保護方針</h2>
-      <p>プライバシーポリシー（または個人情報保護方針）</p>
-      <p>当社は、当社が取得した個人情報の取扱いに関し、個人情報の保護に関する法律、個人情報保護に関するガイドライン等の指針、その他個人情報保護に関する関係法令を遵守します。</p>
-      <p>２.個人情報の安全管理</p>
-      <p>当社は、個人情報の保護に関して、組織的、物理的、人的、技術的に適切な対策を実施し、当社の取り扱う個人情報の漏えい、滅失又はき損の防止その他の個人情報の安全管理のために必要かつ適切な措置を講ずるものとします。</p>
-      <p>３.個人情報の取得等の遵守事項</p>
-      <p>当社による個人情報の取得、利用、提供については、以下の事項を遵守します。</p>
-      <p>(1)個人情報の取得</p>
-      <p>当社は、当社が管理するインターネットによる情報提供サイト（以下「本サイト」といいます。）の運営に必要な範囲で、本サイトの一般利用者（以下「ユーザー」といいます。）又は本サイトに広告掲載を行う者（以下「掲載主」といいます。）から、ユーザー又は掲載主に係る個人情報を取得することがあります。 (2)個人情報の利用目的 当社は、当社が取得した個人情報について、法令に定める場合又は本人の同意を得た場合を除き、以下に定める利用目的の達成に必要な範囲を超えて利用することはありません。</p>
-      <p>① 本サイトの運営、維持、管理</p>
-      <p>② 本サイトを通じたサービスの提供及び紹介</p>
-      <p>③ 本サイトの品質向上のためのアンケート</p>
-      <p>(3)個人情報の提供等</p>
-      <p>当社は、法令で定める場合を除き、本人の同意に基づき取得した個人情報を、本人の事前の同意なく第三者に提供することはありません。なお、本人の求めによる個人情報の開示、訂正、追加若しくは削除又は利用目的の通知については、法令に従いこれを行うとともに、ご意見、ご相談に関して適切に対応します。</p>
-      <p>4 .個人情報の利用目的の変更</p>
-      <p>当社は、前項で特定した利用目的は、予め本人の同意を得た場合を除くほかは、原則として変更しません。但し、変更前の利用目的と相当の関連性を有すると合理的に認められる範囲において、予め変更後の利用目的を公表の上で変更を行う場合はこの限りではありません。</p>
-      <p>５.個人情報の第三者提供</p>
-      <p>当社は、個人情報の取扱いの全部又は一部を第三者に委託する場合、その適格性を十分に審査し、その取扱いを委託された個人情報の安全管理が図られるよう、委託を受けた者に対する必要かつ適切な監督を行うこととします。</p>
-      <p>６.個人情報の取扱いの改善・見直し</p>
-      <p>当社は、個人情報の取扱い、管理体制及び取組みに関する点検を実施し、継続的に改善・見直しを行います。</p>
-      <p>７.個人情報の廃棄</p>
-      <p>当社は、個人情報の利用目的に照らしその必要性が失われたときは、個人情報を消去又は廃棄するものとし、当該消去及び廃棄は、外部流失等の危険を防止するために必要かつ適切な方法により、業務の遂行上必要な限りにおいて行います。</p>
-      <p>８.苦情や相談の担当窓口</p>
-      <p>当社は、個人情報の取扱いに関する担当窓口及び責任者を以下の通り設けます。</p>
-      <p>【株式会社○○】</p>
-      <p>〒 ○○○-○○○○ 東京都新宿区1-2-3 ○○ビル10階</p>
-      <p><a>Tel：○○-○○○○-○○○○</a></p>
-      <p>個人情報苦情・相談窓口責任者 アシロ 太郎</p>
-    </div>
-    <footer>
-      <div class="main-wrap footer-main">
-        <div class="contact-wrap">
-          <div class="contact-link">
-            <div class="logo-link"> <img src="./image/Logo.svg" alt="MONSTER"></div>
-            <div class="media-link"><a class="t-icon" href="https://www.instagram.com/funohm/" target="_blank"></a><a class="f-icon" href="https://www.facebook.com/funohm/" target="_blank"></a><a class="b-icon" href="https://twitter.com/funohm1" target="_blank"></a></div>
-          </div>
-          <dl class="footer-product-col footer-link-wrap">
-            <dt>Product</dt>
-            <dd><a href="./product1.html">F1</a></dd>
-            <dd><a href="./product2.html">F2</a></dd>
-          </dl>
-          <dl class="footer-company-col footer-link-wrap">
-            <dt>Company</dt>
-            <dd><a href="./commercial.html">About</a></dd>
-            <dd><a href="./philosophy.html">Phylosophy</a></dd>
-            <dd><a href="./shopList.html">Shop list</a></dd>
-          </dl>
-          <div class="footer-tel-location">
-            <div class="location">
-              <p>Location</p>
-              <p>〒102-0083 東京都千代田区 麹町2-14 第1茜ビル6</p>
-              <p>1st akane Bld.6, 2-14, Kojimachi, Chiyoda-ku, Tokyo, 102-0083, Japan</p>
+      <footer>
+        <div class="main-wrap footer-main">
+          <div class="contact-wrap">
+            <div class="contact-link">
+              <div class="logo-link"><img src="./image/Logo-product-white.svg" alt="FUNNOHM"></div>
+              <div class="media-link"><a class="t-icon" href="https://www.instagram.com/funohm/" target="_blank"></a><a class="f-icon" href="https://www.facebook.com/funohm/" target="_blank"></a><a class="b-icon" href="https://twitter.com/funohm1" target="_blank"></a></div>
+            </div>
+            <dl class="footer-product-col footer-link-wrap">
+              <dt>Product</dt>
+              <dd><a href="./product1.html">F1</a></dd>
+              <dd><a href="./product2.html">F2</a></dd>
+            </dl>
+            <dl class="footer-company-col footer-link-wrap">
+              <dt>Company</dt>
+              <dd><a href="./commercial.html">About</a></dd>
+              <dd><a href="./philosophy.html">Phylosophy</a></dd>
+              <dd><a href="./shopList.html">Shop list</a></dd>
+            </dl>
+            <div class="footer-tel-location">
+              <div class="location">
+                <p>Location</p>
+                <p>〒102-0083 東京都千代田区 麹町2-14 第1茜ビル6</p>
+                <p>1st akane Bld.6, 2-14, Kojimachi, Chiyoda-ku, Tokyo, 102-0083, Japan</p>
+              </div>
             </div>
           </div>
+          <div class="bottom-wrap">
+            <div class="http-wrap"><a href="./privacyPolicy.html">privacy policy</a><a>site map</a></div>
+            <p class="company-tag">&#169 2017 FUNOHM Inc.</p>
+          </div>
         </div>
-        <div class="bottom-wrap">
-          <div class="http-wrap"><a href="./privacyPolicy.html">privacy policy</a><a>site map</a></div>
-          <p class="company-tag">&#169 2017 FUNOHM Inc.</p>
-        </div>
-      </div>
-    </footer>
-    <script src="javascript/vendor.min.js"></script>
-    <script src="javascript/application.min.js"></script>
-  </body>
+      </footer>
+      <script src="javascript/vendor.min.js"></script>
+      <script src="javascript/application.min.js"></script>
+    </body>
   </head>
 </html>

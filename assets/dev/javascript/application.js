@@ -1,4 +1,3 @@
-import {isDev, baseUrl} from './consist/GLOBAL_CONFIG'
 import dispatcher from './util/dispatcher'
 import url from './util/url'
 //partial
