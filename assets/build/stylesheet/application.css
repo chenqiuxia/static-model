@@ -1,36 +1,36 @@
 @font-face {
   font-family: "DIN-Bold";
-  src: url("../font/Din/DIN-Bold.otf") format("otf");
+  src: url("../font/Din/DIN-Bold.otf") format("truetype");
 }
 
 @font-face {
   font-family: "DIN-BoldAlternate";
-  src: url("../font/Din/DIN-BoldAlternate.otf") format("otf");
+  src: url("../font/Din/DIN-BoldAlternate.otf") format("truetype");
 }
 
 @font-face {
   font-family: "DIN-Medium";
-  src: url("../font/Din/DIN-Medium.otf") format("otf");
+  src: url("../font/Din/DIN-Medium.otf") format("truetype");
 }
 
 @font-face {
   font-family: "NotoSansCJKjp-Black";
-  src: url("../font/Noto/NotoSansCJKjp-Black.otf") format("otf");
+  src: url("../font/Noto/NotoSansCJKjp-Black.otf") format("truetype");
 }
 
 @font-face {
   font-family: "NotoSansCJKjp-Bold";
-  src: url("../font/Noto/NotoSansCJKjp-Bold.otf") format("otf");
+  src: url("../font/Noto/NotoSansCJKjp-Bold.otf") format("truetype");
 }
 
 @font-face {
   font-family: "Rubik300";
-  src: url("../font/Rubik/Rubik300.ttf") format("ttf");
+  src: url("../font/Rubik/Rubik300.ttf");
 }
 
 @font-face {
   font-family: "Rubik300italic";
-  src: url("../font/Rubik/Rubik300italic.ttf") format("ttf");
+  src: url("../font/Rubik/Rubik300italic.ttf");
 }
 
 blockquote, body, button, caption, dd, div, dl, dt, fieldset, figure, form, h1, h2, h3, h4, h5, h6, hr, html, input, legend, li, menu, ol, p, pre, table, td, textarea, th, ul {
@@ -526,6 +526,8 @@ footer a:hover {
   justify-content: center;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
+  width: 60%;
+  margin: 0 auto;
 }
 
 .contact-us-wrap .contact-cont:hover {
@@ -537,16 +539,19 @@ footer a:hover {
   font-size: 0.53333rem;
   line-height: 1;
   padding: 0.26667rem 0.8rem;
+  font-family: DIN-BoldAlternate;
 }
 
 .contact-us-wrap .contact-cont .text-row {
   border: 1px solid #979797;
   color: #4183C4;
+  letter-spacing: 6px;
 }
 
 .contact-us-wrap .contact-cont .email-address {
   background-color: #111;
   color: #fff;
+  letter-spacing: 5px;
 }
 
 /* Slider */
@@ -710,6 +715,11 @@ footer a:hover {
   font-family: 'NotoSansCJKjp-Bold';
 }
 
+.page-index .home-content-wrap h3 {
+  font-size: 0.85333rem;
+  line-height: 1.1;
+}
+
 .page-index .home-content-wrap p {
   font-size: 0.4rem;
   line-height: 1.6;
@@ -869,6 +879,7 @@ footer a:hover {
   font-size: 0.64rem;
   color: #fff;
   letter-spacing: 8px;
+  font-family: DIN-BoldAlternate;
 }
 
 .page-index .index-other-shop {
@@ -2866,6 +2877,7 @@ footer a:hover {
   font-size: 0.64rem;
   font-weight: bold;
   line-height: 1.48;
+  font-family: NotoSansCJKjp-Bold;
 }
 
 .page-philosophy .home-cont-img {
@@ -2951,11 +2963,14 @@ footer a:hover {
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content h2 {
   font-size: 0.85333rem;
   line-height: 1.15;
+  font-family: DIN-BoldAlternate;
+  letter-spacing: 10px;
 }
 
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content p {
   font-size: 0.4rem;
   line-height: 1.6;
+  letter-spacing: 5px;
 }
 
 /*# sourceMappingURL=application.css.map */

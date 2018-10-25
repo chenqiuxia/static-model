@@ -54,6 +54,11 @@
       font-family: 'NotoSansCJKjp-Bold';
     }
 
+    h3 {
+      font-size: map_get($global-font-size, h);
+      line-height: 1.1;
+    }
+
     p {
       font-size: map_get($global-font-size, i);
       line-height: 1.6;
@@ -188,6 +193,7 @@
       font-size: map_get($global-font-size, m);
       color: #fff;
       letter-spacing:8px;
+      font-family: DIN-BoldAlternate;
     }
   }
 
