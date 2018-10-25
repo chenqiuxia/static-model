@@ -14,7 +14,7 @@ let Route = {
     "index":'^index/index.html$',
     "product1":'^product1/product1.html$',
     "product2":'^product2/product2.html$',
-    "company":'^company/product2.html$',
+    "company":'^company/company.html$',
 }
 $(function () {
   dispatcher(Route.all, () => {
