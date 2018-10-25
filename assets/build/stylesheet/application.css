@@ -220,6 +220,23 @@ a {
   padding-top: calc(1.87998rem - .18rem);
 }
 
+.page-company .nav > ul > li:hover, .page-shop .nav > ul > li:hover, .page-policy .nav > ul > li:hover, .page-commercial .nav > ul > li:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.page-company .nav > ul > li:hover a, .page-shop .nav > ul > li:hover a, .page-policy .nav > ul > li:hover a, .page-commercial .nav > ul > li:hover a {
+  color: #fff;
+}
+
+.page-company .nav-submenu-wrap, .page-shop .nav-submenu-wrap, .page-policy .nav-submenu-wrap, .page-commercial .nav-submenu-wrap {
+  background-color: #000;
+}
+
+.page-company .nav-submenu-wrap li:hover, .page-shop .nav-submenu-wrap li:hover, .page-policy .nav-submenu-wrap li:hover, .page-commercial .nav-submenu-wrap li:hover {
+  background-color: #0d0d0d;
+}
+
 /* media start*/
 header {
   position: fixed;
@@ -228,7 +245,7 @@ header {
   right: 0;
   border-top: 0.26666rem solid #EFE9DD;
   padding: .74666rem 0 .74666rem;
-  z-index: 90;
+  z-index: 9999;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
 }
@@ -515,13 +532,115 @@ footer a:hover {
   color: #fff;
 }
 
+/* Slider */
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.slick-list:focus {
+  outline: none;
+}
+
+.slick-list.dragging {
+  cursor: pointer;
+  cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list {
+  -webkit-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+
+.slick-track {
+  position: relative;
+  left: 0;
+  top: 0;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.slick-track:before, .slick-track:after {
+  content: "";
+  display: table;
+}
+
+.slick-track:after {
+  clear: both;
+}
+
+.slick-loading .slick-track {
+  visibility: hidden;
+}
+
+.slick-slide {
+  float: left;
+  height: 100%;
+  min-height: 1px;
+  display: none;
+}
+
+[dir="rtl"] .slick-slide {
+  float: right;
+}
+
+.slick-slide img {
+  display: block;
+}
+
+.slick-slide.slick-loading img {
+  display: none;
+}
+
+.slick-slide.dragging img {
+  pointer-events: none;
+}
+
+.slick-initialized .slick-slide {
+  display: block;
+}
+
+.slick-loading .slick-slide {
+  visibility: hidden;
+}
+
+.slick-vertical .slick-slide {
+  display: block;
+  height: auto;
+  border: 1px solid transparent;
+}
+
+.slick-arrow.slick-hidden {
+  display: none;
+}
+
 .page-index .index-home-wrap {
-  background: url("../image/index/home-bg.jpg") center no-repeat;
-  background-size: cover;
+  position: relative;
   padding-bottom: 2.4rem;
 }
 
 .page-index .index-home-wrap .main-wrap {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -530,6 +649,38 @@ footer a:hover {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
+  z-index: 90;
+}
+
+.page-index .index-home-slick {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+}
+
+.page-index .index-home-slick .slick-item {
+  height: 100vh;
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+}
+
+.page-index .index-home-slick .slick-item:nth-child(1) {
+  background-image: url("../image/index/banner/home-bg-01.jpg");
+}
+
+.page-index .index-home-slick .slick-item:nth-child(2) {
+  background-image: url("../image/index/banner/home-bg-02.jpg");
+}
+
+.page-index .index-home-slick .slick-item:nth-child(3) {
+  background-image: url("../image/index/banner/home-bg-03.jpg");
+}
+
+.page-index .index-home-slick .slick-item:nth-child(4) {
+  background-image: url("../image/index/banner/home-bg-04.jpg");
 }
 
 .page-index .home-content-wrap {
@@ -1509,6 +1660,10 @@ footer a:hover {
   margin-top: 0.2rem;
 }
 
+.page-shop .shop-img-dl dd a:hover {
+  text-decoration: underline;
+}
+
 .page-shop .shop-region-top {
   margin: 1.26666rem auto 1.04rem;
 }
@@ -1702,7 +1857,7 @@ footer a:hover {
 }
 
 .page-product2 header .nav-submenu-wrap li:hover {
-  background-color: #0d0d0d;
+  background-color: #1a1a1a;
 }
 
 .page-product2 .clear {
