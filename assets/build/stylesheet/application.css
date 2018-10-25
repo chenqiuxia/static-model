@@ -216,8 +216,8 @@ a {
 }
 
 .page-padding-top {
-  padding-top: -webkit-calc(1.87998rem - .18rem);
-  padding-top: calc(1.87998rem - .18rem);
+  padding-top: -webkit-calc((141/$calc-base-num)*$global-font-unit - (14/$calc-base-num)*$global-font-unit);
+  padding-top: calc((141/$calc-base-num)*$global-font-unit - (14/$calc-base-num)*$global-font-unit);
 }
 
 .page-company .nav > ul > li:hover, .page-shop .nav > ul > li:hover, .page-policy .nav > ul > li:hover, .page-commercial .nav > ul > li:hover {
@@ -243,8 +243,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  border-top: 0.26666rem solid #EFE9DD;
-  padding: .74666rem 0 .74666rem;
+  border-top: 0.26667rem solid #EFE9DD;
+  padding: 0.74667rem 0;
   z-index: 9999;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
@@ -267,14 +267,14 @@ header .header-wrap {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: .66666rem;
-  line-height: .66666rem;
+  height: 0.66667rem;
+  line-height: 0.66667rem;
   background: transparent;
 }
 
 header .logo {
   display: block;
-  width: 3.3333rem;
+  width: 3.33333rem;
   height: 100%;
   background-image: url("../image/Logo-product-black.svg");
   background-repeat: no-repeat;
@@ -292,7 +292,7 @@ header .nav {
 header .nav > ul > li {
   position: relative;
   display: inline-block;
-  font-size: .21333rem;
+  font-size: 0.21333rem;
   color: #000;
   padding: 0 0.26667rem;
   cursor: pointer;
@@ -302,7 +302,7 @@ header .nav > ul > li {
 }
 
 header .nav > ul > li + li {
-  margin-left: .8rem;
+  margin-left: 0.8rem;
 }
 
 header .nav > ul > li:hover {
@@ -312,21 +312,21 @@ header .nav > ul > li:hover {
 
 header .nav > ul > li.product-link:hover .nav-submenu-wrap {
   height: auto;
-  top: .66rem;
+  top: 0.64rem;
   z-index: 1;
   opacity: 1;
 }
 
 header .nav > ul > li a {
   display: block;
-  font-size: .21333rem;
+  font-size: 0.21333rem;
 }
 
 header h1 {
   height: 34px;
   line-height: 34px;
-  padding: 0 .22666rem;
-  font-size: .18666rem;
+  padding: 0 0.22667rem;
+  font-size: 0.2rem;
   border-radius: 5px;
   color: #fff;
 }
@@ -426,11 +426,11 @@ footer a:hover {
 }
 
 .footer-main .footer-product-col {
-  margin-left: 2.66666rem;
+  margin-left: 2.66667rem;
 }
 
 .footer-main .footer-company-col {
-  margin-left: .88rem;
+  margin-left: 0.88rem;
 }
 
 .footer-main .footer-tel-location {
@@ -1004,8 +1004,8 @@ footer a:hover {
 }
 
 .page-product1 .banner-desc > :nth-child(3) {
-  margin-left: .66666rem;
-  width: 6.90666rem;
+  margin-left: 0.66667rem;
+  width: 6.90667rem;
 }
 
 .page-product1 .func-wrap {
@@ -1727,7 +1727,7 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top {
-  margin: 1.26666rem auto 1.04rem;
+  margin: 1.26667rem auto 1.04rem;
 }
 
 .page-shop .shop-region-top .top-content {
@@ -1762,7 +1762,7 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top .top-content li:nth-child(2) {
-  margin-left: .54666rem;
+  margin-left: 0.56rem;
 }
 
 .page-shop .shop-region-top .top-content li:nth-child(3) {
@@ -1779,7 +1779,7 @@ footer a:hover {
 
 .page-shop .shop-region-content {
   border: 1px dashed #D8D8D8;
-  padding: .506666rem 0 .84rem;
+  padding: 0.53333rem 0 0.84rem;
 }
 
 .page-shop .shop-region-ul {
@@ -1817,7 +1817,7 @@ footer a:hover {
 .page-policy .policy-content h2 {
   font-size: 0.37333rem;
   line-height: 1;
-  padding: 0.86667rem 0 0.58666rem;
+  padding: 0.86667rem 0 0.58667rem;
   text-align: center;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
@@ -1835,7 +1835,7 @@ footer a:hover {
 .page-commercial .commercial-content h2 {
   font-size: 0.37333rem;
   line-height: 1;
-  padding: 0.86667rem 0 0.58666rem;
+  padding: 0.86667rem 0 0.6rem;
   text-align: center;
 }
 
@@ -1992,26 +1992,26 @@ footer a:hover {
 }
 
 .page-product2 .banner-desc :nth-child(1) {
-  font-size: 3.94666rem;
-  line-height: 2.94666rem;
+  font-size: 3.94667rem;
+  line-height: 3.94667rem;
   font-family: DIN-BoldAlternate, "Rubik300";
 }
 
 .page-product2 .banner-desc :nth-child(2) {
-  margin-top: .34666rem;
-  font-size: .26666rem;
+  margin-top: 0.34667rem;
+  font-size: 0.26667rem;
   width: 4.6rem;
 }
 
 .page-product2 .banner-desc :nth-child(3) {
-  margin-top: .133333rem;
+  margin-top: 0.13333rem;
   width: 4.6rem;
-  font-size: .21333rem;
+  font-size: 0.21333rem;
 }
 
 .page-product2 .banner-desc :nth-child(4) {
   width: 4.6rem;
-  font-size: .21333rem;
+  font-size: 0.21333rem;
 }
 
 .page-product2 .product-intro {
@@ -2019,19 +2019,17 @@ footer a:hover {
   position: relative;
   width: 8.2rem;
   height: 2.85333rem;
-  font-weight: 1000;
 }
 
 .page-product2 .product1-name {
-  width: 3.02666rem;
-  height: 2.85333rem;
-  font-size: 2.94666rem;
-  line-height: 2.94666rem;
+  width: 3.02667rem;
+  height: 2.84rem;
+  font-size: 2.94667rem;
+  line-height: 2.94667rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  bottom: .5rem;
-  font-weight: 1000;
+  bottom: 0.50667rem;
 }
 
 .page-product2 .product-desc {
@@ -2039,29 +2037,29 @@ footer a:hover {
   width: 4.6rem;
   height: 2.85333rem;
   overflow: hidden;
-  margin-left: .573333rem;
+  margin-left: 0.57333rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
   left: 3rem;
-  bottom: .5rem;
+  bottom: 0.50667rem;
 }
 
 .page-product2 .product-left :nth-child(0) {
-  font-size: .26666rem;
-  line-height: .846666rem;
+  font-size: 0.26667rem;
+  line-height: 0.85333rem;
   letter-spacing: 3px;
 }
 
 .page-product2 .product-desc :nth-child(1) {
-  font-size: .22666rem;
+  font-size: 0.22667rem;
   letter-spacing: 3px;
 }
 
 .page-product2 .func-wrap {
   overflow: hidden;
   position: relative;
-  height: 19.27999rem;
+  height: 19.28rem;
 }
 
 .page-product2 .run-img {
@@ -2118,7 +2116,7 @@ footer a:hover {
 }
 
 .page-product2 .func-desc-line {
-  height: .29rem;
+  height: 0.29333rem;
   width: 100%;
   background-color: #006965;
   margin-top: 2.4rem;
@@ -2126,30 +2124,30 @@ footer a:hover {
 
 .page-product2 .func-desc-title {
   white-space: nowrap;
-  font-size: 1.0666rem;
+  font-size: 1.06667rem;
   font-weight: 600;
   line-height: 1.2rem;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .func-title-all {
-  margin-top: .34rem;
+  margin-top: 0.34667rem;
 }
 
 .page-product2 .func-desc-content {
-  font-size: .53333rem;
-  line-height: .66666rem;
+  font-size: 0.53333rem;
+  line-height: 0.66667rem;
   color: #111111;
   font-weight: bold;
-  margin-top: .3333rem;
+  margin-top: 0.33333rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .func-desc-detial {
-  font-size: .22666rem;
-  margin-top: .37333rem;
+  font-size: 0.22667rem;
+  margin-top: 0.37333rem;
   font-weight: 400;
-  line-height: .34666rem;
+  line-height: 0.34667rem;
 }
 
 .page-product2 .battery-main {
@@ -2161,7 +2159,7 @@ footer a:hover {
   background-image: url("../image/product2/battery_BG.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 8.10666rem;
+  height: 8.10667rem;
 }
 
 .page-product2 .battery-content {
@@ -2182,8 +2180,8 @@ footer a:hover {
 }
 
 .page-product2 .battery-list li {
-  width: 6.5333rem;
-  height: 1.90666rem;
+  width: 6.53333rem;
+  height: 1.90667rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2199,28 +2197,28 @@ footer a:hover {
   flex-direction: column;
   border: 5px solid #fff;
   color: #fff;
-  padding: .32rem;
-  font-size: .22666rem;
-  line-height: .34666rem;
+  padding: 0.32rem;
+  font-size: 0.22667rem;
+  line-height: 0.34667rem;
   font-weight: normal;
   position: relative;
 }
 
 .page-product2 .battery-list li::before {
   content: '';
-  top: .6rem;
-  left: -.4rem;
-  height: .69333rem;
-  width: .2666rem;
+  top: 0.6rem;
+  left: -0.4rem;
+  height: 0.69333rem;
+  width: 0.26667rem;
   background-color: #fff;
   position: absolute;
 }
 
 .page-product2 .battery-list :nth-child(1) {
-  font-size: .5333rem;
+  font-size: 0.53333rem;
   font-weight: bold;
   color: white;
-  line-height: .7rem;
+  line-height: 0.70667rem;
   letter-spacing: 6px;
 }
 
@@ -2243,21 +2241,21 @@ footer a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: .64rem;
-  line-height: .74666rem;
+  font-size: 0.64rem;
+  line-height: 0.74667rem;
   letter-spacing: 8px;
   font-weight: 500;
   color: #fff;
 }
 
 .page-product2 .fun-list-all {
-  margin-top: 2.58666rem;
+  margin-top: 2.58667rem;
   width: 110%;
   line-height: 1.4;
 }
 
 .page-product2 .fun-list-all li {
-  height: 2.30666rem;
+  height: 2.30667rem;
   width: 48%;
   float: left;
   display: -webkit-box;
@@ -2271,18 +2269,18 @@ footer a:hover {
 }
 
 .page-product2 .fun-list-all > :nth-child(3) {
-  margin-top: 1.3466rem;
+  margin-top: 1.34667rem;
 }
 
 .page-product2 .fun-list-all > :nth-child(4) {
   margin-left: 4%;
-  margin-top: 1.3466rem;
+  margin-top: 1.34667rem;
 }
 
 .page-product2 .func-kinds {
   width: 100%;
-  height: 6.65333rem;
-  margin-top: 3.5333rem;
+  height: 6.66667rem;
+  margin-top: 3.53333rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2327,20 +2325,20 @@ footer a:hover {
 }
 
 .page-product2 .func-kinds-img :nth-child(1) {
-  height: 6.65333rem;
+  height: 6.66667rem;
   position: absolute;
-  left: -2.14666rem;
+  left: -2.16rem;
 }
 
 .page-product2 .func-kinds-img :nth-child(2) {
   height: 2.4rem;
   position: absolute;
-  right: 1.4666rem;
+  right: 1.46667rem;
   top: -1.2rem;
 }
 
 .page-product2 .func-kinds-desc {
-  width: 6.666rem;
+  width: 6.66667rem;
 }
 
 .page-product2 .func-kinds-desc > :nth-child(1) {
@@ -2350,13 +2348,13 @@ footer a:hover {
 }
 
 .page-product2 .func-kinds-desc > :nth-child(2) {
-  margin-top: .24rem;
+  margin-top: 0.24rem;
   font-size: 0.46667rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .func-kinds-desc > :nth-child(3) {
-  margin-top: .33333rem;
+  margin-top: 0.33333rem;
   font-size: 0.22667rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -2370,7 +2368,7 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 1.22666rem;
+  margin-top: 1.22667rem;
 }
 
 .page-product2 .func-item-desc {
@@ -2381,27 +2379,27 @@ footer a:hover {
 }
 
 .page-product2 .func-item-desc :nth-child(1) {
-  font-size: .32rem;
+  font-size: 0.32rem;
   font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product2 .func-item-desc :nth-child(2) {
-  margin-top: .22666rem;
-  font-size: .22666rem;
+  margin-top: 0.22667rem;
+  font-size: 0.22667rem;
 }
 
 .page-product2 .func-item-img {
   height: 100%;
-  margin-left: .2rem;
+  margin-left: 0.2rem;
 }
 
 .page-product2 .func-item-img img {
-  height: 2.30666rem;
+  height: 1.64rem;
 }
 
 .page-product2 .heatset-banner {
   height: 5.88rem;
-  margin-top: 1.61333rem;
+  margin-top: 1.65333rem;
 }
 
 .page-product2 .heatset-banner-list > li {
@@ -2425,14 +2423,14 @@ footer a:hover {
 
 .page-product2 .heatset-banner-list :nth-child(2) {
   position: absolute;
-  left: 4.30666rem;
+  left: 4.30667rem;
   -webkit-transition-delay: .2s;
   transition-delay: .2s;
 }
 
 .page-product2 .heatset-banner-list :nth-child(3) {
   position: absolute;
-  left: 8.90666rem;
+  left: 8.90667rem;
 }
 
 .page-product2 .heatset-banner-list li img {
@@ -2470,52 +2468,52 @@ footer a:hover {
 }
 
 .page-product2 .color-li > p {
-  font-size: .64rem;
-  line-height: .74666rem;
+  font-size: 0.64rem;
+  line-height: 0.74667rem;
   font-weight: bold;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .color-list {
-  margin-top: .64rem;
+  margin-top: 0.64rem;
 }
 
 .page-product2 .color-list li {
   display: inline-block;
-  margin-left: .26666rem;
+  margin-left: 0.26667rem;
 }
 
 .page-product2 .color-list :nth-child(1) {
-  width: .25rem;
-  height: .25rem;
+  width: 0.25333rem;
+  height: 0.25333rem;
   border-radius: 100px;
   background-color: #000;
 }
 
 .page-product2 .color-list :nth-child(2) {
-  width: .25rem;
-  height: .25rem;
+  width: 0.25333rem;
+  height: 0.25333rem;
   border-radius: 100px;
   background-color: #f5f5f5;
 }
 
 .page-product2 .color-list :nth-child(3) {
-  width: .25rem;
-  height: .25rem;
+  width: 0.25333rem;
+  height: 0.25333rem;
   border-radius: 100px;
   background-color: #ff0021;
 }
 
 .page-product2 .color-list :nth-child(4) {
-  width: .25rem;
-  height: .25rem;
+  width: 0.25333rem;
+  height: 0.25333rem;
   border-radius: 100px;
   background-color: #a0b779;
 }
 
 .page-product2 .color-list :nth-child(5) {
-  width: .25rem;
-  height: .25rem;
+  width: 0.25333rem;
+  height: 0.25333rem;
   border-radius: 100px;
   background-color: #939392;
 }
@@ -2548,20 +2546,20 @@ footer a:hover {
 }
 
 .page-product2 .top :nth-child(2) {
-  margin-left: 1.0666rem;
+  margin-left: 1.06667rem;
 }
 
 .page-product2 .bottom {
-  margin-top: 0.66666rem;
+  margin-top: 0.66667rem;
   white-space: nowrap;
 }
 
 .page-product2 .bottom :nth-child(2) {
-  margin-left: 1.0666rem;
+  margin-left: 1.06667rem;
 }
 
 .page-product2 .bottom :nth-child(3) {
-  margin-left: 1.0666rem;
+  margin-left: 1.06667rem;
 }
 
 .page-product2 .use-manual {
@@ -2582,7 +2580,7 @@ footer a:hover {
 }
 
 .page-product2 .use-manual-desc {
-  padding-left: .56rem;
+  padding-left: 0.56rem;
   width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2601,16 +2599,16 @@ footer a:hover {
 }
 
 .page-product2 .use-manual-img img {
-  width: 7.9333rem;
+  width: 7.93333rem;
   display: inline-block;
 }
 
 .page-product2 .manual-title {
   white-space: nowrap;
-  font-size: .64rem;
+  font-size: 0.64rem;
   font-weight: bold;
   color: black;
-  line-height: .74666rem;
+  line-height: 0.74667rem;
   letter-spacing: 5px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2650,25 +2648,25 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: .8rem;
+  margin-top: 0.8rem;
 }
 
 .page-product2 .left-desc {
-  font-size: .26666rem;
+  font-size: 0.26667rem;
   font-weight: bold;
   color: black;
-  line-height: .38666rem;
+  line-height: 0.4rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .right-desc {
-  padding: .226666rem;
+  padding: 0.22667rem;
   border: 2px solid #0698ec;
-  font-size: .2rem;
+  font-size: 0.2rem;
   border-radius: 3px;
   font-weight: bold;
   color: #2196f3;
-  line-height: .22666rem;
+  line-height: 0.22667rem;
   letter-spacing: 2px;
   font-family: DIN-Medium, "Rubik300";
 }
@@ -2679,7 +2677,7 @@ footer a:hover {
 }
 
 .page-product2 .use-manual-desc :nth-child(3) {
-  margin-top: .53333rem;
+  margin-top: 0.53333rem;
 }
 
 .page-product2 .include-wrap {
@@ -2723,17 +2721,17 @@ footer a:hover {
 }
 
 .page-product2 .include-wrap-desc :nth-child(1) {
-  font-size: .64rem;
+  font-size: 0.64rem;
   font-weight: bold;
   color: #111111;
-  line-height: .74666rem;
+  line-height: 0.74667rem;
   letter-spacing: 8px;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .include-wrap-desc :nth-child(2) {
-  margin-top: .45333rem;
-  font-size: .21333rem;
+  margin-top: 0.45333rem;
+  font-size: 0.21333rem;
   font-weight: bold;
   color: #111111;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
@@ -2769,8 +2767,8 @@ footer a:hover {
 .page-product2 .product-imglist-main > :nth-child(1),
 .page-product2 .product-imglist-main > :nth-child(2) {
   background-size: 100%;
-  width: 8.66666rem;
-  height: 3.06666rem;
+  width: 8.66667rem;
+  height: 3.06667rem;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2787,14 +2785,14 @@ footer a:hover {
 
 .page-product2 .product1-img {
   position: absolute;
-  right: .78666rem;
+  right: 0.8rem;
   bottom: 0;
   z-index: 30;
 }
 
 .page-product2 .product2-img {
   position: absolute;
-  left: 1.25333rem;
+  left: 1.26667rem;
   bottom: 0;
   z-index: 30;
 }
@@ -2827,14 +2825,14 @@ footer a:hover {
 }
 
 .page-product2 .product-info > :nth-child(1) {
-  font-size: 1.06666rem;
+  font-size: 1.06667rem;
   line-height: 1.25333rem;
   color: #fff;
   font-weight: 500;
 }
 
 .page-product2 .product-info > :nth-child(2) {
-  font-size: .26666rem;
+  font-size: 0.26667rem;
   color: #fff;
 }
 

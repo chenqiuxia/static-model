@@ -71,11 +71,11 @@ footer {
   }
 
   .footer-product-col {
-    margin-left: 2.66666rem;
+    margin-left: (200/$calc-base-num)*$global-font-unit;
   }
 
   .footer-company-col {
-    margin-left: .88rem;
+    margin-left: (66/$calc-base-num)*$global-font-unit;
   }
 
   .footer-tel-location {

@@ -115,8 +115,8 @@
     }
 
     .banner-desc >:nth-child(3) {
-        margin-left: .66666rem;
-        width: 6.90666rem;
+        margin-left: (50/$calc-base-num)*$global-font-unit;
+        width: (518/$calc-base-num)*$global-font-unit;
     }
 
     .func-wrap {

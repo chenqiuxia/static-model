@@ -45,7 +45,7 @@
 
   //mixin shopRegin start
   .shop-region-top {
-    margin: 1.26666rem auto 1.04rem;
+    margin: (95/$calc-base-num)*$global-font-unit auto (78/$calc-base-num)*$global-font-unit;
 
     .top-content {
       margin-left: 20%;
@@ -73,11 +73,11 @@
         }
 
         &:nth-child(2) {
-          margin-left: .54666rem;
+          margin-left: (42/$calc-base-num)*$global-font-unit;
         }
 
         &:nth-child(3) {
-          margin-left: 1.33333rem;
+          margin-left: (100/$calc-base-num)*$global-font-unit;
         }
 
         &+li {
@@ -92,7 +92,7 @@
 
   .shop-region-content {
     border: 1px dashed map_get($global-color, c);
-    padding: .506666rem 0 .84rem;
+    padding: (40/$calc-base-num)*$global-font-unit 0 (63/$calc-base-num)*$global-font-unit;
   }
   .shop-region-ul {
     display: flex;

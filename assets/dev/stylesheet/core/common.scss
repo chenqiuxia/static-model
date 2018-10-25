@@ -41,7 +41,7 @@ a {
 }
 
 .page-padding-top {
-  padding-top: calc(1.87998rem - .18rem); //减小header的padding
+  padding-top: calc((141/$calc-base-num)*$global-font-unit - (14/$calc-base-num)*$global-font-unit); //减小header的padding
 }
 
 //header nav hover style
