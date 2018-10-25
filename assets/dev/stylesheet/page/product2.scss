@@ -77,7 +77,7 @@
     .banner-desc :nth-child(1){
         font-size: 2.94666rem;
         line-height: 2.94666rem;
-
+        font-family: 'NotoSansCJKjp-Bold';
     }
 
     .banner-desc :nth-child(2){
@@ -441,19 +441,25 @@
         margin-top: 1.61333rem;
     }
 
+    .heatset-banner-list >li {
+        transition: all map_get($global-time, scroll);
+        opacity: 0;
+        transform: translate(0,200px);
+    }
+
     .heatset-banner-list {
         position: relative;
     }
 
     .heatset-banner-list :nth-child(1){
         position: absolute;
-
+        transition-delay: 1s;
     }
 
     .heatset-banner-list :nth-child(2){
         position: absolute;
         left: 4.30666rem;
-        
+        transition-delay: .5s;
     }
 
     .heatset-banner-list :nth-child(3){

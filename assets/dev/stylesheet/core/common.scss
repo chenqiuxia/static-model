@@ -35,7 +35,7 @@ a {
   opacity: 0;
 }
 
-.is_scoped {
+.is_scoped, .page-product2 .heatset-banner-list >li.is_scoped {
   transform: translate(0,0);
   opacity: 1;
 }
