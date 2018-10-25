@@ -1531,11 +1531,11 @@ footer a:hover {
 }
 
 .page-product1 .product-imglist-main > :nth-child(1) {
-  background-image: url("../../image/product/product1.png");
+  background-image: url("../image/product/product1.png");
 }
 
 .page-product1 .product-imglist-main > :nth-child(2) {
-  background-image: url("../../image/product/product2.png");
+  background-image: url("../image/product/product2.png");
 }
 
 .page-product1 .product1-img {
@@ -2729,11 +2729,11 @@ footer a:hover {
 }
 
 .page-product2 .product-imglist-main > :nth-child(1) {
-  background-image: url("../../image/product/product1.png");
+  background-image: url("../image/product/product1.png");
 }
 
 .page-product2 .product-imglist-main > :nth-child(2) {
-  background-image: url("../../image/product/product2.png");
+  background-image: url("../image/product/product2.png");
 }
 
 .page-product2 .product1-img {
