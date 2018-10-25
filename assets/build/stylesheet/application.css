@@ -1026,6 +1026,7 @@ footer a:hover {
   font-size: 1.0666rem;
   font-weight: 600;
   line-height: 1.2rem;
+  font-family: DIN-Medium;
 }
 
 .page-product1 .func-title-all {
@@ -1038,6 +1039,7 @@ footer a:hover {
   color: #111111;
   font-weight: bold;
   margin-top: .3333rem;
+  font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product1 .func-desc-detial {
@@ -1246,6 +1248,7 @@ footer a:hover {
   font-size: .64rem;
   line-height: .74666rem;
   font-weight: bold;
+  font-family: DIN-Medium;
 }
 
 .page-product1 .color-list {
@@ -1370,6 +1373,7 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  font-family: DIN-Medium;
 }
 
 .page-product1 .manual-title div {
@@ -1407,6 +1411,7 @@ footer a:hover {
   font-weight: bold;
   color: black;
   line-height: .38666rem;
+  font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product1 .right-desc {
@@ -1418,6 +1423,7 @@ footer a:hover {
   color: #2196f3;
   line-height: .22666rem;
   letter-spacing: 2px;
+  font-family: DIN-Medium;
 }
 
 .page-product1 .right-desc:hover {
@@ -1482,6 +1488,7 @@ footer a:hover {
   font-size: .21333rem;
   font-weight: bold;
   color: #111111;
+  font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product1 .include-img img {
