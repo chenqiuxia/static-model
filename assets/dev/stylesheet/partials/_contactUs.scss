@@ -17,7 +17,7 @@
       font-size: map_get($global-font-size, g);
       line-height: 1;
       padding: map_get($global-spacing, i) map_get($global-spacing, c);
-      font-family: DINAlternate-Bold;
+      font-family: DINAlternate-Bold + $global-default-family;
     }
 
     .text-row {
