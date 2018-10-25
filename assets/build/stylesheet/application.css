@@ -216,8 +216,7 @@ a {
 }
 
 .page-padding-top {
-  padding-top: -webkit-calc((141/$calc-base-num)*$global-font-unit - (14/$calc-base-num)*$global-font-unit);
-  padding-top: calc((141/$calc-base-num)*$global-font-unit - (14/$calc-base-num)*$global-font-unit);
+  padding-top: 0.22187rem;
 }
 
 .page-company .nav > ul > li:hover, .page-shop .nav > ul > li:hover, .page-policy .nav > ul > li:hover, .page-commercial .nav > ul > li:hover {
@@ -243,8 +242,8 @@ header {
   top: 0;
   left: 0;
   right: 0;
-  border-top: 0.03175rem solid #EFE9DD;
-  padding: 0.08889rem 0;
+  border-top: 0.03125rem solid #EFE9DD;
+  padding: 0.0875rem 0;
   z-index: 9999;
   -webkit-transition: background-color 0.4s;
   transition: background-color 0.4s;
@@ -267,14 +266,14 @@ header .header-wrap {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 0.07937rem;
-  line-height: 0.07937rem;
+  height: 0.07812rem;
+  line-height: 0.07812rem;
   background: transparent;
 }
 
 header .logo {
   display: block;
-  width: 0.39683rem;
+  width: 0.39062rem;
   height: 100%;
   background-image: url("../image/Logo-product-black.svg");
   background-repeat: no-repeat;
@@ -286,15 +285,15 @@ header .logo:hover {
 }
 
 header .nav {
-  margin-top: 0.02381rem;
+  margin-top: 0.02344rem;
 }
 
 header .nav > ul > li {
   position: relative;
   display: inline-block;
-  font-size: 0.0254rem;
+  font-size: 0.025rem;
   color: #000;
-  padding: 0 0.03175rem;
+  padding: 0 0.03125rem;
   cursor: pointer;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -302,7 +301,7 @@ header .nav > ul > li {
 }
 
 header .nav > ul > li + li {
-  margin-left: 0.09524rem;
+  margin-left: 0.09375rem;
 }
 
 header .nav > ul > li:hover {
@@ -312,21 +311,21 @@ header .nav > ul > li:hover {
 
 header .nav > ul > li.product-link:hover .nav-submenu-wrap {
   height: auto;
-  top: 0.07619rem;
+  top: 0.075rem;
   z-index: 1;
   opacity: 1;
 }
 
 header .nav > ul > li a {
   display: block;
-  font-size: 0.0254rem;
+  font-size: 0.025rem;
 }
 
 header h1 {
   height: 34px;
   line-height: 34px;
-  padding: 0 0.02698rem;
-  font-size: 0.02381rem;
+  padding: 0 0.02656rem;
+  font-size: 0.02344rem;
   border-radius: 5px;
   color: #fff;
 }
@@ -354,7 +353,7 @@ header .nav-submenu-wrap li:hover {
 footer {
   background-color: #000;
   color: #fff;
-  padding: 0.09524rem 0 0.09524rem;
+  padding: 0.09375rem 0 0.09375rem;
 }
 
 footer a {
@@ -381,7 +380,7 @@ footer a:hover {
 }
 
 .footer-main .contact-wrap .media-link {
-  margin-top: 0.19048rem;
+  margin-top: 0.1875rem;
 }
 
 .footer-main .contact-wrap .media-link a {
@@ -393,7 +392,7 @@ footer a:hover {
 }
 
 .footer-main .contact-wrap .media-link a + a {
-  margin-left: 0.03175rem;
+  margin-left: 0.03125rem;
 }
 
 .footer-main .contact-wrap .media-link a:hover {
@@ -413,7 +412,7 @@ footer a:hover {
 }
 
 .footer-main .footer-link-wrap {
-  font-size: 0.0254rem;
+  font-size: 0.025rem;
   line-height: 1.5;
 }
 
@@ -422,15 +421,15 @@ footer a:hover {
 }
 
 .footer-main .footer-link-wrap dd {
-  margin-top: 0.03175rem;
+  margin-top: 0.03125rem;
 }
 
 .footer-main .footer-product-col {
-  margin-left: 0.31746rem;
+  margin-left: 0.3125rem;
 }
 
 .footer-main .footer-company-col {
-  margin-left: 0.10476rem;
+  margin-left: 0.10312rem;
 }
 
 .footer-main .footer-tel-location {
@@ -450,8 +449,8 @@ footer a:hover {
   -webkit-align-items: flex-end;
   -ms-flex-align: end;
   align-items: flex-end;
-  padding-bottom: 0.03175rem;
-  font-size: 0.0254rem;
+  padding-bottom: 0.03125rem;
+  font-size: 0.025rem;
   line-height: 1.5;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -465,21 +464,21 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 0.11111rem;
+  margin-top: 0.10938rem;
 }
 
 .footer-main .bottom-wrap .http-wrap {
-  font-size: 0.01905rem;
+  font-size: 0.01875rem;
   line-height: 1.5;
   font-family: NotoSansCJKjp-Light, "Rubik300";
 }
 
 .footer-main .bottom-wrap .http-wrap a + a {
-  margin-left: 0.05556rem;
+  margin-left: 0.05469rem;
 }
 
 .footer-main .bottom-wrap .company-tag {
-  font-size: 0.0254rem;
+  font-size: 0.025rem;
   line-height: 1.2;
   letter-spacing: 5px;
 }
@@ -487,11 +486,11 @@ footer a:hover {
 .shop-title-wrap {
   position: relative;
   text-align: center;
-  margin-top: 0.09524rem;
-  border-top: .13333rem solid #1a1a1a;
-  border-bottom: .13333rem solid #1a1a1a;
-  padding: 0.09524rem 0;
-  font-size: 0.04444rem;
+  margin-top: 0.09375rem;
+  border-top: 0.01562rem solid #1a1a1a;
+  border-bottom: 0.01562rem solid #1a1a1a;
+  padding: 0.09375rem 0;
+  font-size: 0.04375rem;
   color: #111;
 }
 
@@ -513,14 +512,14 @@ footer a:hover {
 
 .shop-title-wrap p {
   line-height: 1;
-  margin-top: 0.06667rem;
+  margin-top: 0.06563rem;
   font-family: NotoSansCJKjp-Thin, "Rubik300";
   font-weight: 100;
   letter-spacing: 2px;
 }
 
 .contact-us-wrap {
-  padding: 4.13333rem 0 4.13333rem;
+  padding: 0.48438rem 0;
 }
 
 .contact-us-wrap .contact-cont {
@@ -544,9 +543,9 @@ footer a:hover {
 
 .contact-us-wrap .contact-cont span {
   display: inline-block;
-  font-size: 0.06349rem;
+  font-size: 0.0625rem;
   line-height: 1;
-  padding: 0.03175rem 0.09524rem;
+  padding: 0.03125rem 0.09375rem;
   font-family: DINAlternate-Bold, "Rubik300";
 }
 
@@ -666,7 +665,7 @@ footer a:hover {
 
 .page-index .index-home-wrap {
   position: relative;
-  padding-bottom: 0.28571rem;
+  padding-bottom: 0.28125rem;
 }
 
 .page-index .index-home-wrap .main-wrap {
@@ -718,32 +717,32 @@ footer a:hover {
 }
 
 .page-index .home-content-wrap h2 {
-  font-size: 0.10159rem;
+  font-size: 0.1rem;
   line-height: 1.1;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-index .home-content-wrap h3 {
-  font-size: 0.10159rem;
+  font-size: 0.1rem;
   line-height: 1.5;
   font-family: SFNSDisplay, "Rubik300";
   font-weight: 500;
 }
 
 .page-index .home-content-wrap p {
-  font-size: 0.04762rem;
+  font-size: 0.04688rem;
   line-height: 1.6;
-  margin-top: 0.15873rem;
+  margin-top: 0.15625rem;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
 
 .page-index .home-content-wrap a {
   display: inline-block;
   background-color: #111;
-  padding: 0.04762rem 0.15873rem;
+  padding: 0.04688rem 0.15625rem;
   color: #fff;
-  font-size: 0.03492rem;
-  margin-top: 0.09524rem;
+  font-size: 0.03438rem;
+  margin-top: 0.09375rem;
   letter-spacing: 3px;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
@@ -757,7 +756,7 @@ footer a:hover {
 .page-index .index-title-wrap {
   color: #000;
   border: 1px dashed #979797;
-  padding: 0.12698rem 0;
+  padding: 0.125rem 0;
 }
 
 .page-index .index-title-wrap .index-title-cont {
@@ -769,7 +768,7 @@ footer a:hover {
 }
 
 .page-index .index-title-wrap .index-title-cont h3 {
-  font-size: 0.05714rem;
+  font-size: 0.05625rem;
   line-height: 1.19;
   width: 440px;
   font-family: SFNSDisplay, "Rubik300";
@@ -781,12 +780,12 @@ footer a:hover {
   width: 50px;
   height: 3px;
   background-color: #111;
-  margin-bottom: 0.04762rem;
+  margin-bottom: 0.04688rem;
 }
 
 .page-index .index-title-wrap .index-title-cont li + li {
-  font-size: 0.01905rem;
-  margin-left: 0.03968rem;
+  font-size: 0.01875rem;
+  margin-left: 0.03906rem;
   width: 220px;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -797,7 +796,7 @@ footer a:hover {
   padding: 10px;
   background: url("../image/index/home-pro-f2.jpg") center no-repeat;
   background-size: cover;
-  height: 40vh;
+  height: 50vh;
 }
 
 .page-index .index-earphone-wrap:hover .mask-wrap {
@@ -833,7 +832,7 @@ footer a:hover {
 }
 
 .page-index .index-earphone-wrap .earphone-cont h2 {
-  font-size: 0.11429rem;
+  font-size: 0.1125rem;
   color: #fff;
   letter-spacing: 10px;
   margin-left: 30%;
@@ -845,7 +844,7 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  height: 400px;
+  height: 33vh;
 }
 
 .page-index .index-other-item {
@@ -889,7 +888,7 @@ footer a:hover {
 
 .page-index .index-other-item h4 {
   text-align: center;
-  font-size: 0.07619rem;
+  font-size: 0.075rem;
   color: #fff;
   letter-spacing: 8px;
   font-family: DIN-BoldAlternate, "Rubik300";
@@ -932,14 +931,14 @@ footer a:hover {
 .page-product1 .banner-desc {
   white-space: nowrap;
   position: absolute;
-  bottom: 0.16349rem;
+  bottom: 0.16094rem;
   height: 100%;
 }
 
 .page-product1 .banner-desc .imgs {
-  left: 1.19048rem;
+  left: 1.17188rem;
   position: absolute;
-  bottom: 0.04762rem;
+  bottom: 0.04688rem;
   width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -957,30 +956,30 @@ footer a:hover {
 }
 
 .page-product1 .banner-desc .imgs :nth-child(2) {
-  margin-left: 0.07937rem;
+  margin-left: 0.07812rem;
 }
 
 .page-product1 .product-intro {
   display: inline-block;
-  width: 0.97619rem;
-  height: 0.33968rem;
+  width: 0.96094rem;
+  height: 0.33437rem;
 }
 
 .page-product1 .banner-desc > img {
   display: inline-block;
-  height: 1.31587rem;
+  height: 1.29531rem;
 }
 
 .page-product1 .product1-name {
-  width: 0.47937rem;
-  height: 0.45873rem;
-  font-size: 0.35079rem;
-  line-height: 0.35079rem;
+  width: 0.47187rem;
+  height: 0.45156rem;
+  font-size: 0.34531rem;
+  line-height: 0.34531rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  bottom: 0.16667rem;
-  left: -0.11905rem;
+  bottom: 0.16406rem;
+  left: -0.11719rem;
   font-weight: 1000;
 }
 
@@ -990,26 +989,26 @@ footer a:hover {
 
 .page-product1 .product-desc {
   white-space: normal;
-  width: 0.71429rem;
-  height: 0.33968rem;
-  margin-left: 0.06825rem;
+  width: 0.70312rem;
+  height: 0.33437rem;
+  margin-left: 0.06719rem;
   display: inline-block;
-  font-size: 0.02698rem;
-  line-height: 0.04048rem;
+  font-size: 0.02656rem;
+  line-height: 0.03984rem;
   vertical-align: bottom;
   position: absolute;
-  left: 0.35714rem;
-  bottom: 0.29762rem;
+  left: 0.35156rem;
+  bottom: 0.29297rem;
 }
 
 .page-product1 .product-left :nth-child(0) {
-  font-size: 0.03175rem;
-  line-height: 0.10079rem;
+  font-size: 0.03125rem;
+  line-height: 0.09922rem;
   letter-spacing: 3px;
 }
 
 .page-product1 .product-desc :nth-child(1) {
-  font-size: 0.03889rem;
+  font-size: 0.03828rem;
   font-family: NotoSansCJKjp-Bold;
   letter-spacing: 3px;
   line-height: 1rem;
@@ -1028,12 +1027,12 @@ footer a:hover {
 .page-product1 .func-wrap {
   overflow: hidden;
   position: relative;
-  height: 2.41429rem;
+  height: 2.37656rem;
 }
 
 .page-product1 .run-img {
   width: 100%;
-  height: 0.95238rem;
+  height: 0.9375rem;
 }
 
 .page-product1 .run-img img {
@@ -1044,7 +1043,7 @@ footer a:hover {
 .page-product1 .rock-img {
   width: 100%;
   position: relative;
-  height: 0.95238rem;
+  height: 0.9375rem;
 }
 
 .page-product1 .rock-img img {
@@ -1055,7 +1054,7 @@ footer a:hover {
 
 .page-product1 .func-desc {
   position: absolute;
-  top: 0.51905rem;
+  top: 0.51094rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1077,63 +1076,63 @@ footer a:hover {
 }
 
 .page-product1 .func-desc > div {
-  width: 1.07143rem;
+  width: 1.05469rem;
 }
 
 .page-product1 .func-desc > img {
-  width: 1.07143rem;
+  width: 1.05469rem;
 }
 
 .page-product1 .func-desc-line {
-  height: 0.03452rem;
+  height: 0.03398rem;
   width: 100%;
   background-color: #ea001e;
-  margin-top: 0.28571rem;
+  margin-top: 0.28125rem;
 }
 
 .page-product1 .func-desc-title {
-  font-size: 0.12698rem;
+  font-size: 0.125rem;
   font-weight: 600;
-  line-height: 0.14286rem;
+  line-height: 0.14062rem;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product1 .func-title-all {
-  margin-top: 0.04048rem;
+  margin-top: 0.03984rem;
 }
 
 .page-product1 .func-desc-content {
-  font-size: 0.06349rem;
-  line-height: 0.07937rem;
+  font-size: 0.0625rem;
+  line-height: 0.07812rem;
   color: #111111;
   font-weight: bold;
-  margin-top: 0.03968rem;
+  margin-top: 0.03906rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product1 .func-desc-detial {
-  font-size: 0.02698rem;
-  margin-top: 0.04444rem;
+  font-size: 0.02656rem;
+  margin-top: 0.04375rem;
   font-weight: 400;
   line-height: 1.4;
   z-index: 1000;
 }
 
 .page-product1 .battery-main {
-  margin-top: 0.09524rem;
+  margin-top: 0.09375rem;
   background-color: #fff;
-  padding-top: 0.11587rem;
+  padding-top: 0.11406rem;
 }
 
 .page-product1 .battery-banner {
   background-image: url("../image/product1/battery.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1.19048rem;
+  height: 1.17188rem;
 }
 
 .page-product1 .battery-content {
-  padding-top: 0.45397rem;
+  padding-top: 0.44688rem;
   width: 100%;
   height: 100%;
 }
@@ -1150,8 +1149,8 @@ footer a:hover {
 }
 
 .page-product1 .battery-list li {
-  width: 0.77778rem;
-  height: 0.22698rem;
+  width: 0.76562rem;
+  height: 0.22344rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1167,25 +1166,25 @@ footer a:hover {
   justify-content: center;
   border: 5px solid #fff;
   color: #fff;
-  padding: 0.0381rem;
-  font-size: 0.02698rem;
-  line-height: 0.04127rem;
+  padding: 0.0375rem;
+  font-size: 0.02656rem;
+  line-height: 0.04063rem;
   font-weight: normal;
   position: relative;
 }
 
 .page-product1 .battery-list li::before {
   content: '';
-  top: 0.07143rem;
-  left: -0.04762rem;
-  height: 0.08254rem;
-  width: 0.03175rem;
+  top: 0.07031rem;
+  left: -0.04688rem;
+  height: 0.08125rem;
+  width: 0.03125rem;
   background-color: #fff;
   position: absolute;
 }
 
 .page-product1 .battery-list :nth-child(1) {
-  font-size: 0.06349rem;
+  font-size: 0.0625rem;
   font-weight: bold;
   color: white;
   line-height: .7rem;
@@ -1197,7 +1196,7 @@ footer a:hover {
 }
 
 .page-product1 .battery-sum {
-  margin-top: 0.16825rem;
+  margin-top: 0.16562rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1211,20 +1210,20 @@ footer a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 0.07619rem;
-  line-height: 0.08889rem;
+  font-size: 0.075rem;
+  line-height: 0.0875rem;
   letter-spacing: 8px;
   font-weight: 500;
 }
 
 .page-product1 .fun-list-all {
-  margin-top: 0.30794rem;
+  margin-top: 0.30312rem;
   width: 110%;
   line-height: 1.4;
 }
 
 .page-product1 .fun-list-all li {
-  height: 0.2746rem;
+  height: 0.27031rem;
   width: 48%;
   float: left;
   display: -webkit-box;
@@ -1238,12 +1237,12 @@ footer a:hover {
 }
 
 .page-product1 .fun-list-all > :nth-child(3) {
-  margin-top: 0.16032rem;
+  margin-top: 0.15781rem;
 }
 
 .page-product1 .fun-list-all > :nth-child(4) {
   margin-left: 4%;
-  margin-top: 0.16032rem;
+  margin-top: 0.15781rem;
 }
 
 .page-product1 .func-item-desc {
@@ -1254,36 +1253,36 @@ footer a:hover {
 }
 
 .page-product1 .func-item-desc :nth-child(1) {
-  font-size: 0.0381rem;
+  font-size: 0.0375rem;
   font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product1 .func-item-desc :nth-child(2) {
-  margin-top: 0.02698rem;
-  font-size: 0.02698rem;
+  margin-top: 0.02656rem;
+  font-size: 0.02656rem;
 }
 
 .page-product1 .func-item-img {
   height: 100%;
-  margin-left: 0.02381rem;
+  margin-left: 0.02344rem;
 }
 
 .page-product1 .func-item-img img {
-  height: 0.2746rem;
+  height: 0.27031rem;
 }
 
 .page-product1 .heatset-banner {
   background: url("../image/product1/box.png");
   background-repeat: no-repeat;
   background-size: 100%;
-  height: 0.7rem;
-  margin-top: 0.29365rem;
+  height: 0.68906rem;
+  margin-top: 0.28906rem;
 }
 
 .page-product1 .heatset-color {
-  height: 1.5873rem;
+  height: 1.5625rem;
   width: 100%;
-  margin-top: 0.09524rem;
+  margin-top: 0.09375rem;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
 }
@@ -1312,38 +1311,38 @@ footer a:hover {
 }
 
 .page-product1 .color-li > p {
-  font-size: 0.07619rem;
-  line-height: 0.08889rem;
+  font-size: 0.075rem;
+  line-height: 0.0875rem;
   font-weight: bold;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product1 .color-list {
-  margin-top: 0.07619rem;
+  margin-top: 0.075rem;
 }
 
 .page-product1 .color-list li {
   display: inline-block;
-  margin-left: 0.50794rem;
+  margin-left: 0.5rem;
 }
 
 .page-product1 .color-list :nth-child(1) {
-  width: 0.02976rem;
-  height: 0.02976rem;
+  width: 0.0293rem;
+  height: 0.0293rem;
   border-radius: 100px;
   background-color: #000;
 }
 
 .page-product1 .color-list :nth-child(2) {
-  width: 0.02976rem;
-  height: 0.02976rem;
+  width: 0.0293rem;
+  height: 0.0293rem;
   border-radius: 100px;
   background-color: #f5f5f5;
 }
 
 .page-product1 .color-list :nth-child(3) {
-  width: 0.02976rem;
-  height: 0.02976rem;
+  width: 0.0293rem;
+  height: 0.0293rem;
   border-radius: 100px;
   background-color: #939392;
 }
@@ -1376,11 +1375,11 @@ footer a:hover {
 }
 
 .page-product1 .top :nth-child(2) {
-  margin-left: 0.12698rem;
+  margin-left: 0.125rem;
 }
 
 .page-product1 .bottom {
-  margin-top: 0.07937rem;
+  margin-top: 0.07812rem;
 }
 
 .page-product1 .use-manual {
@@ -1390,7 +1389,7 @@ footer a:hover {
 }
 
 .page-product1 .use-manual-main {
-  padding: 0.28571rem 0;
+  padding: 0.28125rem 0;
   height: 100%;
 }
 
@@ -1401,7 +1400,7 @@ footer a:hover {
 }
 
 .page-product1 .use-manual-desc {
-  padding-left: 0.06667rem;
+  padding-left: 0.06563rem;
   width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1420,17 +1419,17 @@ footer a:hover {
 }
 
 .page-product1 .use-manual-img img {
-  width: 0.94444rem;
+  width: 0.92969rem;
   display: inline-block;
 }
 
 .page-product1 .manual-title {
   line-height: 1;
   white-space: nowrap;
-  font-size: 0.07619rem;
+  font-size: 0.075rem;
   font-weight: bold;
   color: black;
-  line-height: 0.08889rem;
+  line-height: 0.0875rem;
   letter-spacing: 5px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -1470,25 +1469,25 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 0.09524rem;
+  margin-top: 0.09375rem;
 }
 
 .page-product1 .left-desc {
-  font-size: 0.50794rem;
+  font-size: 0.5rem;
   font-weight: bold;
   color: black;
-  line-height: 0.04603rem;
+  line-height: 0.04531rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product1 .right-desc {
-  padding: 0.43175rem;
+  padding: 0.425rem;
   border: 2px solid #0698ec;
-  font-size: 0.02381rem;
+  font-size: 0.02344rem;
   border-radius: 3px;
   font-weight: bold;
   color: #2196f3;
-  line-height: 0.02698rem;
+  line-height: 0.02656rem;
   letter-spacing: 2px;
   font-family: DIN-Medium, "Rubik300";
 }
@@ -1499,12 +1498,12 @@ footer a:hover {
 }
 
 .page-product1 .use-manual-desc :nth-child(3) {
-  margin-top: 0.06349rem;
+  margin-top: 0.0625rem;
 }
 
 .page-product1 .include-wrap {
   width: 100%;
-  height: 0.55873rem;
+  height: 0.55rem;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
 }
@@ -1543,28 +1542,28 @@ footer a:hover {
 }
 
 .page-product1 .include-wrap-desc :nth-child(1) {
-  font-size: 0.07619rem;
+  font-size: 0.075rem;
   font-weight: bold;
   color: #111111;
-  line-height: 0.08889rem;
+  line-height: 0.0875rem;
   letter-spacing: 8px;
 }
 
 .page-product1 .include-wrap-desc :nth-child(2) {
-  margin-top: 0.05397rem;
-  font-size: 0.0254rem;
+  margin-top: 0.05312rem;
+  font-size: 0.025rem;
   font-weight: bold;
   color: #111111;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product1 .include-img img {
-  width: 1.03016rem;
+  width: 1.01406rem;
 }
 
 .page-product1 .product-imglist {
   width: 100%;
-  height: 0.50476rem;
+  height: 0.49688rem;
   background-color: #fff;
 }
 
@@ -1588,8 +1587,8 @@ footer a:hover {
 .page-product1 .product-imglist-main > :nth-child(1),
 .page-product1 .product-imglist-main > :nth-child(2) {
   background-size: 100%;
-  width: 1.03175rem;
-  height: 0.36508rem;
+  width: 1.01562rem;
+  height: 0.35938rem;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1606,14 +1605,14 @@ footer a:hover {
 
 .page-product1 .product1-img {
   position: absolute;
-  right: 0.09365rem;
+  right: 0.09219rem;
   bottom: 0;
   z-index: 30;
 }
 
 .page-product1 .product2-img {
   position: absolute;
-  left: 0.14921rem;
+  left: 0.14688rem;
   bottom: 0;
   z-index: 30;
 }
@@ -1646,14 +1645,14 @@ footer a:hover {
 }
 
 .page-product1 .product-info > :nth-child(1) {
-  font-size: 0.12698rem;
-  line-height: 0.14921rem;
+  font-size: 0.125rem;
+  line-height: 0.14688rem;
   color: #fff;
   font-weight: 500;
 }
 
 .page-product1 .product-info > :nth-child(2) {
-  font-size: 0.50794rem;
+  font-size: 0.5rem;
   color: #fff;
 }
 
@@ -1726,17 +1725,17 @@ footer a:hover {
 }
 
 .page-shop .shop-img-dl dt {
-  font-size: 0.03492rem;
+  font-size: 0.03438rem;
   color: #111;
   line-height: 33px;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
 .page-shop .shop-img-dl dd {
-  font-size: 0.0254rem;
+  font-size: 0.025rem;
   color: #111;
   line-height: 25px;
-  margin-top: 0.02381rem;
+  margin-top: 0.02344rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
@@ -1745,7 +1744,7 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top {
-  margin: 0.15079rem auto 0.12381rem;
+  margin: 0.14844rem auto 0.12187rem;
 }
 
 .page-shop .shop-region-top .top-content {
@@ -1761,7 +1760,7 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top .top-content li:first-child {
-  font-size: 0.05714rem;
+  font-size: 0.05625rem;
   color: #111;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
@@ -1772,7 +1771,7 @@ footer a:hover {
   width: 50px;
   height: 3px;
   background-color: #111;
-  margin-bottom: 0.04762rem;
+  margin-bottom: 0.04688rem;
 }
 
 .page-shop .shop-region-top .top-content li:first-child p {
@@ -1780,15 +1779,15 @@ footer a:hover {
 }
 
 .page-shop .shop-region-top .top-content li:nth-child(2) {
-  margin-left: 0.06667rem;
+  margin-left: 0.06563rem;
 }
 
 .page-shop .shop-region-top .top-content li:nth-child(3) {
-  margin-left: 0.15873rem;
+  margin-left: 0.15625rem;
 }
 
 .page-shop .shop-region-top .top-content li + li {
-  font-size: 0.01905rem;
+  font-size: 0.01875rem;
 }
 
 .page-shop .shop-region-top .top-content li + li p {
@@ -1797,7 +1796,7 @@ footer a:hover {
 
 .page-shop .shop-region-content {
   border: 1px dashed #D8D8D8;
-  padding: 0.06349rem 0 0.1rem;
+  padding: 0.0625rem 0 0.09844rem;
 }
 
 .page-shop .shop-region-ul {
@@ -1815,27 +1814,27 @@ footer a:hover {
 }
 
 .page-shop .shop-region-ul li h3 {
-  font-size: 0.03175rem;
+  font-size: 0.03125rem;
   font-weight: 600;
-  margin-bottom: 0.09524rem;
+  margin-bottom: 0.09375rem;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
 .page-shop .shop-region-ul li p {
-  font-size: 0.01905rem;
+  font-size: 0.01875rem;
 }
 
 .page-policy .policy-content {
-  font-size: 0.0254rem;
+  font-size: 0.025rem;
   line-height: 2.5;
-  padding-bottom: 0.15873rem;
+  padding-bottom: 0.15625rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
 .page-policy .policy-content h2 {
-  font-size: 0.04444rem;
+  font-size: 0.04375rem;
   line-height: 1;
-  padding: 0.10317rem 0 0.06984rem;
+  padding: 0.10156rem 0 0.06875rem;
   text-align: center;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
@@ -1845,15 +1844,15 @@ footer a:hover {
 }
 
 .page-commercial .commercial-content {
-  font-size: 0.0254rem;
+  font-size: 0.025rem;
   line-height: 1.5;
-  padding-bottom: 0.15873rem;
+  padding-bottom: 0.15625rem;
 }
 
 .page-commercial .commercial-content h2 {
-  font-size: 0.04444rem;
+  font-size: 0.04375rem;
   line-height: 1;
-  padding: 0.10317rem 0 0.07143rem;
+  padding: 0.10156rem 0 0.07031rem;
   text-align: center;
 }
 
@@ -1865,7 +1864,7 @@ footer a:hover {
 }
 
 .page-commercial .commercial-content .cont-row + .cont-row {
-  margin-top: 0.05556rem;
+  margin-top: 0.05469rem;
 }
 
 .page-commercial .commercial-content .cont-row span {
@@ -1881,7 +1880,7 @@ footer a:hover {
 }
 
 .page-company .company-info-wrap {
-  padding: 0.11111rem 0 0.12698rem;
+  padding: 0.10938rem 0 0.125rem;
 }
 
 .page-company .company-info-wrap dl {
@@ -1890,7 +1889,7 @@ footer a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  font-size: 0.0254rem;
+  font-size: 0.025rem;
   line-height: 1.56;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -1907,11 +1906,11 @@ footer a:hover {
 }
 
 .page-company .company-info-wrap dl + dl {
-  margin-top: 0.05556rem;
+  margin-top: 0.05469rem;
 }
 
 .page-company .company-map-wrap {
-  height: 500px;
+  height: 52vh;
 }
 
 .page-product2 header {
@@ -2009,85 +2008,85 @@ footer a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  padding-bottom: 0.2381rem;
+  padding-bottom: 0.23438rem;
   color: #fff;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .banner-desc :nth-child(1) {
-  font-size: 0.46984rem;
-  line-height: 0.46984rem;
+  font-size: 0.4625rem;
+  line-height: 0.4625rem;
   font-family: DIN-BoldAlternate, "Rubik300";
 }
 
 .page-product2 .banner-desc :nth-child(2) {
-  margin-top: 0.04127rem;
-  font-size: 0.03175rem;
-  width: 0.54762rem;
+  margin-top: 0.04063rem;
+  font-size: 0.03125rem;
+  width: 0.53906rem;
 }
 
 .page-product2 .banner-desc :nth-child(3) {
-  margin-top: 0.01587rem;
-  width: 0.54762rem;
-  font-size: 0.0254rem;
+  margin-top: 0.01562rem;
+  width: 0.53906rem;
+  font-size: 0.025rem;
 }
 
 .page-product2 .banner-desc :nth-child(4) {
-  width: 0.54762rem;
-  font-size: 0.0254rem;
+  width: 0.53906rem;
+  font-size: 0.025rem;
 }
 
 .page-product2 .product-intro {
   display: inline-block;
   position: relative;
-  width: 0.97619rem;
-  height: 0.33968rem;
+  width: 0.96094rem;
+  height: 0.33437rem;
 }
 
 .page-product2 .product1-name {
-  width: 0.36032rem;
-  height: 0.3381rem;
-  font-size: 0.35079rem;
-  line-height: 0.35079rem;
+  width: 0.35469rem;
+  height: 0.33281rem;
+  font-size: 0.34531rem;
+  line-height: 0.34531rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  bottom: 0.06032rem;
+  bottom: 0.05937rem;
 }
 
 .page-product2 .product-desc {
   white-space: normal;
-  width: 0.54762rem;
-  height: 0.33968rem;
+  width: 0.53906rem;
+  height: 0.33437rem;
   overflow: hidden;
-  margin-left: 0.06825rem;
+  margin-left: 0.06719rem;
   display: inline-block;
   vertical-align: bottom;
   position: absolute;
-  left: 0.35714rem;
-  bottom: 0.06032rem;
+  left: 0.35156rem;
+  bottom: 0.05937rem;
 }
 
 .page-product2 .product-left :nth-child(0) {
-  font-size: 0.03175rem;
-  line-height: 0.10159rem;
+  font-size: 0.03125rem;
+  line-height: 0.1rem;
   letter-spacing: 3px;
 }
 
 .page-product2 .product-desc :nth-child(1) {
-  font-size: 0.02698rem;
+  font-size: 0.02656rem;
   letter-spacing: 3px;
 }
 
 .page-product2 .func-wrap {
   overflow: hidden;
   position: relative;
-  height: 2.41587rem;
+  height: 2.37812rem;
 }
 
 .page-product2 .run-img {
   width: 100%;
-  height: 0.95238rem;
+  height: 0.9375rem;
 }
 
 .page-product2 .run-img img {
@@ -2098,7 +2097,7 @@ footer a:hover {
 .page-product2 .rock-img {
   width: 100%;
   position: relative;
-  height: 0.95238rem;
+  height: 0.9375rem;
 }
 
 .page-product2 .rock-img img {
@@ -2109,7 +2108,7 @@ footer a:hover {
 
 .page-product2 .func-desc {
   position: absolute;
-  top: 0.51905rem;
+  top: 0.51094rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2131,50 +2130,50 @@ footer a:hover {
 }
 
 .page-product2 .func-desc > div {
-  width: 1.07143rem;
+  width: 1.05469rem;
 }
 
 .page-product2 .func-desc > img {
-  width: 1.07143rem;
+  width: 1.05469rem;
 }
 
 .page-product2 .func-desc-line {
-  height: 0.03492rem;
+  height: 0.03438rem;
   width: 100%;
   background-color: #006965;
-  margin-top: 0.28571rem;
+  margin-top: 0.28125rem;
 }
 
 .page-product2 .func-desc-title {
   white-space: nowrap;
-  font-size: 0.12698rem;
+  font-size: 0.125rem;
   font-weight: 600;
-  line-height: 0.14286rem;
+  line-height: 0.14062rem;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .func-title-all {
-  margin-top: 0.04127rem;
+  margin-top: 0.04063rem;
 }
 
 .page-product2 .func-desc-content {
-  font-size: 0.06349rem;
-  line-height: 0.07937rem;
+  font-size: 0.0625rem;
+  line-height: 0.07812rem;
   color: #111111;
   font-weight: bold;
-  margin-top: 0.03968rem;
+  margin-top: 0.03906rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .func-desc-detial {
-  font-size: 0.02698rem;
-  margin-top: 0.04444rem;
+  font-size: 0.02656rem;
+  margin-top: 0.04375rem;
   font-weight: 400;
   line-height: 1.4;
 }
 
 .page-product2 .battery-main {
-  margin-top: 0.09524rem;
+  margin-top: 0.09375rem;
   background-color: #fff;
 }
 
@@ -2182,11 +2181,11 @@ footer a:hover {
   background-image: url("../image/product2/battery_BG.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 1.19048rem;
+  height: 1.17188rem;
 }
 
 .page-product2 .battery-content {
-  padding-top: 0.45397rem;
+  padding-top: 0.44688rem;
   width: 100%;
   height: 100%;
 }
@@ -2203,8 +2202,8 @@ footer a:hover {
 }
 
 .page-product2 .battery-list li {
-  width: 0.77778rem;
-  height: 0.22698rem;
+  width: 0.76562rem;
+  height: 0.22344rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2220,28 +2219,28 @@ footer a:hover {
   flex-direction: column;
   border: 5px solid #fff;
   color: #fff;
-  padding: 0.0381rem;
-  font-size: 0.02698rem;
-  line-height: 0.04127rem;
+  padding: 0.0375rem;
+  font-size: 0.02656rem;
+  line-height: 0.04063rem;
   font-weight: normal;
   position: relative;
 }
 
 .page-product2 .battery-list li::before {
   content: '';
-  top: 0.07143rem;
-  left: -0.04762rem;
-  height: 0.08254rem;
-  width: 0.03175rem;
+  top: 0.07031rem;
+  left: -0.04688rem;
+  height: 0.08125rem;
+  width: 0.03125rem;
   background-color: #fff;
   position: absolute;
 }
 
 .page-product2 .battery-list :nth-child(1) {
-  font-size: 0.06349rem;
+  font-size: 0.0625rem;
   font-weight: bold;
   color: white;
-  line-height: 0.08413rem;
+  line-height: 0.08281rem;
   letter-spacing: 6px;
 }
 
@@ -2250,7 +2249,7 @@ footer a:hover {
 }
 
 .page-product2 .battery-sum {
-  margin-top: 0.16825rem;
+  margin-top: 0.16562rem;
   width: 100%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2264,21 +2263,21 @@ footer a:hover {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  font-size: 0.07619rem;
-  line-height: 0.08889rem;
+  font-size: 0.075rem;
+  line-height: 0.0875rem;
   letter-spacing: 8px;
   font-weight: 500;
   color: #fff;
 }
 
 .page-product2 .fun-list-all {
-  margin-top: 0.30794rem;
+  margin-top: 0.30312rem;
   width: 110%;
   line-height: 1.4;
 }
 
 .page-product2 .fun-list-all li {
-  height: 0.2746rem;
+  height: 0.27031rem;
   width: 48%;
   float: left;
   display: -webkit-box;
@@ -2292,18 +2291,18 @@ footer a:hover {
 }
 
 .page-product2 .fun-list-all > :nth-child(3) {
-  margin-top: 0.16032rem;
+  margin-top: 0.15781rem;
 }
 
 .page-product2 .fun-list-all > :nth-child(4) {
   margin-left: 4%;
-  margin-top: 0.16032rem;
+  margin-top: 0.15781rem;
 }
 
 .page-product2 .func-kinds {
   width: 100%;
-  height: 0.79365rem;
-  margin-top: 0.42063rem;
+  height: 0.78125rem;
+  margin-top: 0.41406rem;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2348,37 +2347,37 @@ footer a:hover {
 }
 
 .page-product2 .func-kinds-img :nth-child(1) {
-  height: 0.79365rem;
+  height: 0.78125rem;
   position: absolute;
-  left: -0.25714rem;
+  left: -0.25312rem;
 }
 
 .page-product2 .func-kinds-img :nth-child(2) {
-  height: 0.28571rem;
+  height: 0.28125rem;
   position: absolute;
-  right: 0.1746rem;
-  top: -0.14286rem;
+  right: 0.17188rem;
+  top: -0.14062rem;
 }
 
 .page-product2 .func-kinds-desc {
-  width: 0.79365rem;
+  width: 0.78125rem;
 }
 
 .page-product2 .func-kinds-desc > :nth-child(1) {
-  font-size: 0.0254rem;
+  font-size: 0.025rem;
   font-family: DIN-Medium, "Rubik300";
   letter-spacing: 6px;
 }
 
 .page-product2 .func-kinds-desc > :nth-child(2) {
-  margin-top: 0.02857rem;
-  font-size: 0.05556rem;
+  margin-top: 0.02813rem;
+  font-size: 0.05469rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .func-kinds-desc > :nth-child(3) {
-  margin-top: 0.03968rem;
-  font-size: 0.02698rem;
+  margin-top: 0.03906rem;
+  font-size: 0.02656rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
@@ -2391,7 +2390,7 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 0.14603rem;
+  margin-top: 0.14375rem;
 }
 
 .page-product2 .func-item-desc {
@@ -2402,27 +2401,27 @@ footer a:hover {
 }
 
 .page-product2 .func-item-desc :nth-child(1) {
-  font-size: 0.0381rem;
+  font-size: 0.0375rem;
   font-family: NotoSansCJKjp-Bold;
 }
 
 .page-product2 .func-item-desc :nth-child(2) {
-  margin-top: 0.02698rem;
-  font-size: 0.02698rem;
+  margin-top: 0.02656rem;
+  font-size: 0.02656rem;
 }
 
 .page-product2 .func-item-img {
   height: 100%;
-  margin-left: 0.02381rem;
+  margin-left: 0.02344rem;
 }
 
 .page-product2 .func-item-img img {
-  height: 0.19524rem;
+  height: 0.19219rem;
 }
 
 .page-product2 .heatset-banner {
-  height: 0.7rem;
-  margin-top: 0.19683rem;
+  height: 0.68906rem;
+  margin-top: 0.19375rem;
   overflow: hidden;
 }
 
@@ -2447,22 +2446,22 @@ footer a:hover {
 
 .page-product2 .heatset-banner-list :nth-child(2) {
   position: absolute;
-  left: 0.5127rem;
+  left: 0.50469rem;
   -webkit-transition-delay: .2s;
   transition-delay: .2s;
 }
 
 .page-product2 .heatset-banner-list :nth-child(3) {
   position: absolute;
-  left: 1.06032rem;
+  left: 1.04375rem;
 }
 
 .page-product2 .heatset-banner-list li img {
-  height: 0.7rem;
+  height: 0.68906rem;
 }
 
 .page-product2 .heatset-color {
-  height: 1.5873rem;
+  height: 1.5625rem;
   width: 100%;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
@@ -2492,52 +2491,52 @@ footer a:hover {
 }
 
 .page-product2 .color-li > p {
-  font-size: 0.07619rem;
-  line-height: 0.08889rem;
+  font-size: 0.075rem;
+  line-height: 0.0875rem;
   font-weight: bold;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .color-list {
-  margin-top: 0.07619rem;
+  margin-top: 0.075rem;
 }
 
 .page-product2 .color-list li {
   display: inline-block;
-  margin-left: 0.03175rem;
+  margin-left: 0.03125rem;
 }
 
 .page-product2 .color-list :nth-child(1) {
-  width: 0.03016rem;
-  height: 0.03016rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #000;
 }
 
 .page-product2 .color-list :nth-child(2) {
-  width: 0.03016rem;
-  height: 0.03016rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #f5f5f5;
 }
 
 .page-product2 .color-list :nth-child(3) {
-  width: 0.03016rem;
-  height: 0.03016rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #ff0021;
 }
 
 .page-product2 .color-list :nth-child(4) {
-  width: 0.03016rem;
-  height: 0.03016rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #a0b779;
 }
 
 .page-product2 .color-list :nth-child(5) {
-  width: 0.03016rem;
-  height: 0.03016rem;
+  width: 0.02969rem;
+  height: 0.02969rem;
   border-radius: 100px;
   background-color: #939392;
 }
@@ -2570,30 +2569,30 @@ footer a:hover {
 }
 
 .page-product2 .top :nth-child(2) {
-  margin-left: 0.12698rem;
+  margin-left: 0.125rem;
 }
 
 .page-product2 .bottom {
-  margin-top: 0.07937rem;
+  margin-top: 0.07812rem;
   white-space: nowrap;
 }
 
 .page-product2 .bottom :nth-child(2) {
-  margin-left: 0.12698rem;
+  margin-left: 0.125rem;
 }
 
 .page-product2 .bottom :nth-child(3) {
-  margin-left: 0.12698rem;
+  margin-left: 0.125rem;
 }
 
 .page-product2 .use-manual {
   background-color: #fff;
-  height: 1.61429rem;
+  height: 1.58906rem;
   border-bottom: 1px solid #b2b3b4;
 }
 
 .page-product2 .use-manual-main {
-  padding: 0.28571rem 0;
+  padding: 0.28125rem 0;
   height: 100%;
 }
 
@@ -2604,7 +2603,7 @@ footer a:hover {
 }
 
 .page-product2 .use-manual-desc {
-  padding-left: 0.06667rem;
+  padding-left: 0.06563rem;
   width: 50%;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2623,16 +2622,16 @@ footer a:hover {
 }
 
 .page-product2 .use-manual-img img {
-  width: 0.94444rem;
+  width: 0.92969rem;
   display: inline-block;
 }
 
 .page-product2 .manual-title {
   white-space: nowrap;
-  font-size: 0.07619rem;
+  font-size: 0.075rem;
   font-weight: bold;
   color: black;
-  line-height: 0.08889rem;
+  line-height: 0.0875rem;
   letter-spacing: 5px;
   display: -webkit-box;
   display: -webkit-flex;
@@ -2672,25 +2671,25 @@ footer a:hover {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  margin-top: 0.09524rem;
+  margin-top: 0.09375rem;
 }
 
 .page-product2 .left-desc {
-  font-size: 0.03175rem;
+  font-size: 0.03125rem;
   font-weight: bold;
   color: black;
-  line-height: 0.04762rem;
+  line-height: 0.04688rem;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .right-desc {
-  padding: 0.02698rem;
+  padding: 0.02656rem;
   border: 2px solid #0698ec;
-  font-size: 0.02381rem;
+  font-size: 0.02344rem;
   border-radius: 3px;
   font-weight: bold;
   color: #2196f3;
-  line-height: 0.02698rem;
+  line-height: 0.02656rem;
   letter-spacing: 2px;
   font-family: DIN-Medium, "Rubik300";
 }
@@ -2701,12 +2700,12 @@ footer a:hover {
 }
 
 .page-product2 .use-manual-desc :nth-child(3) {
-  margin-top: 0.06349rem;
+  margin-top: 0.0625rem;
 }
 
 .page-product2 .include-wrap {
   width: 100%;
-  height: 0.55873rem;
+  height: 0.55rem;
   background-color: #fff;
   border-bottom: 1px solid #b2b3b4;
 }
@@ -2745,29 +2744,29 @@ footer a:hover {
 }
 
 .page-product2 .include-wrap-desc :nth-child(1) {
-  font-size: 0.07619rem;
+  font-size: 0.075rem;
   font-weight: bold;
   color: #111111;
-  line-height: 0.08889rem;
+  line-height: 0.0875rem;
   letter-spacing: 8px;
   font-family: DIN-Medium, "Rubik300";
 }
 
 .page-product2 .include-wrap-desc :nth-child(2) {
-  margin-top: 0.05397rem;
-  font-size: 0.0254rem;
+  margin-top: 0.05312rem;
+  font-size: 0.025rem;
   font-weight: bold;
   color: #111111;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product2 .include-img img {
-  width: 1.03016rem;
+  width: 1.01406rem;
 }
 
 .page-product2 .product-imglist {
   width: 100%;
-  height: 0.50476rem;
+  height: 0.49688rem;
   background-color: #fff;
 }
 
@@ -2791,8 +2790,8 @@ footer a:hover {
 .page-product2 .product-imglist-main > :nth-child(1),
 .page-product2 .product-imglist-main > :nth-child(2) {
   background-size: 100%;
-  width: 1.03175rem;
-  height: 0.36508rem;
+  width: 1.01562rem;
+  height: 0.35938rem;
   position: relative;
   background-repeat: no-repeat;
   background-size: cover;
@@ -2809,14 +2808,14 @@ footer a:hover {
 
 .page-product2 .product1-img {
   position: absolute;
-  right: 0.09524rem;
+  right: 0.09375rem;
   bottom: 0;
   z-index: 30;
 }
 
 .page-product2 .product2-img {
   position: absolute;
-  left: 0.15079rem;
+  left: 0.14844rem;
   bottom: 0;
   z-index: 30;
 }
@@ -2849,14 +2848,14 @@ footer a:hover {
 }
 
 .page-product2 .product-info > :nth-child(1) {
-  font-size: 0.12698rem;
-  line-height: 0.14921rem;
+  font-size: 0.125rem;
+  line-height: 0.14688rem;
   color: #fff;
   font-weight: 500;
 }
 
 .page-product2 .product-info > :nth-child(2) {
-  font-size: 0.03175rem;
+  font-size: 0.03125rem;
   color: #fff;
 }
 
@@ -2918,7 +2917,7 @@ footer a:hover {
 }
 
 .page-philosophy .home-content-wrap h2 {
-  font-size: 0.07619rem;
+  font-size: 0.075rem;
   font-weight: bold;
   line-height: 1.48;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
@@ -2938,7 +2937,7 @@ footer a:hover {
   position: absolute;
   left: 0;
   top: 0;
-  width: 0.03175rem;
+  width: 0.03125rem;
   background: #E50113;
   background-size: contain;
   height: 65%;
@@ -2946,12 +2945,12 @@ footer a:hover {
 
 .page-philosophy .side-icon-img:after {
   position: absolute;
-  bottom: -0.09524rem;
+  bottom: -0.09375rem;
   left: 0;
   content: '';
   display: inline-block;
   width: 100%;
-  height: 0.09524rem;
+  height: 0.09375rem;
   background: url("../image/philosophy/phy-icon.png") no-repeat;
   background-size: contain;
 }
@@ -3005,18 +3004,18 @@ footer a:hover {
 }
 
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content h2 {
-  font-size: 0.10159rem;
+  font-size: 0.1rem;
   line-height: 1.15;
   font-family: DIN-BoldAlternate, "Rubik300";
   letter-spacing: 6px;
 }
 
 .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content p {
-  font-size: 0.04762rem;
+  font-size: 0.04688rem;
   line-height: 1.6;
   letter-spacing: 5px;
   font-family: NotoSansCJKjp-Medium, "Rubik300";
-  margin-top: 0.01905rem;
+  margin-top: 0.01875rem;
 }
 
 /*# sourceMappingURL=application.css.map */
