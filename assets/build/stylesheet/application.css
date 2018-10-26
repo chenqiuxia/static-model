@@ -933,7 +933,7 @@ footer a:hover {
 }
 
 .page-product1 header {
-  border-top-color: #006965;
+  border-top-color: #E50113;
 }
 
 .page-product1 .clear {
@@ -1030,7 +1030,7 @@ footer a:hover {
 
 .page-product1 .product-desc :nth-child(1) {
   font-size: 0.04623rem;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
   letter-spacing: 3px;
   line-height: 0.14151rem;
 }
