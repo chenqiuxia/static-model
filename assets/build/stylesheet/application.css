@@ -1214,6 +1214,10 @@ footer a:hover {
   font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
 
+.page-policy .policy-content a:hover {
+  text-decoration: underline;
+}
+
 .page-commercial .commercial-content {
   max-width: 843px;
 }
