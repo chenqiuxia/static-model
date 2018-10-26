@@ -12,5 +12,9 @@
       text-align: center;
       font-family: NotoSansCJKjp-Medium ,$global-default-family;
     }
+
+    a:hover {
+      text-decoration: underline;
+    }
   }
 }
