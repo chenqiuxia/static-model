@@ -4,7 +4,7 @@ const config = require('../config');
 const proxy = require('http-proxy-middleware');
 
 const apiProxy = proxy('/proxy/', {
-  target: 'http://dev.hodaiweb.com/',
+  target: '',
   changeOrigin: true,   // for vhosted sites
   pathRewrite: {
     '^/proxy/': '',     // rewrite path
