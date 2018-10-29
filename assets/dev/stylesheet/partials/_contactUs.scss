@@ -35,3 +35,48 @@
     }
   }
 }
+
+/* media start*/
+@media screen and (max-width: map_get($global-width, mediaW)) {
+  .contact-us-wrap {
+    background-color: map_get($global-color, k);
+
+    .contact-cont {
+      display: block;
+      width: 100%;
+      text-align: center;
+
+      span {
+        width: 100%;
+        min-width: auto;
+      }
+
+      .text-row {
+        &:before {
+          content: '';
+          display: block;
+          width: 20px;
+          height: 36px;
+          background: url("../image/philosophy/email-icon.svg") center no-repeat;
+          background-size: contain;
+          margin: 0 auto;
+          padding: (6/$calc-sp)*$global-font-unit 0;
+        }
+
+        border: none;
+        background-color: #fff;
+        padding-bottom: (35/$calc-sp)*$global-font-unit;
+        text-align: center;
+        font-size: (18/$calc-sp)*$global-font-unit;
+        letter-spacing: 3px;
+      }
+
+      .email-address {
+        width: 70%;
+        margin: 0 auto;
+        line-height: (52/$calc-sp)*$global-font-unit;
+        font-size: 12px;
+      }
+    }
+  }
+}

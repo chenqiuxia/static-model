@@ -65,6 +65,8 @@ a {
 }
 
 /* media start*/
-@media screen and (min-width: map_get($global-width, mediaW)) {
-
+@media screen and (max-width: map_get($global-width, mediaW)) {
+  .page-padding-top {
+    padding-top: (70/$calc-sp)*$global-font-unit; //减小header的padding
+  }
 }

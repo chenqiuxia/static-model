@@ -26,3 +26,18 @@
     height: 52vh;
   }
 }
+
+/* media start*/
+@media screen and (max-width: map_get($global-width, mediaW)) {
+  .page-company {
+    .company-info-wrap {
+      dl {
+        padding: (20/$calc-sp)*$global-font-unit 15px;
+
+        dt {
+          width: (85/$calc-sp)*$global-font-unit;
+        }
+      }
+    }
+  }
+}
