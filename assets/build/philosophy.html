@@ -24,9 +24,13 @@
           {
             clientWidth = 1560
           }
-          else if (n.clientWidth < 1200)
+          else if (n.clientWidth <= 1200 && n.clientWidth >= 800)
           {
             clientWidth = 1200
+          }
+          else if (n.clientWidth < 800)
+          {
+            clientWidth = n.clientWidth
           }
           else
           {
@@ -52,7 +56,7 @@
   <body class="page-philosophy">
     <header class="x-header">
       <div class="main-wrap header-wrap"><a class="logo" href="./index.html">
-          <h1></h1>
+          <h1>FUNOHM</h1>
         </a>
         <nav class="nav">
           <ul>
@@ -121,6 +125,7 @@
     </footer>
     <script src="javascript/vendor.min.js"></script>
     <script src="javascript/application.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-scrollify@1/jquery.scrollify.min.js"></script>
   </body>
   </head>
 </html>

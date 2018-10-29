@@ -27,9 +27,26 @@ const scroll = () => {
     bind();
     animation();
   }
+
+  const scrollfy = () => {
+        const width = document.body.clientWidth;
+        if(width<=800)
+        {
+            $(function(){
+                $.scrollify({section:".box"});
+                console.log('in');
+                $(window).on('resize',function(){
+                    $.scrollify.update();
+                    console.log('in');
+                });
+            });	
+        }
+       
+  }
   
   const init = () => {
     scroll();
+    scrollfy();
   }
   const bind = () => {
 

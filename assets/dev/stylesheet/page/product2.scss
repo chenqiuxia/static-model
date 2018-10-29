@@ -883,3 +883,57 @@
     //        width: (100/$calc-base-num)*$global-font-unit;
     //    }
 }
+
+@media screen and (max-width: map_get($global-width, mediaW)) { 
+    
+    .page-product2 .banner-wrap {
+        background: url('../../image/product2/BG-phone.png') no-repeat;
+        background-size: cover;
+    }
+
+    .page-product2 .fun-sounds-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-product2 .fun-sounds-img img{
+        width: 93%;
+       
+    }
+
+    .page-product2 .fun-sounds-effect {
+        margin-top: (42/$calc-sp)*$global-font-unit;
+        font-size:(16/$calc-sp)*$global-font-unit;
+        font-family:DINAlternate-Bold;
+        font-weight:bold;
+        color:rgba(17,17,17,1);
+        line-height:(19/$calc-sp)*$global-font-unit;;
+        letter-spacing:6px;
+        text-align: center;
+    }
+
+    .page-product2 .fun-sounds-title { 
+        margin-top: (18/$calc-sp)*$global-font-unit;
+        font-size:(20/$calc-sp)*$global-font-unit;
+        font-family:NotoSansCJKjp-Bold;
+        font-weight:bold;
+        color:rgba(17,17,17,1);
+        line-height:(29/$calc-sp)*$global-font-unit;
+        text-align: center;
+    }
+
+    .page-product2 .fun-sounds-desc {
+        margin-top: (18/$calc-sp)*$global-font-unit;
+        font-size:(12/$calc-sp)*$global-font-unit;
+        font-family:NotoSansCJKjp-Regular;
+        font-weight:400;
+        color:rgba(17,17,17,1);
+        line-height:(26/$calc-sp)*$global-font-unit;
+    }
+
+    .page-product2 .func-kinds-img :nth-child(2) {
+        height: 35%;
+    }
+}
