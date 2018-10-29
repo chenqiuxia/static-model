@@ -2,7 +2,7 @@ extends ../layouts/_default.pug
 block meta
   title 取扱店舗一覧-完全ワイヤレスイヤホン「ファノーム」公式サイト
 block page_option
-  - page_class.push('page-padding-top page-shop')
+  - page_class.push('page-padding-top page-shop header-black')
 block content
   include /mixin/shopRegion.pug
   -
@@ -71,7 +71,7 @@ block content
         dd 営業時間：11:00-21:00（日祝 11:00-20:00、祝前日 11:00-21:00）
         dd
           a(href="https://www.angers.jp/shoplist/angers-marunouchi/") https://www.angers.jp/shoplist/angers-marunouchi/
-  .shop-img-row
+  .shop-img-row.shop-row-reverse
     .shop-img-col.shop-img-txt
       dl.shop-img-dl
         dt マークスタイルトーキョー GINZA SIX店
