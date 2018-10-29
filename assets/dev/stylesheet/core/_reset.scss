@@ -77,7 +77,6 @@ body,button,input,keygen,legend,select,textarea {
   line-height: 1.5;
   color: map_get($global-color, a);
   outline: 0;
-  height: inherit;
   font-family: $global-default-family,Heiti SC, Microsoft YaHei
 }
 
@@ -109,7 +108,6 @@ html {
   font-size: 75px;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  height: 100%;
 }
 
 input {

@@ -55,8 +55,8 @@
         &:before {
           content: '';
           display: block;
-          width: 20px;
-          height: 36px;
+          width: (20/$calc-sp)*$global-font-unit ;
+          height: (36/$calc-sp)*$global-font-unit ;
           background: url("../image/philosophy/email-icon.svg") center no-repeat;
           background-size: contain;
           margin: 0 auto;

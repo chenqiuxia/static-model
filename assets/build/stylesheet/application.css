@@ -112,7 +112,6 @@ body, button, input, keygen, legend, select, textarea {
   line-height: 1.5;
   color: #111;
   outline: 0;
-  height: inherit;
   font-family: "Rubik300", Heiti SC, Microsoft YaHei;
 }
 
@@ -135,7 +134,6 @@ html {
   font-size: 75px;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
-  height: 100%;
 }
 
 input {
@@ -171,10 +169,11 @@ video {
   max-width: 1020px;
   margin: 0 auto;
   padding: 0 20px;
+  height: 100%;
 }
 
 .x-home-height {
-  height: inherit;
+  height: 100vh;
 }
 
 .scroll {
@@ -810,8 +809,8 @@ footer a:hover {
   .contact-us-wrap .contact-cont .text-row:before {
     content: '';
     display: block;
-    width: 20px;
-    height: 36px;
+    width: 0.23529rem;
+    height: 0.42353rem;
     background: url("../image/philosophy/email-icon.svg") center no-repeat;
     background-size: contain;
     margin: 0 auto;
