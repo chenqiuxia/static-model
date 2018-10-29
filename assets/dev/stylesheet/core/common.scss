@@ -6,10 +6,11 @@
   max-width: map_get($global-width, max-width);
   margin: 0 auto;
   padding: 0 map_get($global-spacing, container);
+  height: 100%;
 }
 
 .x-home-height {
-  height: inherit;
+  height: 100vh;
 }
 
 .scroll {
