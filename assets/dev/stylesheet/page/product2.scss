@@ -885,6 +885,12 @@
 }
 
 @media screen and (max-width: map_get($global-width, mediaW)) { 
+    
+    .page-product2 .banner-wrap {
+        background: url('../../image/product2/BG-phone.png') no-repeat;
+        background-size: cover;
+    }
+
     .page-product2 .fun-sounds-img {
         width: 100%;
         display: flex;
