@@ -1208,6 +1208,7 @@ footer a:hover {
     line-height: 0.47059rem;
     margin-top: 0.70588rem;
     padding: 0 0.41176rem;
+    font-size: 12px;
   }
   .page-index .home-content-wrap p {
     font-size: 0.11765rem;
