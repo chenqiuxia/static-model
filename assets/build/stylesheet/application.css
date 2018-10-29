@@ -325,7 +325,7 @@ header h1 {
   height: 34px;
   line-height: 34px;
   padding: 0 0.03208rem;
-  font-size: 0.0283rem;
+  font-size: 0;
   border-radius: 5px;
   color: #fff;
 }
