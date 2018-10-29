@@ -266,7 +266,6 @@ header .header-wrap {
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  height: 0.09434rem;
   line-height: 0.09434rem;
   background: transparent;
 }
@@ -348,6 +347,22 @@ header .nav-submenu-wrap {
 
 header .nav-submenu-wrap li:hover {
   background-color: #f2f2f2;
+}
+
+/* media start*/
+@media screen and (max-width: 800px) {
+  header .nav {
+    display: none;
+  }
+  header .header-wrap {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  header .logo {
+    width: 1.28235rem;
+  }
 }
 
 footer {
