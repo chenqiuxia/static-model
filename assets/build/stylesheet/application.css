@@ -1627,7 +1627,7 @@ footer a:hover {
 
 @media screen and (max-width: 800px) {
   .page-product2 .banner-wrap {
-    background: url("../../image/product2/BG-phone.png") no-repeat;
+    background: url("../image/product2/BG-phone.png") no-repeat;
     background-size: cover;
   }
   .page-product2 .fun-sounds-img {
