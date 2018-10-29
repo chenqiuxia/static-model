@@ -32,3 +32,21 @@
     letter-spacing:2px;
   }
 }
+
+
+/* media start*/
+@media screen and (max-width: map_get($global-width, mediaW)) {
+  .shop-title-wrap {
+    border-top: none;
+    margin-top: 0;
+    border-bottom: (10/$calc-sp)*$global-font-unit solid #111;
+
+    h2 {
+      font-size: (16/$calc-sp)*$global-font-unit;
+    }
+
+    p {
+      font-size: (16/$calc-sp)*$global-font-unit;
+    }
+  }
+}

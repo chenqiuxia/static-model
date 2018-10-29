@@ -2,19 +2,14 @@
   display: none;
 }
 
-a {
-  transition: all map_get($global-time, transition);
-}
-
 .main-wrap {
   max-width: map_get($global-width, max-width);
-  height: 100%;
   margin: 0 auto;
   padding: 0 map_get($global-spacing, container);
 }
 
 .x-home-height {
-  height: 100vh;
+  height: inherit;
 }
 
 .scroll {
@@ -65,6 +60,8 @@ a {
 }
 
 /* media start*/
-@media screen and (min-width: map_get($global-width, mediaW)) {
-
+@media screen and (max-width: map_get($global-width, mediaW)) {
+  .page-padding-top {
+    padding-top: (70/$calc-sp)*$global-font-unit; //减小header的padding
+  }
 }
