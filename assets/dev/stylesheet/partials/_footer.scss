@@ -1,7 +1,9 @@
 footer {
+  position: relative;
   background-color: #000;
   color: #fff;
   padding: map_get($global-spacing, c) 0 map_get($global-spacing, c);
+  z-index: map_get($global-zIndex, b);
 
   a {
     color: #fff;
@@ -47,7 +49,8 @@ footer {
 }
 .nav-slider-wrap {
   .media-link {
-    margin-top: (100/$calc-sp)*$global-font-unit;
+    margin-top: (60/$calc-sp)*$global-font-unit;
+
     a {
       &:hover {
         opacity: 1;

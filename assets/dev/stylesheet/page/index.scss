@@ -8,6 +8,7 @@
       display: flex;
       align-items: flex-end;
       z-index: map_get($global-zIndex, b);
+      height: 100%;
     }
   }
 
@@ -281,7 +282,7 @@
     }
 
     .index-earphone-wrap {
-      height: 28.3vh;
+      height: 50vw;
 
       .earphone-cont {
         border: none;
@@ -299,7 +300,7 @@
 
       a {
         width: 100%;
-        height: 40vh;
+        height: 70vw;
 
         h4 {
           font-size: (24/$calc-sp)*$global-font-unit;
