@@ -14,7 +14,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: (50/$calc-base-num)*$global-font-unit;
+    //height: (50/$calc-base-num)*$global-font-unit;
     line-height: (50/$calc-base-num)*$global-font-unit;
     background: transparent;
   }
@@ -92,6 +92,23 @@ header {
     li:hover {
       background-color: darken(#fff, 5%);
       // background-color: map_get($global-color, g);
+    }
+  }
+}
+
+/* media start*/
+@media screen and (max-width: map_get($global-width, mediaW)) {
+  header {
+    .nav {
+      display: none;
+    }
+
+    .header-wrap {
+      justify-content: center;
+    }
+
+    .logo {
+      width: (109/$calc-sp)*$global-font-unit;
     }
   }
 }
