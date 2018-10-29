@@ -24,9 +24,13 @@
           {
             clientWidth = 1560
           }
-          else if (n.clientWidth < 1200)
+          else if (n.clientWidth <= 1200 && n.clientWidth >= 800)
           {
             clientWidth = 1200
+          }
+          else if (n.clientWidth < 800)
+          {
+            clientWidth = n.clientWidth
           }
           else
           {
@@ -52,7 +56,7 @@
   <body class="page-padding-top page-policy">
     <header class="x-header">
       <div class="main-wrap header-wrap"><a class="logo" href="./index.html">
-          <h1></h1>
+          <h1>FUNOHM</h1>
         </a>
         <nav class="nav">
           <ul>
@@ -66,6 +70,9 @@
             <li><a href="./shopList.html">SHOPLIST</a></li>
           </ul>
         </nav>
+      </div>
+      <div class="header-sp-wrap">
+        <div class="header-menu-wrap"></div>
       </div>
     </header>
     <div class="shop-title-wrap">
