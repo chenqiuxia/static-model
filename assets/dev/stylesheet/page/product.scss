@@ -730,6 +730,10 @@
         height: 100%;
         z-index: 50;
     }
+
+    .phone-banner {
+        display: none;
+    }
 }
 
 
@@ -745,5 +749,38 @@
         max-width: 100%;
         height: 100%;
         background: #fff;
+      //  top:-100vh;
+    }
+
+    .page-product .banner-content-posi {
+        display: none;
+    }
+
+    .page-product .phone-banner {
+        display: block;
+        position: relative;
+        top:-100vh;
+        height: 300vh;
+    }
+
+    .page-product .main-wrap {
+       // height: calc(100% - 100vh);
+    }
+
+    .page-product .phone-banner div{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-product .phone-banner :nth-child(1) {
+        
+
+    }
+
+    .phone-banner-title img {
+        width: 75%;
     }
 }
