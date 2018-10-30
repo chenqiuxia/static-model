@@ -239,6 +239,12 @@
       }
     }
 
+    .index-home-slick {
+      .slick-item {
+        min-height: map_get($global-width, bannerHeight);
+      }
+    }
+
     .home-content-wrap {
       h2, h3 {
         font-size: (25/$calc-sp)*$global-font-unit;
@@ -248,14 +254,18 @@
         line-height: (40/$calc-sp)*$global-font-unit;
         margin-top: (60/$calc-sp)*$global-font-unit;
         padding: 0 (35/$calc-sp)*$global-font-unit;
-        font-size: 12px;
+        font-size: (12/$calc-sp)*$global-font-unit;
       }
 
       p {
         font-size: (10/$calc-sp)*$global-font-unit;
         letter-spacing: 2px;
-        margin-top: (100/$calc-sp)*$global-font-unit;
+        margin-top: 16vh;
       }
+    }
+
+    .index-title-wrap {
+      border: none;
     }
 
     .index-title-wrap {
@@ -284,6 +294,7 @@
 
     .index-earphone-wrap {
       height: 50vw;
+      border: 1px dashed map_get($global-color, d);
 
       .earphone-cont {
         border: none;

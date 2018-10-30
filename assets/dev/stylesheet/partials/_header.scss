@@ -29,7 +29,7 @@ header {
     top: 50%;
     min-height: 20px;
     margin-top: -10px;
-    width: (30/$calc-sp)*$global-font-unit;
+    width: 30px;
 
     .item {
       position: absolute;
@@ -82,7 +82,7 @@ header {
     opacity: 0;
     justify-content: center;
     align-items: center;
-    background-color: #111111;
+    background: url("../image/menu-slider-bg.png") top left repeat;
     z-index: map_get($global-zIndex, header)-1;
     transition: all map_get($global-time, transition) ease-in-out;
 
@@ -235,6 +235,7 @@ header {
 
     .logo {
       width: (109/$calc-sp)*$global-font-unit;
+      height: (26/$calc-sp)*$global-font-unit;
       background-image: url("../image/Logo-product-white.svg");
     }
   }

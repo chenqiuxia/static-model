@@ -1,5 +1,4 @@
 .page-shop {
-
   header {
     border-top-color: map_get($global-color, b);
   }
@@ -26,14 +25,14 @@
     dt {
       font-size: map_get($global-font-size, b);
       color: map_get($global-color, a);
-      line-height: 33px;
+      line-height: 1;
       font-family: 'NotoSansCJKjp-Bold' ,$global-default-family;
     }
 
     dd {
       font-size: map_get($global-font-size, e);
       color: map_get($global-color, a);
-      line-height: 25px;
+      line-height: 1;
       margin-top: map_get($global-spacing, d);
       font-family: NotoSansCJKjp-Regular ,$global-default-family;
 
@@ -132,6 +131,24 @@
 /* media start*/
 @media screen and (max-width: map_get($global-width, mediaW)) {
   .page-shop {
+    dl {
+      dd:last-child {
+        a {
+          text-decoration: underline;
+        }
+      }
+    }
+
+    .shop-region-ul {
+      a:nth-child(3) {
+        font-size: (16/$calc-sp)*$global-font-unit;
+      }
+
+      a:last-child {
+        text-decoration: underline;
+        font-size: (12/$calc-sp)*$global-font-unit;
+      }
+    }
     .shop-img-row {
       display: block;
     }
@@ -151,7 +168,7 @@
       }
 
       dd {
-        font-size: 12px;
+        font-size: (12/$calc-sp)*$global-font-unit;
       }
     }
 
@@ -174,6 +191,15 @@
             width: 40%;
             margin: 0 auto (30/$calc-sp)*$global-font-unit;
           }
+
+          p {
+            line-height: .9;
+
+            &:last-child {
+              font-family: SFNSDisplay, $global-default-family;
+              font-weight: bold;
+            }
+          }
         }
       }
     }
@@ -192,7 +218,7 @@
         }
 
         p {
-          font-size: 12px;
+          font-size: (12/$calc-sp)*$global-font-unit;
         }
       }
     }

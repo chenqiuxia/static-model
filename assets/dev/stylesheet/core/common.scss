@@ -65,4 +65,8 @@
   .page-padding-top {
     padding-top: (70/$calc-sp)*$global-font-unit; //减小header的padding
   }
+
+  .x-home-height {
+    min-height: map_get($global-width, bannerHeight);
+  }
 }
