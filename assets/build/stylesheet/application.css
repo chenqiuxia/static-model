@@ -3737,6 +3737,9 @@ footer a:hover {
   .page-product .use-manual-img img {
     width: 62.5%;
   }
+  .page-product2 .heatset-banner-list {
+    width: 2.35294rem;
+  }
 }
 
 /*# sourceMappingURL=application.css.map */
