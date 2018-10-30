@@ -949,6 +949,16 @@
         margin-top: (20/$calc-sp)*$global-font-unit;
     }
 
+    .page-product .func-desc-content :nth-child(3) {
+        font-size:(14/$calc-sp)*$global-font-unit;
+        font-family:NotoSansCJKjp-Bold,$global-default-family;
+        font-weight:bold;
+        color:rgba(51,51,51,1);
+        line-height:(20/$calc-sp)*$global-font-unit;
+        text-align: center;
+      
+    }
+
     .page-product .func-desc-detial {
         font-size:(12/$calc-sp)*$global-font-unit;
         font-family:NotoSansCJKjp-Regular;
@@ -1022,6 +1032,7 @@
 
     .page-product .fun-list-all {
         padding-bottom:  (26/$calc-sp)*$global-font-unit;;
+        padding-top: 0;
     }
 
     .page-product .fun-list-all li {
@@ -1239,7 +1250,7 @@
 
     .page-product .use-manual {
         height: auto;
-        padding: 0 0 0 20px;
+        padding: 0 20px 0 20px;
     }
 
     .page-product .use-manual-img {
@@ -1261,7 +1272,7 @@
 
     .page-product .right-desc {
         height: (54/$calc-sp)*$global-font-unit ;
-        width: 61.5%;
+        width: 71.4%;
         font-size:(15/$calc-sp)*$global-font-unit ;
         font-family:DINAlternate-Bold;
         font-weight:bold;
@@ -1271,7 +1282,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 3px solid #0698ec
+        border: 4px solid #0698ec
     }
 
     .page-product .manual-title { 
@@ -1279,6 +1290,8 @@
         font-family:DINAlternate-Bold;
         font-weight:bold;
         margin-top: (24/$calc-sp)*$global-font-unit ;
+        letter-spacing: 3px;
+        overflow: hidden;
     }
 
     .page-product .black-title {
@@ -1366,6 +1379,10 @@
 
     .page-product .use-manual-img img {
         width: 62.5%;
+    }
+
+    .page-product2 .heatset-banner-list {
+        width: (200/$calc-sp)*$global-font-unit;
     }
 
 }
