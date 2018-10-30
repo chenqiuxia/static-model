@@ -18,3 +18,17 @@
     }
   }
 }
+
+
+/* media start*/
+@media screen and (max-width: map_get($global-width, mediaW)) {
+  .page-policy {
+    .policy-content {
+      font-size: (12/$calc-sp)*$global-font-unit;
+      h2 {
+        font-size: (20/$calc-sp)*$global-font-unit;
+        padding: (30/$calc-sp)*$global-font-unit 0;
+      }
+    }
+  }
+}
