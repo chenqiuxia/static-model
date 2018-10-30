@@ -236,6 +236,9 @@ video {
   .page-padding-top {
     padding-top: 0.82353rem;
   }
+  .x-home-height {
+    min-height: 100.5vw;
+  }
 }
 
 header {
@@ -279,7 +282,7 @@ header .memu-wrap {
   top: 50%;
   min-height: 20px;
   margin-top: -10px;
-  width: 0.35294rem;
+  width: 30px;
 }
 
 header .memu-wrap .item {
@@ -348,7 +351,7 @@ header .nav-slider-wrap {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background-color: #111111;
+  background: url("../image/menu-slider-bg.png") top left repeat;
   z-index: 9998;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -494,6 +497,7 @@ header .nav-submenu-wrap li:hover {
   }
   header .logo {
     width: 1.28235rem;
+    height: 0.30588rem;
     background-image: url("../image/Logo-product-white.svg");
   }
 }
@@ -677,9 +681,19 @@ footer a:hover {
     -ms-flex-pack: center;
     justify-content: center;
     margin: 0.35294rem auto 0.14118rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    text-align: center;
   }
   .footer-main .bottom-wrap .http-wrap {
-    display: none;
+    padding: 0.23529rem 0 0.47059rem;
+    font-size: 0.14118rem;
   }
   .footer-main .bottom-wrap .company-tag {
     font-size: 0.14118rem;
@@ -811,7 +825,7 @@ footer a:hover {
     display: block;
     width: 0.23529rem;
     height: 0.42353rem;
-    background: url("../image/philosophy/email-icon.svg") center no-repeat;
+    background: url("../image/philosophy/email-icon.png") center no-repeat;
     background-size: contain;
     margin: 0 auto;
     padding: 0.07059rem 0;
@@ -820,7 +834,7 @@ footer a:hover {
     width: 70%;
     margin: 0 auto;
     line-height: 0.61176rem;
-    font-size: 12px;
+    font-size: 0.14118rem;
   }
 }
 
@@ -1200,6 +1214,9 @@ footer a:hover {
     justify-content: center;
     text-align: center;
   }
+  .page-index .index-home-slick .slick-item {
+    min-height: 100.5vw;
+  }
   .page-index .home-content-wrap h2, .page-index .home-content-wrap h3 {
     font-size: 0.29412rem;
   }
@@ -1207,12 +1224,15 @@ footer a:hover {
     line-height: 0.47059rem;
     margin-top: 0.70588rem;
     padding: 0 0.41176rem;
-    font-size: 12px;
+    font-size: 0.14118rem;
   }
   .page-index .home-content-wrap p {
     font-size: 0.11765rem;
     letter-spacing: 2px;
-    margin-top: 1.17647rem;
+    margin-top: 16vh;
+  }
+  .page-index .index-title-wrap {
+    border: none;
   }
   .page-index .index-title-wrap .index-title-cont {
     margin-left: auto;
@@ -1235,6 +1255,7 @@ footer a:hover {
   }
   .page-index .index-earphone-wrap {
     height: 50vw;
+    border: 1px dashed #979797;
   }
   .page-index .index-earphone-wrap .earphone-cont {
     border: none;
@@ -1417,14 +1438,14 @@ footer a:hover {
 .page-shop .shop-img-dl dt {
   font-size: 0.04151rem;
   color: #111;
-  line-height: 33px;
+  line-height: 1;
   font-family: "NotoSansCJKjp-Bold", "Rubik300";
 }
 
 .page-shop .shop-img-dl dd {
   font-size: 0.03396rem;
   color: #111;
-  line-height: 25px;
+  line-height: 1;
   margin-top: 0.0283rem;
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
@@ -1529,6 +1550,16 @@ footer a:hover {
 
 /* media start*/
 @media screen and (max-width: 800px) {
+  .page-shop dl dd:last-child a {
+    text-decoration: underline;
+  }
+  .page-shop .shop-region-ul a:nth-child(3) {
+    font-size: 0.18824rem;
+  }
+  .page-shop .shop-region-ul a:last-child {
+    text-decoration: underline;
+    font-size: 0.14118rem;
+  }
   .page-shop .shop-img-row {
     display: block;
   }
@@ -1543,7 +1574,7 @@ footer a:hover {
     font-size: 0.23529rem;
   }
   .page-shop .shop-img-dl dd {
-    font-size: 12px;
+    font-size: 0.14118rem;
   }
   .page-shop .shop-row-reverse {
     display: -webkit-box;
@@ -1574,6 +1605,13 @@ footer a:hover {
     width: 40%;
     margin: 0 auto 0.35294rem;
   }
+  .page-shop .shop-region-top .top-content li:first-child p {
+    line-height: .9;
+  }
+  .page-shop .shop-region-top .top-content li:first-child p:last-child {
+    font-family: SFNSDisplay, "Rubik300";
+    font-weight: bold;
+  }
   .page-shop .shop-region-ul li {
     width: 100%;
   }
@@ -1585,7 +1623,7 @@ footer a:hover {
     height: 0.30588rem;
   }
   .page-shop .shop-region-ul li p {
-    font-size: 12px;
+    font-size: 0.14118rem;
   }
 }
 
@@ -2239,7 +2277,7 @@ footer a:hover {
     letter-spacing: 3px;
   }
   .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content p {
-    font-size: 12px;
+    font-size: 0.14118rem;
   }
 }
 

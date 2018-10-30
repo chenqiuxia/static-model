@@ -167,9 +167,13 @@ footer {
     .bottom-wrap {
       justify-content: center;
       margin: (30/$calc-sp)*$global-font-unit auto (12/$calc-sp)*$global-font-unit;
+      flex-direction: column-reverse;
+      flex-wrap: wrap;
+      text-align: center;
 
       .http-wrap {
-        display: none;
+        padding: (20/$calc-sp)*$global-font-unit 0 (40/$calc-sp)*$global-font-unit;
+        font-size: (12/$calc-sp)*$global-font-unit;
       }
 
       .company-tag {
