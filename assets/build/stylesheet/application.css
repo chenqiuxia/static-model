@@ -203,6 +203,17 @@ video {
   opacity: 0;
 }
 
+.scroll-delay {
+  -webkit-transition: all ease-in-out 0.5s;
+  transition: all ease-in-out 0.5s;
+  -webkit-transition-delay: 300ms;
+  transition-delay: 300ms;
+  -webkit-transform: translate(0, 20px);
+  -ms-transform: translate(0, 20px);
+  transform: translate(0, 20px);
+  opacity: 0;
+}
+
 .is_scoped, .page-product2 .heatset-banner-list > li.is_scoped {
   -webkit-transform: translate(0, 0);
   -ms-transform: translate(0, 0);
@@ -3082,9 +3093,11 @@ footer a:hover {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+    overflow: hidden;
   }
   .phone-banner-title img {
-    width: 75%;
+    max-width: 75%;
+    max-height: 75vh;
   }
   .phone-banner-title p {
     font-family: NotoSansCJKjp-Regular, "Rubik300";
@@ -3092,11 +3105,13 @@ footer a:hover {
     letter-spacing: 3px;
     font-size: 0.25882rem;
   }
+  .phone-banner-font {
+    font-size: 0.16471rem !important;
+  }
   .phone-banner-desc p {
     width: 75%;
     font-size: 0.23529rem;
-    font-family: NotoSansCJKjp-Bold;
-    font-weight: bold;
+    font-family: "Rubik300";
     line-height: 0.29412rem;
   }
   .page-product .phone-banner-img1 {
@@ -3115,7 +3130,8 @@ footer a:hover {
     margin-left: 0.17647rem;
   }
   .phone-banner-img img {
-    width: 75%;
+    max-width: 75%;
+    max-height: 75vh;
   }
   .page-product .func-desc > img {
     width: 87.5%;
@@ -3563,7 +3579,7 @@ footer a:hover {
   }
   .page-product .use-manual {
     height: auto;
-    padding: 0 20px;
+    padding: 0 0 0 20px;
   }
   .page-product .use-manual-img {
     width: 100%;
@@ -3703,6 +3719,12 @@ footer a:hover {
   }
   .page-product .product1-img {
     height: 80%;
+  }
+  .page-product .include-wrap-main {
+    padding: 0;
+  }
+  .page-product .use-manual-img img {
+    width: 62.5%;
   }
 }
 

@@ -35,9 +35,19 @@ const _animation = () => {
     animation();
 }
 
+const phoneFont = () =>{
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    if(width>height)
+    {
+        $('.phone-banner-desc').find('p').addClass('phone-banner-font')
+    }
+}
+
   const init = () => {
      bottomHover();
      _animation();
+     phoneFont();
   }
   const bind = () => {
 

@@ -815,6 +815,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        overflow: hidden;
     }
 
     .page-product .phone-banner :nth-child(1) {
@@ -823,7 +824,9 @@
     }
     //(109/$calc-sp)*$global-font-unit;
     .phone-banner-title img {
-        width: 75%;
+        max-width: 75%;
+        max-height: 75vh;
+
     }
 
     .phone-banner-title p {
@@ -834,11 +837,15 @@
         font-size:(22/$calc-sp)*$global-font-unit;
     }
 
+    .phone-banner-font {
+        font-size:(14/$calc-sp)*$global-font-unit !important;
+    }
+
     .phone-banner-desc p{
         width: 75%;
         font-size:(20/$calc-sp)*$global-font-unit;
-        font-family:NotoSansCJKjp-Bold;
-        font-weight:bold;
+        font-family:$global-default-family;
+       // font-weight:bold;
        // color:rgba(255,255,255,1);
         line-height:(25/$calc-sp)*$global-font-unit;
     }
@@ -861,7 +868,8 @@
     // }
 
     .phone-banner-img img{
-        width: 75%;
+        max-width: 75%;
+        max-height: 75vh;
     }
     
     .page-product .func-desc>img {
@@ -1231,7 +1239,7 @@
 
     .page-product .use-manual {
         height: auto;
-        padding: 0 20px;
+        padding: 0 0 0 20px;
     }
 
     .page-product .use-manual-img {
@@ -1350,6 +1358,14 @@
 
     .page-product .product1-img {
         height: 80%;
+    }
+
+    .page-product .include-wrap-main {
+        padding: 0;
+    }
+
+    .page-product .use-manual-img img {
+        width: 62.5%;
     }
 
 }
