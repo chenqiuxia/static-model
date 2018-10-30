@@ -3230,7 +3230,7 @@ footer a:hover {
     -ms-flex-align: center;
     align-items: center;
     font-size: 0.35294rem;
-    font-family: SFNSDisplay;
+    font-family: SFNSDisplay, "Rubik300";
     color: #202020;
     line-height: 0.41176rem;
   }

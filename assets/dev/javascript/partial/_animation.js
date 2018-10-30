@@ -6,9 +6,10 @@ const scroll = () => {
             animation();
         });
     };
-    const width = document.body.clientWidth;
+    const width =window.innerWidth;
     var animation = function () {
         window_scroll_top = $(window).scrollTop();
+        
         $scrollLeft.each(function () {
             if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
                 $(this).addClass('is_scoped');

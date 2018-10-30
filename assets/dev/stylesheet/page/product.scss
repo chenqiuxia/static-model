@@ -922,7 +922,7 @@
         justify-content: center;
         align-items: center;
         font-size:(30/$calc-sp)*$global-font-unit;
-        font-family:SFNSDisplay;
+        font-family:SFNSDisplay,$global-default-family;
         color:rgba(32,32,32,1);
         line-height:(35/$calc-sp)*$global-font-unit;
     }
