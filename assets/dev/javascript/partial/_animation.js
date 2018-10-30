@@ -50,46 +50,46 @@ const scroll = () => {
                     // overflowScroll:false,
                     // setHeights:false,
                     // scrollable:true,
-                    scrollbars:true,
-                    touchScroll:true,
-                    before:function(i,box){
-                        current = i;
-                    },
-                    after:function(){
-                       // console.log(current)
-                        if(current>=3)
-                        {
-                          //  console.log('setting to false')
-                            $.scrollify.disable();
-                            is_open = false;
-                        }
+                    // scrollbars:true,
+                    // touchScroll:true,
+                    // before:function(i,box){
+                    //     current = i;
+                    // },
+                    // after:function(){
+                    //    // console.log(current)
+                    //     if(current>=3)
+                    //     {
+                    //       //  console.log('setting to false')
+                    //         $.scrollify.disable();
+                    //         is_open = false;
+                    //     }
                         
                             
-                    },
+                    // },
                 });
-                $(window).scroll(function () {
-                 //   const height = (window.innerHeight)*3;
-                    const window_scroll_top = $(window).scrollTop();
+                // $(window).scroll(function () {
+                //  //   const height = (window.innerHeight)*3;
+                //     const window_scroll_top = $(window).scrollTop();
                   
-                    if(!is_open)
-                    {
-                        if((window.innerHeight)*3>window_scroll_top)
-                        {
-                         //   console.log('setting to true')
-                            $.scrollify.enable();
-                            is_open = true;
-                        }
-                    }else
-                    {
-                        if((window.innerHeight)*3<window_scroll_top)
-                        {
-                           // console.log('setting to false')
-                            $.scrollify.disable();
-                            is_open = false;
-                        }
-                    }
+                //     if(!is_open)
+                //     {
+                //         if((window.innerHeight)*3>window_scroll_top)
+                //         {
+                //          //   console.log('setting to true')
+                //             $.scrollify.enable();
+                //             is_open = true;
+                //         }
+                //     }else
+                //     {
+                //         if((window.innerHeight)*3<window_scroll_top)
+                //         {
+                //            // console.log('setting to false')
+                //             $.scrollify.disable();
+                //             is_open = false;
+                //         }
+                //     }
                     
-                });
+                // });
                 // console.log('in');
                 // $(window).on('resize',function(){
                 //     console.log(current)
