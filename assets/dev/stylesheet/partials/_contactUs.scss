@@ -72,10 +72,11 @@
       }
 
       .email-address {
-        width: 70%;
+        width: 65%;
         margin: 0 auto;
         line-height: (52/$calc-sp)*$global-font-unit;
         font-size: (12/$calc-sp)*$global-font-unit;
+        letter-spacing: 2px;
       }
     }
   }

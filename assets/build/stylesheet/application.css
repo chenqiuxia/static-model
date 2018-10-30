@@ -569,6 +569,10 @@ footer a:hover {
   opacity: 1;
 }
 
+.footer-main {
+  height: auto;
+}
+
 .footer-main .contact-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -664,6 +668,7 @@ footer a:hover {
     -ms-flex-pack: center;
     justify-content: center;
     padding-top: 0.58824rem;
+    width: 100%;
   }
   .footer-main .contact-wrap .footer-link-wrap, .footer-main .contact-wrap .footer-tel-location {
     display: none;
@@ -701,6 +706,7 @@ footer a:hover {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     text-align: center;
+    width: 100%;
   }
   .footer-main .bottom-wrap .http-wrap {
     padding: 0.23529rem 0 0.47059rem;
@@ -812,7 +818,7 @@ footer a:hover {
 /* media start*/
 @media screen and (max-width: 800px) {
   .contact-us-wrap {
-    background-color: #f7f7f7;
+    background-color: #fff;
   }
   .contact-us-wrap .contact-cont {
     display: block;
@@ -842,10 +848,11 @@ footer a:hover {
     padding: 0.07059rem 0;
   }
   .contact-us-wrap .contact-cont .email-address {
-    width: 70%;
+    width: 65%;
     margin: 0 auto;
     line-height: 0.61176rem;
     font-size: 0.14118rem;
+    letter-spacing: 2px;
   }
 }
 
@@ -1583,9 +1590,11 @@ footer a:hover {
   }
   .page-shop .shop-img-dl dt {
     font-size: 0.23529rem;
+    line-height: 1.5;
   }
   .page-shop .shop-img-dl dd {
     font-size: 0.14118rem;
+    line-height: 2;
   }
   .page-shop .shop-row-reverse {
     display: -webkit-box;
@@ -1655,6 +1664,17 @@ footer a:hover {
 
 .page-policy .policy-content a:hover {
   text-decoration: underline;
+}
+
+/* media start*/
+@media screen and (max-width: 800px) {
+  .page-policy .policy-content {
+    font-size: 0.14118rem;
+  }
+  .page-policy .policy-content h2 {
+    font-size: 0.23529rem;
+    padding: 0.35294rem 0;
+  }
 }
 
 .page-commercial .commercial-content {
@@ -2275,7 +2295,7 @@ footer a:hover {
     width: 100%;
   }
   .page-philosophy .philosophy-hear-wrap .heart-content-wrap {
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding: 0.30588rem 0;
   }
   .page-philosophy .philosophy-hear-wrap .heart-content-wrap .heart-content {
