@@ -14,6 +14,7 @@ footer {
   }
 
 }
+
 .footer-main, .nav-slider-wrap {
   .media-link {
     margin-top: map_get($global-spacing, j);
@@ -59,6 +60,8 @@ footer {
   }
 }
 .footer-main {
+  height: auto;
+
   .contact-wrap {
     display: flex;
 
@@ -133,6 +136,7 @@ footer {
     .contact-wrap {
       justify-content: center;
       padding-top: (50/$calc-sp)*$global-font-unit;
+      width: 100%;
 
       .footer-link-wrap, .footer-tel-location {
         display: none;
@@ -170,6 +174,7 @@ footer {
       flex-direction: column-reverse;
       flex-wrap: wrap;
       text-align: center;
+      width: 100%;
 
       .http-wrap {
         padding: (20/$calc-sp)*$global-font-unit 0 (40/$calc-sp)*$global-font-unit;

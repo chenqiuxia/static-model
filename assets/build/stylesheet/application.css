@@ -569,6 +569,10 @@ footer a:hover {
   opacity: 1;
 }
 
+.footer-main {
+  height: auto;
+}
+
 .footer-main .contact-wrap {
   display: -webkit-box;
   display: -webkit-flex;
@@ -664,6 +668,7 @@ footer a:hover {
     -ms-flex-pack: center;
     justify-content: center;
     padding-top: 0.58824rem;
+    width: 100%;
   }
   .footer-main .contact-wrap .footer-link-wrap, .footer-main .contact-wrap .footer-tel-location {
     display: none;
@@ -701,6 +706,7 @@ footer a:hover {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
     text-align: center;
+    width: 100%;
   }
   .footer-main .bottom-wrap .http-wrap {
     padding: 0.23529rem 0 0.47059rem;
