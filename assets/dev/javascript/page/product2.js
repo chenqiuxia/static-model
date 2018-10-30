@@ -15,6 +15,7 @@ const bottomHover = ()=>{
 }
 
 const _animation = () => {
+    const width = document.body.clientWidth;
     var $scroll = $('.heatset-banner'),
           window_scroll_top;
     var bind = function () {
@@ -22,22 +23,44 @@ const _animation = () => {
             animation();
         });
     };
+
     var animation = function () {
         window_scroll_top = $(window).scrollTop();
-        
-        $scroll.each(function () {
-            if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +400){
-                $('.heatset-product').addClass('is_scoped');
-            }
-        });
+        if(width<800)
+        {
+            $scroll.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +200){
+                    $('.heatset-product').addClass('is_scoped');
+                }
+            });
+        }
+        else
+        {
+            $scroll.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +400){
+                    $('.heatset-product').addClass('is_scoped');
+                }
+            });
+        }
+       
     };
     bind();
     animation();
 }
 
+const phoneFont = () =>{
+    const width = window.innerWidth;
+    const height = window.innerHeight;
+    if(width>height)
+    {
+        $('.phone-banner-desc').find('p').addClass('phone-banner-font')
+    }
+}
+
   const init = () => {
      bottomHover();
      _animation();
+     phoneFont();
   }
   const bind = () => {
 
