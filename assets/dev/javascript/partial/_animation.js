@@ -60,7 +60,7 @@ const scroll = () => {
                         if(current>=3)
                         {
                           //  console.log('setting to false')
-                            $.scrollify.touchScrollToFalse();  
+                            $.scrollify.disable();
                             is_open = false;
                         }
                         
@@ -76,7 +76,7 @@ const scroll = () => {
                         if((window.innerHeight)*3>window_scroll_top)
                         {
                          //   console.log('setting to true')
-                            $.scrollify.touchScrollToTrue();
+                            $.scrollify.enable();
                             is_open = true;
                         }
                     }else
@@ -84,7 +84,7 @@ const scroll = () => {
                         if((window.innerHeight)*3<window_scroll_top)
                         {
                            // console.log('setting to false')
-                            $.scrollify.touchScrollToFalse();
+                            $.scrollify.disable();
                             is_open = false;
                         }
                     }
