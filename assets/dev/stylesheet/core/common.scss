@@ -31,6 +31,13 @@
   opacity: 0;
 }
 
+.scroll-delay {
+  transition: all ease-in-out map_get($global-time, scroll);
+  transition-delay: 300ms;
+  transform: translate(0,20px);
+  opacity: 0;
+}
+
 .is_scoped, .page-product2 .heatset-banner-list >li.is_scoped {
   transform: translate(0,0);
   opacity: 1;
