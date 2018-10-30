@@ -38,16 +38,56 @@ const scroll = () => {
   }
 
   const scrollfy = () => {
+        var current;
+        let is_open = true;
         const width = document.body.clientWidth;
+       
         if(width<=800)
         {
             $(function(){
-                $.scrollify({section:".box"});
-                console.log('in');
-                $(window).on('resize',function(){
-                    $.scrollify.update();
-                    console.log('in');
+                $.scrollify({
+                    section:".box",
+                    // overflowScroll:false,
+                    // setHeights:false,
+                    // scrollable:true,
+                    before:function(i,box){
+                        current = i;
+                    },
+                    after:function(){
+                        console.log(current)
+                            // if(current===3)
+                            // {
+                            //    $.scrollify.disable();  
+                            // }
+                            
+                    },
                 });
+                // $(window).scroll(function () {
+                //     const height = (window.innerHeight)*3;
+                //     const window_scroll_top = $(window).scrollTop();
+                //     console.log(window_scroll_top);
+                //     if(height<window_scroll_top&&window_scroll_top<(window.innerHeight)*3.5)
+                //     {
+                //         $.scrollify.enable();
+                //     }
+                //     else if((window.innerHeight)*3.5<=window_scroll_top){
+                //         $.scrollify.disable();  
+                //     }
+                // });
+                // console.log('in');
+                // $(window).on('resize',function(){
+                //     console.log(current)
+                //     if(current===3)
+                //     {
+                //         $.scrollify.disable();
+                //     }
+                //     else
+                //     {
+                //         $.scrollify.enable();
+                //     }
+                //     $.scrollify.update();
+                //     console.log('in');
+                // });
             });	
         }
        
