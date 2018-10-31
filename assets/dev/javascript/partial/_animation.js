@@ -82,7 +82,7 @@ const scroll = () => {
                 $.scrollify({
                     section:".box",
                     // overflowScroll:false,
-                    // setHeights:false,
+                     setHeights:false,
                     // scrollable:true,
                     // scrollbars:true,
                     // touchScroll:true,
