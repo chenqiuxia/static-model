@@ -2133,6 +2133,49 @@ footer a:hover {
   .page-product2 .func-kinds-img :nth-child(2) {
     height: 35%;
   }
+  .page-product2 .heatset-banner-list :nth-child(1) {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+  .page-product2 .heatset-banner-list :nth-child(2) {
+    -webkit-transition-delay: .4s;
+    transition-delay: .4s;
+  }
+  .page-product2 .heatset-banner-list :nth-child(3) {
+    -webkit-transition-delay: .2s;
+    transition-delay: .2s;
+  }
+  .page-product2 .heatset-banner {
+    height: 1.17647rem;
+  }
+  .page-product2 .heatset-banner-list li img {
+    height: 1.17647rem;
+    width: 1.81176rem;
+  }
+  .page-product2 .heatset-banner-list :nth-child(2) {
+    left: 10%;
+  }
+  .page-product2 .heatset-banner-list :nth-child(3) {
+    left: 30%;
+  }
+  .page-product2 .heatset-banner {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+  .page-product2 .heatset-banner-list {
+    width: auto;
+    margin: 0 auto;
+    position: unset;
+  }
+  .page-product2 .heatset-banner-list :nth-child(1) {
+    z-index: 100;
+  }
 }
 
 .page-philosophy .philosophy-home-wrap {
@@ -3285,6 +3328,7 @@ footer a:hover {
     height: 4.11765rem;
   }
   .page-product .battery-list {
+    margin-top: 0.11765rem;
     width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -3408,6 +3452,7 @@ footer a:hover {
     font-weight: 400;
     color: #333333;
     line-height: 26px;
+    margin-top: 0.11765rem;
   }
   .page-product .func-item-desc :nth-child(3) {
     -webkit-box-pack: start;
@@ -3757,8 +3802,11 @@ footer a:hover {
   .page-product .use-manual-img img {
     width: 62.5%;
   }
-  .page-product2 .heatset-banner-list {
-    width: 2.35294rem;
+  .page-product .product-info > :nth-child(1) {
+    font-size: 0.35294rem;
+    font-family: SFNSDisplay, "Rubik300";
+    color: white;
+    line-height: 0.41176rem;
   }
 }
 

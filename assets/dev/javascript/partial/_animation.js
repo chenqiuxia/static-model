@@ -10,23 +10,56 @@ const scroll = () => {
     var animation = function () {
         window_scroll_top = $(window).scrollTop();
         
-        $scrollLeft.each(function () {
-            if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
-                $(this).addClass('is_scoped');
-            }
-        });
-        $scrollRight.each(function () {
-            if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
-                $(this).addClass('is_scoped');
-            }
-        });
-        $scroll.each(function () {
-            if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +200){
-                $(this).addClass('is_scoped');
-            }
-        });
+        // $scrollLeft.each(function () {
+        //     if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
+        //         $(this).addClass('is_scoped');
+        //     }
+        // });
+        // $scrollRight.each(function () {
+        //     if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
+        //         $(this).addClass('is_scoped');
+        //     }
+        // });
+        // $scroll.each(function () {
+        //     if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +200){
+        //         $(this).addClass('is_scoped');
+        //     }
+        // });
         if(width<=800){
             $scrollDelay.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +100){
+                    $(this).addClass('is_scoped');
+                }
+            });
+
+            $scrollLeft.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+100) {
+                    $(this).addClass('is_scoped');
+                }
+            });
+            $scrollRight.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+100) {
+                    $(this).addClass('is_scoped');
+                }
+            });
+            $scroll.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +100){
+                    $(this).addClass('is_scoped');
+                }
+            });
+        }else
+        {
+            $scrollLeft.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
+                    $(this).addClass('is_scoped');
+                }
+            });
+            $scrollRight.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
+                    $(this).addClass('is_scoped');
+                }
+            });
+            $scroll.each(function () {
                 if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +200){
                     $(this).addClass('is_scoped');
                 }

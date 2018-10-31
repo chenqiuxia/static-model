@@ -988,6 +988,7 @@
     }
 
     .page-product .battery-list {
+        margin-top: (10/$calc-sp)*$global-font-unit;
         width: 100%;
         display: flex;
         justify-content: center;
@@ -1083,6 +1084,7 @@
         font-weight:400;
         color:rgba(51,51,51,1);
         line-height:26px;
+        margin-top: (10/$calc-sp)*$global-font-unit;
     }
 
     .page-product .func-item-desc :nth-child(3) {
@@ -1381,8 +1383,13 @@
         width: 62.5%;
     }
 
-    .page-product2 .heatset-banner-list {
-        width: (200/$calc-sp)*$global-font-unit;
+    
+
+    .page-product .product-info>:nth-child(1) {
+        font-size:(30/$calc-sp)*$global-font-unit;
+        font-family:SFNSDisplay,$global-default-family;
+        color:rgba(255,255,255,1);
+        line-height:(35/$calc-sp)*$global-font-unit;
     }
 
 }
