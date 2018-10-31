@@ -225,6 +225,10 @@ video {
   padding-top: 0.26792rem;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .page-company .nav > ul > li:hover, .page-shop .nav > ul > li:hover, .page-policy .nav > ul > li:hover, .page-commercial .nav > ul > li:hover {
   background-color: #000;
   color: #fff;
@@ -243,7 +247,7 @@ video {
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .page-padding-top {
     padding-top: 0.82353rem;
   }
@@ -347,13 +351,14 @@ header .nav-slider-wrap {
   display: -ms-flexbox;
   display: flex;
   top: 0;
+  bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
   -webkit-transform: translateX(-100%);
   -ms-transform: translateX(-100%);
   transform: translateX(-100%);
   opacity: 0;
+  overflow-y: auto;
   -webkit-box-pack: center;
   -webkit-justify-content: center;
   -ms-flex-pack: center;
@@ -362,14 +367,21 @@ header .nav-slider-wrap {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  background: url("../image/menu-slider-bg.png") top left repeat;
+  background-color: #E50113;
   z-index: 9998;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
 
+header .nav-slider-wrap.nav-slider-Sh {
+  -webkit-box-align: normal;
+  -webkit-align-items: normal;
+  -ms-flex-align: normal;
+  align-items: normal;
+}
+
 header .nav-slider-wrap ul {
-  margin-top: 0.58824rem;
+  margin-top: 0.70588rem;
 }
 
 header .nav-slider-wrap li {
@@ -438,8 +450,8 @@ header .nav > ul > li a {
 }
 
 header h1 {
-  height: 34px;
-  line-height: 34px;
+  height: 0.09811rem;
+  line-height: 1;
   padding: 0 0.03208rem;
   font-size: 0;
   border-radius: 5px;
@@ -490,7 +502,7 @@ header .nav-submenu-wrap li:hover {
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   header {
     border-top-width: 0.11765rem;
   }
@@ -661,7 +673,15 @@ footer a:hover {
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
+  .nav-slider-wrap .media-link a {
+    width: 0.58824rem;
+    height: 0.58824rem;
+    background-size: 60% 60%;
+  }
+  .nav-slider-wrap .media-link a:last-child {
+    background-size: 80%;
+  }
   .footer-main .contact-wrap {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -681,8 +701,8 @@ footer a:hover {
     width: 100%;
   }
   .footer-main .contact-wrap .media-link a {
-    width: 36px;
-    height: 36px;
+    width: 0.42353rem;
+    height: 0.42353rem;
     background-size: 80% 80%;
   }
   .footer-main .contact-wrap .media-link a + a {
@@ -753,7 +773,7 @@ footer a:hover {
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .shop-title-wrap {
     border-top: none;
     margin-top: 0;
@@ -768,7 +788,7 @@ footer a:hover {
 }
 
 .contact-us-wrap {
-  padding: 0.58491rem 0;
+  padding: 0.33962rem 0;
 }
 
 .contact-us-wrap .contact-cont {
@@ -782,7 +802,7 @@ footer a:hover {
   justify-content: center;
   -webkit-transition: all 0.4s;
   transition: all 0.4s;
-  width: 53%;
+  width: 32%;
   margin: 0 auto;
 }
 
@@ -792,31 +812,31 @@ footer a:hover {
 
 .contact-us-wrap .contact-cont span {
   display: inline-block;
-  font-size: 0.06604rem;
+  font-size: 0.03774rem;
   line-height: 1;
   -webkit-box-flex: 1;
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  min-width: 400px;
-  padding: 0.03774rem 0.11321rem;
+  padding: 0.03774rem 0;
+  text-align: center;
   font-family: DINAlternate-Bold, "Rubik300";
 }
 
 .contact-us-wrap .contact-cont .text-row {
   border: 1px solid #979797;
   color: #4183C4;
-  letter-spacing: 6px;
+  letter-spacing: 2px;
 }
 
 .contact-us-wrap .contact-cont .email-address {
   background-color: #111;
   color: #fff;
-  letter-spacing: 5px;
+  letter-spacing: 2px;
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .contact-us-wrap {
     background-color: #fff;
   }
@@ -1052,8 +1072,7 @@ footer a:hover {
 
 .page-index .index-title-wrap {
   color: #000;
-  border: 1px dashed #979797;
-  padding: 0.15094rem 0;
+  padding: 0.30189rem 0 0.11321rem;
 }
 
 .page-index .index-title-wrap .index-title-cont {
@@ -1104,7 +1123,7 @@ footer a:hover {
   position: relative;
   display: block;
   padding: 10px;
-  background: url("../image/index/home-pro-f2.jpg") center no-repeat;
+  background: url("../image/index/home-pro-f2.jpg") top no-repeat;
   background-size: cover;
   height: 50vh;
 }
@@ -1137,16 +1156,15 @@ footer a:hover {
   -ms-flex-align: center;
   align-items: center;
   height: 100%;
-  border: 3px solid #fff;
   z-index: 1;
 }
 
 .page-index .index-earphone-wrap .earphone-cont h2 {
-  font-size: 0.13585rem;
+  font-size: 0.12075rem;
   color: #fff;
   letter-spacing: 10px;
   margin-left: 30%;
-  font-family: DIN-Medium, "Rubik300";
+  font-family: DINAlternate-Bold, DIN-Medium, "Rubik300";
 }
 
 .page-index .index-other-wrap {
@@ -1224,7 +1242,7 @@ footer a:hover {
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .page-index .index-home-wrap .main-wrap {
     -webkit-box-pack: center;
     -webkit-justify-content: center;
@@ -1252,6 +1270,9 @@ footer a:hover {
   .page-index .index-title-wrap {
     border: none;
   }
+  .page-index .index-title-wrap {
+    padding: 0.82353rem 0 0.11765rem;
+  }
   .page-index .index-title-wrap .index-title-cont {
     margin-left: auto;
     -webkit-box-pack: center;
@@ -1261,7 +1282,6 @@ footer a:hover {
   }
   .page-index .index-title-wrap .index-title-cont h3 {
     text-align: center;
-    margin-top: 0.70588rem;
     font-size: 0.23529rem;
   }
   .page-index .index-title-wrap .index-title-cont h3:before {
@@ -1281,6 +1301,7 @@ footer a:hover {
   .page-index .index-earphone-wrap .earphone-cont h2 {
     margin: 0 auto;
     font-size: 0.23529rem;
+    letter-spacing: 3px;
   }
   .page-index .index-other-wrap {
     -webkit-flex-wrap: wrap;
@@ -1290,7 +1311,7 @@ footer a:hover {
   }
   .page-index .index-other-wrap a {
     width: 100%;
-    height: 70vw;
+    height: 55vw;
   }
   .page-index .index-other-wrap a h4 {
     font-size: 0.28235rem;
@@ -1468,8 +1489,13 @@ footer a:hover {
   font-family: NotoSansCJKjp-Regular, "Rubik300";
 }
 
-.page-shop .shop-img-dl dd a:hover {
+.page-shop .shop-img-dl dd a {
+  cursor: text;
+}
+
+.page-shop .shop-img-dl dd:last-child a:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .page-shop .shop-region-top {
@@ -1562,12 +1588,17 @@ footer a:hover {
   font-family: "NotoSansCJKjp-Regular", "Rubik300";
 }
 
-.page-shop .shop-region-ul li a:hover {
+.page-shop .shop-region-ul li a {
+  cursor: text;
+}
+
+.page-shop .shop-region-ul li a:last-child:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .page-shop dl dd:last-child a {
     text-decoration: underline;
   }
@@ -1636,14 +1667,16 @@ footer a:hover {
     width: 100%;
   }
   .page-shop .shop-region-ul li .region-item-title {
-    padding: 0.70588rem 0;
+    padding: 0.52941rem 0 0.11765rem;
   }
   .page-shop .shop-region-ul li .region-item-title p {
     font-size: 0.23529rem;
-    height: 0.30588rem;
+    line-height: 1.5;
+    height: auto;
   }
   .page-shop .shop-region-ul li p {
     font-size: 0.14118rem;
+    line-height: 2;
   }
 }
 
@@ -1662,12 +1695,12 @@ footer a:hover {
   font-family: NotoSansCJKjp-Medium, "Rubik300";
 }
 
-.page-policy .policy-content a:hover {
-  text-decoration: underline;
+.page-policy .policy-content a {
+  cursor: text;
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .page-policy .policy-content {
     font-size: 0.14118rem;
   }
@@ -1752,9 +1785,10 @@ footer a:hover {
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .page-company .company-info-wrap dl {
     padding: 0.23529rem 15px;
+    font-size: 0.14118rem;
   }
   .page-company .company-info-wrap dl dt {
     width: 1rem;
@@ -2083,7 +2117,7 @@ footer a:hover {
   font-size: 0.05283rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .page-product2 .banner-wrap {
     background: url("../image/product2/BG-phone.png") no-repeat;
     background-size: cover;
@@ -2262,7 +2296,7 @@ footer a:hover {
 }
 
 /* media start*/
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .page-philosophy .philosophy-home-wrap, .page-philosophy .philosophy-hear-wrap {
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
@@ -3134,7 +3168,7 @@ footer a:hover {
   line-height: 0.04906rem;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 813px) {
   .page-product .product2-phone-color {
     color: #fff !important;
   }

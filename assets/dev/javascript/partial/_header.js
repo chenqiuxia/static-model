@@ -1,4 +1,4 @@
-import {isSP} from "../consist/GLOBAL_CONFIG";
+import {isSP, isHSFn} from "../consist/GLOBAL_CONFIG";
 
 const onScroll = () => {
   $(window).scroll(function () {
@@ -16,6 +16,23 @@ const menuFn = () => {
     e.stopPropagation()
     $(this).toggleClass('menu-close')
     $('.x-header').toggleClass('header-slide')
+    $('body').toggleClass('no-scroll')
+  })
+}
+
+const orientationSliderFn = () => {
+  const changeClass = (param) => {
+    if(!param) {
+      $('.nav-slider-wrap').addClass('nav-slider-Sh')
+    } else {
+      $('.nav-slider-wrap').removeClass('nav-slider-Sh')
+    }
+  }
+
+  changeClass(!isHSFn())
+
+  window.addEventListener('orientationchange', () => {
+    changeClass(isHSFn())
   })
 }
 
@@ -24,6 +41,8 @@ const bind = () => {
   if(isSP) {
     menuFn();
   }
+
+  orientationSliderFn()
 }
 
 export default {

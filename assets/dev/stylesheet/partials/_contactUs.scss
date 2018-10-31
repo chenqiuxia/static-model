@@ -1,11 +1,11 @@
 .contact-us-wrap {
-  padding: (310/$calc-base-num)*$global-font-unit 0;
+  padding: (180/$calc-base-num)*$global-font-unit 0;
 
   .contact-cont {
     display: flex;
     justify-content: center;
     transition: all map_get($global-time, transition);
-    width: 53%;
+    width: 32%;
     margin: 0 auto;
 
     &:hover {
@@ -14,24 +14,24 @@
 
     span {
       display: inline-block;
-      font-size: map_get($global-font-size, j);
+      font-size: map_get($global-font-size, f);
       line-height: 1;
       flex-grow: 1;
-      min-width: 400px;
-      padding: map_get($global-spacing, i) map_get($global-spacing, c);
+      padding: map_get($global-spacing, i) 0;
+      text-align: center;
       font-family: DINAlternate-Bold ,$global-default-family;
     }
 
     .text-row {
       border: 1px solid map_get($global-color, d);
       color: map_get($global-color, e);
-      letter-spacing:6px;
+      letter-spacing:2px;
     }
 
     .email-address {
       background-color: map_get($global-color, a);
       color: #fff;
-      letter-spacing:5px;
+      letter-spacing:2px;
     }
   }
 }
