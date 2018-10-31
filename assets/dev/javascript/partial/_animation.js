@@ -6,26 +6,60 @@ const scroll = () => {
             animation();
         });
     };
-    const width = document.body.clientWidth;
+    const width =window.innerWidth;
     var animation = function () {
         window_scroll_top = $(window).scrollTop();
-        $scrollLeft.each(function () {
-            if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
-                $(this).addClass('is_scoped');
-            }
-        });
-        $scrollRight.each(function () {
-            if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
-                $(this).addClass('is_scoped');
-            }
-        });
-        $scroll.each(function () {
-            if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +200){
-                $(this).addClass('is_scoped');
-            }
-        });
+        
+        // $scrollLeft.each(function () {
+        //     if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
+        //         $(this).addClass('is_scoped');
+        //     }
+        // });
+        // $scrollRight.each(function () {
+        //     if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
+        //         $(this).addClass('is_scoped');
+        //     }
+        // });
+        // $scroll.each(function () {
+        //     if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +200){
+        //         $(this).addClass('is_scoped');
+        //     }
+        // });
         if(width<=800){
             $scrollDelay.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +100){
+                    $(this).addClass('is_scoped');
+                }
+            });
+
+            $scrollLeft.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+100) {
+                    $(this).addClass('is_scoped');
+                }
+            });
+            $scrollRight.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+100) {
+                    $(this).addClass('is_scoped');
+                }
+            });
+            $scroll.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +50){
+                    $(this).addClass('is_scoped');
+                }
+            });
+        }else
+        {
+            $scrollLeft.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
+                    $(this).addClass('is_scoped');
+                }
+            });
+            $scrollRight.each(function () {
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top)+200) {
+                    $(this).addClass('is_scoped');
+                }
+            });
+            $scroll.each(function () {
                 if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +200){
                     $(this).addClass('is_scoped');
                 }
@@ -60,7 +94,7 @@ const scroll = () => {
                         if(current>=3)
                         {
                             console.log('setting to false')
-                            $.scrollify.touchScrollToFalse();
+                            $.scrollify.disable();
                             is_open = false;
                         }
                         
@@ -76,7 +110,7 @@ const scroll = () => {
                         if((window.innerHeight)*3>window_scroll_top)
                         {
                             console.log('setting to true')
-                            $.scrollify.touchScrollToTrue();
+                            $.scrollify.enable();
                             is_open = true;
                         }
                     }else
@@ -84,7 +118,7 @@ const scroll = () => {
                         if((window.innerHeight)*3<window_scroll_top)
                         {
                             console.log('setting to false')
-                            $.scrollify.touchScrollToFalse();
+                            $.scrollify.disable();
                             is_open = false;
                         }
                     }

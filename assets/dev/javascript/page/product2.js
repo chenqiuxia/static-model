@@ -29,7 +29,7 @@ const _animation = () => {
         if(isSP)
         {
             $scroll.each(function () {
-                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +200){
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +100){
                     $('.heatset-product').addClass('is_scoped');
                 }
             });
