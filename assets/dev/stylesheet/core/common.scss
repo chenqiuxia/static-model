@@ -47,6 +47,10 @@
   padding-top: (142/$calc-base-num)*$global-font-unit; //减小header的padding
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 //header nav hover style
 .page-company, .page-shop, .page-policy, .page-commercial {
   .nav>ul>li {

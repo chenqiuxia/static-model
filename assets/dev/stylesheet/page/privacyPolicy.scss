@@ -13,8 +13,8 @@
       font-family: NotoSansCJKjp-Medium ,$global-default-family;
     }
 
-    a:hover {
-      text-decoration: underline;
+    a {
+      cursor: text;
     }
   }
 }

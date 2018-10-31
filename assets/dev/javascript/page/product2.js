@@ -1,3 +1,4 @@
+import {isSP} from "../consist/GLOBAL_CONFIG";
 
 const bottomHover = ()=>{
    $('.product-show1').mouseover(function(){
@@ -15,7 +16,6 @@ const bottomHover = ()=>{
 }
 
 const _animation = () => {
-    const width = document.body.clientWidth;
     var $scroll = $('.heatset-banner'),
           window_scroll_top;
     var bind = function () {
@@ -26,7 +26,7 @@ const _animation = () => {
 
     var animation = function () {
         window_scroll_top = $(window).scrollTop();
-        if(width<800)
+        if(isSP)
         {
             $scroll.each(function () {
                 if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +100){
