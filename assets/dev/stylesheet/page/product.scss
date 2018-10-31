@@ -78,6 +78,10 @@
         font-family: NotoSansCJKjp-Bold ,$global-default-family;
     }
 
+    .func-desc-content :nth-child(2) {
+        white-space: nowrap;
+    }
+
     .func-desc-detial {
         font-size: (17/$calc-base-num)*$global-font-unit;
         margin-top: (28/$calc-base-num)*$global-font-unit;
@@ -754,6 +758,65 @@
     .phone-battery-sum {
         display: none;
     }
+
+    .fun-sounds {
+        display: flex;
+       // flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .fun-sounds-content {
+        flex: 1;
+        width: 100%;
+        
+    }
+
+   
+    .fun-sounds-img {
+        width: 100%;
+        display: flex;
+       
+        align-items: center;
+        flex: 1;
+    }
+
+    .fun-sounds-img img{
+        width: 86%;
+       
+    }
+
+   .fun-sounds-effect {
+        margin-top: (42/$calc-base-num)*$global-font-unit;
+        font-size:(16/$calc-base-num)*$global-font-unit;
+        font-family:DINAlternate-Bold,$global-default-family;
+        font-weight:bold;
+        color:rgba(17,17,17,1);
+        line-height:(19/$calc-base-num)*$global-font-unit;;
+        letter-spacing:6px;
+       
+    }
+
+    .fun-sounds-title { 
+        margin-top: (22/$calc-base-num)*$global-font-unit;
+        font-size:(35/$calc-base-num)*$global-font-unit;
+        font-family:NotoSansCJKjp-Bold,$global-default-family;
+        font-weight:bold;
+        color:rgba(17,17,17,1);
+        line-height:(29/$calc-base-num)*$global-font-unit;
+       
+    }
+
+    .fun-sounds-desc {
+        width: 68%;
+        margin-top: (18/$calc-base-num)*$global-font-unit;
+        font-size:(17/$calc-base-num)*$global-font-unit;
+        font-family:NotoSansCJKjp-Regular,$global-default-family;
+        font-weight:400;
+        color:rgba(17,17,17,1);
+        line-height:(26/$calc-base-num)*$global-font-unit;
+    }
 }
 
 
@@ -940,6 +1003,7 @@
     }
 
     .page-product .func-desc-content :nth-child(2) {
+        white-space: pre-wrap;
         font-size:(14/$calc-sp)*$global-font-unit;
         font-family:NotoSansCJKjp-Bold,$global-default-family;
         font-weight:bold;
@@ -1032,7 +1096,7 @@
     }
 
     .page-product .fun-list-all {
-        padding-bottom:  (26/$calc-sp)*$global-font-unit;;
+        padding-bottom:  (46/$calc-sp)*$global-font-unit;;
         padding-top: 0;
     }
 
@@ -1390,6 +1454,55 @@
         font-family:SFNSDisplay,$global-default-family;
         color:rgba(255,255,255,1);
         line-height:(35/$calc-sp)*$global-font-unit;
+    }
+
+    .page-product .fun-sounds {
+        display: flex;
+        flex-direction: column-reverse;
+        padding-bottom: (26/$calc-sp)*$global-font-unit;
+    }
+
+    .page-product .fun-sounds-img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .page-product .fun-sounds-img img{
+        width: 93%;
+       
+    }
+
+    .page-product .fun-sounds-effect {
+        margin-top: (42/$calc-sp)*$global-font-unit;
+        font-size:(16/$calc-sp)*$global-font-unit;
+        font-family:DINAlternate-Bold;
+        font-weight:bold;
+        color:rgba(17,17,17,1);
+        line-height:(19/$calc-sp)*$global-font-unit;;
+        letter-spacing:6px;
+        text-align: center;
+    }
+
+    .page-product .fun-sounds-title { 
+        margin-top: (18/$calc-sp)*$global-font-unit;
+        font-size:(20/$calc-sp)*$global-font-unit;
+        font-family:NotoSansCJKjp-Bold;
+        font-weight:bold;
+        color:rgba(17,17,17,1);
+        line-height:(29/$calc-sp)*$global-font-unit;
+        text-align: center;
+    }
+
+    .page-product .fun-sounds-desc {
+        margin-top: (18/$calc-sp)*$global-font-unit;
+        font-size:(12/$calc-sp)*$global-font-unit;
+        font-family:NotoSansCJKjp-Regular;
+        font-weight:400;
+        width: auto;
+        color:rgba(17,17,17,1);
+        line-height:(26/$calc-sp)*$global-font-unit;
     }
 
 }
