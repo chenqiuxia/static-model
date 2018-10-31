@@ -43,7 +43,7 @@ const scroll = () => {
                 }
             });
             $scroll.each(function () {
-                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +100){
+                if (window_scroll_top + window.innerHeight >= ($(this).offset().top) +50){
                     $(this).addClass('is_scoped');
                 }
             });
