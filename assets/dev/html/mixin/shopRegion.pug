@@ -24,10 +24,10 @@ mixin shopRegion(obj)
           br
           = obj[j].contList[i].txt1[1]
         -} else {
-        p= obj[j].contList[i].title
+        p= obj[j].contList[i].txt1
         -}
-        a(href="tel:"+obj[j].contList[i].txt2)= 'TEL：' + obj[j].contList[i].txt2
+        a.x-tel-link(data-href="tel:"+obj[j].contList[i].txt2)= 'TEL：' + obj[j].contList[i].txt2
         p= obj[j].contList[i].txt3
-        a(href=obj[j].contList[i].txt4)= obj[j].contList[i].txt4
+        a(href=obj[j].contList[i].txt4 target="_blank")= obj[j].contList[i].txt4
       -}
   -}

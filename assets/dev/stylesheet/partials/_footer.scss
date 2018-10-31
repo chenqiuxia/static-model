@@ -132,6 +132,19 @@ footer {
 
 /* media start*/
 @media screen and (max-width: map_get($global-width, mediaW)) {
+  .nav-slider-wrap {
+    .media-link {
+      a {
+        width: (50/$calc-sp)*$global-font-unit;
+        height: (50/$calc-sp)*$global-font-unit;
+        background-size: 60% 60%;
+
+        &:last-child {
+          background-size: 80%;
+        }
+      }
+    }
+  }
   .footer-main {
     .contact-wrap {
       justify-content: center;
@@ -153,8 +166,8 @@ footer {
 
       .media-link {
         a {
-          width: 36px;
-          height: 36px;
+          width: (36/$calc-sp)*$global-font-unit;
+          height: (36/$calc-sp)*$global-font-unit;
           background-size: 80% 80%;
 
           &+a {

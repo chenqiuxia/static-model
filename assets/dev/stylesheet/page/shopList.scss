@@ -36,8 +36,15 @@
       margin-top: map_get($global-spacing, d);
       font-family: NotoSansCJKjp-Regular ,$global-default-family;
 
+      a {
+        cursor: text;
+      }
+    }
+
+    dd:last-child {
       a:hover {
         text-decoration: underline;
+        cursor: pointer;
       }
     }
   }
@@ -120,8 +127,14 @@
         font-family: "NotoSansCJKjp-Regular", $global-default-family;
 
       }
-      a:hover {
+
+      a {
+        cursor: text;
+      }
+
+      a:last-child:hover {
         text-decoration: underline;
+        cursor: pointer;
       }
     }
   }
@@ -211,16 +224,18 @@
         width: 100%;
 
         .region-item-title {
-          padding: (60/$calc-sp)*$global-font-unit 0;
+          padding: (45/$calc-sp)*$global-font-unit 0 (10/$calc-sp)*$global-font-unit;
 
           p {
             font-size: (20/$calc-sp)*$global-font-unit;
-            height: (26/$calc-sp)*$global-font-unit;
+            line-height: 1.5;
+            height: auto;
           }
         }
 
         p {
           font-size: (12/$calc-sp)*$global-font-unit;
+          line-height: 2;
         }
       }
     }
