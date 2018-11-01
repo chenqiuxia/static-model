@@ -1438,6 +1438,16 @@ footer a:hover {
   height: 1.41509rem;
 }
 
+.page-product1 .color-list :nth-child(3) {
+  background-color: #939392 !important;
+}
+
+@media screen and (max-width: 813px) {
+  .page-product1 .color-list :nth-child(3) {
+    background-color: #939392 !important;
+  }
+}
+
 .page-shop header {
   border-top-color: #E50113;
 }
