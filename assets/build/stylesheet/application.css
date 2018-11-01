@@ -225,6 +225,7 @@ video {
 
 .no-scroll {
   overflow: hidden;
+  height: 100vh;
 }
 
 .page-company .nav > ul > li:hover, .page-shop .nav > ul > li:hover, .page-policy .nav > ul > li:hover, .page-commercial .nav > ul > li:hover {
