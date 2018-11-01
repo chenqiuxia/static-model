@@ -344,10 +344,7 @@ header .memu-wrap.menu-close .item:last-child {
 
 header .nav-slider-wrap {
   position: fixed;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   top: 0;
   bottom: 0;
   left: 0;
@@ -506,6 +503,12 @@ header .nav-submenu-wrap li:hover {
   }
   header .nav {
     display: none;
+  }
+  header .nav-slider-wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
   header .header-wrap {
     -webkit-box-pack: center;
