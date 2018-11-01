@@ -1174,6 +1174,14 @@
         align-items: center;
     }
 
+    .page-product .kinds-icon  :nth-child(3){
+        margin-top: (15/$calc-sp)*$global-font-unit;
+    }
+
+    .page-product .kinds-icon  :nth-child(4){
+        margin-top: (15/$calc-sp)*$global-font-unit;
+    }
+
     .page-product2 .heatset-banner {
         margin-top: (94/$calc-sp)*$global-font-unit;
     }

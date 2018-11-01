@@ -3645,6 +3645,12 @@ footer a:hover {
     -ms-flex-align: center;
     align-items: center;
   }
+  .page-product .kinds-icon :nth-child(3) {
+    margin-top: 0.17647rem;
+  }
+  .page-product .kinds-icon :nth-child(4) {
+    margin-top: 0.17647rem;
+  }
   .page-product2 .heatset-banner {
     margin-top: 1.10588rem;
   }
