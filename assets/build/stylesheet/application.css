@@ -1291,7 +1291,6 @@ footer a:hover {
   }
   .page-index .index-earphone-wrap {
     height: 50vw;
-    border: 1px dashed #979797;
   }
   .page-index .index-earphone-wrap .earphone-cont {
     border: none;
@@ -2201,11 +2200,18 @@ footer a:hover {
   width: 40%;
 }
 
-.page-philosophy .home-content-wrap h2 {
-  font-size: 0.09057rem;
+.page-philosophy .home-content-wrap h2, .page-philosophy .home-content-wrap h3 {
   font-weight: bold;
   line-height: 1.48;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
+}
+
+.page-philosophy .home-content-wrap h2 {
+  font-size: 0.09057rem;
+}
+
+.page-philosophy .home-content-wrap h3 {
+  font-size: 0.06792rem;
 }
 
 .page-philosophy .home-cont-img {
