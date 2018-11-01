@@ -2178,6 +2178,9 @@ footer a:hover {
   .page-product2 .heatset-banner-list :nth-child(1) {
     z-index: 100;
   }
+  .page-product2 .fun-list-all > :nth-child(2) :nth-child(2) {
+    padding: 0.11765rem 0;
+  }
 }
 
 .page-philosophy .philosophy-home-wrap {
@@ -3202,8 +3205,7 @@ footer a:hover {
     display: block;
   }
   .page-product .banner-wrap {
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     left: 0;
     top: 0;
   }
@@ -3222,8 +3224,6 @@ footer a:hover {
   .page-product .phone-banner {
     display: block;
     position: relative;
-    top: -100vh;
-    height: 200vh;
   }
   .page-product .phone-banner div {
     height: 100vh;
@@ -3556,6 +3556,9 @@ footer a:hover {
     line-height: 26px;
   }
   .page-product .fun-list-all > :nth-child(2) {
+    margin: 0;
+  }
+  .page-product .fun-list-all > :nth-child(4) {
     margin: 0;
   }
   .page-product2 .func-kinds {
@@ -3903,6 +3906,10 @@ footer a:hover {
     color: white;
     line-height: 0.41176rem;
   }
+  .page-product .product-info > :nth-child(2) {
+    font-size: 0.14118rem;
+    font-family: SFNSDisplay, "Rubik300";
+  }
   .page-product .fun-sounds {
     display: -webkit-box;
     display: -webkit-flex;
@@ -3960,6 +3967,9 @@ footer a:hover {
     width: auto;
     color: #111111;
     line-height: 0.30588rem;
+  }
+  .banner-wrap-none {
+    background: transparent !important;
   }
 }
 
