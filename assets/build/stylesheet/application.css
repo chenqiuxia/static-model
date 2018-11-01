@@ -1291,7 +1291,6 @@ footer a:hover {
   }
   .page-index .index-earphone-wrap {
     height: 50vw;
-    border: 1px dashed #979797;
   }
   .page-index .index-earphone-wrap .earphone-cont {
     border: none;
@@ -1436,6 +1435,16 @@ footer a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   height: 1.41509rem;
+}
+
+.page-product1 .color-list :nth-child(3) {
+  background-color: #939392 !important;
+}
+
+@media screen and (max-width: 813px) {
+  .page-product1 .color-list :nth-child(3) {
+    background-color: #939392 !important;
+  }
 }
 
 .page-shop header {
@@ -2191,11 +2200,18 @@ footer a:hover {
   width: 40%;
 }
 
-.page-philosophy .home-content-wrap h2 {
-  font-size: 0.09057rem;
+.page-philosophy .home-content-wrap h2, .page-philosophy .home-content-wrap h3 {
   font-weight: bold;
   line-height: 1.48;
   font-family: NotoSansCJKjp-Bold, "Rubik300";
+}
+
+.page-philosophy .home-content-wrap h2 {
+  font-size: 0.09057rem;
+}
+
+.page-philosophy .home-content-wrap h3 {
+  font-size: 0.06792rem;
 }
 
 .page-philosophy .home-cont-img {
@@ -2443,7 +2459,7 @@ footer a:hover {
   margin-top: 0.05283rem;
   font-weight: 400;
   line-height: 1.4;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product .battery-main {

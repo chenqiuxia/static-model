@@ -113,4 +113,16 @@
         background-size: cover;
         height: (750/$calc-base-num)*1rem;;
     }
+
+    .color-list :nth-child(3) {
+        background-color: #939392 !important;;
+    }
+
+    
+}
+
+@media screen and (max-width: map_get($global-width, mediaW)) { 
+    .page-product1 .color-list :nth-child(3) {
+        background-color: #939392 !important;;
+    }
 }
