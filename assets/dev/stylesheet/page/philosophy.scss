@@ -9,12 +9,18 @@
     justify-content: center;
     width: 40%;
 
-    h2 {
-      font-size: map_get($global-font-size, m);
+    h2, h3 {
       font-weight: bold;
       line-height: 1.48;
       font-family: NotoSansCJKjp-Bold ,$global-default-family;
+    }
 
+    h2 {
+      font-size: map_get($global-font-size, m);
+    }
+
+    h3 {
+      font-size: map_get($global-font-size, d);
     }
   }
 
@@ -109,6 +115,10 @@
 
         h2 {
           font-size: (16/$calc-sp)*$global-font-unit;
+        }
+
+        h3 {
+          font-size: (14/$calc-sp)*$global-font-unit;
         }
       }
 
