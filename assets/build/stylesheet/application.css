@@ -2333,6 +2333,9 @@ footer a:hover {
   .page-philosophy .philosophy-home-wrap .home-content-wrap h2, .page-philosophy .philosophy-hear-wrap .home-content-wrap h2 {
     font-size: 0.18824rem;
   }
+  .page-philosophy .philosophy-home-wrap .home-content-wrap h3, .page-philosophy .philosophy-hear-wrap .home-content-wrap h3 {
+    font-size: 0.16471rem;
+  }
   .page-philosophy .philosophy-home-wrap .side-icon-img, .page-philosophy .philosophy-hear-wrap .side-icon-img {
     width: 0.11765rem;
   }
