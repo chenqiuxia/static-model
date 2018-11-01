@@ -770,7 +770,7 @@
     }
 
     .page-product .banner-wrap {
-        position: sticky ;
+        position: fixed ;
         left: 0;
         top: 0;
     }
@@ -794,8 +794,8 @@
     .page-product .phone-banner {
         display: block;
         position: relative;
-        top:-100vh;
-        height: 200vh;
+      //  top:-100vh;
+        // height: 200vh;
     }
 
     .page-product .main-wrap {
@@ -1092,6 +1092,10 @@
     }
 
     .page-product .fun-list-all>:nth-child(2) {
+        margin: 0;
+    }
+
+    .page-product .fun-list-all>:nth-child(4) {
         margin: 0;
     }
 
@@ -1394,6 +1398,11 @@
         line-height:(35/$calc-sp)*$global-font-unit;
     }
 
+    .page-product .product-info>:nth-child(2) {
+        font-size:(12/$calc-sp)*$global-font-unit;
+        font-family:SFNSDisplay,$global-default-family;
+    }
+
     .page-product .fun-sounds {
         display: flex;
         flex-direction: column-reverse;
@@ -1442,5 +1451,9 @@
         color:rgba(17,17,17,1);
         line-height:(26/$calc-sp)*$global-font-unit;
     }
+
+    .banner-wrap-none {
+        background: transparent !important;
+    }    
 
 }

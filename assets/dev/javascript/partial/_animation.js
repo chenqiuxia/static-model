@@ -154,8 +154,30 @@ const scroll = () => {
     }
   }
   
+
+  const addOrRemoveBG =() =>{
+      const width = window.innerWidth;
+    const height =window.innerHeight;
+    if(width<813)
+    {
+        $(window).scroll(function () {
+            const height = (window.innerHeight)*4;
+            const window_scroll_top = $(window).scrollTop();
+            if(window_scroll_top>height)
+            {
+                $('.banner-wrap').addClass('banner-wrap-none');
+            }else
+            {
+                 $('.banner-wrap').removeClass('banner-wrap-none');
+            } 
+        })
+    }
+    
+  }
+
   const init = () => {
     scroll();
+    addOrRemoveBG();
     // scrollfy();
     //addDelay();
   }
