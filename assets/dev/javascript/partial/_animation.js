@@ -1,12 +1,15 @@
 const scroll = () => {
+    const width =window.innerWidth;
     var $scroll = $('.scroll'),$scrollLeft = $('.scroll-left'),$scrollRight = $('.scroll-right'),
           $scrollDelay=$('.scroll-delay'),window_scroll_top;
     var bind = function () {
         $(window).scroll(function () {
             animation();
         });
+        // document.addEventListener('touchmove', animation)
+        // document.addEventListener('scroll', animation)
     };
-    const width =window.innerWidth;
+   
     var animation = function () {
         window_scroll_top = $(window).scrollTop();
         
