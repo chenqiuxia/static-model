@@ -87,7 +87,7 @@
         margin-top: (28/$calc-base-num)*$global-font-unit;
         font-weight:400;
         line-height:1.4;
-        font-family: NotoSansCJKjp-Bold;
+        font-family: NotoSansCJKjp-Bold,$global-default-family;
     }
 
     .battery-main {
