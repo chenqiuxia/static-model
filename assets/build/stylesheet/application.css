@@ -206,8 +206,6 @@ video {
 .scroll-delay {
   -webkit-transition: all ease-in-out 0.5s;
   transition: all ease-in-out 0.5s;
-  -webkit-transition-delay: 300ms;
-  transition-delay: 300ms;
   -webkit-transform: translate(0, 20px);
   -ms-transform: translate(0, 20px);
   transform: translate(0, 20px);
@@ -1399,7 +1397,7 @@ footer a:hover {
   width: -webkit-calc(50%  - 0.56981rem);
   width: calc(50%  - 0.56981rem);
   height: 0.40377rem;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
   margin-left: 0.08113rem;
   display: inline-block;
   font-size: 0.03208rem;
@@ -2601,7 +2599,7 @@ footer a:hover {
 
 .page-product .func-item-desc :nth-child(1) {
   font-size: 0.04528rem;
-  font-family: NotoSansCJKjp-Bold;
+  font-family: NotoSansCJKjp-Bold, "Rubik300";
 }
 
 .page-product .func-item-desc :nth-child(2) {
@@ -3375,7 +3373,7 @@ footer a:hover {
   }
   .page-product .func-desc-detial {
     font-size: 0.14118rem;
-    font-family: NotoSansCJKjp-Regular;
+    font-family: NotoSansCJKjp-Regular, "Rubik300";
     font-weight: 400;
     color: #333333;
     margin-top: 0.23529rem;
@@ -3517,7 +3515,7 @@ footer a:hover {
     justify-content: flex-start;
     width: 100%;
     font-size: 12px;
-    font-family: NotoSansCJKjp-Regular;
+    font-family: NotoSansCJKjp-Regular, "Rubik300";
     font-weight: 400;
     color: #333333;
     line-height: 26px;
@@ -3530,7 +3528,7 @@ footer a:hover {
     justify-content: flex-start;
     width: 100%;
     font-size: 12px;
-    font-family: NotoSansCJKjp-Regular;
+    font-family: NotoSansCJKjp-Regular, "Rubik300";
     font-weight: 400;
     color: #333333;
     line-height: 26px;
@@ -3587,7 +3585,7 @@ footer a:hover {
   }
   .page-product2 .func-kinds-desc > :nth-child(1) {
     font-size: 0.18824rem;
-    font-family: DINAlternate-Bold;
+    font-family: DINAlternate-Bold, "Rubik300";
     font-weight: bold;
     color: #111111;
     line-height: 0.22353rem;
@@ -3596,7 +3594,7 @@ footer a:hover {
   }
   .page-product2 .func-kinds-desc > :nth-child(2) {
     font-size: 0.23529rem;
-    font-family: NotoSansCJKjp-Bold;
+    font-family: NotoSansCJKjp-Bold, "Rubik300";
     font-weight: bold;
     color: #111111;
     line-height: 0.34118rem;
@@ -3604,7 +3602,7 @@ footer a:hover {
   }
   .page-product2 .func-kinds-desc > :nth-child(3) {
     font-size: 0.14118rem;
-    font-family: NotoSansCJKjp-Regular;
+    font-family: NotoSansCJKjp-Regular, "Rubik300";
     font-weight: 400;
     color: #111111;
     line-height: 0.30588rem;
@@ -3743,7 +3741,7 @@ footer a:hover {
     height: 0.63529rem;
     width: 71.4%;
     font-size: 0.17647rem;
-    font-family: DINAlternate-Bold;
+    font-family: DINAlternate-Bold, "Rubik300";
     font-weight: bold;
     color: #2196f3;
     letter-spacing: 2px;
@@ -3763,7 +3761,7 @@ footer a:hover {
   }
   .page-product .manual-title {
     font-size: 0.23529rem;
-    font-family: DINAlternate-Bold;
+    font-family: DINAlternate-Bold, "Rubik300";
     font-weight: bold;
     margin-top: 0.28235rem;
     letter-spacing: 3px;
@@ -3804,7 +3802,7 @@ footer a:hover {
   }
   .page-product .include-wrap-desc :nth-child(1) {
     font-size: 0.23529rem;
-    font-family: DINAlternate-Bold;
+    font-family: DINAlternate-Bold, "Rubik300";
     font-weight: bold;
     color: #111111;
     line-height: 0.28235rem;
@@ -3812,7 +3810,7 @@ footer a:hover {
   }
   .page-product .include-wrap-desc :nth-child(2) {
     font-size: 0.14118rem;
-    font-family: NotoSansCJKjp-Bold;
+    font-family: NotoSansCJKjp-Bold, "Rubik300";
     font-weight: bold;
     color: #111111;
     line-height: 0.29412rem;
@@ -3910,7 +3908,7 @@ footer a:hover {
   .page-product .fun-sounds-effect {
     margin-top: 0.49412rem;
     font-size: 0.18824rem;
-    font-family: DINAlternate-Bold;
+    font-family: DINAlternate-Bold, "Rubik300";
     font-weight: bold;
     color: #111111;
     line-height: 0.22353rem;
@@ -3920,7 +3918,7 @@ footer a:hover {
   .page-product .fun-sounds-title {
     margin-top: 0.21176rem;
     font-size: 0.23529rem;
-    font-family: NotoSansCJKjp-Bold;
+    font-family: NotoSansCJKjp-Bold, "Rubik300";
     font-weight: bold;
     color: #111111;
     line-height: 0.34118rem;
@@ -3929,7 +3927,7 @@ footer a:hover {
   .page-product .fun-sounds-desc {
     margin-top: 0.21176rem;
     font-size: 0.14118rem;
-    font-family: NotoSansCJKjp-Regular;
+    font-family: NotoSansCJKjp-Regular, "Rubik300";
     font-weight: 400;
     width: auto;
     color: #111111;

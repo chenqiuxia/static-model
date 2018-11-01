@@ -33,7 +33,7 @@
 
 .scroll-delay {
   transition: all ease-in-out map_get($global-time, scroll);
-  transition-delay: 300ms;
+ // transition-delay: 300ms;
   transform: translate(0,20px);
   opacity: 0;
 }

@@ -153,8 +153,8 @@ const scroll = () => {
   
   const init = () => {
     scroll();
-    scrollfy();
-    addDelay();
+    // scrollfy();
+    //addDelay();
   }
   const bind = () => {
 
