@@ -224,6 +224,8 @@ video {
 }
 
 .no-scroll {
+  position: fixed;
+  width: 100%;
   overflow: hidden;
   height: 100vh;
 }
