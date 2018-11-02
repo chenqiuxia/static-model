@@ -154,13 +154,16 @@
     }
 
     .shop-region-ul {
-      a:nth-child(3) {
-        font-size: (16/$calc-sp)*$global-font-unit;
-      }
+      li {
+        a {
+          display: inline-block;
+          font-size: (16/$calc-sp)*$global-font-unit;
+        }
 
-      a:last-child {
-        text-decoration: underline;
-        font-size: (12/$calc-sp)*$global-font-unit;
+        a:last-child {
+          text-decoration: underline;
+          font-size: (12/$calc-sp)*$global-font-unit;
+        }
       }
     }
     .shop-img-row {

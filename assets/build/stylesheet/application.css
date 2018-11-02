@@ -1053,7 +1053,7 @@ footer a:hover {
   font-size: 0.04151rem;
   line-height: 1.6;
   margin-top: 0.13208rem;
-  font-family: NotoSansCJKjp-Medium, "Rubik300";
+  font-family: NotoSansCJKjp-Medium, DIN-Medium, "Rubik300";
   letter-spacing: 5px;
 }
 
@@ -1616,10 +1616,11 @@ footer a:hover {
   .page-shop dl dd:last-child a {
     text-decoration: underline;
   }
-  .page-shop .shop-region-ul a:nth-child(3) {
+  .page-shop .shop-region-ul li a {
+    display: inline-block;
     font-size: 0.18824rem;
   }
-  .page-shop .shop-region-ul a:last-child {
+  .page-shop .shop-region-ul li a:last-child {
     text-decoration: underline;
     font-size: 0.14118rem;
   }
