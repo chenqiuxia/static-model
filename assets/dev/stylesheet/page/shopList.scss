@@ -52,6 +52,7 @@
   //mixin shopRegin start
   .shop-region-top {
     margin: (95/$calc-base-num)*$global-font-unit auto (78/$calc-base-num)*$global-font-unit;
+    height: auto;
 
     .top-content {
       margin-left: 20%;
