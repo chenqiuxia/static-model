@@ -23,7 +23,7 @@ module.exports = {
   // mocのビルド設定
   moc: {
     entry: dir_src + '/html/',
-    dest: dir_dest
+    dest: dir_dest + '/html/'
   },
   // imageのビルド設定
   image: {
