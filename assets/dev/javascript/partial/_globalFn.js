@@ -1,15 +1,9 @@
-import {isSP} from "../consist/GLOBAL_CONFIG";
 
-const SpTelLinkFn = () => {
-  if(isSP) {
-    $('.x-tel-link').each((index, item) => {
-      $(item).attr('href', $(item).data('href'))
-    });
-  }
+const doSth = () => {
 }
 
 const bind = () => {
-  SpTelLinkFn()
+    doSth()
 }
 
 export default {

@@ -2,7 +2,9 @@
 //  Core
 //-------------------------------------
 //@import "core/variable";
+@import "core/reset";
 @import "core/variable";
 @import "core/font";
-@import "core/reset";
+@import "core/mixin";
+@import "core/extend";
 @import "core/common";

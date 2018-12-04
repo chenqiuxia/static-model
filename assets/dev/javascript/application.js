@@ -6,9 +6,9 @@ import globalFn from './partial/_globalFn'
 import animation from './partial/_animation'
 // page
 import index from './page/index';
-import product1 from './page/product1';
-import product2 from './page/product2';
-import company from './page/company';
+// import product1 from './page/product1';
+// import product2 from './page/product2';
+// import company from './page/company';
 let Route = {
     "all": '.',
     "index":'^index/index.html$',
@@ -18,7 +18,7 @@ let Route = {
 }
 $(function () {
   dispatcher(Route.all, () => {
-    //loading common js
+    //all functions that all pages need to execute should be here
     animation.init()
     header.bind()
     globalFn.bind()
@@ -28,19 +28,19 @@ $(function () {
     index.bind()
   })
 
-  dispatcher(Route.product1, () => {
-    product1.init()
-    product1.bind()
-  })
-
-  dispatcher(Route.product2, () => {
-    product2.init()
-    product2.bind()
-  })
-
-  dispatcher(Route.company, () => {
-    company.init()
-    company.bind()
-  })
+  // dispatcher(Route.product1, () => {
+  //   product1.init()
+  //   product1.bind()
+  // })
+  //
+  // dispatcher(Route.product2, () => {
+  //   product2.init()
+  //   product2.bind()
+  // })
+  //
+  // dispatcher(Route.company, () => {
+  //   company.init()
+  //   company.bind()
+  // })
   dispatcher(location.pathname)
 })

@@ -75,18 +75,12 @@ a,a:hover,del,ins,s,u {
 body,button,input,keygen,legend,select,textarea {
   font-size: 12px;
   line-height: 1.5;
-  color: map_get($global-color, a);
   outline: 0;
-  font-family: $global-default-family,Heiti SC, Microsoft YaHei
+  font-family: Heiti SC, Microsoft YaHei
 }
 
 input::-ms-clear,input::-ms-reveal {
   display: none;
-}
-
-:root * {
-  //-webkit-filter: none !ie;
-  //filter: none !ie
 }
 
 *,:after,:before {
@@ -105,9 +99,11 @@ input::-ms-clear,input::-ms-reveal {
 }
 
 html {
-  font-size: 75px;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
+}
+html,body{
+  @extend .full-page
 }
 
 input {
